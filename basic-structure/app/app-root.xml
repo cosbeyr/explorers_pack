@@ -23,17 +23,18 @@ https://docs.nativescript.org/angular/ui/ng-ui-widgets/tabs.
             <!--
                 Note TabStripItem will only accept single Label and/or single Image elements that it
                 will "adopt"; any other layout elements you try to specify will be ignored
+                icon reference: https://www.w3schools.com/icons/icons_reference.asp
             -->
-            <Label text="Model" />
-            <Image src="font://&#xf015;" class="fa t-36" />
+            <Label text="Guide" />
+            <Image src="font://&#xf02d;" class="fa t-36" />
         </TabStripItem>
         <TabStripItem>
-            <Label text="Browse" />
-            <Image src="font://&#xf1ea;" class="fa t-36" />
+            <Label text="Map" />
+            <Image src="font://&#xf279;" class="fa t-36" />
         </TabStripItem>
         <TabStripItem>
-            <Label text="Search" />
-            <Image src="font://&#xf002;" class="fa t-36" />
+            <Label text="Plants" />
+            <Image src="font://&#xf06c;" class="fa t-36" />
         </TabStripItem>
     </TabStrip>
 
