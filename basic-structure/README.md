@@ -1,10 +1,15 @@
 # Basic NativeScript App Guide
 
 # Setup
-Good practices suggest we do not push npm packages to git since we can install them locally from package.json. If you freshly clone this repo, do the following.
+Good practices suggest we do not push npm packages to git since we can install them locally from package.json. If you freshly clone this repo, do the following:
 ```bash
 cd basic-structure/
 npm install
+```
+
+If you don't have Native Script CLI. Install it using:
+```bash
+npm install -g nativescript
 ```
 
 # Structure
@@ -22,3 +27,4 @@ To generate QR code and upload to phone
 cd basic-structure/
 tns preview
 ```
+
