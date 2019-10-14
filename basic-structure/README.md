@@ -16,7 +16,7 @@ npm install
   tapping on some of the tabs. Learn more about the BottomNavigation component
   in this documentation article: https://docs.nativescript.org/ui/ns-ui-widgets/bottom-navigation.
   
-# basic command
+# Basic Command
 To generate QR code and upload to phone
 ```bash
 cd basic-structure/
