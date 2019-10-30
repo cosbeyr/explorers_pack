@@ -29,7 +29,7 @@ https://docs.nativescript.org/angular/ui/ng-ui-widgets/tabs.
             <Image src="font://&#xf02d;" class="fa t-36" />
         </TabStripItem>
         <TabStripItem>
-            <Label text="Map" />
+            <Label text="Camera" />
             <Image src="font://&#xf279;" class="fa t-36" />
         </TabStripItem>
         <TabStripItem>
@@ -43,7 +43,7 @@ https://docs.nativescript.org/angular/ui/ng-ui-widgets/tabs.
     </TabContentItem>
 
     <TabContentItem>
-        <Frame defaultPage="browse/browse-page" />
+        <Frame defaultPage="camera/camera-page" />
     </TabContentItem>
 
     <TabContentItem>
