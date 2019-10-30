@@ -1,6 +1,6 @@
 const observableModule = require("tns-core-modules/data/observable");
 
-function HomeItemsViewModel() {
+function GuideViewModel() {
     const viewModel = observableModule.fromObject({
         items: [
             {
@@ -73,4 +73,4 @@ function HomeItemsViewModel() {
     return viewModel;
 }
 
-module.exports = HomeItemsViewModel;
+module.exports = GuideViewModel;
