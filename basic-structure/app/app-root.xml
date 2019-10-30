@@ -33,7 +33,7 @@ https://docs.nativescript.org/angular/ui/ng-ui-widgets/tabs.
             <Image src="font://&#xf279;" class="fa t-36" />
         </TabStripItem>
         <TabStripItem>
-            <Label text="Plants" />
+            <Label text="Logs" />
             <Image src="font://&#xf06c;" class="fa t-36" />
         </TabStripItem>
     </TabStrip>
@@ -47,6 +47,6 @@ https://docs.nativescript.org/angular/ui/ng-ui-widgets/tabs.
     </TabContentItem>
 
     <TabContentItem>
-        <Frame defaultPage="search/search-page" />
+        <Frame defaultPage="logs/logs-page" />
     </TabContentItem>
 </BottomNavigation>

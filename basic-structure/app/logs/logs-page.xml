@@ -4,7 +4,7 @@
     xmlns="http://schemas.nativescript.org/tns.xsd">
 
     <ActionBar class="action-bar">
-        <Label class="action-bar-title" text="Plants"></Label>
+        <Label class="action-bar-title" text="Logs"></Label>
     </ActionBar>
 
     <GridLayout class="page-content">

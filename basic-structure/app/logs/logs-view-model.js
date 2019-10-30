@@ -1,6 +1,6 @@
 const observableModule = require("tns-core-modules/data/observable");
 
-function SearchViewModel() {
+function LogsViewModel() {
     const viewModel = observableModule.fromObject({
         /* Add your view model properties here */
     });
@@ -8,4 +8,4 @@ function SearchViewModel() {
     return viewModel;
 }
 
-module.exports = SearchViewModel;
+module.exports = LogsViewModel;
