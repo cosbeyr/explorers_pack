@@ -1,8 +1,8 @@
-const GuideViewModel = require("./guide-view-model");
+const guidePageViewModel = require("./guide-page-view-model");
 
 function onNavigatingTo(args) {
     const component = args.object;
-    component.bindingContext = new GuideViewModel();
+    component.bindingContext = new guidePageViewModel();
 }
 
 function onItemTap(args) {
