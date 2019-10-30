@@ -1,8 +1,8 @@
-const HomeItemsViewModel = require("./home-items-view-model");
+const GuideViewModel = require("./guide-view-model");
 
 function onNavigatingTo(args) {
     const component = args.object;
-    component.bindingContext = new HomeItemsViewModel();
+    component.bindingContext = new GuideViewModel();
 }
 
 function onItemTap(args) {
@@ -11,7 +11,7 @@ function onItemTap(args) {
     const tappedItem = view.bindingContext;
 
     page.frame.navigate({
-        moduleName: "home/home-item-detail/home-item-detail-page",
+        moduleName: "guide/guide-detail/guide-detail-page",
         context: tappedItem,
         animated: true,
         transition: {

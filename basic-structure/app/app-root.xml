@@ -39,7 +39,7 @@ https://docs.nativescript.org/angular/ui/ng-ui-widgets/tabs.
     </TabStrip>
 
     <TabContentItem>
-        <Frame defaultPage="home/home-items-page" />
+        <Frame defaultPage="guide/guide-page" />
     </TabContentItem>
 
     <TabContentItem>
