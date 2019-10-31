@@ -1,0 +1,4 @@
+
+Wind-power is also great. It can be available day and night - but you need wind. Also, generators are often bulkier and hard to transport. However, it can be a great option if you are not trying to move to anywhere. It is not particularly  difficult to build a wind-generator. Basically, you just need to get the wind to turn something - use junk and your [MultiTool](MultiTool) to get the wind to rotate a shaft and attach a motor. A motor is basically the same as a generator - you just need to build some electronics to harvest the power.
+
+Scottish engineer Hugh Piggott inspired since year 2000, ONG in several countries (US, France, Nicaragua) building low-tech nearly hand made wind-turbine from 1.2m to 4.2m, and 200W to 2000W. He wrote many books about it, available from his [website](http://scoraigwind.co.uk/) and translated by the motivated ONG.

@@ -15,7 +15,7 @@ Stonefish (_Synanceja_ species) are in the Pacific and Indian oceans. They can i
 
 Weever fish (_Trachinidae_ species) average 30 centimeters (12 inches) long. They are hard to see as they lie buried in the sand off the coasts of Europe, Africa, and the Mediterranean. Their color is usually a dull brown. They have venomous spines on the back and gills.
 
-**NOTE:** More details provided in **Chapter Fish And Mollusks** on these venomous fish and toxic mollusks.
+**NOTE:** The [Appendix](FishAndMollusks) provides more details on these venomous fish and toxic mollusks.
 
 The livers of polar bears are considered toxic due to high concentrations of vitamin A. There is a chance of death after eating this organ. Another toxic meat is the flesh of the hawksbill turtle. These animals are distinguished by a down-turned bill and yellow polka dots on their neck and front flippers. They weigh more than 275 kilograms (605 pounds) and are unlikely to be captured.
 

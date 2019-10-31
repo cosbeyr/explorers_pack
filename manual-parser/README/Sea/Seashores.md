@@ -21,7 +21,7 @@ Fish toxins are water soluble; no amount of cooking will neutralize them. They a
 
 The toxins will produce a numbness of the lips, tongue, toes, and tips of the fingers, severe itching, and a clear reversal of temperature sensations. Cold items appear hot and hot items cold. There will probably also be nausea, vomiting, loss of speech, dizziness, and a paralysis that eventually brings death.
 
-In addition to fish with poisonous flesh, there are those that are dangerous to touch. Many stingrays have a poisonous barb in their tail. There are also species that can deliver an electric shock. Some reef fish, such as stonefish and toadfish, have venomous spines that can cause very painful although seldom fatal injuries. The venom from these spines causes a burning sensation or even an agonizing pain that is out of proportion to the apparent severity of the wound. A jellyfish, while not usually fatal, can inflict a very painful sting if it touches you with its tentacles. See **Chapter Animals** and **Chapter FishAndMollusks** for details on particularly dangerous fish of the sea and seashore.
+In addition to fish with poisonous flesh, there are those that are dangerous to touch. Many stingrays have a poisonous barb in their tail. There are also species that can deliver an electric shock. Some reef fish, such as stonefish and toadfish, have venomous spines that can cause very painful although seldom fatal injuries. The venom from these spines causes a burning sensation or even an agonizing pain that is out of proportion to the apparent severity of the wound. A jellyfish, while not usually fatal, can inflict a very painful sting if it touches you with its tentacles. See [Chapter Animals](Animals) and [Appendix](FishAndMollusks) for details on particularly dangerous fish of the sea and seashore.
 
 **Aggressive Fish**
 
@@ -45,11 +45,11 @@ If caught in a large wave's undertow, push off the bottom or swim to the surface
 
 **FOOD**
 
-Obtaining food along a seashore should not present a problem. There are many types of seaweed and other plants you can easily find and eat. See **Chapter Plants** for a discussion of these plants. There is also a great variety of animal life that can supply your need for food in this type of survival situation.
+Obtaining food along a seashore should not present a problem. There are many types of seaweed and other plants you can easily find and eat. See [Chapter Plants](Plants) for a discussion of these plants. There is also a great variety of animal life that can supply your need for food in this type of survival situation.
 
 **Mollusks**
 
-Mussels, limpets, clams, sea snails, octopuses, squids, and sea slugs are all edible. Shellfish will usually supply most of the protein eaten by coastal survivors. Avoid the blue-ringed octopus and cone shells (described in **Chapter Animals** and **Chapter FishAndMollusks**). Also, beware of "red tides" that make mollusks poisonous. Apply the edibility test on each species before eating.
+Mussels, limpets, clams, sea snails, octopuses, squids, and sea slugs are all edible. Shellfish will usually supply most of the protein eaten by coastal survivors. Avoid the blue-ringed octopus and cone shells (described in [Chapter Animals](Animals) and [Appendix](FishAndMollusks)). Also, beware of "red tides" that make mollusks poisonous. Apply the edibility test on each species before eating.
 
 **Worms**
 

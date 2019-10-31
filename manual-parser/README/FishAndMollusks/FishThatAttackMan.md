@@ -9,7 +9,7 @@ Sharks are potentially the most dangerous fish that attack people. The obvious d
 
 **Figure F-1\. Sharks**
 
-Avoid sharks if at all possible. Follow the procedures discussed in **Chapter Sea** to defend yourself against a shark attack.
+Avoid sharks if at all possible. Follow the procedures discussed in [Chapter Sea](Sea) to defend yourself against a shark attack.
 
 Sharks vary in size, but there is no relationship between the size of the shark and likelihood of attack. Even the smaller sharks can be dangerous, especially when they are traveling in schools.
 

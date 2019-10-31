@@ -1,0 +1,2 @@
+
+You can also use water to generate power. One option is to use the flow of a river passing by. There you basically do the same as you would with the wind-turbine - in this case, water rather than wind turns the generator. One big advantage of using a river is that you get a steady rotation-speed, and the flow usually does not stop, while the wind might. However, it depends on having access to a river or a dam. Speaking of a dam - you can also build things to direct the water and make the flow faster.

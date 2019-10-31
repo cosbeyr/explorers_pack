@@ -11,7 +11,7 @@ The throwing stick, commonly known as the rabbit stick, is very effective agains
 
 **ARCHERY EQUIPMENT**
 
-You can make a bow and arrow ([Figure 12-6](#fig12-6)) from materials available in your survival area. To make a bow, use the procedure described in **Chapter Food**.
+You can make a bow and arrow ([Figure 12-6](#fig12-6)) from materials available in your survival area. To make a bow, use the procedure described in [Chapter Food](Food).
 
 <a name="fig12-6"></a>![Figure 12-6\. Archery Equipment](fig12-06.png)
 

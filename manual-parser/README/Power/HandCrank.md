@@ -1,0 +1,2 @@
+
+Using the muscles of your arm is another option. There are small USB cranks to operate by hand, some even [with a light](HandCrankUSB) or which also recharge standard AA/LR06 batteries. But be aware that this really binds you to the task, as you cannot do much else while turning the crank. Additionally, I personally find it an exhausting and boring task - I prefer to use the bicycle (which is using bigger muscles). However, it is always good to have an array of options and I own a small crank for emergencies.

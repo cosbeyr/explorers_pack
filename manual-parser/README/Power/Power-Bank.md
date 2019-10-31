@@ -1,0 +1,4 @@
+
+Get a good power-bank. Often you do not want to use the energy directly while still generating it. Let's take solar - you may charge your power-bank during the day, and may use the power at night. Be aware that the capacity information on these power-banks are often inaccurate or outright lies. Try them out for yourself and measure.
+
+Power banks are just batteries with standard plug interfaces (e.g. USB, 5V). Beware that owning a battery is like owning a pet animal: you're responsible for it. If you fail to comply with proper maintenance, it will have a shortened life. Classic cellphone power-banks are made of Lithium batteries, which are better stored at 50% capacity (being full or empty is damaging it), and recharge every 6 months. It won't work properly (or at all) after years of oblivion deep in a drawer.

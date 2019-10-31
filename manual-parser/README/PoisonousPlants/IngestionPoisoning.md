@@ -17,3 +17,5 @@
 *  Poison and water hemlocks.
 *  Rosary pea.
 *  Strychnine tree.
+
+10-18\. [Appendix C]() provides photographs and descriptions of these plants.
