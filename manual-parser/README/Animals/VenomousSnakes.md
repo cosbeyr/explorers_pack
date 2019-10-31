@@ -29,11 +29,17 @@ There are no infallible rules for expedient identification of venomous snakes in
 <tr>
 
 <td valign="top">
+
 *  American Copperhead (_Agkistrodon contortrix_)
+
 *  Bushmaster (_Lachesis muta_)
+
 *  Coral snake (_Micrurus fulvius_)
+
 *  Cottonmouth (_Agkistrodon piscivorus_)
+
 *  Fer-de-lance (_Bothrops atrox_)
+
 *  Rattlesnake (_Crotalus_ species)
 
 </td>
@@ -53,7 +59,9 @@ There are no infallible rules for expedient identification of venomous snakes in
 <tr>
 
 <td valign="top">
+
 *  Common adder _(Vipers berus)_
+
 *  Pallas' viper _(Agkistrodon halys)_
 
 </td>
@@ -73,7 +81,9 @@ There are no infallible rules for expedient identification of venomous snakes in
 <tr>
 
 <td valign="top">
+
 *  Boomslang (_Dispholidus typus_)
+
 *  Cobra (_Naja_ species)
 
 </td>
