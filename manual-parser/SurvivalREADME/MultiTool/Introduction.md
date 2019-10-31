@@ -1,1 +1,0 @@
-> A MultiTool can be useful in everyday life - not only in survival situations.

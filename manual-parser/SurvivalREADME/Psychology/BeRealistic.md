@@ -1,2 +1,0 @@
-
-Don't be afraid to make an honest appraisal of situations. See circumstances as they are, not as you want them to be. Keep your hopes and expectations within the estimate of the situation. When you go into a survival setting with unrealistic expectations you may be laying the groundwork for bitter disappointment. Follow the adage: "Hope for the best, prepare for the worst". It is much easier to adjust to pleasant surprises about your unexpected good fortunes than to be upset by your unexpected harsh circumstances.

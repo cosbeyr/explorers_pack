@@ -1,1 +1,0 @@
-> Successful use of plants in a survival situation depends on positive identification. Knowing poisonous plants is as important to you as knowing edible plants. Knowing the poisonous plants will help you avoid sustaining injuries from them.

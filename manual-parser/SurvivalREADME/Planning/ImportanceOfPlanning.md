@@ -1,4 +1,0 @@
-
-Detailed prior planning is essential in potential survival situations. Including survival considerations in mission planning will enhance your chances of survival if an emergency occurs. For example, if your job requires that you work in a small, enclosed area that limits what you can carry on your person, plan where you can put your rucksack or your load-bearing equipment (LBE). Put it where it will not prevent you from getting out of the area quickly, yet where it is readily accessible.
-
-One important aspect of prior planning is preventive medicine. Ensuring that you have no dental problems and that your immunizations are current will help you avoid potential dental or health problems. Some dental problems can progress to the point that you may not be able to eat enough to survive. Failure to keep your shots current may mean your body is not immune to diseases that are prevalent in the area.

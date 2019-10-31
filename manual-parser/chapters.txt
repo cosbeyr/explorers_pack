@@ -2,11 +2,9 @@ Introduction.md
 Animals.md
 Camouflage.md
 Cold.md
-DangerousArthropods.md
 Desert.md
 DirectionFinding.md
 Fire.md
-FishAndMollusks.md
 Food.md
 HostileAreas.md
 Kits.md
@@ -19,7 +17,6 @@ Plants.md
 PoisonousPlants.md
 Power.md
 Psychology.md
-RopesAndKnots.md
 Sea.md
 Self-defense.md
 Shelter.md
@@ -28,3 +25,6 @@ Tools.md
 Tropical.md
 Water.md
 WaterCrossing.md
+RopesAndKnots.md
+DangerousArthropods.md
+FishAndMollusks.md

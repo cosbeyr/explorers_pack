@@ -1,2 +1,0 @@
-
-Don't pretend that you will have no fears. Begin thinking about what would frighten you the most if forced to survive alone. Train in those areas of concern to you. The goal is not to eliminate the fear, but to build confidence in your ability to function despite your fears.
