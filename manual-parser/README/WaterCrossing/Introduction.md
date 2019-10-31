@@ -1,1 +1,0 @@
-> In a survival situation, you may have to cross a water obstacle. It may be in the form of a river, a stream, a lake, a bog, quicksand, quagmire, or muskeg. Even in the desert, flash floods occur, making streams an obstacle. Whatever the obstacle, you need to know how to cross it safely.

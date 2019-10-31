@@ -1,5 +1,0 @@
-> In a survival situation, you will be extremely fortunate if you happen to have a map and compass. If you do have these two pieces of equipment, you will most likely be able to move toward help. If you are not proficient in using a map and compass, you must take the steps to gain this skill.
->
-> There are several methods by which you can determine direction by using the sun and the stars. These methods, however, will give you only a general direction. You can come up with a more nearly true direction if you know the terrain of the territory or country.
->
-> You must learn all you can about the terrain of the country or territory to which you or your unit may be sent, especially any prominent features or landmarks. This knowledge of the terrain together with using the methods explained below will let you come up with fairly true directions to help you navigate.

@@ -1,1 +1,0 @@
-> In a survival situation, especially in a hostile environment, you may find it necessary to camouflage yourself, your equipment, and your movement. Effective camouflage may mean the difference between survival and capture by the enemy. Camouflage and movement techniques, such as stalking, will also help you get animals or game for food using primitive weapons and skills.

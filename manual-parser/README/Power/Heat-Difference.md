@@ -1,2 +1,0 @@
-
-You can also generate power by harnessing heat differentials, e.g. with a fire. There are now turnkey solutions like the [BioLite Wood Burning Campstove with USB](CampStoveUSB) or there are also some fire pots out there with a power USB outlet. Breakthroughs in science and engineering have recently introduced new exciting, portable options. You can also harvest the power of a fire via steam, as is often done in a large scale today. But on a small scale, this is labor-intensive to use and hard to implement in practice.

@@ -1,2 +1,0 @@
-
-Another option is Victorinox, the swiss provider of the Swiss Army Knife (along with Swiss owned Wenger company). With less diversity in the model shapes - two in fact, straight or ergonomic. Victorinox offers a serious selection of embeddable tools. One Recommendation is the SwissTool Spirit (the ergonomic one).
