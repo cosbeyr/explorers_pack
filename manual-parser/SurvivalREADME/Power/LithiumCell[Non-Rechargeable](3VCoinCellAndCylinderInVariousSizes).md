@@ -1,1 +1,7 @@
-Coin cells are your typical watch batteries, hearing-aid batteries, small laser pointer batteries.The most common use of Lithium 3V cylindrical cells are in home-security systems.They have moderate total power, and can provide a moderate current.They decay very slowly, so unused batteries, even 10 years old, are still good.The contents of these batteries are not toxic, but pose a fire risk when exposed to air.Do not recharge these batteries, they will burn. They do not leak at the end of their life. Most sources say they last 15 years. There are phone chargers which accept disposable batteries so these would work well with those charges for emergencies.
+Coin cells are your typical watch batteries, hearing-aid batteries, small laser pointer batteries.
+The most common use of Lithium 3V cylindrical cells are in home-security systems.
+They have moderate total power, and can provide a moderate current.
+They decay very slowly, so unused batteries, even 10 years old, are still good.
+The contents of these batteries are not toxic, but pose a fire risk when exposed to air.
+Do not recharge these batteries, they will burn. They do not leak at the end of their life. Most sources say they last 15 years. There are phone chargers which accept disposable batteries so these would work well with those charges for emergencies.
+

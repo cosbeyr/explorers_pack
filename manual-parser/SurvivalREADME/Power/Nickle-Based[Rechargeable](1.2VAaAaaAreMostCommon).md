@@ -1,1 +1,5 @@
-These are typical rechargeable batteries encountered. They come in the same form as the alkaline batteries, but are rechargeable.They provide a moderately-low total power, with a moderately-high current.They discharge extremely quickly, unused fully charged nickle batteries will be death within a month.The contents of NiCd batteries is very toxic and hazardous. Use care.The contents of NiMH is much safer and poses little if any toxic hazard.
+These are typical rechargeable batteries encountered. They come in the same form as the alkaline batteries, but are rechargeable.
+They provide a moderately-low total power, with a moderately-high current.
+They discharge extremely quickly, unused fully charged nickle batteries will be death within a month.
+The contents of NiCd batteries is very toxic and hazardous. Use care.
+The contents of NiMH is much safer and poses little if any toxic hazard.
