@@ -1,0 +1,1 @@
+> Some of the best and most frequently given advice, when dealing with the local population, is for you to accept, respect, and adapt to their ways. Thus, "When in Rome, do as the Romans do." This is excellent advice, but there are several considerations involved in putting this advice into practice.

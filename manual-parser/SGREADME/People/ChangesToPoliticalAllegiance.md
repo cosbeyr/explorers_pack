@@ -1,0 +1,2 @@
+
+22-13\. In today's world of fast-paced international politics, political attitudes and commitments within nations are subject to rapid change. The population of many countries, especially politically hostile countries, must not be considered friendly just because they do not demonstrate open hostility. Unless briefed to the contrary, avoid all contact with such people.

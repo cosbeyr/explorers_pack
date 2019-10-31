@@ -1,0 +1,2 @@
+
+Even under the most ideal circumstances nature is quite formidable. In survival, you will have to contend with the stressors of weather, terrain, and the variety of creatures inhabiting an area. Heat, cold, rain, winds, mountains, swamps, deserts, insects, dangerous reptiles, and other animals are just a few of the challenges that you will encounter while working to survive. Depending on how you handle the stress of your environment, your surroundings can be either a source of food and protection or can be a cause of extreme discomfort leading to injury, illness or death.

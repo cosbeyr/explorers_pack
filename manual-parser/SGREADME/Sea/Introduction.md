@@ -1,0 +1,3 @@
+> Sea survival is perhaps the most difficult survival situation. Short- or long-term survival depends upon rations, equipment available, and your ingenuity. You must be resourceful to survive.
+>
+> Water covers about 75 percent of the earth's surface, with about 70 percent being oceans and seas. You can assume that you will sometime cross vast expanses of water. There is always the chance that the plane or ship you are on will become crippled by such hazards as storms, collision, fire, or war.
