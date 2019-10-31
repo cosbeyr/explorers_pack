@@ -103,17 +103,29 @@ There are no infallible rules for expedient identification of venomous snakes in
 <tr>
 
 <td valign="top">
+
 *  Gaboon viper (_Bitis gabonica_)
+
 *  Green tree pit viper (_Trimeresurus gramineus_)
+
 *  Habu pit viper (_Trimeresurus flavoviridis_)
+
 *  Krait (_Bungarus caeruleus_)
+
 *  Malayan pit viper (_Callaselasma rhodostoma_)
+
 *  Mamba (_Dendraspis_ species)
+
 *  Puff adder (_Bitis arietans_)
+
 *  Rhinoceros viper (_Bitis nasicornis_)
+
 *  Russell's viper (_Vipera russellii_)
+
 *  Sand viper (_Cerastes vipera_)
+
 *  Saw-scaled viper (_Echis carinatus_)
+
 *  Wagler's pit viper (_Trimeresurus wagleri_)
 
 </td>
@@ -133,9 +145,13 @@ There are no infallible rules for expedient identification of venomous snakes in
 <tr>
 
 <td valign="top">
+
 *  Death adder (_Acanthophis antarcticus_)
+
 *  Taipan (_Oxyuranus scutellatus_)
+
 *  Tiger snake (_Notechis scutatus_)
+
 *  Yellow-bellied sea snake (_Pelamis platurus)_
 
 </td>
