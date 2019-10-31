@@ -1,3 +1,4 @@
+Introduction.md
 Animals.md
 Camouflage.md
 Cold.md
@@ -8,7 +9,6 @@ Fire.md
 FishAndMollusks.md
 Food.md
 HostileAreas.md
-Introduction.md
 Kits.md
 ManMadeHazards.md
 Medicine.md
