@@ -1,0 +1,5 @@
+These are the batteries found in phones, laptops, and almost any modern portable electronic device.
+They provide high total power, and high current (sometimes limited intentionally)
+They discharge slowly, and can stay charged for a year or longer.
+The contents pose a fire hazard, especially when fully charged. Shorting the batteries can cause fire.
+Explosions are extremely rare and unlikely.

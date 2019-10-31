@@ -1,0 +1,15 @@
+
+Any event can lead to stress and, as everyone has experienced, events don't always come one at a time. Often, stressful events occur simultaneously. These events are not stress, but they produce it and are called "stressors". Stressors are the obvious cause while stress is the response. Once the body recognizes the presence of a stressor, it then begins to act to protect itself.
+
+In response to a stressor, the body prepares either to "fight or flight". This preparation involves an internal 'SOS signal' sent throughout the body. As the body responds to this 'SOS signal', the following actions take place:
+
+* The body releases stored fuels (sugar and fats) to provide quick energy.
+* Breathing rate increases to supply more oxygen to the blood.
+* Muscle tension increases to prepare for action.
+* Blood clotting mechanisms are activated to reduce bleeding from cuts.
+* Senses become more acute (hearing becomes more sensitive, pupils dilate, sense of smell becomes sharper) so that you are more aware of your surroundings.
+* Heart rate and blood pressure rise to provide more blood to the muscles.
+
+This protective posture lets you cope with potential dangers. However, you cannot maintain this level of alertness indefinitely.
+
+Stressors are not courteous; one stressor does not leave because another one arrives. Stressors add up. The cumulative effect of minor stressors can be a major distress if they all happen too close together. As the body's resistance to stress wears down and the sources of stress continue (or increase), eventually a state of exhaustion arrives. At this point, the ability to resist stress or use it in a positive way gives out and signs of distress appear. Anticipating stressors and developing strategies to cope with them are two ingredients in the effective management of stress. Therefore, it is essential that you be aware of the types of stressors that you will encounter. The following paragraphs explain a few of these.
