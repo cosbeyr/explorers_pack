@@ -1,0 +1,1 @@
+You should take the time to discover who you are on the inside. Strengthen your stronger qualities and develop the areas that you know are necessary to survive.
