@@ -21,19 +21,19 @@ A section of bamboo also works very well for cooking. Be sure you cut out a sect
 >
 > A sealed section of bamboo will explode if heated because of trapped air and water in the section.
 
-**FORKS, KNIVES, AND SPOONS**
+**Forks, Knives and Spoons**
 
 Carve forks, knives, and spoons from nonresinous woods so that you do not get a wood resin aftertaste or do not taint the food. Nonresinous woods include oak, birch, and other hardwood trees.
 
 **NOTE:** Do not use those trees that secrete a syrup or resinlike liquid on the bark or when cut.
 
-**POTS**
+**Pots**
 
 You can make pots from turtle shells or wood. As described with bowls, using hot rocks in a hollowed out piece of wood is very effective. Bamboo is the best wood for making cooking containers.
 
 To use turtle shells, first thoroughly boil the upper portion of the shell. Then use it to heat food and water over a flame ([Figure 12-11](#fig12-11)).
 
-**WATER BOTTLES**
+**Water Bottles**
 
 Make water bottles from the stomachs of larger animals. Thoroughly flush the stomach out with water, then tie off the bottom.
 Leave the top open, with some means of fastening it closed.

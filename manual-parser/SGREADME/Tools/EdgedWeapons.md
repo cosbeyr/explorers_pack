@@ -1,7 +1,7 @@
 
 Knives, spear blades, and arrow points fall under the category of edged weapons. The following paragraphs explain how to make such weapons.
 
-**KNIVES**
+**Knives**
 
 A knife has three basic functions. It can puncture, slash or chop, and cut. A knife is also an invaluable tool used to construct other survival items. You may find yourself without a knife or you may need another type knife or a spear. To improvise you can use stone, bone, wood, or metal to make a knife or spear blade.
 
@@ -39,7 +39,7 @@ Metal is the best material to make field-expedient edged weapons. Metal, when pr
 
 You can use other materials to produce edged weapons. Glass is a good alternative to an edged weapon or tool, if no other material is available. Obtain a suitable piece in the same manner as described for bone. Glass has a natural edge but is less durable for heavy work. You can also sharpen plastic - if it is thick enough or hard enough - into a durable point for puncturing.
 
-**SPEAR BLADES**
+**Spear Blades**
 
 To make spears, use the same procedures to make the blade that you used to make a knife blade. Then select a shaft (a straight sapling) 1.2 to 1.5 meters (4 to 5 feet) long. The length should allow you to handle the spear easily and effectively. Attach the spear blade to the shaft using lashing. The preferred method is to split the handle, insert the blade, then wrap or lash it tightly. You can use other materials without adding a blade. Select a 1.2- to 1.5-meter (4- to 5-foot) long straight hardwood shaft and shave one end to a point. If possible, fire-harden the point. Bamboo also makes an excellent spear. Select a piece 1.2 to 1.5 meters (4 to 5 feet) long. Starting 8 to 10 centimeters (3 to 4 inches) back from the end used as the point, shave down the end at a 45-degree angle ([Figure 12-4](#fig12-4)). Remember, to sharpen the edges, shave only the inner portion.
 
@@ -47,6 +47,6 @@ To make spears, use the same procedures to make the blade that you used to make 
 
 **Figure 12-4\. Bamboo Spear**
 
-**ARROW POINTS**
+**Arrow Points**
 
 To make an arrow point, use the same procedures for making a stone knife blade. Chert, flint, and shell-type stones are best for arrow points. You can fashion bone like stone - by flaking. You can make an efficient arrow point using broken glass.
