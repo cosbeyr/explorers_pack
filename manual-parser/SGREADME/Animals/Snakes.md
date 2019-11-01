@@ -1,4 +1,6 @@
 
+**Venomous Snakes**
+
 There are no infallible rules for expedient identification of venomous snakes in the field, because the guidelines all require close observation or manipulation of the snake's body. The best strategy is to leave all snakes alone. Where snakes are plentiful and venomous species are present, the risk of their bites negates their food value. Apply the following safety rules when traveling in areas where there are venomous snakes:
 
 * Walk carefully and watch where you step. Step onto logs rather than over them in a survival situation. During evasion, always step over or go around logs to leave fewer signs for trackers.
@@ -175,3 +177,7 @@ There are no infallible rules for expedient identification of venomous snakes in
 </center>
 
 **Figure 11-1\. Venomous Snakes of the World (Continued)**
+
+**SNAKE-FREE AREAS**
+
+The polar regions are free of snakes due to their inhospitable environments. Other areas considered to be free of venomous snakes are New Zealand, Cuba, Haiti, Jamaica, Puerto Rico, Ireland, Polynesia, and Hawaii.
