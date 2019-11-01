@@ -1,2 +1,0 @@
-How you look and behave plays a big role in "victim evaluation". That is if you seem foolish and inattentive then it's a sign that it's easy to rob you if you behave cocky and disrespectful - that you need an "educational beat down" etc.
-If you suspect anything, at least a snitch, carefully look around as you go. Your facial expression and your whole body should send a message to everyone that you're serious, prepared and know what to do in case something happens. That might scare off a lot more assailants than you think. You should also reconsider your style (clothing).
