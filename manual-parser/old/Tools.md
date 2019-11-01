@@ -15,11 +15,11 @@ It provides invaluable eye protection when you are moving through heavy brush an
 
 You hold clubs; you do not throw them. However, the club can extend your area of defense beyond your fingertips. It also serves to increase the force of a blow without injuring yourself. The three basic types of clubs are explained below.
 
-**SIMPLE CLUB**
+**Simple Club**
 
 A simple club is a staff or branch. It must be short enough for you to swing easily, but long enough and strong enough for you to damage whatever you hit. Its diameter should fit comfortably in your palm, but it should not be so thin as to allow the club to break easily upon impact. A straight-grained hardwood is best if you can find it.
 
-**WEIGHTED CLUB**
+**Weighted Club**
 
 A weighted club is any simple club with a weight on one end. The weight may be a natural weight, such as a knot on the wood, or something added, such as a stone lashed to the club.
 
@@ -31,7 +31,7 @@ Next, find a piece of wood that is the right length for you. A straight-grained 
 
 **Figure 12-1\. Lashing Clubs**
 
-**SLING CLUB**
+**Sling Club**
 
 A sling club is another type of weighted club. A weight hangs 8 to 10 centimeters (3 to 4 inches) from the handle by a strong, flexible lashing ([Figure 12-2](#fig12-2)). This type of club both extends the user's reach and multiplies the force of the blow.
 
@@ -43,7 +43,7 @@ A sling club is another type of weighted club. A weight hangs 8 to 10 centimeter
 
 Knives, spear blades, and arrow points fall under the category of edged weapons. The following paragraphs explain how to make such weapons.
 
-**KNIVES**
+**Knives**
 
 A knife has three basic functions. It can puncture, slash or chop, and cut. A knife is also an invaluable tool used to construct other survival items. You may find yourself without a knife or you may need another type knife or a spear. To improvise you can use stone, bone, wood, or metal to make a knife or spear blade.
 
@@ -81,7 +81,7 @@ Metal is the best material to make field-expedient edged weapons. Metal, when pr
 
 You can use other materials to produce edged weapons. Glass is a good alternative to an edged weapon or tool, if no other material is available. Obtain a suitable piece in the same manner as described for bone. Glass has a natural edge but is less durable for heavy work. You can also sharpen plastic - if it is thick enough or hard enough - into a durable point for puncturing.
 
-**SPEAR BLADES**
+**Spear Blades**
 
 To make spears, use the same procedures to make the blade that you used to make a knife blade. Then select a shaft (a straight sapling) 1.2 to 1.5 meters (4 to 5 feet) long. The length should allow you to handle the spear easily and effectively. Attach the spear blade to the shaft using lashing. The preferred method is to split the handle, insert the blade, then wrap or lash it tightly. You can use other materials without adding a blade. Select a 1.2- to 1.5-meter (4- to 5-foot) long straight hardwood shaft and shave one end to a point. If possible, fire-harden the point. Bamboo also makes an excellent spear. Select a piece 1.2 to 1.5 meters (4 to 5 feet) long. Starting 8 to 10 centimeters (3 to 4 inches) back from the end used as the point, shave down the end at a 45-degree angle ([Figure 12-4](#fig12-4)). Remember, to sharpen the edges, shave only the inner portion.
 
@@ -89,7 +89,7 @@ To make spears, use the same procedures to make the blade that you used to make 
 
 **Figure 12-4\. Bamboo Spear**
 
-**ARROW POINTS**
+**Arrow Points**
 
 To make an arrow point, use the same procedures for making a stone knife blade. Chert, flint, and shell-type stones are best for arrow points. You can fashion bone like stone - by flaking. You can make an efficient arrow point using broken glass.
 
@@ -97,7 +97,7 @@ To make an arrow point, use the same procedures for making a stone knife blade. 
 
 You can make other field-expedient weapons such as the throwing stick, archery equipment, and the bola. The following paragraphs explain how to make these.
 
-**THROWING STICK**
+**Throwing Stick**
 
 The throwing stick, commonly known as the rabbit stick, is very effective against small game (squirrels, chipmunks, and rabbits). The rabbit stick itself is a blunt stick, naturally curved at about a 45-degree angle. Select a stick with the desired angle from heavy hardwood such as oak. Shave off two opposite sides so that the stick is flat like a boomerang ([Figure 12-5](#fig12-5)). You must practice the throwing technique for accuracy and speed. First, align the target by extending the nonthrowing arm in line with the mid- to lower-section of the target. Slowly and repeatedly raise the throwing arm up and back until the throwing stick crosses the back at about a 45-degree angle or is in line with the nonthrowing hip. Bring the throwing arm forward until it is just slightly above and parallel to the nonthrowing arm. This will be the throwing stick's release point. Practice slowly and repeatedly to attain accuracy.
 
@@ -105,7 +105,7 @@ The throwing stick, commonly known as the rabbit stick, is very effective agains
 
 **Figure 12-5\. Rabbit Stick**
 
-**ARCHERY EQUIPMENT**
+**Archery Equipment**
 
 You can make a bow and arrow ([Figure 12-6](#fig12-6)) from materials available in your survival area. To make a bow, use the procedure described in [Chapter Food](Food).
 
@@ -115,7 +115,7 @@ You can make a bow and arrow ([Figure 12-6](#fig12-6)) from materials available 
 
 While it may be relatively simple to make a bow and arrow, it is not easy to use one. You must practice using it a long time to be reasonably sure that you will hit your target. Also, a field-expedient bow will not last very long before you have to make a new one. For the time and effort involved, you may well decide to use another type of field-expedient weapon.
 
-**BOLA**
+**Bola**
 
 The bola is another field-expedient weapon that is easy to make ([Figure 12-7](#fig12-7)). It is especially effective for capturing running game or low-flying fowl in a flock. To use the bola, hold it by the center knot and twirl it above your head. Release the knot so that the bola flies toward your target. When you release the bola, the weighted cords will separate. These cords will wrap around and immobilize the fowl or animal that you hit.
 
@@ -127,7 +127,7 @@ The bola is another field-expedient weapon that is easy to make ([Figure 12-7](#
 
 <a name="para12-25"></a>12-25\. Many materials are strong enough for use as cordage and lashing. A number of natural and man-made materials are available in a survival situation. For example, you can make a cotton web belt much more useful by unraveling it. You can then use the string for other purposes (fishing line, thread for sewing, and lashing).
 
-**NATURAL CORDAGE SELECTION**
+**Natural Cordage Selection**
 
 12-26\. Before making cordage, there are a few simple tests you can do to determine you material's suitability. First, pull on a length of the material to test for strength. Next, twist it between your fingers and roll the fibers together. If it withstands this handling and does not snap apart, tie an overhand knot with the fibers and gently tighten. If the knot does not break, the material is usable. [Figure 12-8](#fig12-8) shows various methods of making cordage.
 
@@ -135,7 +135,7 @@ The bola is another field-expedient weapon that is easy to make ([Figure 12-7](#
 
 **Figure 12-8\. Making Lines From Plant Fibers**
 
-**LASHING MATERIAL**
+**Lashing Material**
 
 The best natural material for lashing small objects is sinew. You can make sinew from the tendons of large game, such as deer. Remove the tendons from the game and dry them completely. Smash the dried tendons so that they separate into fibers. Moisten the fibers and twist them into a continuous strand. If you need stronger lashing material, you can braid the strands. When you use sinew for small lashings, you do not need knots as the moistened sinew is sticky and it hardens when dry.
 
@@ -149,7 +149,7 @@ The materials for constructing a backpack are almost limitless. You can use wood
 
 There are several construction techniques for backpacks. Many are very elaborate, but those that are simple and easy are often the most readily made in a survival situation.
 
-**HORSESHOE PACK**
+**Horseshoe Pack**
 
 This pack is simple to make and use and relatively comfortable to carry over one shoulder. Lay available square-shaped material, such as poncho, blanket, or canvas, flat on the ground. Lay items on one edge of the material. Pad the hard items. Roll the material (with the items) toward the opposite edge and tie both ends securely. Add extra ties along the length of the bundle. You can drape the pack over one shoulder with a line connecting the two ends ([Figure 12-9](#fig12-9)).
 
@@ -157,7 +157,7 @@ This pack is simple to make and use and relatively comfortable to carry over one
 
 **Figure 12-9\. Horseshoe Pack**
 
-**SQUARE PACK**
+**Square Pack**
 
 This pack is easy to construct if rope or cordage is available. Otherwise, you must first make cordage. To make this pack, construct a square frame from bamboo, limbs, or sticks. Size will vary for each person and the amount of equipment carried ([Figure 12-10](#fig12-10)).
 
@@ -169,15 +169,15 @@ This pack is easy to construct if rope or cordage is available. Otherwise, you m
 
 You can use many materials for clothing and insulation. Both man-made materials, such as parachutes, and natural materials, such as skins and plant materials, are available and offer significant protection.
 
-**PARACHUTE ASSEMBLY**
+**Parachute Assembly**
 
 Consider the entire parachute assembly as a resource. Use every piece of material and hardware, to include the canopy, suspension lines, connector snaps, and parachute harness. Before disassembling the parachute, consider all of your survival requirements and plan to use different portions of the parachute accordingly. For example, consider shelter requirements, need for a backpack, and any additional clothing or insulation needs.
 
-**ANIMAL SKINS**
+**Animal Skins**
 
 The selection of animal skins in a survival situation will most often be limited to what you manage to trap or hunt. However, if there is an abundance of wildlife, select the hides of larger animals with heavier coats and large fat content. Do not use the skins of infected or diseased animals if possible. Since they live in the wild, animals are carriers of pests such as ticks, lice, and fleas. Because of these pests, use water to thoroughly clean any skin obtained from any animal. If water is not available, at least shake out the skin thoroughly. As with rawhide, lay out the skin and remove all fat and meat. Dry the skin completely. Use the hindquarter joint areas to make shoes, mittens, or socks. Wear the hide with the fur to the inside for its insulating factor.
 
-**PLANT FIBERS**
+**Plant Fibers**
 
 Several plants are sources of insulation from cold. Cattail is a marshland plant found along lakes, ponds, and the backwaters of rivers. The fuzz on the tops of the stalks forms dead air spaces and makes a good down-like insulation when placed between two pieces of material. Milkweed has pollenlike seeds that act as good insulation. The husk fibers from coconuts are very good for weaving ropes and, when dried, make excellent tinder and insulation.
 
@@ -205,19 +205,49 @@ A section of bamboo also works very well for cooking. Be sure you cut out a sect
 > 
 > A sealed section of bamboo will explode if heated because of trapped air and water in the section.
 
-**FORKS, KNIVES, AND SPOONS**
+**Forks, Knives and Spoons**
 
 Carve forks, knives, and spoons from nonresinous woods so that you do not get a wood resin aftertaste or do not taint the food. Nonresinous woods include oak, birch, and other hardwood trees.
 
 **NOTE:** Do not use those trees that secrete a syrup or resinlike liquid on the bark or when cut.
 
-**POTS**
+**Pots**
 
 You can make pots from turtle shells or wood. As described with bowls, using hot rocks in a hollowed out piece of wood is very effective. Bamboo is the best wood for making cooking containers.
 
 To use turtle shells, first thoroughly boil the upper portion of the shell. Then use it to heat food and water over a flame ([Figure 12-11](#fig12-11)).
 
-**WATER BOTTLES**
+**Water Bottles**
 
 Make water bottles from the stomachs of larger animals. Thoroughly flush the stomach out with water, then tie off the bottom.
 Leave the top open, with some means of fastening it closed.
+
+### MULTITOOL
+
+A MultiTool can be useful in everyday life - not only in survival situations. It can provide a lot of tools - hence the name. There are different options available. It is always a tradeoff between weight/size and the amount/set of tools.
+The common available tools in a typical MultiTool are:
+
+* Knife
+* Can-Opener
+* Screw-Driver
+* Pliers / Pinchers
+* Wire-Cutter
+* Wood-Saw
+* ...
+
+But there are also special tools like: bit-drivers, whistle, scissors, Ferrocerium Rod to spark a fire, Sharpener, ..
+
+If you use a Multi-Tool in every-day life, then you know how to use it in a survival situation. The seconds you are faster and the confidence you have in your tool can decide between life and death.
+
+**Leatherman**
+
+There are a lot of options out there. I really like my [Leatherman OHT](OHTMultiTool).
+I am carrying it most of the time when going out.
+
+Basically just leave it at home when I want to go dance and jump around or have to go to a place with security which might have a problem with the tool as it contains a sharp knife. At some point I might buy a [Tread Bracelet MultiTool](TreadMultiTool) for these cases.
+
+Also I like the story behind the company. There is a nice video with the [inventor on youtube](https://www.youtube.com/watch?v=QJwyIF4VBTk). He wanted this tool and persisted in a very humble way. He is also proudly showing the durability in this video - really worth a look if you still have internet ;-)
+
+**Victorinox**
+
+Another option is Victorinox, the swiss provider of the Swiss Army Knife (along with Swiss owned Wenger company). With less diversity in the model shapes - two in fact, straight or ergonomic. Victorinox offers a serious selection of embeddable tools. One Recommendation is the SwissTool Spirit (the ergonomic one).

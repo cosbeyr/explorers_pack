@@ -46,7 +46,9 @@ Leeches are bloodsucking creatures with a wormlike appearance. You find them in 
 
 Despite the legends, bats (_Desmodus_ species) are a relatively small hazard to you. There are many bat varieties worldwide, but you find the true vampire bats only in Central and South America. They are small, agile fliers that land on their sleeping victims, mostly cows and horses, to lap a blood meal after biting their victim. Their saliva contains an anticoagulant that keeps the blood slowly flowing while they feed. All bats are considered to carry rabies. Any physical contact is considered to be a rabies risk. They can carry other diseases and infections and will bite readily when handled. However, taking shelter in a cave occupied by bats presents the much greater hazard of inhaling powdered bat dung, or guano. Bat dung carries many organisms that can cause diseases. Eating thoroughly cooked flying foxes or other bats presents no danger from rabies and other diseases, but again, the emphasis is on thorough cooking.
 
-### VENOMOUS SNAKES
+### SNAKES
+
+**Venomous Snakes**
 
 There are no infallible rules for expedient identification of venomous snakes in the field, because the guidelines all require close observation or manipulation of the snake's body. The best strategy is to leave all snakes alone. Where snakes are plentiful and venomous species are present, the risk of their bites negates their food value. Apply the following safety rules when traveling in areas where there are venomous snakes:
 
@@ -78,11 +80,17 @@ There are no infallible rules for expedient identification of venomous snakes in
 <tr>
 
 <td valign="top">
+
 *  American Copperhead (_Agkistrodon contortrix_)
+
 *  Bushmaster (_Lachesis muta_)
+
 *  Coral snake (_Micrurus fulvius_)
+
 *  Cottonmouth (_Agkistrodon piscivorus_)
+
 *  Fer-de-lance (_Bothrops atrox_)
+
 *  Rattlesnake (_Crotalus_ species)
 
 </td>
@@ -102,7 +110,9 @@ There are no infallible rules for expedient identification of venomous snakes in
 <tr>
 
 <td valign="top">
+
 *  Common adder _(Vipers berus)_
+
 *  Pallas' viper _(Agkistrodon halys)_
 
 </td>
@@ -122,7 +132,9 @@ There are no infallible rules for expedient identification of venomous snakes in
 <tr>
 
 <td valign="top">
+
 *  Boomslang (_Dispholidus typus_)
+
 *  Cobra (_Naja_ species)
 
 </td>
@@ -152,17 +164,29 @@ There are no infallible rules for expedient identification of venomous snakes in
 <tr>
 
 <td valign="top">
+
 *  Gaboon viper (_Bitis gabonica_)
+
 *  Green tree pit viper (_Trimeresurus gramineus_)
+
 *  Habu pit viper (_Trimeresurus flavoviridis_)
+
 *  Krait (_Bungarus caeruleus_)
+
 *  Malayan pit viper (_Callaselasma rhodostoma_)
+
 *  Mamba (_Dendraspis_ species)
+
 *  Puff adder (_Bitis arietans_)
+
 *  Rhinoceros viper (_Bitis nasicornis_)
+
 *  Russell's viper (_Vipera russellii_)
+
 *  Sand viper (_Cerastes vipera_)
+
 *  Saw-scaled viper (_Echis carinatus_)
+
 *  Wagler's pit viper (_Trimeresurus wagleri_)
 
 </td>
@@ -182,9 +206,13 @@ There are no infallible rules for expedient identification of venomous snakes in
 <tr>
 
 <td valign="top">
+
 *  Death adder (_Acanthophis antarcticus_)
+
 *  Taipan (_Oxyuranus scutellatus_)
+
 *  Tiger snake (_Notechis scutatus_)
+
 *  Yellow-bellied sea snake (_Pelamis platurus)_
 
 </td>
@@ -199,7 +227,7 @@ There are no infallible rules for expedient identification of venomous snakes in
 
 **Figure 11-1\. Venomous Snakes of the World (Continued)**
 
-### SNAKE-FREE AREAS
+**SNAKE-FREE AREAS**
 
 The polar regions are free of snakes due to their inhospitable environments. Other areas considered to be free of venomous snakes are New Zealand, Cuba, Haiti, Jamaica, Puerto Rico, Ireland, Polynesia, and Hawaii.
 
