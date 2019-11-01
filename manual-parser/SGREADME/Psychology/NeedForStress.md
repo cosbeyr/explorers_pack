@@ -1,4 +1,6 @@
 
+Before we can understand our psychological reactions in a survival setting it is helpful to first know a little bit about stress and its effects. Stress is not a disease that you cure and eliminate. Instead, it is a condition we all experience. Stress can be described as our reaction to pressure. It is the name given to the experience we have as we physically, mentally, emotionally, and spiritually respond to life's tensions.
+
 We need stress because it has many positive benefits. Stress provides us with challenges; it gives us chances to learn about our values and strengths. Stress can show our ability to handle pressure without breaking. It tests our adaptability and flexibility, and can stimulate us to do our best. Because we usually do not consider unimportant events stressful, stress can also be an excellent indicator of the significance we attach to an event - in other words, it highlights what is important to us.
 
 We need to have *some* stress in our lives, but too much of anything can be bad. The goal is to have stress, but not an excess of it. Too much stress can take its toll on people and organizations. Too much stress leads to distress. Distress causes an uncomfortable tension that we try to escape or, preferably, avoid. Listed below are a few of the common signs of distress that you may encounter when faced with too much stress:
