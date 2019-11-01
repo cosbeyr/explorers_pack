@@ -2,13 +2,13 @@
 > 
 > Cold is a far greater threat to survival than it appears. It decreases your ability to think and weakens your will to do anything except to get warm. Cold is an insidious enemy; as it numbs the mind and body, it subdues the will to survive.
 > 
-> Cold makes it very easy to forget your ultimate goal—to survive.
+> Cold makes it very easy to forget your ultimate goal - to survive.
 
 ### COLD REGIONS AND LOCATIONS
 
 Cold regions include arctic and subarctic areas and areas immediately adjoining them. You can classify about 48 percent of the Northern Hemisphere's total landmass as a cold region due to the influence and extent of air temperatures. Ocean currents affect cold weather and cause large areas normally included in the temperate zone to fall within the cold regions during winter periods. Elevation also has a marked effect on defining cold regions.
 
-Within the cold weather regions, you may face two types of cold weather environments—wet or dry. Knowing in which environment your area of operations falls will affect planning and execution of a cold weather operation.
+Within the cold weather regions, you may face two types of cold weather environments - wet or dry. Knowing in which environment your area of operations falls will affect planning and execution of a cold weather operation.
 
 **WET COLD WEATHER ENVIRONMENTS**
 
@@ -65,7 +65,7 @@ If you shave, try to do so before going to bed. This will give your skin a chanc
 
 When you are healthy, your inner core temperature (torso temperature) remains almost constant at 37 degrees C (98.6 degrees F). Since your limbs and head have less protective body tissue than your torso, their temperatures vary and may not reach core temperature.
 
-Your body has a control system that lets it react to temperature extremes to maintain a temperature balance. There are three main factors that affect this temperature balance—heat production, heat loss, and evaporation. The difference between the body's core temperature and the environment's temperature governs the heat production rate. Your body can get rid of heat better than it can produce it. Sweating helps to control the heat balance. Maximum sweating will get rid of heat about as fast as maximum exertion produces it.
+Your body has a control system that lets it react to temperature extremes to maintain a temperature balance. There are three main factors that affect this temperature balance - heat production, heat loss, and evaporation. The difference between the body's core temperature and the environment's temperature governs the heat production rate. Your body can get rid of heat better than it can produce it. Sweating helps to control the heat balance. Maximum sweating will get rid of heat about as fast as maximum exertion produces it.
 
 Shivering causes the body to produce heat. It also causes fatigue that, in turn, leads to a drop in body temperature. Air movement around your body affects heat loss. It has been noted that a naked man exposed to still air at or about 0 degrees C (32 degrees F) can maintain a heat balance if he shivers as hard as he can. However, he can't shiver forever.
 
@@ -161,7 +161,7 @@ Exposure to cold increases urine output. It also decreases body fluids that you 
 
 **SUNBURN**
 
-Exposed skin can become sunburned even when the air temperature is below freezing. The sun's rays reflect at all angles from snow, ice, and water, hitting sensitive areas of skin—lips, nostrils, and eyelids. Exposure to the sun results in sunburn more quickly at high altitudes than at low altitudes. Apply sunburn cream or lip salve to your face when in the sun.
+Exposed skin can become sunburned even when the air temperature is below freezing. The sun's rays reflect at all angles from snow, ice, and water, hitting sensitive areas of skin - lips, nostrils, and eyelids. Exposure to the sun results in sunburn more quickly at high altitudes than at low altitudes. Apply sunburn cream or lip salve to your face when in the sun.
 
 **SNOW BLINDNESS**
 
@@ -268,7 +268,7 @@ Insect bites can become infected through constant scratching. Flies can carry va
 
 15-63\. Some plastic products, such as MRE spoons, helmet visors, visor housings, and foam rubber will ignite quickly from a burning match. They will also burn long enough to help start a fire. For example, a plastic spoon will burn for about 10 minutes.
 
-15-64\. In cold weather regions, there are some hazards in using fires, whether to keep warm or to cook. For example—
+15-64\. In cold weather regions, there are some hazards in using fires, whether to keep warm or to cook. For example:
 *  Fires have been known to burn underground, resurfacing nearby. Therefore, do not build a fire too close to a shelter.
 *  In snow shelters, excessive heat will melt the insulating layer of snow that may also be your camouflage.
 *  A fire inside a shelter lacking adequate ventilation can result in carbon monoxide poisoning.
@@ -307,7 +307,7 @@ Insect bites can become infected through constant scratching. Flies can carry va
 
 ### FOOD
 
-There are several sources of food in the arctic and subarctic regions. The type of food—fish, animal, fowl, or plant—and the ease in obtaining it depend on the time of the year and your location.
+There are several sources of food in the arctic and subarctic regions. The type of food—fish, animal, fowl, or plant - and the ease in obtaining it depend on the time of the year and your location.
 
 **FISH**
 
@@ -341,7 +341,7 @@ The sea cucumber is another edible sea animal. Inside its body are five long whi
 
 15-86\. Earless seal meat is some of the best meat available. However, you need considerable skill to get close enough to an earless seal to kill it. In spring, seals often bask on the ice beside their breathing holes. They raise their heads about every 30 seconds, however, to look for their enemy, the polar bear.
 
-15-87\. To approach a seal, do as the Eskimos do—stay downwind from it, cautiously moving closer while it sleeps. If it moves, stop and imitate its movements by lying flat on the ice, raising your head up and down, and wriggling your body slightly. Approach the seal with your body sideways to it and your arms close to your body so that you look as much like another seal as possible. The ice at the edge of the breathing hole is usually smooth and at an incline, so the least movement of the seal may cause it to slide into the water. Therefore, try to get within 22 to 45 meters (73 to 148 feet) of the seal and kill it instantly (aim for the brain). Try to reach the seal before it slips into the water. In winter, a dead seal will usually float, but it is difficult to retrieve from the water.
+15-87\. To approach a seal, do as the Eskimos do - stay downwind from it, cautiously moving closer while it sleeps. If it moves, stop and imitate its movements by lying flat on the ice, raising your head up and down, and wriggling your body slightly. Approach the seal with your body sideways to it and your arms close to your body so that you look as much like another seal as possible. The ice at the edge of the breathing hole is usually smooth and at an incline, so the least movement of the seal may cause it to slide into the water. Therefore, try to get within 22 to 45 meters (73 to 148 feet) of the seal and kill it instantly (aim for the brain). Try to reach the seal before it slips into the water. In winter, a dead seal will usually float, but it is difficult to retrieve from the water.
 
 15-88\. Keep the seal blubber and skin from coming into contact with any scratch or broken skin you may have. You could get "spekk-finger," a reaction that causes the hands to become badly swollen.
 
