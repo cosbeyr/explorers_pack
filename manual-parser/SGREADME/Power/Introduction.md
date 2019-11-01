@@ -1,1 +1,0 @@
-> To use the [Apps](Apps) on your phone you need power. Power can also provide you with light and empower you in many other ways but the grid and outlets might not be available. In the early days of this app there were a lot of comments claiming that this app is useless as you will not have access to grid power. I disagree and have created this section to address these concerns.

@@ -1,2 +1,0 @@
-
-The proportion of poisonous plants in tropical regions is no greater than in any other area of the world. However, it may appear that most plants in the tropics are poisonous because of the great density of plant growth in some tropical areas.

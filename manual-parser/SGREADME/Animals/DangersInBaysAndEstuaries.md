@@ -1,4 +1,0 @@
-
-In areas where seas and rivers come together, there are dangers associated with both freshwater and saltwater. In shallow saltwaters, there are many creatures that can inflict pain and cause infection to develop. Stepping on sea urchins, for example, can produce pain and infection. When moving about in shallow water, wear some form of footgear and shuffle your feet along the bottom, rather than picking up your feet and stepping.
-
-Stingrays (_Dasyatidae_ species) are a real hazard in shallow waters, especially tropical waters. The type of bottom appears to be irrelevant. There is a great variance between species, but all have a sharp spike in their tail that may be venomous and can cause extremely painful wounds if stepped on. All rays have a typical shape that resembles a kite. You find them along the coasts of the Americas, Africa, and Australia.

@@ -1,5 +1,0 @@
-> One of the most difficult survival situations is a cold weather scenario. Every time you venture into the cold, you are pitting yourself against the elements. With a little knowledge of the environment, proper plans, and appropriate equipment, you can overcome the elements. As you remove one or more of these factors, survival becomes increasingly difficult. Remember, winter weather is highly variable. Prepare yourself to adapt to blizzard conditions even during sunny and clear weather.
->
-> Cold is a far greater threat to survival than it appears. It decreases your ability to think and weakens your will to do anything except to get warm. Cold is an insidious enemy; as it numbs the mind and body, it subdues the will to survive.
->
-> Cold makes it very easy to forget your ultimate goal - to survive.
