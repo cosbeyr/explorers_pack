@@ -2,18 +2,18 @@
 
 ### HOW PLANTS POISON
 
-10-1\. Plants generally poison by—
+10-1\. Plants generally poison by:
 *  _Contact._ This contact with a poisonous plant causes any type of skin irritation or dermatitis.
 *  _Ingestion._ This occurs when a person eats a part of a poisonous plant.
 *  _Absorption or inhalation._ This happens when a person either absorbs the poison through the skin or inhales it into the respiratory system.
 
-10-2\. Plant poisoning ranges from minor irritation to death. A common question asked is, "How poisonous is this plant?" It is difficult to say how poisonous plants are because—
+10-2\. Plant poisoning ranges from minor irritation to death. A common question asked is, "How poisonous is this plant?" It is difficult to say how poisonous plants are because:
 *  Some plants require a large amount of contact before you notice any adverse reaction although others will cause death with only a small amount.
 *  Every plant will vary in the amount of toxins it contains due to different growing conditions and slight variations in subspecies.
 *  Every person has a different level of resistance to toxic substances.
 *  Some persons may be more sensitive to a particular plant.
 
-10-3\. Some common **misconceptions** about poisonous plants are—
+10-3\. Some common **misconceptions** about poisonous plants are:
 *  _Watch the animals and eat what they eat._ Most of the time this statement is true, but some animals can eat plants that are poisonous to humans.
 *  _Boil the plant in water and any poisons will be removed._ Boiling removes many poisons, but not all.
 *  _Plants with a red color are poisonous._ Some plants that are red are poisonous, but not all.
@@ -30,8 +30,8 @@
 
 ### RULES FOR AVOIDING POISONOUS PLANTS
 
-10-8\. Your best policy is to be able to positively identify plants by sight and to know their uses or dangers. Many times absolute certainty is not possible. If you have little or no knowledge of the local vegetation, use the rules to select plants for the Universal Edibility Test. Remember, **avoid**—
-*  All mushrooms. Mushroom identification is very difficult and must be precise—even more so than with other plants. Some mushrooms cause death very quickly. Some mushrooms have no known antidote. Two general types of mushroom poisoning are gastrointestinal and central nervous system.
+10-8\. Your best policy is to be able to positively identify plants by sight and to know their uses or dangers. Many times absolute certainty is not possible. If you have little or no knowledge of the local vegetation, use the rules to select plants for the Universal Edibility Test. Remember, **avoid**:
+*  All mushrooms. Mushroom identification is very difficult and must be precise - even more so than with other plants. Some mushrooms cause death very quickly. Some mushrooms have no known antidote. Two general types of mushroom poisoning are gastrointestinal and central nervous system.
 *  Contact with or touching plants unnecessarily.
 
 ### CONTACT DERMATITIS
@@ -44,7 +44,7 @@
 
 10-12\. When you first contact the poisonous plants or when the first symptoms appear, try to remove the oil by washing with soap and cold water. If water is not available, wipe your skin repeatedly with dirt or sand. Do not use dirt if you have blisters. The dirt may break open the blisters and leave the body open to infection. After you have removed the oil, dry the area. You can wash with a tannic acid solution and crush and rub jewelweed on the affected area to treat plant-caused rashes. You can make tannic acid from oak bark.
 
-10-13\. Poisonous plants that cause contact dermatitis are—
+10-13\. Poisonous plants that cause contact dermatitis are:
 *  Cowhage.
 *  Poison ivy.
 *  Poison oak.

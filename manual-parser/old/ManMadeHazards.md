@@ -80,7 +80,7 @@ The symptoms of radiation injuries include nausea, diarrhea, and vomiting. The s
 
 **COUNTERMEASURES AGAINST PENETRATING EXTERNAL RADIATION**
 
-Knowledge of the radiation hazards discussed earlier is extremely important in surviving in a fallout area. It is also critical to know how to protect yourself from the most dangerous form of residual radiationpenetrating external radiation.
+Knowledge of the radiation hazards discussed earlier is extremely important in surviving in a fallout area. It is also critical to know how to protect yourself from the most dangerous form of residual radiation penetrating external radiation.
 
 The means you can use to protect yourself from penetrating external radiation are time, distance, and shielding. You can reduce the level of radiation and help increase your chance of survival by controlling the duration of exposure. You can also get as far away from the radiation source as possible. Finally, you can place some radiation-absorbing or shielding material between you and the radiation.
 
@@ -217,7 +217,7 @@ The extent of contamination in fish and aquatic animals will be much greater tha
 
 All eggs, even if laid during the period of fallout, will be safe to eat. Completely avoid milk from any animals in a fallout area because animals absorb large amounts of radioactivity from the plants they eat.
 
-**PlantsA Food Source**
+**Plants: A Food Source**
 
 Plant contamination occurs by the accumulation of fallout on their outer surfaces or by absorption of radioactive elements through their roots. Your first choice of plant food should be vegetables such as potatoes, turnips, carrots, and other plants whose edible portion grows underground. These are the safest to eat once you scrub them and remove their skins.
 
@@ -237,13 +237,13 @@ The use of biological agents is real. Know what to do to protect yourself agains
 
 **BIOLOGICAL AGENTS AND EFFECTS**
 
-Biological agents are microorganisms that can cause disease among personnel, animals, or plants. They can also cause the deterioration of material. These agents fall into two broad categoriespathogens (usually called germs) and toxins. Pathogens are living microorganisms that cause lethal or incapacitating diseases. Bacteria, rickettsiae, fungi, and viruses are included in the pathogens. Toxins are poisons that plants, animals, or microorganisms produce naturally. Possible biological warfare toxins include a variety of neurotoxic (affecting the central nervous system) and cytotoxic (causing cell death) compounds.
+Biological agents are microorganisms that can cause disease among personnel, animals, or plants. They can also cause the deterioration of material. These agents fall into two broad categories: pathogens (usually called germs) and toxins. Pathogens are living microorganisms that cause lethal or incapacitating diseases. Bacteria, rickettsiae, fungi, and viruses are included in the pathogens. Toxins are poisons that plants, animals, or microorganisms produce naturally. Possible biological warfare toxins include a variety of neurotoxic (affecting the central nervous system) and cytotoxic (causing cell death) compounds.
 
 **Germs**
 
-Germs are living organisms. Some nations have used them in the past as weapons. Only a few germs can start an infection, especially if inhaled into the lungs. Because germs are so small and weigh so little, the wind can spread them over great distances; they can also enter unfiltered or nonairtight places. Buildings and bunkers can trap them, causing a higher concentration. Germs do not affect the body immediately. They must multiply inside the body and overcome the body's defensesa process called the incubation period. Incubation periods vary from several hours to several months, depending on the germ. Most germs must live within another living organism (host), such as your body, to survive and grow. Weather conditions such as wind, rain, cold, and sunlight rapidly kill germs.
+Germs are living organisms. Some nations have used them in the past as weapons. Only a few germs can start an infection, especially if inhaled into the lungs. Because germs are so small and weigh so little, the wind can spread them over great distances; they can also enter unfiltered or nonairtight places. Buildings and bunkers can trap them, causing a higher concentration. Germs do not affect the body immediately. They must multiply inside the body and overcome the body's defenses - a process called the incubation period. Incubation periods vary from several hours to several months, depending on the germ. Most germs must live within another living organism (host), such as your body, to survive and grow. Weather conditions such as wind, rain, cold, and sunlight rapidly kill germs.
 
-Some germs can form protective shells, or spores, to allow survival outside the host. Spore-producing agents are a long-term hazard you must neutralize by decontaminating infected areas or personnel. Fortunately, most live agents are not spore producing. These agents must find a host within roughly a day of their delivery or they die. Germs have three basic routes of entry into your bodythrough the respiratory tract, through a break in the skin, and through the digestive tract. Symptoms of infection vary according to the disease.
+Some germs can form protective shells, or spores, to allow survival outside the host. Spore-producing agents are a long-term hazard you must neutralize by decontaminating infected areas or personnel. Fortunately, most live agents are not spore producing. These agents must find a host within roughly a day of their delivery or they die. Germs have three basic routes of entry into your body - through the respiratory tract, through a break in the skin, and through the digestive tract. Symptoms of infection vary according to the disease.
 
 **Toxins**
 

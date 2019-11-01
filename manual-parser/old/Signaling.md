@@ -12,7 +12,7 @@
 
 ### MEANS FOR SIGNALING
 
-19-5\. There are two main ways to get attention or to communicate—visual and audio. The means you use will depend on your situation and the material you have available. Whatever the means, always have visual and audio signals ready for use. Throughout this chapter you will see references to "groups of threes." This is because nature does not normally replicate anything in groups of three. "Things in threes" tend more often to be manmade sounds or visual signals.
+19-5\. There are two main ways to get attention or to communicate-visual and audio. The means you use will depend on your situation and the material you have available. Whatever the means, always have visual and audio signals ready for use. Throughout this chapter you will see references to "groups of threes." This is because nature does not normally replicate anything in groups of three. "Things in threes" tend more often to be manmade sounds or visual signals.
 
 **VISUAL SIGNALS**
 
@@ -34,9 +34,9 @@
 
 19-10\. During daylight, build a smoke generator and use smoke to gain attention ([Figure 19-2](#fig19-2)). The international distress signal is three columns of smoke. Try to create a color of smoke that contrasts with the background; dark smoke against a light background and vice versa. If you practically smother a large fire with green leaves, moss, or a little water, the fire will produce white smoke. If you add rubber or oil-soaked rags to a fire, you will get black smoke.
 
-<a name="fig19-2"></a>![Figure 19-2\. Smoke Generator—Ground](fig19-02.png)
+<a name="fig19-2"></a>![Figure 19-2\. Smoke Generator-Ground](fig19-02.png)
 
-**Figure 19-2\. Smoke Generator—Ground**
+**Figure 19-2\. Smoke Generator-Ground**
 
 19-11\. In a desert environment, smoke hangs close to the ground, but a pilot can spot it in open desert terrain.
 
@@ -158,7 +158,7 @@
 
 **SOS**
 
-19-38\. You can use lights or flags to send an SOS—three dots, three dashes, three dots. The SOS is the internationally recognized distress signal in radio Morse code. A dot is a short, sharp pulse; a dash is a longer pulse. Keep repeating the signal. When using flags, hold flags on the left side for dashes and on the right side for dots.
+19-38\. You can use lights or flags to send an SOS-three dots, three dashes, three dots. The SOS is the internationally recognized distress signal in radio Morse code. A dot is a short, sharp pulse; a dash is a longer pulse. Keep repeating the signal. When using flags, hold flags on the left side for dashes and on the right side for dots.
 
 **GROUND-TO-AIR EMERGENCY CODE**
 
@@ -194,7 +194,7 @@
 
 ### AIRCRAFT VECTORING PROCEDURES
 
-19-43\. To establish initial contact, use beacon for 15 seconds, use voice for 15 seconds (Mayday, Mayday, Mayday—this is call sign), then listen for 15 seconds. When you contact a friendly aircraft with a radio, guide the pilot to your location. Use the following general format to guide the pilot:
+19-43\. To establish initial contact, use beacon for 15 seconds, use voice for 15 seconds (Mayday, Mayday, Mayday-this is call sign), then listen for 15 seconds. When you contact a friendly aircraft with a radio, guide the pilot to your location. Use the following general format to guide the pilot:
 
 *  Call sign (if any).
 *  Name.

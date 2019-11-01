@@ -1,4 +1,4 @@
-﻿A shelter can protect you from the sun, insects, wind, rain, snow, hot or cold temperatures, and enemy observation. It can give you a feeling of well-being and help you maintain your will to survive.
+> A shelter can protect you from the sun, insects, wind, rain, snow, hot or cold temperatures, and enemy observation. It can give you a feeling of well-being and help you maintain your will to survive.
 > 
 > In some areas, your need for shelter may take precedence over your need for food and possibly even your need for water. For example, prolonged exposure to cold can cause excessive fatigue and weakness (exhaustion). An exhausted person may develop a "passive" outlook, thereby losing the will to survive.
 > 
@@ -290,7 +290,7 @@ To make a debris hut, you should:
 * Secure the ridgepole (pole running the length of the shelter) using the tripod method or by anchoring it to a tree at about waist height.
 * Prop large sticks along both sides of the ridgepole to create a wedge-shaped ribbing effect. Ensure the ribbing is wide enough to accommodate your body and steep enough to shed moisture.
 * Place finer sticks and brush crosswise on the ribbing. These form a latticework that will keep the insulating material (grass, pine needles, leaves) from falling through the ribbing into the sleeping area.
-* Add light, dry, if possible, soft debris over the ribbing until the insulating material is at least 1 meter (3 feet) thick—the thicker the better.
+* Add light, dry, if possible, soft debris over the ribbing until the insulating material is at least 1 meter (3 feet) thick-the thicker the better.
 * Place a 30-centimeter (1-foot) layer of insulating material inside the shelter.
 * At the entrance, pile insulating material that you can drag to you once inside the shelter to close the entrance or build a door.
 * As a final step in constructing this shelter, add shingling material or branches on top of the debris layer to prevent the insulating material from blowing away in a storm.

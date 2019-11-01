@@ -75,7 +75,7 @@ Harden the point by a process known as fire hardening. If a fire is possible, dr
 
 **Metal**
 
-Metal is the best material to make field-expedient edged weapons. Metal, when properly designed, can fulfill a knife's three usespuncture, slice or chop, and cut. First, select a suitable piece of metal, one that most resembles the desired end product. Depending on the size and original shape, you can obtain a point and cutting edge by rubbing the metal on a rough-surfaced stone. If the metal is soft enough, you can hammer out one edge while the metal is cold. Use a suitable flat, hard surface as an anvil and a smaller, harder object of stone or metal as a hammer to hammer out the edge. Make a knife handle from wood, bone, or other material that will protect your hand.
+Metal is the best material to make field-expedient edged weapons. Metal, when properly designed, can fulfill a knife's three uses: puncture, slice or chop, and cut. First, select a suitable piece of metal, one that most resembles the desired end product. Depending on the size and original shape, you can obtain a point and cutting edge by rubbing the metal on a rough-surfaced stone. If the metal is soft enough, you can hammer out one edge while the metal is cold. Use a suitable flat, hard surface as an anvil and a smaller, harder object of stone or metal as a hammer to hammer out the edge. Make a knife handle from wood, bone, or other material that will protect your hand.
 
 **Other Materials**
 

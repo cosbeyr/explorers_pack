@@ -121,7 +121,7 @@ If the person is conscious, give him hot, sweetened fluids. Honey or dextrose ar
 > 
 > Do not force an unconscious person to drink.
 
-There are two dangers in treating hypothermia—rewarming too rapidly and "after-drop." Rewarming too rapidly can cause the victim to have circulatory problems, resulting in heart failure. After-drop is the sharp body core temperature drop that occurs when taking the victim from the warm water. Its probable cause is the return of previously stagnant limb blood to the core (inner torso) area as recirculation occurs. Concentrating on warming the core area and stimulating peripheral circulation will lessen the effects of after-drop. Immersing the torso in a warm bath, if possible, is the best treatment.
+There are two dangers in treating hypothermia: rewarming too rapidly and "after-drop." Rewarming too rapidly can cause the victim to have circulatory problems, resulting in heart failure. After-drop is the sharp body core temperature drop that occurs when taking the victim from the warm water. Its probable cause is the return of previously stagnant limb blood to the core (inner torso) area as recirculation occurs. Concentrating on warming the core area and stimulating peripheral circulation will lessen the effects of after-drop. Immersing the torso in a warm bath, if possible, is the best treatment.
 
 **FROSTBITE**
 
@@ -307,7 +307,7 @@ Insect bites can become infected through constant scratching. Flies can carry va
 
 ### FOOD
 
-There are several sources of food in the arctic and subarctic regions. The type of food—fish, animal, fowl, or plant - and the ease in obtaining it depend on the time of the year and your location.
+There are several sources of food in the arctic and subarctic regions. The type of food - fish, animal, fowl, or plant - and the ease in obtaining it depend on the time of the year and your location.
 
 **FISH**
 

@@ -51,7 +51,7 @@ You can also use a car or truck with a combustion engine to generate power. Cars
 
 Alessandro Volta was an Italian physicist, chemist and a pioneer of electricity and power. He is the credited inventor of the first electrical battery and invented the Voltaic pile in 1799. Early experiments were conducted in an easy to reproduce method : plug two pieces of metal into a lemon.
 
-If the pieces of metal are made of copper for one (like electric wires or cents, the brown/orange shining ones) and zinc for the other (like a paper-clip in a galvanized steel - covered by zinc - or old bars metal-sheet cover, gutters and Paris roof covers), both approximately 3cm², plugged at another 3cm of distance from one another, a tension of around 1V will be generated between them. The copper part will be the positive pole of this power generator, and the zinc one the negative pole.
+If the pieces of metal are made of copper for one (like electric wires or cents, the brown/orange shining ones) and zinc for the other (like a paper-clip in a galvanized steel - covered by zinc - or old bars metal-sheet cover, gutters and Paris roof covers), both approximately 3 centimeters squared, plugged at another 3cm of distance from one another, a tension of around 1V will be generated between them. The copper part will be the positive pole of this power generator, and the zinc one the negative pole.
 
 To recharge a USB powered device you will need a pile of 5 lemon cells plugged in series (negative pole of the 1st to the positive pole of the 2nd, etc).
 
