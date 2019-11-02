@@ -41,10 +41,12 @@ function dataLoader() {
         console.log(tempObj);
         template.items.push(tempObj);
     });
+
     return template;
 }
 function GuideViewModel() {
     const viewModel = observableModule.fromObject(dataLoader());
+
     return viewModel;
 }
 module.exports = GuideViewModel;
