@@ -1,17 +1,31 @@
 <Page
     class="page"
     navigatingTo="onNavigatingTo"
-    xmlns="http://schemas.nativescript.org/tns.xsd">
+    xmlns="http://schemas.nativescript.org/tns.xsd"
+    xmlns:lv="nativescript-ui-listview">
 
     <ActionBar class="action-bar">
         <Label class="action-bar-title" text="Home"></Label>
     </ActionBar>
 
-    <ListView items="{{ items }}" itemTap="onItemTap" class="list-group">
-        <ListView.itemTemplate>
-            <StackLayout orientation="horizontal" class="list-group-item">
-                <Label text="{{ name }}" textWrap="true"></Label>
-            </StackLayout>
-        </ListView.itemTemplate>
-    </ListView>
+<!--    <ListView items="{{ _array }}" itemTap="onItemTap" class="list-group">-->
+<!--        <ListView.itemTemplate>-->
+<!--            <StackLayout orientation="horizontal" class="list-group-item">-->
+<!--                <Label text="{{ name }}" textWrap="true"></Label>-->
+<!--            </StackLayout>-->
+<!--        </ListView.itemTemplate>-->
+<!--    </ListView>-->
+    <GridLayout rows="*">
+        <lv:RadListView id = "list-view" row="0" items="{{ _array }}" itemTap="onItemTap"  marginRight="-2">
+            <lv:RadListView.listViewLayout>
+                <lv:ListViewGridLayout scrollDirection="Vertical" itemHeight="250" spanCount="2"/>
+            </lv:RadListView.listViewLayout>
+            <lv:RadListView.itemTemplate>
+                            <StackLayout orientation="vertical" class="list-group-item">
+                              <Image src="font://&#xf518;" stretch="auto"/>
+                              <Label text="{{ name }}" textWrap="true"></Label>
+                            </StackLayout>
+            </lv:RadListView.itemTemplate>
+        </lv:RadListView>
+    </GridLayout>
 </Page>
