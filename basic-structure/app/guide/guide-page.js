@@ -5,6 +5,8 @@ var tileList = new guidePageViewModel();// {"_observers"{}, _array{<our tile obj
 
 function onNavigatingTo(args) {
     const component = args.object;//the page
+    //component.actionBarHidden = true;
+    //component.cssClasses.add("page-background")
     component.bindingContext = tileList;
 }
 
