@@ -1,44 +1,17 @@
 const observableModule = require("tns-core-modules/data/observable");
+
 function dataLoader() {
-    const data = "Animals\n" +
-        "Apps\n" +
-        "Camouflage\n" +
-        "Cold\n" +
-        "DangerousArthropods\n" +
-        "Desert\n" +
-        "DirectionFinding\n" +
-        "Fire\n" +
-        "FishAndMollusks\n" +
-        "Food\n" +
-        "HostileAreas\n" +
-        "Introduction\n" +
-        "Kits\n" +
-        "ManMadeHazards\n" +
-        "Medicine\n" +
-        "MultiTool\n" +
-        "People\n" +
-        "Planning\n" +
-        "Plants\n" +
-        "PoisonousPlants\n" +
-        "Power\n" +
-        "Psychology\n" +
-        "RopesAndKnots\n" +
-        "Sea\n" +
-        "Self-defense\n" +
-        "Shelter\n" +
-        "Signaling\n" +
-        "Tools\n" +
-        "Tropical\n" +
-        "Water\n" +
-        "WaterCrossing";
-    const dataArr = data.split("\n");
+    if(global.guideObject == undefined) {
+        global.guideObject = require('./manual.json') //this (necessarily) is synchronous 
+        global.guideChapters = Object.keys(global.guideObject)
+    }
+   
     const template = {};
     template.items = [];
-    dataArr.map((subject) => {
+    global.guideChapters.forEach((chapter) => {
         const tempObj = {};
-        tempObj.name = subject;
-        tempObj.description = `Description for ${subject}`;
-        console.log(tempObj);
+        tempObj.name = chapter;
+        tempObj.description = global.guideObject[chapter].main;
         template.items.push(tempObj);
     });
     return template;
