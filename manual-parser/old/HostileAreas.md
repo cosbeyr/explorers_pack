@@ -32,7 +32,7 @@ After you have located your hide site, do not move straight into it. Use a butto
 
 Maintain your security through visual scanning and listening. Upon detection of the enemy, the security personnel alert all personnel, even if the team's plan is to stay hidden and not move upon sighting the enemy. Take this action so that everyone is aware of the danger and ready to react.
 
-If any team member leaves the team, give him a five-point contingency plan. It should include—Who is going? Where are they going? How long will they be gone? What to do if they are hit or don't return on time? Where to go if anyone is hit?
+If any team member leaves the team, give him a five-point contingency plan. It should include: Who is going? Where are they going? How long will they be gone? What to do if they are hit or don't return on time? Where to go if anyone is hit?
 
 It is extremely important to stay healthy and alert when trying to avoid capture. Take every opportunity to rest, but do not sacrifice security. Rotate security so that all members of your movement team can rest. Treat all injuries, no matter how minor. Loss of your health will mean loss of your ability to continue to avoid capture.
 

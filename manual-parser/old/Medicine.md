@@ -70,7 +70,7 @@ Calories are a measure of heat and potential energy. The average person needs 2,
 
 **Plants**
 
-Plant foods provide carbohydrates—the main source of energy. Many plants provide enough protein to keep the body at normal efficiency. Although plants may not provide a balanced diet, they will sustain you even in the arctic, where meat's heat-producing qualities are normally essential. Many plant foods such as nuts and seeds will give you enough protein and oils for normal efficiency. Roots, green vegetables, and plant foods containing natural sugar will provide calories and carbohydrates that give the body natural energy.
+Plant foods provide carbohydrates - the main source of energy. Many plants provide enough protein to keep the body at normal efficiency. Although plants may not provide a balanced diet, they will sustain you even in the arctic, where meat's heat-producing qualities are normally essential. Many plant foods such as nuts and seeds will give you enough protein and oils for normal efficiency. Roots, green vegetables, and plant foods containing natural sugar will provide calories and carbohydrates that give the body natural energy.
 
 The food value of plants becomes more and more important if you are eluding enemies or if you are in an area where wildlife is scarce. For instance:
 
@@ -434,7 +434,7 @@ An interruption of the skin's integrity characterizes wounds. These wounds could
 
 Open wounds are serious in a survival situation, not only because of tissue damage and blood loss, but also because they may become infected. Bacteria on the object that made the wound, on the individual's skin and clothing, or on other foreign material or dirt that touches the wound may cause infection.
 
-By taking proper care of the wound you can reduce further contamination and promote healing. Clean the wound as soon as possible after it occurs by—
+By taking proper care of the wound you can reduce further contamination and promote healing. Clean the wound as soon as possible after it occurs by:
 
 * Removing or cutting clothing away from the wound.
 * Always looking for an exit wound if a sharp object, gunshot, or projectile caused a wound.

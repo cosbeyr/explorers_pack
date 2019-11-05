@@ -73,7 +73,7 @@ If you have a life preserver, you can stay afloat for an indefinite period. In t
 If you are in a raft (also see Raft Procedures):
 
 * Check the physical condition of all on board. Give first aid if necessary. Take seasickness pills if available. The best way to take these pills is to place them under the tongue and let them dissolve. There are also suppositories or injections against seasickness. Vomiting, whether from seasickness or other causes, increases the danger of dehydration.
-* Try to salvage all floating equipment—rations; canteens, thermos jugs, and other containers; clothing; seat cushions; parachutes; and anything else that will be useful to you. Secure the salvaged items in or to your raft. Make sure the items have no sharp edges that can puncture the raft.
+* Try to salvage all floating equipment-rations; canteens, thermos jugs, and other containers; clothing; seat cushions; parachutes; and anything else that will be useful to you. Secure the salvaged items in or to your raft. Make sure the items have no sharp edges that can puncture the raft.
 * If there are other rafts, lash the rafts together so they are about 7.5 meters (25 feet) apart. Be ready to draw them closer together if you see or hear an aircraft. It is easier for an aircrew to spot rafts that are close together rather than scattered.
 * Remember, rescue at sea is a cooperative effort. Use all available visual or electronic signaling devices to signal and make contact with rescuers. For example, raise a flag or reflecting material on an oar as high as possible to attract attention.
 * Locate the emergency radio and get it into operation. Operating instructions are on it. Use the emergency transceiver only when friendly aircraft are likely to be in the area.
@@ -118,14 +118,14 @@ If you are in a cold climate:
 * Huddle with others to keep warm, moving enough to keep the blood circulating. Spread an extra tarpaulin, sail, or parachute over the group.
 * Give extra rations, if available, to men suffering from exposure to cold.
 
-The greatest threat you face when submerged in cold water is death due to hypothermia. The average ocean temperature around the world is only 11 degrees C (51 degrees F). However, do not be fooled by warm water—hypothermia can even occur in 27-degree C (80-degree F) water. When you are immersed in cold water, hypothermia occurs rapidly due to the decreased insulating quality of wet clothing and the result of water displacing the layer of still air that normally surrounds the body. The rate of heat exchange in water is about 25 times greater than it is in air of the same temperature. [Figure 16-7](#fig16-7) lists life expectancy times for immersion in water.
+The greatest threat you face when submerged in cold water is death due to hypothermia. The average ocean temperature around the world is only 11 degrees C (51 degrees F). However, do not be fooled by warm water-hypothermia can even occur in 27-degree C (80-degree F) water. When you are immersed in cold water, hypothermia occurs rapidly due to the decreased insulating quality of wet clothing and the result of water displacing the layer of still air that normally surrounds the body. The rate of heat exchange in water is about 25 times greater than it is in air of the same temperature. [Figure 16-7](#fig16-7) lists life expectancy times for immersion in water.
 
 |Water Temperature|Time|
 |-----------------|----|
-|21.0-15.5 °C (70-60 °F)|12 hours|
-|15.5-10.0 °C (60-50 °F)|6 hours|
-|10.0-4.5 °C (50-40 °F)|1 hour|
-|4.5 °C (40 °F) and below|Less than 1 hour|
+|21.0-15.5 degrees C (70-60 degrees F)|12 hours|
+|15.5-10.0 degrees C (60-50 degrees F)|6 hours|
+|10.0-4.5 degreesC (50-40 degrees F)|1 hour|
+|4.5 degrees C (40 degrees F) and below|Less than 1 hour|
 
 **Note:** Wearing an antiexposure suit may increase these times up to a maximum of 24 hours.
 
@@ -222,9 +222,9 @@ An incompletely inflated raft will make boarding easier. Approach the intersecti
 
 Immediately tighten the equalizer clamp upon entering the raft to prevent deflating the entire raft in case of a puncture ([Figure 16-16](#fig16-16)).
 
-<a name="fig16-16"></a>![Figure 16-16\. Immediate Action—Multiplace Raft](fig16-16.png)
+<a name="fig16-16"></a>![Figure 16-16\. Immediate Action-Multiplace Raft](fig16-16.png)
 
-**Figure 16-16\. Immediate Action—Multiplace Raft**
+**Figure 16-16\. Immediate Action-Multiplace Raft**
 
 Use the pump to keep these rafts' chambers and center ring firm. They should be well rounded but not overly tight. The center rings keep the center of the floor afloat, and give raft occupants something to brace their feet against to prevent all occupants from sliding toward the center.
 
@@ -260,7 +260,7 @@ At night, secure the tarpaulin like a sunshade, and turn up its edges to collect
 
 Most rafts today are equipped with a manual reverse osmosis desalinator (MROD). The MROD is a very highly efficient water purifier designed to remove salt particles from seawater, thereby making seawater potable. The two most common models are the Survivor 35 and the Survivor 06, which make 35 and 6 gallons of potable water in a 24-hour period if used continuously. Water procurement at sea is a 24-hour-a-day job. The MROD's life cycle is up to 50,000 gallons of water. The MROD has a 10-year shelf life before it must be repacked by the manufacturer.
 
-To operate the MROD, place both the intake (larger dual hose) and the potable water supply hose into the water. Begin a 2-second cycle of pumping the handle—one second up, one second down. A pressure indicator will protrude from the pump housing to show that the proper flow is being maintained. An orange band will be visible when the correct rhythm is maintained. Purge the antimicrobial packing agent from the filter medium for 2 minutes. Then begin to collect potable water.
+To operate the MROD, place both the intake (larger dual hose) and the potable water supply hose into the water. Begin a 2-second cycle of pumping the handle-one second up, one second down. A pressure indicator will protrude from the pump housing to show that the proper flow is being maintained. An orange band will be visible when the correct rhythm is maintained. Purge the antimicrobial packing agent from the filter medium for 2 minutes. Then begin to collect potable water.
 
 **NOTE:** Ensure that the water is free from any petroleum residue (jet fuel, hydraulic fluid, or oil) before using an MROD. The filter medium is very sensitive to petroleum, oils, and lubricants, and will render the filter useless, destroying your water production capability.
 
@@ -282,7 +282,7 @@ In arctic waters, use old sea ice for water. This ice is bluish, has rounded cor
 
 As in any survival situation there are dangers when you are substituting or compromising necessities. Even though water is one of your basic needs, keep in mind the following tips.
 
-**DO NOT—**
+**DO NOT:**
 
 * Drink seawater.
 * Drink urine.
@@ -290,7 +290,7 @@ As in any survival situation there are dangers when you are substituting or comp
 * Smoke.
 * Eat, unless water is available.
 
-Sleep and rest are the best ways of enduring periods of reduced water and food intake. However, make sure that you have enough shade when napping during the day. If the sea is rough, tie yourself to the raft, close any cover, and ride out the storm as best you can. **Relax** is the key word—at least try to relax.
+Sleep and rest are the best ways of enduring periods of reduced water and food intake. However, make sure that you have enough shade when napping during the day. If the sea is rough, tie yourself to the raft, close any cover, and ride out the storm as best you can. **Relax** is the key word - at least try to relax.
 
 **FOOD PROCUREMENT**
 
@@ -366,7 +366,7 @@ To treat seasickness:
 
 **Saltwater Sores**
 
-These sores result from a break in skin exposed to saltwater for an extended period. They may also occur at the areas that your clothing binds you—your waist, ankles, or wrist. The sores may form scabs and pus. Do not open or drain the sores. Flush them with freshwater, if available, and allow to dry. Apply an antiseptic, if available.
+These sores result from a break in skin exposed to saltwater for an extended period. They may also occur at the areas that your clothing binds you - your waist, ankles, or wrist. The sores may form scabs and pus. Do not open or drain the sores. Flush them with freshwater, if available, and allow to dry. Apply an antiseptic, if available.
 
 **Immersion Rot, Frostbite, and Hypothermia**
 
@@ -386,7 +386,7 @@ This problem is not unusual and is due mainly to dehydration. It is best not to 
 
 **Sunburn**
 
-Sunburn is a serious problem in sea survival. Try to prevent sunburn by staying in the shade and keeping your head and skin covered. Use cream or lip salve from your first-aid kit. Remember, reflection from the water also causes sunburn in places where the sun usually doesn't burn you—tender skin under the earlobes, eyebrows, nose, chin, and underarms.
+Sunburn is a serious problem in sea survival. Try to prevent sunburn by staying in the shade and keeping your head and skin covered. Use cream or lip salve from your first-aid kit. Remember, reflection from the water also causes sunburn in places where the sun usually doesn't burn you - tender skin under the earlobes, eyebrows, nose, chin, and underarms.
 
 **SHARKS**
 

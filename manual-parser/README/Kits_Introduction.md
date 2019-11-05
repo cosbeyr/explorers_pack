@@ -1,0 +1,1 @@
+> Even the smallest survival kit, if properly prepared, is invaluable when faced with a survival problem. When the situation arises you might not be able to just buy what you need - so it is good to have some essentials for these cases.

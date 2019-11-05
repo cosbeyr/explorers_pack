@@ -149,7 +149,7 @@ You need three types of materials ([Figure 7-4](#fig7-4)) to build a fire.
 
 **Figure 7-4\. Materials for Building Fires (Continued)**
 
-Tinder is dry material that ignites with little heat—a spark starts a fire. The tinder must be absolutely dry to be sure just a spark will ignite it. If you have a device that generates only sparks, charred cloth will be almost essential. It holds a spark for long periods, allowing you to put tinder on the hot area to generate a small flame. You can make charred cloth by heating cotton cloth until it turns black, but does not burn. Once it is black, you must keep it in an airtight container to keep it dry. Prepare this cloth well in advance of any survival situation. Add it to your individual survival kit. Other impromptu items could be alcohol pads or petroleum jelly gauze.
+Tinder is dry material that ignites with little heat - a spark starts a fire. The tinder must be absolutely dry to be sure just a spark will ignite it. If you have a device that generates only sparks, charred cloth will be almost essential. It holds a spark for long periods, allowing you to put tinder on the hot area to generate a small flame. You can make charred cloth by heating cotton cloth until it turns black, but does not burn. Once it is black, you must keep it in an airtight container to keep it dry. Prepare this cloth well in advance of any survival situation. Add it to your individual survival kit. Other impromptu items could be alcohol pads or petroleum jelly gauze.
 
 Kindling is readily combustible material that you add to the burning tinder. Again, this material should be absolutely dry to ensure rapid burning. Kindling increases the fire's temperature so that it will ignite less combustible material.
 
