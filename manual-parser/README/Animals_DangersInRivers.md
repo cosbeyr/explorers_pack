@@ -1,0 +1,10 @@
+
+Common sense will tell you to avoid confrontations with hippopotami, alligators, crocodiles, and other large river creatures. However, there are also the following smaller river creatures with which you should be cautious.
+
+Electric eels (_Electrophorus electricus_) may reach 2 meters (7 feet) in length and 20 centimeters (8 inches) in diameter. Avoid them. They are capable of generating up to 500 volts of electricity in certain organs of their body. They use this shock to stun prey and enemies. Normally, you find these eels in the Orinoco and Amazon River systems in South America. They seem to prefer shallow waters that are more highly oxygenated and provide more food. They are bulkier than American eels. Their upper body is dark gray or black with a lighter-colored underbelly.
+
+Piranhas (_Serrasalmo_ species) are another hazard of the Orinoco and Amazon River systems, as well as the Paraguay River Basin, where they are native. These fish vary greatly in size and coloration, but usually have a combination of orange undersides and dark tops. They have white, razor-sharp teeth that are clearly visible. They may be as long as 50 centimeters (20 inches). Use great care when crossing waters where they live. Blood attracts them. They are most dangerous in shallow waters during the dry season.
+
+Be careful when handling and capturing large freshwater turtles, such as the snapping turtles and soft-shelled turtles of North America and the matamata and other turtles of South America. All of these turtles will bite in self-defense and can amputate fingers and toes.
+
+The platypus or duckbill (_Ornithorhyncus anatinus_) is the only member of its family and is easily recognized. It has a long body covered with grayish, short hair, a tail like a beaver, and a bill like a duck. Growing up to 60 centimeters (24 inches) in length, it may appear to be a good food source, but this egg-laying mammal, the only one in the world, is very dangerous. The male has a poisonous spur on each hind foot that can inflict intensely painful wounds. You find the platypus only in Australia, mainly along mud banks on waterways.

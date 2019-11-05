@@ -6,7 +6,7 @@
 
 Almost any environment has water present to some degree. Possible sources of water in various environments are listed below. Information on how to make the water potable is provided as well.
 
-**NOTE:** If you do not have a canteen, cup, can, or other type of container, improvise one from plastic or water-resistant cloth. Shape the plastic or cloth into a bowl by pleating it. Use pins or other suitable items—even your hands—to hold the pleats.
+**NOTE:** If you do not have a canteen, cup, can, or other type of container, improvise one from plastic or water-resistant cloth. Shape the plastic or cloth into a bowl by pleating it. Use pins or other suitable items-even your hands-to hold the pleats.
 
 * **Frigid areas**
   * **Snow and ice**
@@ -229,7 +229,7 @@ Examples of other diseases or organisms are:
 * _Dysentery._ You may experience severe, prolonged diarrhea with bloody stools, fever, and weakness.
 * _Cholera and typhoid._ You may be susceptible to these diseases regardless of inoculations. Cholera can cause profuse, watery diarrhea, vomiting, and leg cramps. Typhoid symptoms include fever, headache, loss of appetite, constipation, and bleeding in the bowel.
 * _Hepatitis A._ Symptoms include diarrhea, abdominal pain, jaundice, and dark urine. This infection can spread through close person-to-person contact or ingestion of contaminated water or food.
-* _Flukes._ Stagnant, polluted water—especially in tropical areas—often contains blood flukes. If you swallow flukes, they will bore into the bloodstream, live as parasites, and cause disease.
+* _Flukes._ Stagnant, polluted water-especially in tropical areas-often contains blood flukes. If you swallow flukes, they will bore into the bloodstream, live as parasites, and cause disease.
 * _Leeches._ If you swallow a leech, it can hook onto the throat passage or inside the nose. It will suck blood, create a wound, and move to another area. Each bleeding wound may become infected.
 
 ### WATER FILTRATION DEVICES

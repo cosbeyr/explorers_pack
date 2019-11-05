@@ -1,4 +1,4 @@
-> One of man's most urgent requirements is food. In contemplating virtually any hypothetical survival situation, the mind immediately turns to thoughts of food. Unless the situation occurs in an arid environment, even water, which is more important to maintaining body functions, will usually follow food in our initial thoughts. The survivor must remember that the three essentials of survival—water, food, and shelter—are prioritized according to the estimate of the actual situation. This estimate must not only be timely but accurate as well. We can live for weeks without food but it may take days or weeks to determine what is safe to eat and to trap animals in the area. Therefore, you need to begin food gathering in the earliest stages of survival as your endurance will decrease daily. Some situations may well dictate that shelter precede both food and water.
+> One of man's most urgent requirements is food. In contemplating virtually any hypothetical survival situation, the mind immediately turns to thoughts of food. Unless the situation occurs in an arid environment, even water, which is more important to maintaining body functions, will usually follow food in our initial thoughts. The survivor must remember that the three essentials of survival - water, food, and shelter - are prioritized according to the estimate of the actual situation. This estimate must not only be timely but accurate as well. We can live for weeks without food but it may take days or weeks to determine what is safe to eat and to trap animals in the area. Therefore, you need to begin food gathering in the earliest stages of survival as your endurance will decrease daily. Some situations may well dictate that shelter precede both food and water.
 
 ### ANIMALS FOR FOOD
 
@@ -101,7 +101,7 @@
 
 **Figure 8-5\. Catching Birds in a Net**
 
-8-24\. Nesting birds present another food source—eggs. Remove all but two or three eggs from the clutch, marking the ones that you leave. The bird will continue to lay more eggs to fill the clutch. Continue removing the fresh eggs, leaving the ones you marked.
+8-24\. Nesting birds present another food source - eggs. Remove all but two or three eggs from the clutch, marking the ones that you leave. The bird will continue to lay more eggs to fill the clutch. Continue removing the fresh eggs, leaving the ones you marked.
 
 **MAMMALS**
 
@@ -111,7 +111,7 @@
 
 ### TRAPS AND SNARES
 
-8-27\. For an unarmed survivor or evader, or when the sound of a rifle shot could be a problem, trapping or snaring wild game is a good alternative. Several well-placed traps have the potential to catch much more game than a man with a rifle is likely to shoot. To be effective with any type of trap or snare, you must—
+8-27\. For an unarmed survivor or evader, or when the sound of a rifle shot could be a problem, trapping or snaring wild game is a good alternative. Several well-placed traps have the potential to catch much more game than a man with a rifle is likely to shoot. To be effective with any type of trap or snare, you must:
 *  Be familiar with the species of animal you intend to catch.
 *  Be capable of constructing a proper trap and properly masking your scent.
 *  Not alarm the prey by leaving signs of your presence.
@@ -269,7 +269,7 @@
 
 **SPEAR**
 
-8-52\. You can make a spear to kill small game and to fish. Jab with the spear—do not throw it. [Paragraph 8-67](#para8-67) explains spearfishing.
+8-52\. You can make a spear to kill small game and to fish. Jab with the spear - do not throw it. [Paragraph 8-67](#para8-67) explains spearfishing.
 
 **BOW AND ARROW**
 
@@ -367,7 +367,7 @@
 
 **FISH**
 
-8-71\. Do not eat fish that appears spoiled. Cooking does not ensure that spoiled fish will be edible. Signs of spoilage are—
+8-71\. Do not eat fish that appears spoiled. Cooking does not ensure that spoiled fish will be edible. Signs of spoilage are:
 *  Sunken eyes.
 *  Peculiar odor.
 *  Suspicious color. (Gills should be red to pink. Scales should be a pronounced shade of gray, not faded.)

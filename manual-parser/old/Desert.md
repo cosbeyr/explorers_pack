@@ -2,7 +2,7 @@
 
 ### TERRAIN
 
-13-1\. Most arid areas have several types of terrain. The five basic desert terrain types are—
+13-1\. Most arid areas have several types of terrain. The five basic desert terrain types are:
 
 *  Mountainous (high altitude).
 *  Rocky plateau.
@@ -38,7 +38,7 @@
 
 13-9\. Surviving and evading the enemy in an arid area depends on what you know and how prepared you are for the environmental conditions you will face. Determine what equipment you will need, the tactics you will use, and the environment's impact on them and you.
 
-13-10\. In a desert area there are seven environmental factors that you must consider—
+13-10\. In a desert area there are seven environmental factors that you must consider:
 
 *  Low rainfall.
 *  Intense sunlight and heat.
@@ -112,9 +112,9 @@
 
 13-30\. A key factor in desert survival is understanding the relationship between physical activity, air temperature, and water consumption. The body requires a certain amount of water for a certain level of activity at a certain temperature. For example, a person performing hard work in the sun at 43 degrees C (109 degrees F) requires 19 liters (5 gallons) of water daily. Lack of the required amount of water causes a rapid decline in an individual's ability to make decisions and to perform tasks efficiently.
 
-13-31\. Your body's normal temperature is 36.9 degrees C (98.6 degrees F). Your body gets rid of excess heat (cools off) by sweating. The warmer your body becomes—whether caused by work, exercise, or air temperature—the more you sweat. The more you sweat, the more moisture you lose. Sweating is the principal cause of water loss. If you stop sweating during periods of high air temperature and heavy work or exercise, you will quickly develop heat stroke. This is an emergency that requires immediate medical attention.
+13-31\. Your body's normal temperature is 36.9 degrees C (98.6 degrees F). Your body gets rid of excess heat (cools off) by sweating. The warmer your body becomes - whether caused by work, exercise, or air temperature - the more you sweat. The more you sweat, the more moisture you lose. Sweating is the principal cause of water loss. If you stop sweating during periods of high air temperature and heavy work or exercise, you will quickly develop heat stroke. This is an emergency that requires immediate medical attention.
 
-13-32\. [Figure 13-2](#fig13-2) shows daily water requirements for various levels of work. Understanding how the air temperature and your physical activity affect your water requirements allows you to take measures to get the most from your water supply. These measures are—
+13-32\. [Figure 13-2](#fig13-2) shows daily water requirements for various levels of work. Understanding how the air temperature and your physical activity affect your water requirements allows you to take measures to get the most from your water supply. These measures are:
 
 *  Find shade! Get out of the sun!
 *  Place something between you and the hot ground.

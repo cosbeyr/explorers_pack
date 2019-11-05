@@ -1,0 +1,1 @@
+With all that being said, if you're going to stay out of trouble then it won't be that easy for trouble to find you. Still, you need to be prepared. Whether it is an article, book or self-defense classes you should understand what self-defense is all about and think how much experience and knowledge is enough to keep yourself safe or not.

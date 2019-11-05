@@ -1,0 +1,8 @@
+
+19-1\. If in a noncombat situation, you need to find the largest available clear and flat area _on the highest possible terrain._ Use as obvious a signal as you can create. On the other hand, you will have to be more discreet in combat situations. You do not want to signal and attract the enemy. Pick an area that is visible from the air, but ensure there are hiding places nearby. Try to have a hill or other object between the signal site and the enemy to mask your signal from the enemy. Perform a thorough reconnaissance of the area to ensure there are no enemy forces nearby.
+
+19-2\. Whatever signaling technique or device you plan to use, know how to use it and be ready to put it into operation on short notice. If possible, avoid using signals or signaling techniques that can physically endanger you. Keep in mind that signals to your _friends_ may alert the enemy of your presence and location. Before signaling, carefully weigh your rescue chances by _friends_ against the danger of capture by the enemy.
+
+19-3\. A radio is probably the surest and quickest way to let others know where you are and to let you receive their messages. Become familiar with the radios in your unit. Learn how to operate them and how to send and receive messages.
+
+19-4\. You will find descriptions of other signaling techniques, devices, and articles you can use. Learn how to use them. Think of ways in which you can adapt or change them for different environments. Practice using these signaling techniques, devices, and articles before you need them. Planned, prearranged signaling techniques may improve your chance of rescue.
