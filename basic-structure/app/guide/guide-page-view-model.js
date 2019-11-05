@@ -1,7 +1,7 @@
 const ObservableArray = require("tns-core-modules/data/observable-array").ObservableArray;
 function dataLoader() {
     if (global.guideObject === undefined) {
-        global.guideObject = require("./manual.json"); //this (necessarily) is synchronous
+        global.guideObject = require("../App_Resources/guide/guide.json"); //this (necessarily) is synchronous
         global.guideChapters = Object.keys(global.guideObject);
     }
 
