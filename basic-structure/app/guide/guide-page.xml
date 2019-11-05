@@ -1,17 +1,36 @@
 <Page
     class="page"
     navigatingTo="onNavigatingTo"
-    xmlns="http://schemas.nativescript.org/tns.xsd">
+    xmlns="http://schemas.nativescript.org/tns.xsd"
+    xmlns:lv="nativescript-ui-listview">
 
     <ActionBar class="action-bar">
-        <Label class="action-bar-title" text="Home"></Label>
+        <Label class="action-bar-title" text="Guide"></Label>
     </ActionBar>
 
-    <ListView items="{{ items }}" itemTap="onItemTap" class="list-group">
-        <ListView.itemTemplate>
-            <StackLayout orientation="horizontal" class="list-group-item">
-                <Label text="{{ name }}" textWrap="true"></Label>
-            </StackLayout>
-        </ListView.itemTemplate>
-    </ListView>
+<!--    <ListView items="{{ _array }}" itemTap="onItemTap" class="list-group">-->
+<!--        <ListView.itemTemplate>-->
+<!--            <StackLayout orientation="horizontal" class="list-group-item">-->
+<!--                <Label text="{{ name }}" textWrap="true"></Label>-->
+<!--            </StackLayout>-->
+<!--        </ListView.itemTemplate>-->
+<!--    </ListView>-->
+    <StackLayout >
+        <SearchBar hint="Search the survival manual" padding-top = "5" class="search-bar" textFieldBackgroundColor="white"></SearchBar>
+        <GridLayout rows="*" >
+            <lv:RadListView id = "list-view" row="0" items="{{ _array }}" itemTap="onItemTap"   marginRight="-2">
+                <lv:RadListView.listViewLayout >
+                    <lv:ListViewGridLayout scrollDirection="Vertical" itemHeight="250" spanCount="3" />
+                </lv:RadListView.listViewLayout>
+                <lv:RadListView.itemTemplate>
+                                <StackLayout orientation="vertical" class="list-group-item" margin = "15" borderRadius = "10">
+                                  <Image src="font://&#xf17b;" class="fa t-36 icons" />
+                                   <StackLayout class="tiles" padding = "10">
+                                       <Label text="{{ name }}" textWrap="true" class ="tileText"></Label>
+                                   </StackLayout>
+                                </StackLayout>
+                </lv:RadListView.itemTemplate>
+            </lv:RadListView>
+        </GridLayout>
+    </StackLayout>
 </Page>

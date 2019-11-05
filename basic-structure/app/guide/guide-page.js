@@ -1,8 +1,13 @@
 const guidePageViewModel = require("./guide-page-view-model");
+var observableModule = require("tns-core-modules/data/observable")
+var ObservableArray = require("tns-core-modules/data/observable-array").ObservableArray;
+var tileList = new guidePageViewModel();// {"_observers"{}, _array{<our tile objects>}}
 
 function onNavigatingTo(args) {
-    const component = args.object;
-    component.bindingContext = new guidePageViewModel();
+    const component = args.object;//the page
+    //component.actionBarHidden = true;
+    //component.cssClasses.add("page-background")
+    component.bindingContext = tileList;
 }
 
 function onItemTap(args) {

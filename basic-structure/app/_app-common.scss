@@ -9,6 +9,33 @@
     font-size: 36;
 }
 
+.icons{
+    //font-size: 128px;
+    background: #068AB1;
+    color: white;
+    width: 120;
+    height: 64;
+    padding-top: 10%;
+}
+
+.tileText{
+    font-weight: bold;
+}
+.tiles{
+    text-align: center;
+    background: #068AB1;
+    color: white;
+    padding-bottom: 10%;
+}
+
+.search-bar{
+    background-color: #DBF0F3;
+}
+
+.page-background{
+    background-color: #DBF0F3;
+}
+
 // Common page class
 .page-content {
     .page-placeholder {
