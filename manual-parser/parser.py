@@ -102,21 +102,12 @@ def getGuideJSON(chapters, titles):
     '''
     survival_guide = OrderedDict()
 
-    #titles = [(i,t) for i,t in enumerate(titles) if t == 'Dangerous Arthropods']
-    #chapters = [chapters[titles[0][0]]]
-    #titles = [titles[0][1]]
-
     for chapter,title in zip(chapters, titles):
         sections = OrderedDict()
-        #print(chapter, title)
         with open(os.path.join('old/', chapter), 'r') as f:
             data = f.readlines()
 
         introduction, start = getIntroduction(data)
-
-        #print(len(data), start)
-
-        #print(''.join(introduction))
 
         if len(introduction) != 0: 
             sections['Introduction'] = [l.strip() for l in introduction if len(l.strip()) > 0]
@@ -131,10 +122,10 @@ def main():
     chapters, titles = getChapters()
     survival_guide = getGuideJSON(chapters, titles)
 
-    with open('app.json', 'w') as f:
+    with open('manual.json', 'w') as f:
         json.dump(survival_guide, f)
 
-    with open('app.json', 'r') as f:
+    with open('manual.json', 'r') as f:
         data = json.load(f, object_pairs_hook=OrderedDict)
 
     return data
