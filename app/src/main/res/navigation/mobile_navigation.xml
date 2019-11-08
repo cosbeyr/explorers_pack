@@ -7,9 +7,17 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.WWU.explorerspack.ui.guide.GuideFragment"
+        android:name="com.WWU.explorerspack.ui.guide.GuideListFragment"
         android:label="@string/title_guide"
-        tools:layout="@layout/fragment_guide" />
+        tools:layout="@layout/fragment_chapters_list" >
+        <action
+            android:id="@+id/action_navigation_home_to_chapter_page"
+            app:destination="@id/chapter_page"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_dashboard"
@@ -22,4 +30,10 @@
         android:name="com.WWU.explorerspack.ui.logs.LogsFragment"
         android:label="@string/title_logs"
         tools:layout="@layout/fragment_logs" />
+
+    <fragment
+        android:id="@+id/chapter_page"
+        android:name="com.WWU.explorerspack.ui.guide.L2.ChapterPageFragment"
+        android:label="chapter"
+        tools:layout="@layout/chapter_page_fragment"/>
 </navigation>
