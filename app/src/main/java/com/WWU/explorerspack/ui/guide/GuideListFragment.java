@@ -107,7 +107,7 @@ public class GuideListFragment extends Fragment implements SearchView.OnQueryTex
 
             String json = loadJSONFromAsset(this.getContext());
             try {
-                myJSONManager = new JSONManager(json);
+                myJSONManager = JSONManager.getInstance(json);
                 JSONArray chapters = myJSONManager.getL1Tiles();
                 if(ChapterContent.ITEMS.size() == 0) {
                     for (int i = 0; i < chapters.length(); i++) {
