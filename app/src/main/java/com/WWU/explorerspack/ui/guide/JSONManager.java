@@ -62,7 +62,6 @@ public class JSONManager {
     }
 
 
-
     //Returns the entire JSONObject of a chapter
     public JSONObject getChapterObject(String chapter) {
         JSONObject result = null;
