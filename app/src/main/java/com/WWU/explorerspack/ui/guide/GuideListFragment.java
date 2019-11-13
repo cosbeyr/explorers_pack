@@ -81,7 +81,7 @@ public class GuideListFragment extends Fragment {
 
             String json = loadJSONFromAsset(this.getContext());
             try {
-                myJSONManager = new JSONManager(json);
+                myJSONManager = JSONManager.getInstance(json);
                 JSONArray chapters = myJSONManager.getL1Tiles();
                 for (int i = 0; i < chapters.length(); i++) {
 
