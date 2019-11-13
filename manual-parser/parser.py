@@ -87,9 +87,10 @@ def getSections(title, data, start):
 
         if line[0:3] == '###':
             curr_section = line[4:].title()
-            sections[curr_section] = []
+            sections[curr_section] = ''
         else:
-            sections[curr_section].append(line)
+            sections[curr_section] += line
+            sections[curr_section] += '\n'
 
     return sections
 
@@ -122,10 +123,10 @@ def main():
     chapters, titles = getChapters()
     survival_guide = getGuideJSON(chapters, titles)
 
-    with open('manual.json', 'w') as f:
+    with open('guide.json', 'w') as f:
         json.dump(survival_guide, f)
 
-    with open('manual.json', 'r') as f:
+    with open('guide.json', 'r') as f:
         data = json.load(f, object_pairs_hook=OrderedDict)
 
     return data
