@@ -1,7 +1,10 @@
 package com.WWU.explorerspack.ui.camera;
 
+import android.Manifest;
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
@@ -19,6 +22,7 @@ import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 import androidx.annotation.NonNull;
+import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.core.content.FileProvider;
 import androidx.fragment.app.Fragment;
@@ -39,13 +43,37 @@ import static android.content.pm.PackageManager.PERMISSION_GRANTED;
 import static android.os.Environment.getExternalStoragePublicDirectory;
 
 public class CameraFragment extends Fragment implements View.OnClickListener {
-
+    // Storage Permissions
+    private static final int REQUEST_EXTERNAL_STORAGE = 1;
+    private static String[] PERMISSIONS_STORAGE = {
+            Manifest.permission.READ_EXTERNAL_STORAGE,
+            Manifest.permission.WRITE_EXTERNAL_STORAGE
+    };
     private CameraViewModel cameraViewModel;
     private ImageView imageView;
     private Button takePicture;
     private String currentPhotoPath;
     static final int CAMERA_REQUEST_CODE = 1;
+    /**
+     * Checks if the app has permission to write to device storage
+     *
+     * If the app does not has permission then the user will be prompted to grant permissions
+     *
+     * @param activity
+     */
+    public static void verifyStoragePermissions(Activity activity) {
+        // Check if we have write permission
+        int permission = ActivityCompat.checkSelfPermission(activity, Manifest.permission.WRITE_EXTERNAL_STORAGE);
 
+        if (permission != PackageManager.PERMISSION_GRANTED) {
+            // We don't have permission so prompt the user
+            ActivityCompat.requestPermissions(
+                    activity,
+                    PERMISSIONS_STORAGE,
+                    REQUEST_EXTERNAL_STORAGE
+            );
+        }
+    }
     private void dispatchTakePictureIntent() {
         Intent cameraIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         if (cameraIntent.resolveActivity(getContext().getPackageManager())
@@ -82,47 +110,15 @@ public class CameraFragment extends Fragment implements View.OnClickListener {
         }
     }
 
-//    private File createImageFile() throws IOException {
-//
-//        // A seperate Method to get the timestamp ina formatted manner
-//        String timeStamp = getCurrentTimeStamp();
-//        String imageFileName = "JPEG_" + timeStamp + "_";
-//        File storageDir = getExternalStoragePublicDirectory(
-//                Environment.DIRECTORY_PICTURES);
-//        String imgStore = storageDir.getAbsolutePath()
-//                + File.separator;
-//        System.out.printf("storageDir %s\n",storageDir);
-//        System.out.printf("imageStore %s\n",imgStore);
-//
-////        storageDir = new File(imgStore);
-////        try {
-////            if (!storageDir.exists()) {
-////                System.out.println("trying to create storageDir...");
-////                boolean stat = storageDir.mkdirs();
-////                System.out.printf("create tempfolder %b\n", stat);
-////            } else {
-////                System.out.printf("%s exists", imgStore);
-////            }
-////        } catch (Exception e) {
-////            e.printStackTrace();
-////        }
-//
-//        File imageFile = null;
-//        try {
-//            imageFile = File.createTempFile(imageFileName,
-//                    ".jpg", storageDir);
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//        currentPhotoPath = imageFile.getAbsolutePath();
-//        return imageFile;
-//    }
 
     private File createImageFile() throws IOException {
         // Create an image file name
         String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
         String imageFileName = "JPEG_" + timeStamp + "_";
+        // getExternalFilesDir is private to app only, can't add to gallery yet... extra features
         File storageDir = getActivity().getExternalFilesDir(Environment.DIRECTORY_PICTURES);
+        // require complex permission management to works....
+//        File storageDir = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES);
         File image = File.createTempFile(
                 imageFileName,  /* prefix */
                 ".jpg",         /* suffix */
@@ -133,6 +129,7 @@ public class CameraFragment extends Fragment implements View.OnClickListener {
         currentPhotoPath = image.getAbsolutePath();
         return image;
     }
+
 
     private void setPic() {
         // Get the dimensions of the View
@@ -158,12 +155,6 @@ public class CameraFragment extends Fragment implements View.OnClickListener {
         imageView.setImageBitmap(bitmap);
     }
 
-
-    public static String getCurrentTimeStamp() {
-        String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss")
-                .format(new Date());
-        return timeStamp;
-    }
 
     public void onActivityResult(int requestCode,
                                  int resultCode, Intent data) {
@@ -204,9 +195,8 @@ public class CameraFragment extends Fragment implements View.OnClickListener {
         dispatchTakePictureIntent();
     }
 
-
-        public View onCreateView(@NonNull LayoutInflater inflater,
-                             ViewGroup container, Bundle savedInstanceState) {
+    public View onCreateView(@NonNull LayoutInflater inflater,
+                         ViewGroup container, Bundle savedInstanceState) {
         cameraViewModel =
                 ViewModelProviders.of(this).get(CameraViewModel.class);
         View root = inflater.inflate(R.layout.fragment_camera, container, false);
