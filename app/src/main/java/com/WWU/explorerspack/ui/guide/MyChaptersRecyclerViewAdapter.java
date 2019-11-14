@@ -5,6 +5,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.WWU.explorerspack.R;
@@ -60,14 +61,14 @@ public class MyChaptersRecyclerViewAdapter extends RecyclerView.Adapter<MyChapte
 
     public class ViewHolder extends RecyclerView.ViewHolder {
         public final View mView;
-        public final TextView mIdView;
+        public final ImageView mImageView;
         public final TextView mContentView;
         public ChapterItem mItem;
 
         public ViewHolder(View view) {
             super(view);
             mView = view;
-            mIdView = (TextView) view.findViewById(R.id.item_number);
+            mImageView = (ImageView) view.findViewById(R.id.item_image);
             mContentView = (TextView) view.findViewById(R.id.content);
         }
 
