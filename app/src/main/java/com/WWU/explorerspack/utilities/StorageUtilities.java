@@ -15,8 +15,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class StorageUtilities {
-    public final String jsonStorageName = "storage.json";
-    public boolean create(Context context, String fileName, String jsonString){
+    public static final String jsonStorageName = "storage.json";
+    public static boolean create(Context context, String fileName, String jsonString){
         try {
             FileOutputStream fos = context.openFileOutput(fileName,Context.MODE_PRIVATE);
             if (jsonString != null) {
@@ -31,13 +31,13 @@ public class StorageUtilities {
         }
     }
 
-    public boolean isFilePresent(Context context, String fileName) {
+    public static boolean isFilePresent(Context context, String fileName) {
         String path = context.getFilesDir().getAbsolutePath() + "/" + fileName;
         File file = new File(path);
         return file.exists();
     }
 
-    public JSONObject template(boolean include_example_hike){
+    public static JSONObject template(boolean includeExampleHike){
         JSONObject template = new JSONObject();
         JSONObject settings = new JSONObject();
         JSONObject hikeLogs = new JSONObject();
@@ -54,7 +54,7 @@ public class StorageUtilities {
             hike.put("notes", "example notes...");
             hike.put("map","map path on disk for processing");
             hike.put("photos", jsonArray);
-            if (include_example_hike){
+            if (includeExampleHike){
                 hikeLogs.put("example hike", hike);
             }
             template.put("settings", settings);
@@ -66,7 +66,7 @@ public class StorageUtilities {
         return template;
     }
 
-    public String read(Context context, String fileName) {
+    public static String read(Context context, String fileName) {
         try {
             FileInputStream fis = context.openFileInput(fileName);
             InputStreamReader isr = new InputStreamReader(fis);
