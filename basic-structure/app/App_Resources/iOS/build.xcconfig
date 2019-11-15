@@ -1,4 +1,4 @@
-// You can add custom settings here
+// You can add custom com.WWU.explorerspack.ui.settings here
 // for example you can uncomment the following line to force distribution code signing
 // CODE_SIGN_IDENTITY = iPhone Distribution 
 // To build for device with Xcode 8 you need to specify your development team.
