@@ -2,8 +2,9 @@ package com.WWU.explorerspack;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.view.View;
+
 import android.util.Log;
+import android.view.View;
 
 import com.WWU.explorerspack.ui.guide.GuideListFragment;
 import com.WWU.explorerspack.ui.guide.ChapterData.ChapterContent;
@@ -11,8 +12,6 @@ import com.WWU.explorerspack.ui.guide.L2.ChapterPageFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
-
-import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
