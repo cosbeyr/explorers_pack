@@ -1,19 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:labelVisibilityMode="labeled">
 
     <item
         android:id="@+id/navigation_home"
         android:icon="@drawable/ic_dashboard_black_24dp"
-        android:title="@string/title_guide" />
+        android:title="@string/title_guide"
+        app:showAsAction="always"/>
 
     <item
         android:id="@+id/navigation_dashboard"
         android:icon="@android:drawable/ic_menu_camera"
-        android:title="@string/title_camera" />
+        android:title="@string/title_camera"
+        app:showAsAction="always"/>
 
     <item
         android:id="@+id/navigation_notifications"
         android:icon="@android:drawable/ic_menu_gallery"
-        android:title="@string/title_logs" />
-
+        android:title="@string/title_logs"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="@string/settings"
+        app:showAsAction="always"
+/>
 </menu>

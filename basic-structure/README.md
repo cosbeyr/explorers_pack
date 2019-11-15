@@ -14,7 +14,7 @@ npm install -g nativescript
 
 # Structure
 - source: `app/`
-- global app settings: `app/app-root.xml`
+- global app com.WWU.explorerspack.ui.settings: `app/app-root.xml`
 - `app/home/` and `app/search/` and `app/browser/` are each of the tab functionality. you can change these to any thing as long as they are correctly listed in `app-root.xml` 
 - app/fonts/ contains icons and fonts and stuffs that you can use. learn more here https://www.w3schools.com/icons/icons_reference.asp
 - The BottomNavigation component provides a way for high level navigation between different views by

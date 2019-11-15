@@ -25,7 +25,7 @@ typings/
 
 # Visual Studio Code
 .vscode/*
-!.vscode/settings.json
+!.vscode/com.WWU.explorerspack.ui.settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
