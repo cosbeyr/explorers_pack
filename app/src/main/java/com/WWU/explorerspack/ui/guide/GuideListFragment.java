@@ -3,14 +3,19 @@ package com.WWU.explorerspack.ui.guide;
 import android.content.Context;
 import android.os.Bundle;
 
+import androidx.core.view.MenuItemCompat;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.SearchView;
 
 import com.WWU.explorerspack.R;
 import com.WWU.explorerspack.ui.guide.ChapterData.ChapterContent;
@@ -28,7 +33,7 @@ import java.io.InputStream;
  * Activities containing this fragment MUST implement the {@link OnListFragmentInteractionListener}
  * interface.
  */
-public class GuideListFragment extends Fragment {
+public class GuideListFragment extends Fragment implements SearchView.OnQueryTextListener {
 
     // TODO: Customize parameter argument names
     private static final String ARG_COLUMN_COUNT = "column-count";
@@ -53,6 +58,27 @@ public class GuideListFragment extends Fragment {
         args.putInt(ARG_COLUMN_COUNT, columnCount);
         fragment.setArguments(args);
         return fragment;
+    }
+
+    @Override
+    public void onCreateOptionsMenu(Menu menu , MenuInflater inflater) {
+        super.onCreateOptionsMenu(menu,inflater);
+        inflater.inflate(R.menu.search_menu, menu);
+
+        final MenuItem item = menu.findItem(R.id.action_search);
+        final SearchView searchView = (SearchView) MenuItemCompat.getActionView(item);
+        searchView.setOnQueryTextListener(this);
+    }
+
+    @Override
+    public boolean onQueryTextChange(String query) {
+        // Here is where we are going to implement our filter logic
+        return false;
+    }
+
+    @Override
+    public boolean onQueryTextSubmit(String query) {
+        return false;
     }
 
     @Override
@@ -81,14 +107,15 @@ public class GuideListFragment extends Fragment {
 
             String json = loadJSONFromAsset(this.getContext());
             try {
-                myJSONManager = new JSONManager(json);
+                myJSONManager = JSONManager.getInstance(json);
                 JSONArray chapters = myJSONManager.getL1Tiles();
-                for (int i = 0; i < chapters.length(); i++) {
+                if(ChapterContent.ITEMS.size() == 0) {
+                    for (int i = 0; i < chapters.length(); i++) {
 
-                    //System.out.println(chapters.get(i));
+                        //System.out.println(chapters.get(i));
 //                    chaptersList.add(chapters.get(i).toString());
-                    ChapterContent.addItem(new ChapterItem(String.valueOf(i),chapters.get(i).toString(), myJSONManager));
-
+                        ChapterContent.addItem(new ChapterItem(String.valueOf(i), chapters.get(i).toString(), myJSONManager));
+                    }
                 }
             }
             catch (JSONException ex){
