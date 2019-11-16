@@ -20,6 +20,13 @@
     </fragment>
 
     <fragment
+        android:id="@+id/sub_chapter_page"
+        android:name="com.WWU.explorerspack.ui.guide.L3.SubChapterFragment"
+        android:label="Sub-Chapter"
+        tools:layout="@layout/sub_chapter_fragment"
+        />
+
+    <fragment
         android:id="@+id/navigation_dashboard"
         android:name="com.WWU.explorerspack.ui.camera.CameraFragment"
         android:label="@string/title_camera"
@@ -50,11 +57,13 @@
         android:id="@+id/chapter_page"
         android:name="com.WWU.explorerspack.ui.guide.L2.ChapterPageFragment"
         android:label="chapter"
-        tools:layout="@layout/chapter_page_fragment"/>
-
-    <fragment
-        android:id="@+id/hike_creation"
-        android:name="com.WWU.explorerspack.ui.logs.HikeCreationFragment"
-        android:label="Add New Hike"
-        tools:layout="@layout/hike_creation_fragment"/>
+        tools:layout="@layout/chapter_page_fragment">
+    <action
+        android:id="@+id/action_navigation_chapter_to_sub_chapter_page"
+        app:destination="@id/sub_chapter_page"
+        app:enterAnim="@anim/nav_default_enter_anim"
+        app:exitAnim="@anim/nav_default_exit_anim"
+        app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+        app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
 </navigation>

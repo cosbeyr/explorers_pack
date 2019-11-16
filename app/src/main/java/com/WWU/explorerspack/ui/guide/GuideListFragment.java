@@ -5,6 +5,8 @@ import android.os.Bundle;
 
 import androidx.core.view.MenuItemCompat;
 import androidx.fragment.app.Fragment;
+import androidx.navigation.NavController;
+import androidx.navigation.Navigation;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -15,7 +17,9 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.SearchView;
+import android.widget.Toast;
 
 import com.WWU.explorerspack.R;
 import com.WWU.explorerspack.ui.guide.ChapterData.ChapterContent;
@@ -95,6 +99,8 @@ public class GuideListFragment extends Fragment implements SearchView.OnQueryTex
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_chapters_list, container, false);
 
+
+
         // Set the adapter
         if (view instanceof RecyclerView) {
             Context context = view.getContext();
@@ -124,7 +130,7 @@ public class GuideListFragment extends Fragment implements SearchView.OnQueryTex
             }
 
 
-            recyclerView.setAdapter(new MyChaptersRecyclerViewAdapter(ChapterContent.ITEMS, mListener));
+            recyclerView.setAdapter(new MyChaptersRecyclerViewAdapter(ChapterContent.ITEMS, mListener, this.getContext()));
         }
         return view;
     }

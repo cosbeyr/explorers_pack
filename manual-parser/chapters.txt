@@ -1,4 +1,3 @@
-Introduction.md
 Animals.md
 Camouflage.md
 Cold.md
