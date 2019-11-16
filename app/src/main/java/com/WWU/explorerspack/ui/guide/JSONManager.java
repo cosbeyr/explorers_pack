@@ -78,7 +78,7 @@ public class JSONManager {
     //Returns the entire JSONObject of a chapter
     public String getSubChapter(String chapter, String subChapter) {
         String result = null;
-        System.out.println("Getting Chapter Object" + chapter);
+        //System.out.println("Getting Chapter Object" + chapter);
         try {
             result = guide.getJSONObject(chapter).getString((subChapter));
         } catch (Exception e) {
@@ -91,7 +91,7 @@ public class JSONManager {
     //Returns the entire JSONObject of a chapter
     public String getSubChapter(JSONObject chapter, String subChapter) {
         String result = null;
-        System.out.println("Getting Chapter Object" + chapter);
+        //System.out.println("Getting Chapter Object" + chapter);
         try {
             result = chapter.getString((subChapter));
         } catch (Exception e) {
