@@ -1,3 +1,7 @@
+'''
+Robin Cosbey -- explorer's pack
+
+'''
 import re
 import os
 import json
@@ -62,14 +66,15 @@ def getIntroduction(data):
     :param data (list) the lines from the chapter file
     :return     a list containing the introduction lines and the start of the rest of the file
     '''
-    introduction = []
+    start = 0
+    introduction = ''
 
     for line in data:
         if line[0:4] == '### ':
             break
-        introduction.append(line)
+        introduction += line
+        start += 1
 
-    start = len(introduction)
     return introduction, start
 
 def getSections(title, data, start):
@@ -90,7 +95,6 @@ def getSections(title, data, start):
             sections[curr_section] = ''
         else:
             sections[curr_section] += line
-            sections[curr_section] += '\n'
 
     return sections
 
@@ -110,9 +114,9 @@ def getGuideJSON(chapters, titles):
 
         introduction, start = getIntroduction(data)
 
-        if len(introduction) != 0: 
-            sections['Introduction'] = [l.strip() for l in introduction if len(l.strip()) > 0]
-        if len(data) != len(introduction): 
+        if start != 0: 
+            sections['Introduction'] = introduction
+        if len(data) != start: 
             sections.update(getSections(title, data, start)) 
 
         survival_guide[title] = sections
