@@ -8,6 +8,12 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import android.content.Context;
+import android.os.Bundle;
+
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+
 import com.WWU.explorerspack.R;
 import com.WWU.explorerspack.ui.guide.GuideListFragment.OnListFragmentInteractionListener;
 import com.WWU.explorerspack.ui.guide.ChapterData.ChapterContent.ChapterItem;
@@ -23,10 +29,12 @@ public class MyChaptersRecyclerViewAdapter extends RecyclerView.Adapter<MyChapte
 
     private final List<ChapterItem> mValues;
     private final OnListFragmentInteractionListener mListener;
+    private final Context mContext;
 
-    public MyChaptersRecyclerViewAdapter(List<ChapterItem> items, OnListFragmentInteractionListener listener) {
+    public MyChaptersRecyclerViewAdapter(List<ChapterItem> items, OnListFragmentInteractionListener listener, Context context) {
         mValues = items;
         mListener = listener;
+        mContext = context;
     }
 
     @Override
@@ -41,6 +49,12 @@ public class MyChaptersRecyclerViewAdapter extends RecyclerView.Adapter<MyChapte
         holder.mItem = mValues.get(position);
         //holder.mIdView.setText(mValues.get(position).id);
         holder.mContentView.setText(mValues.get(position).content);
+        String iconName = holder.mItem.content + ".png";
+        try {
+            holder.mImageView.setImageBitmap(BitmapFactory.decodeStream(mContext.getAssets().open(iconName)));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
         holder.mView.setOnClickListener(new View.OnClickListener() {
             @Override
