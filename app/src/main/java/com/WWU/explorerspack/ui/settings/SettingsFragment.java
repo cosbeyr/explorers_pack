@@ -1,100 +1,63 @@
 package com.WWU.explorerspack.ui.settings;
 import android.app.Activity;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
-import androidx.fragment.app.Fragment;
-import android.preference.Preference;
-import android.preference.PreferenceFragment;
-import android.preference.SwitchPreference;
 import android.widget.Toast;
+
+import androidx.fragment.app.Fragment;
+import androidx.preference.Preference;
+import androidx.preference.PreferenceFragmentCompat;
+import androidx.preference.PreferenceManager;
+import androidx.preference.SwitchPreference;
+
 
 import com.WWU.explorerspack.R;
 
-public class SettingsFragment extends Fragment {
+public class SettingsFragment extends PreferenceFragmentCompat implements SharedPreferences.OnSharedPreferenceChangeListener {
+    private static final String TAG = SettingsFragment.class.getSimpleName();
+    SharedPreferences sharedPreferences;
+    @Override
+    public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
+        setPreferencesFromResource(R.xml.settings, rootKey);
+        sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getActivity());
+
+        // onSharedPreferenceChanged(sharedPreferences, getString(R.string.save_to_gallery));
+    }
 
     @Override
-    public void onActivityCreated(Bundle savedInstanceState) {
-        super.onActivityCreated(savedInstanceState);
-        getActivity().getFragmentManager().beginTransaction()
-                .replace(android.R.id.content, new MyPreferenceFragment())
-                .commit();
+    public void onResume() {
+        super.onResume();
+        //unregister the preferenceChange listener
+        getPreferenceScreen().getSharedPreferences()
+                .registerOnSharedPreferenceChangeListener(this);
     }
 
-    public static class MyPreferenceFragment extends PreferenceFragment {
-        private Activity mActivity;
-
-        public MyPreferenceFragment() {
-        }
-
-        @Override
-        public void onCreate(Bundle savedInstanceState) {
-            super.onCreate(savedInstanceState);
-
-            // Load the preferences from an XML resource
-            addPreferencesFromResource(R.xml.settings);
-            // Get the application context
-            mActivity = this.getActivity();
-
-        /*
-            SwitchPreference
-                This preference will store a boolean into the SharedPreferences.
-        */
-
-            // Get the preference widgets reference
-            final SwitchPreference saveToGallery = (SwitchPreference) findPreference(this.getResources()
-                    .getString(R.string.save_to_gallery));
-
-            final SwitchPreference homePageTips = (SwitchPreference) findPreference(this.getResources()
-                    .getString(R.string.home_page_tips));
-
-        /*
-            void setOnPreferenceChangeListener (Preference.OnPreferenceChangeListener onPreferenceChangeListener)
-                Sets the callback to be invoked when this Preference is changed by the user
-                (but before the internal state has been updated).
-
-            Parameters
-                onPreferenceChangeListener Preference.OnPreferenceChangeListener: The callback to be invoked.
-        */
-
-            // SwitchPreference preference change listener
-            saveToGallery.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
-                @Override
-                public boolean onPreferenceChange(Preference preference, Object o) {
-                    if(saveToGallery.isChecked()){
-                        Toast.makeText(mActivity,"Pictures won't be saved to your gallery.",Toast.LENGTH_SHORT).show();
-
-                        // Checked the switch programmatically
-                        saveToGallery.setChecked(false);
-                    }else {
-                        Toast.makeText(mActivity,"Got it! We'll save pictures to your gallery.",Toast.LENGTH_SHORT).show();
-
-                        // Unchecked the switch programmatically
-                        saveToGallery.setChecked(true);
-                    }
-                    return false;
-                }
-            });
-
-            // SwitchPreference preference change listener
-            homePageTips.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
-                @Override
-                public boolean onPreferenceChange(Preference preference, Object o) {
-                    if(homePageTips.isChecked()){
-                        Toast.makeText(mActivity,"Looks like you've mastered our app!",Toast.LENGTH_SHORT).show();
-
-                        // Checked the switch programmatically
-                        homePageTips.setChecked(false);
-                    }else {
-                        Toast.makeText(mActivity,"We've got you!",Toast.LENGTH_SHORT).show();
-
-                        // Unchecked the switch programmatically
-                        homePageTips.setChecked(true);
-                    }
-                    return false;
-                }
-            });
+    @Override
+    public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) {
+        Preference preference = findPreference(key);
+        if (preference instanceof SwitchPreference && key.equals("save_to_gallery")) {
+            if (((SwitchPreference) preference).isChecked()){
+                Toast.makeText(getActivity(),"Got it! We'll save pictures to your gallery.",Toast.LENGTH_SHORT).show();
+            } else {
+                Toast.makeText(getActivity(),"Pictures won't be saved to your gallery.", Toast.LENGTH_SHORT).show();
+            }
+        } else if (preference instanceof SwitchPreference && key.equals("home_page_tips")){
+            if (((SwitchPreference) preference).isChecked()){
+                Toast.makeText(getActivity(),"Looks like you've mastered our app!",Toast.LENGTH_SHORT).show();
+            } else {
+                Toast.makeText(getActivity(),"We've got you!", Toast.LENGTH_SHORT).show();
+            }
         }
     }
+    @Override
+    public void onPause() {
+        super.onPause();
+        //unregister the preference change listener
+        getPreferenceScreen().getSharedPreferences()
+                .unregisterOnSharedPreferenceChangeListener(this);
+    }
+
 }
 
 
