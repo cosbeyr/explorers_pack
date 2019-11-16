@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
-
+import com.WWU.explorerspack.utilities.StorageUtilities;
 import com.WWU.explorerspack.ui.guide.GuideListFragment;
 import com.WWU.explorerspack.ui.guide.ChapterData.ChapterContent;
 import com.WWU.explorerspack.ui.guide.L2.ChapterPageFragment;
@@ -43,78 +43,15 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity implements GuideListFragment.OnListFragmentInteractionListener{
     private NavController navController;
 
-
-    private boolean create(Context context, String fileName, String jsonString){
-        String FILENAME = "storage.json";
-        try {
-            FileOutputStream fos = context.openFileOutput(fileName,Context.MODE_PRIVATE);
-            if (jsonString != null) {
-                fos.write(jsonString.getBytes());
-            }
-            fos.close();
-            return true;
-        } catch (FileNotFoundException fileNotFound) {
-            return false;
-        } catch (IOException ioException) {
-            return false;
-        }
-
-    }
-
-    public boolean isFilePresent(Context context, String fileName) {
-        String path = context.getFilesDir().getAbsolutePath() + "/" + fileName;
-        File file = new File(path);
-        return file.exists();
-    }
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        boolean isFilePresent = isFilePresent(this, "storage.json");
+        boolean isFilePresent = StorageUtilities.isFilePresent(this, StorageUtilities.jsonStorageName);
         if(!isFilePresent) {
-            JSONObject template = new JSONObject();
-            JSONObject settings = new JSONObject();
-            JSONObject hikeLogs = new JSONObject();
-            JSONObject hike = new JSONObject();
-            JSONObject photo = new JSONObject();
-            JSONArray jsonArray = new JSONArray();
-            try {
-                photo.put("JPEG_20191114_152929_8217285707265593563.jpg", "/storage/emulated/0/JPEG_20191114_152929_8217285707265593563.jpg");
-                jsonArray.put(photo);
-            }  catch (JSONException e) {
-                e.printStackTrace();
-            }
-
-
-            try {
-                settings.put("saveToGallery", true);
-                settings.put("homePageTips", true);
-                settings.put("darkMode", true);
-            } catch (JSONException e) {
-                e.printStackTrace();
-            }
-
-            try {
-                hike.put("notes", "example notes...");
-                hike.put("map","map path on disk for processing");
-                hike.put("photos", jsonArray);
-                hikeLogs.put("example hike", hike);
-
-            } catch (JSONException e) {
-                e.printStackTrace();
-            }
-
-            try {
-                template.put("settings", settings);
-                template.put("hikeLogs", hikeLogs);
-
-            } catch (JSONException e) {
-                e.printStackTrace();
-            }
-            boolean isFileCreated = create(this, "storage.json", template.toString());
+            boolean isFileCreated = StorageUtilities.create(this, StorageUtilities.jsonStorageName, StorageUtilities.template(true).toString());
             if(isFileCreated) {
-                //proceed with storing the first todo  or show ui
+                //proceed with storing the first show ui
             } else {
-                Log.e("main","can't create storage.json");
+                Log.e("main","can't create " + StorageUtilities.jsonStorageName);
             }
         }
         super.onCreate(savedInstanceState);
