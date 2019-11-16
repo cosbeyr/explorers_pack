@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="@string/save_to_gallery"
+        android:title="Save To Gallery" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="@string/home_page_tips"
+        android:title="Home Page Tips" />
+
+</PreferenceScreen>
