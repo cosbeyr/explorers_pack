@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.guide.L2.ChapterPageFragment">
+    tools:context=".ui.guide.L2.ChapterPageFragment"
+    android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/description"
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/go_to_button"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello" />
+        android:layout_height="wrap_content"
+        android:text="@string/go_to"/>
+
     <us.feras.mdv.MarkdownView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/markdownView" />
 
-</FrameLayout>
+
+</LinearLayout>
