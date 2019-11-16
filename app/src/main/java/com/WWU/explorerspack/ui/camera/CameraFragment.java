@@ -8,6 +8,7 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -30,6 +31,7 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.content.FileProvider;
 import androidx.fragment.app.DialogFragment;
 import androidx.lifecycle.ViewModelProviders;
+import androidx.preference.PreferenceManager;
 
 import com.WWU.explorerspack.R;
 
@@ -50,8 +52,11 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
+import android.content.SharedPreferences;
 
 import static android.app.Activity.RESULT_OK;
+import static android.content.Context.MODE_PRIVATE;
+import static android.content.Context.POWER_SERVICE;
 
 public class CameraFragment extends DialogFragment {
     // Storage Permissions
@@ -61,10 +66,10 @@ public class CameraFragment extends DialogFragment {
     private Button takePicture;
     private String currentPhotoPath;
     private static final int CAMERA_REQUEST_CODE = 1;
-    private JSONObject mainStorage;
     private String[] hikeArray;
     private Button yes, no;
     private AlphaAnimation buttonClick = new AlphaAnimation(1F, 0.8F);
+
 
 
 
@@ -181,20 +186,23 @@ public class CameraFragment extends DialogFragment {
                                  int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == CAMERA_REQUEST_CODE && resultCode == RESULT_OK) {
+            boolean saveToGallery = true;
             try{
-                // only add to Gallery of settings say so. Yes by default
-                JSONObject settings = mainStorage.getJSONObject("settings");
-                boolean saveToGallery =  settings.getBoolean("saveToGallery");
-                if (saveToGallery) {
-                    addImageToGallery(currentPhotoPath, getActivity());
-                }
-            } catch (JSONException e){
+                SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getActivity());
+                saveToGallery = sharedPreferences.getBoolean("save_to_gallery", true);
+            } catch (Exception e){
                 e.printStackTrace();
+            }
+            if (saveToGallery) {
+                addImageToGallery(currentPhotoPath, getActivity());
+                Toast.makeText(getActivity(), "Photo taken and saved to gallery!",
+                        Toast.LENGTH_SHORT).show();
+            } else {
+                Toast.makeText(getActivity(), "Photo taken but was not saved to gallery!",
+                        Toast.LENGTH_SHORT).show();
             }
 
             setPic();
-            Toast.makeText(getActivity(), "Photo Taken And Saved",
-                    Toast.LENGTH_SHORT).show();
 
             showAddToHike();
         } else {
@@ -247,7 +255,8 @@ public class CameraFragment extends DialogFragment {
                     public void onClick(DialogInterface dialog, int item) {
                         try{
                             // load data
-                            JSONObject hikeLogs = mainStorage.getJSONObject("hikeLogs");
+                            String storage = StorageUtilities.read(getActivity(), StorageUtilities.jsonStorageName);
+                            JSONObject hikeLogs = new JSONObject(storage);
                             JSONObject selectedHike = hikeLogs.getJSONObject(hikeArray[item]);
                             JSONArray photos = selectedHike.getJSONArray("photos");
                             JSONObject photo = new JSONObject();
@@ -255,7 +264,8 @@ public class CameraFragment extends DialogFragment {
                             // add to photos
                             photo.put(currentPhotoPath.split("/")[currentPhotoPath.split("/").length-1], currentPhotoPath);
                             photos.put(photo);
-                            StorageUtilities.create(getActivity(), "storage.json", mainStorage.toString());
+                            StorageUtilities.create(getActivity(), StorageUtilities.jsonStorageName, hikeLogs.toString());
+                            //Log.i("INFO", hikeLogs.toString());
                             Toast.makeText(getActivity(), "Added photo to " + hikeArray[item] + " successfully.",
                                     Toast.LENGTH_SHORT).show();
                         } catch (JSONException e){
@@ -276,11 +286,11 @@ public class CameraFragment extends DialogFragment {
         View root = inflater.inflate(R.layout.fragment_camera, container, false);
         imageView = root.findViewById(R.id.image_view);
         takePicture = root.findViewById(R.id.button);
-        String storage = StorageUtilities.read(getActivity(), "storage.json");
+        String storage = StorageUtilities.read(getActivity(), StorageUtilities.jsonStorageName);
+
 
         try {
-            mainStorage = new JSONObject(storage);
-            JSONObject hikes = mainStorage.getJSONObject("hikeLogs");
+            JSONObject hikes = new JSONObject(storage);
             Iterator<String> keys = hikes.keys();
             List<String> hikeList = new ArrayList<>();
 

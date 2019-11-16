@@ -15,7 +15,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class StorageUtilities {
-    public static final String jsonStorageName = "storage.json";
+    public static final String jsonStorageName = "hikeLogs.json";
     public static boolean create(Context context, String fileName, String jsonString){
         try {
             FileOutputStream fos = context.openFileOutput(fileName,Context.MODE_PRIVATE);
@@ -38,8 +38,6 @@ public class StorageUtilities {
     }
 
     public static JSONObject template(boolean includeExampleHike){
-        JSONObject template = new JSONObject();
-        JSONObject settings = new JSONObject();
         JSONObject hikeLogs = new JSONObject();
         JSONObject hike = new JSONObject();
         JSONObject photo = new JSONObject();
@@ -48,22 +46,17 @@ public class StorageUtilities {
         try {
             photo.put("JPEG_20191114_152929_8217285707265593563.jpg", "/storage/emulated/0/JPEG_20191114_152929_8217285707265593563.jpg");
             jsonArray.put(photo);
-            settings.put("saveToGallery", true);
-            settings.put("homePageTips", true);
-            settings.put("darkMode", true);
             hike.put("notes", "example notes...");
             hike.put("map","map path on disk for processing");
             hike.put("photos", jsonArray);
             if (includeExampleHike){
                 hikeLogs.put("example hike", hike);
             }
-            template.put("settings", settings);
-            template.put("hikeLogs", hikeLogs);
 
         } catch (JSONException e) {
             e.printStackTrace();
         }
-        return template;
+        return hikeLogs;
     }
 
     public static String read(Context context, String fileName) {
