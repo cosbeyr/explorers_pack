@@ -37,9 +37,9 @@ public class SettingsFragment extends PreferenceFragmentCompat implements Shared
             }
         } else if (preference instanceof SwitchPreference && key.equals("home_page_tips")){
             if (((SwitchPreference) preference).isChecked()){
-                Toast.makeText(getActivity(),"Looks like you've mastered our app!",Toast.LENGTH_SHORT).show();
-            } else {
                 Toast.makeText(getActivity(),"We've got useful hints for you!", Toast.LENGTH_SHORT).show();
+            } else {
+                Toast.makeText(getActivity(),"Looks like you've mastered our app!",Toast.LENGTH_SHORT).show();
             }
         }
     }
