@@ -66,7 +66,6 @@ public class CameraFragment extends DialogFragment {
     private Button takePicture;
     private String currentPhotoPath;
     private static final int CAMERA_REQUEST_CODE = 1;
-    private JSONObject mainStorage;
     private String[] hikeArray;
     private Button yes, no;
     private AlphaAnimation buttonClick = new AlphaAnimation(1F, 0.8F);
@@ -256,7 +255,8 @@ public class CameraFragment extends DialogFragment {
                     public void onClick(DialogInterface dialog, int item) {
                         try{
                             // load data
-                            JSONObject hikeLogs = mainStorage.getJSONObject("hikeLogs");
+                            String storage = StorageUtilities.read(getActivity(), StorageUtilities.jsonStorageName);
+                            JSONObject hikeLogs = new JSONObject(storage);
                             JSONObject selectedHike = hikeLogs.getJSONObject(hikeArray[item]);
                             JSONArray photos = selectedHike.getJSONArray("photos");
                             JSONObject photo = new JSONObject();
@@ -264,7 +264,8 @@ public class CameraFragment extends DialogFragment {
                             // add to photos
                             photo.put(currentPhotoPath.split("/")[currentPhotoPath.split("/").length-1], currentPhotoPath);
                             photos.put(photo);
-                            StorageUtilities.create(getActivity(), "storage.json", mainStorage.toString());
+                            StorageUtilities.create(getActivity(), StorageUtilities.jsonStorageName, hikeLogs.toString());
+                            //Log.i("INFO", hikeLogs.toString());
                             Toast.makeText(getActivity(), "Added photo to " + hikeArray[item] + " successfully.",
                                     Toast.LENGTH_SHORT).show();
                         } catch (JSONException e){
@@ -285,12 +286,11 @@ public class CameraFragment extends DialogFragment {
         View root = inflater.inflate(R.layout.fragment_camera, container, false);
         imageView = root.findViewById(R.id.image_view);
         takePicture = root.findViewById(R.id.button);
-        String storage = StorageUtilities.read(getActivity(), "storage.json");
+        String storage = StorageUtilities.read(getActivity(), StorageUtilities.jsonStorageName);
 
 
         try {
-            mainStorage = new JSONObject(storage);
-            JSONObject hikes = mainStorage.getJSONObject("hikeLogs");
+            JSONObject hikes = new JSONObject(storage);
             Iterator<String> keys = hikes.keys();
             List<String> hikeList = new ArrayList<>();
 
