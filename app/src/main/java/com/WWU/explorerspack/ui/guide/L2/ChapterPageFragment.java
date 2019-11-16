@@ -22,6 +22,8 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import org.w3c.dom.Text;
 
+import us.feras.mdv.MarkdownView;
+
 public class ChapterPageFragment extends Fragment {
 
     private ChapterPageViewModel mViewModel;
@@ -49,8 +51,8 @@ public class ChapterPageFragment extends Fragment {
                              @Nullable Bundle savedInstanceState) {
 
          View rootView = inflater.inflate(R.layout.chapter_page_fragment, container, false);
-        TextView textView = rootView.findViewById(R.id.description);
-        //textView.setText("description");
+        MarkdownView markdownView = rootView.findViewById(R.id.markdownView);
+
          if(id != null){
              chapterObj = ChapterContent.ITEM_MAP.get(id).myObj;
              //System.out.println(chapterObj.toString());
@@ -63,7 +65,7 @@ public class ChapterPageFragment extends Fragment {
              }
              System.out.println("");
          }
-         textView.setText(chapterObj.toString());
+         markdownView.loadMarkdown(intro);
 
          return rootView;
     }
