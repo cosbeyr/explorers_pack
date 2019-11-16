@@ -130,7 +130,7 @@ public class GuideListFragment extends Fragment implements SearchView.OnQueryTex
             }
 
 
-            recyclerView.setAdapter(new MyChaptersRecyclerViewAdapter(ChapterContent.ITEMS, mListener));
+            recyclerView.setAdapter(new MyChaptersRecyclerViewAdapter(ChapterContent.ITEMS, mListener, this.getContext()));
         }
         return view;
     }
