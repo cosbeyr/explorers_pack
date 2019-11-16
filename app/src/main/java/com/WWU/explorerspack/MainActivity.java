@@ -1,46 +1,33 @@
 package com.WWU.explorerspack;
 
-import android.content.Context;
 import android.os.Bundle;
 
 
 import android.util.Log;
 import android.view.View;
 
+import com.WWU.explorerspack.ui.logs.HikeFragment;
+import com.WWU.explorerspack.ui.logs.hike_item.HikeItem;
 import com.WWU.explorerspack.utilities.StorageUtilities;
 import com.WWU.explorerspack.ui.guide.GuideListFragment;
 import com.WWU.explorerspack.ui.guide.ChapterData.ChapterContent;
 import com.WWU.explorerspack.ui.guide.L2.ChapterPageFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
 
 import androidx.annotation.Nullable;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentTransaction;
 import androidx.navigation.NavController;
 import androidx.navigation.NavDestination;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.Dictionary;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity implements GuideListFragment.OnListFragmentInteractionListener{
+public class MainActivity extends AppCompatActivity implements GuideListFragment.OnListFragmentInteractionListener, HikeFragment.OnListFragmentInteractionListener {
     private NavController navController;
 
     @Override
@@ -62,8 +49,7 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Here's a Snackbar", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                navController.navigate(R.id.action_navigation_hike_to_hike_creation);
             }
         });
         // Passing each menu ID as a set of Ids because each
@@ -121,4 +107,8 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
 //        transaction.commit();
     }
 
+    @Override
+    public void onListFragmentInteraction(HikeItem.DummyItem item) {
+
+    }
 }
