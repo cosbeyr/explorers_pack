@@ -15,16 +15,23 @@ import android.widget.TextView;
 
 import com.WWU.explorerspack.R;
 import com.WWU.explorerspack.ui.guide.ChapterData.ChapterContent;
+import com.WWU.explorerspack.ui.guide.JSONManager;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.w3c.dom.Text;
+
+import us.feras.mdv.MarkdownView;
 
 public class ChapterPageFragment extends Fragment {
 
     private ChapterPageViewModel mViewModel;
     private JSONObject chapterObj;
     private String id;
+    private String title;
+    private String intro;
+    private JSONArray subChapters;
 
     public static ChapterPageFragment newInstance() {
         return new ChapterPageFragment();
@@ -44,13 +51,21 @@ public class ChapterPageFragment extends Fragment {
                              @Nullable Bundle savedInstanceState) {
 
          View rootView = inflater.inflate(R.layout.chapter_page_fragment, container, false);
-        TextView textView = rootView.findViewById(R.id.description);
-        //textView.setText("description");
+        MarkdownView markdownView = rootView.findViewById(R.id.markdownView);
+
          if(id != null){
              chapterObj = ChapterContent.ITEM_MAP.get(id).myObj;
              //System.out.println(chapterObj.toString());
+             title = ChapterContent.ITEM_MAP.get(id).content;
+             try {
+                 intro = chapterObj.getString("Introduction");
+                 subChapters = JSONManager.getInstance(null).getL2Tiles(title);
+             } catch (Exception e) {
+                 //DO nothing
+             }
+             System.out.println("");
          }
-         textView.setText(chapterObj.toString());
+         markdownView.loadMarkdown(intro);
 
          return rootView;
     }
