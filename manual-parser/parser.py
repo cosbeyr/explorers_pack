@@ -73,7 +73,6 @@ def getIntroduction(data):
         if line[0:4] == '### ':
             break
         introduction += line
-        introduction += '\n'
         start += 1
 
     return introduction, start
