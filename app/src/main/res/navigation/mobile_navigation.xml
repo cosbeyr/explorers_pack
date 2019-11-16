@@ -32,6 +32,13 @@
         tools:layout="@layout/fragment_logs" />
 
     <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.WWU.explorerspack.ui.settings.SettingsFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/settings_fragment"/>
+
+
+    <fragment
         android:id="@+id/chapter_page"
         android:name="com.WWU.explorerspack.ui.guide.L2.ChapterPageFragment"
         android:label="chapter"
