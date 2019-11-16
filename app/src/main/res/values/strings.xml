@@ -8,4 +8,9 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- preference -->
+    <string name="save_to_gallery">save_to_gallery</string>
+    <string name="home_page_tips">home_page_tips</string>
+
 </resources>
