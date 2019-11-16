@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
+import com.WWU.explorerspack.ui.guide.L3.SubChapterFragment;
 import com.WWU.explorerspack.utilities.StorageUtilities;
 import com.WWU.explorerspack.ui.guide.GuideListFragment;
 import com.WWU.explorerspack.ui.guide.ChapterData.ChapterContent;
@@ -40,7 +41,7 @@ import java.io.InputStreamReader;
 import java.util.Dictionary;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity implements GuideListFragment.OnListFragmentInteractionListener{
+public class MainActivity extends AppCompatActivity implements GuideListFragment.OnListFragmentInteractionListener, SubChapterFragment.OnSubListFragmentInteractionListener{
     private NavController navController;
 
     @Override
@@ -121,4 +122,16 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
 //        transaction.commit();
     }
 
+    public void setActionBarTitle(String title) {
+        getSupportActionBar().setTitle(title);
+    }
+
+
+    @Override
+    public void onSubListFragmentInteraction(String item) {
+        SubChapterFragment fragment = new SubChapterFragment();
+        Bundle args = new Bundle();
+        args.putString("id", item);
+        navController.navigate(R.id.action_navigation_chapter_to_sub_chapter_page, args);
+    }
 }

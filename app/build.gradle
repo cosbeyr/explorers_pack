@@ -34,4 +34,5 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
     implementation "com.android.support:preference-v7:28.0.1"
+    implementation 'us.feras.mdv:markdownview:1.1.0'
 }
