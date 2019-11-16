@@ -1,5 +1,6 @@
 package com.WWU.explorerspack.ui.camera;
 
+import com.WWU.explorerspack.utilities.StorageUtilities;
 import android.Manifest;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -254,7 +255,7 @@ public class CameraFragment extends DialogFragment {
                             // add to photos
                             photo.put(currentPhotoPath.split("/")[currentPhotoPath.split("/").length-1], currentPhotoPath);
                             photos.put(photo);
-                            create(getActivity(), "storage.json", mainStorage.toString());
+                            StorageUtilities.create(getActivity(), "storage.json", mainStorage.toString());
                             Toast.makeText(getActivity(), "Added photo to " + hikeArray[item] + " successfully.",
                                     Toast.LENGTH_SHORT).show();
                         } catch (JSONException e){
@@ -275,7 +276,7 @@ public class CameraFragment extends DialogFragment {
         View root = inflater.inflate(R.layout.fragment_camera, container, false);
         imageView = root.findViewById(R.id.image_view);
         takePicture = root.findViewById(R.id.button);
-        String storage = read(getActivity(), "storage.json");
+        String storage = StorageUtilities.read(getActivity(), "storage.json");
 
         try {
             mainStorage = new JSONObject(storage);
@@ -306,42 +307,6 @@ public class CameraFragment extends DialogFragment {
             }
         });
         return root;
-    }
-
-    private String read(Context context, String fileName) {
-        try {
-            FileInputStream fis = context.openFileInput(fileName);
-            InputStreamReader isr = new InputStreamReader(fis);
-            BufferedReader bufferedReader = new BufferedReader(isr);
-            StringBuilder sb = new StringBuilder();
-            String line;
-            while ((line = bufferedReader.readLine()) != null) {
-                sb.append(line);
-            }
-            fis.close();
-            return sb.toString();
-        } catch (FileNotFoundException fileNotFound) {
-            return null;
-        } catch (IOException ioException) {
-            return null;
-        }
-    }
-
-    private boolean create(Context context, String fileName, String jsonString){
-        String FILENAME = "storage.json";
-        try {
-            FileOutputStream fos = context.openFileOutput(fileName,Context.MODE_PRIVATE);
-            if (jsonString != null) {
-                fos.write(jsonString.getBytes());
-            }
-            fos.close();
-            return true;
-        } catch (FileNotFoundException fileNotFound) {
-            return false;
-        } catch (IOException ioException) {
-            return false;
-        }
-
     }
 
 }
