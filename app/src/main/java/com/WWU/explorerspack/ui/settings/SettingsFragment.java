@@ -1,11 +1,7 @@
 package com.WWU.explorerspack.ui.settings;
-import android.app.Activity;
-import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.widget.Toast;
-
-import androidx.fragment.app.Fragment;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.PreferenceManager;
@@ -15,14 +11,11 @@ import androidx.preference.SwitchPreference;
 import com.WWU.explorerspack.R;
 
 public class SettingsFragment extends PreferenceFragmentCompat implements SharedPreferences.OnSharedPreferenceChangeListener {
-    private static final String TAG = SettingsFragment.class.getSimpleName();
     SharedPreferences sharedPreferences;
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         setPreferencesFromResource(R.xml.settings, rootKey);
         sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getActivity());
-
-        // onSharedPreferenceChanged(sharedPreferences, getString(R.string.save_to_gallery));
     }
 
     @Override
