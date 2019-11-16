@@ -7,12 +7,17 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.navigation.NavController;
+import androidx.navigation.Navigation;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.WWU.explorerspack.MainActivity;
 import com.WWU.explorerspack.R;
 import com.WWU.explorerspack.ui.guide.ChapterData.ChapterContent;
 import com.WWU.explorerspack.ui.guide.JSONManager;
@@ -44,14 +49,37 @@ public class ChapterPageFragment extends Fragment {
         if(getArguments() != null){
             id = getArguments().getString("id");
         }
+        String bartitle =(String) ChapterContent.ITEM_MAP.get(id).content;
+        ((MainActivity) getActivity()).setActionBarTitle(bartitle);
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        String bartitle =(String) ChapterContent.ITEM_MAP.get(id).content;
+        ((MainActivity) getActivity()).setActionBarTitle(bartitle);
     }
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-
-         View rootView = inflater.inflate(R.layout.chapter_page_fragment, container, false);
+         //may need to remove final
+         final View rootView = inflater.inflate(R.layout.chapter_page_fragment, container, false);
         MarkdownView markdownView = rootView.findViewById(R.id.markdownView);
+        Button L3Button = rootView.findViewById(R.id.go_to_button);
+
+        L3Button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavController mNav = Navigation.findNavController(rootView);
+                Toast toast = Toast.makeText(getActivity().getApplicationContext(),
+                        "This is a message displayed in a Toast",
+                        Toast.LENGTH_SHORT);
+
+                toast.show();
+                mNav.navigate(R.id.action_navigation_chapter_to_sub_chapter_page);
+            }
+        });
 
          if(id != null){
              chapterObj = ChapterContent.ITEM_MAP.get(id).myObj;
@@ -66,6 +94,7 @@ public class ChapterPageFragment extends Fragment {
              System.out.println("");
          }
          markdownView.loadMarkdown(intro);
+         //send the sub chapters to the recycler view.
 
          return rootView;
     }
