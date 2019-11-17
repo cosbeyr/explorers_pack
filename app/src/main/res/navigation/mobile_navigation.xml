@@ -34,9 +34,17 @@
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="com.WWU.explorerspack.ui.logs.LogsFragment"
+        android:name="com.WWU.explorerspack.ui.logs.HikeFragment"
         android:label="@string/title_logs"
-        tools:layout="@layout/fragment_logs" />
+        tools:layout="@layout/fragment_hike_list">
+        <action
+            android:id="@+id/action_navigation_hike_to_hike_creation"
+            app:destination="@id/hike_creation"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_settings"
@@ -58,4 +66,12 @@
         app:popEnterAnim="@anim/nav_default_pop_enter_anim"
         app:popExitAnim="@anim/nav_default_pop_exit_anim" />
     </fragment>
+
+    <fragment
+        android:id="@+id/hike_creation"
+        android:name="com.WWU.explorerspack.ui.logs.HikeCreationFragment"
+        android:label="Label"
+        tools:layout="@layout/hike_creation_fragment"/>
+
+
 </navigation>

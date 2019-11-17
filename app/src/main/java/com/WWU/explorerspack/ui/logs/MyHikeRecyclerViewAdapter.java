@@ -1,71 +1,45 @@
-package com.WWU.explorerspack.ui.guide;
+package com.WWU.explorerspack.ui.logs;
 
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 
-import android.content.Context;
-
-import android.graphics.BitmapFactory;
-
-import android.graphics.ColorMatrix;
-import android.graphics.ColorMatrixColorFilter;
-
-
 import com.WWU.explorerspack.R;
-import com.WWU.explorerspack.ui.guide.GuideListFragment.OnListFragmentInteractionListener;
-import com.WWU.explorerspack.ui.guide.ChapterData.ChapterContent.ChapterItem;
+import com.WWU.explorerspack.ui.logs.HikeFragment.OnListFragmentInteractionListener;
+import com.WWU.explorerspack.ui.logs.hike_item.HikeItem.DummyItem;
 
 import java.util.List;
 
 /**
- * {@link RecyclerView.Adapter} that can display a {@link ChapterItem} and makes a call to the
+ * {@link RecyclerView.Adapter} that can display a {@link DummyItem} and makes a call to the
  * specified {@link OnListFragmentInteractionListener}.
  * TODO: Replace the implementation with code for your data type.
  */
-public class MyChaptersRecyclerViewAdapter extends RecyclerView.Adapter<MyChaptersRecyclerViewAdapter.ViewHolder> {
+public class MyHikeRecyclerViewAdapter extends RecyclerView.Adapter<MyHikeRecyclerViewAdapter.ViewHolder> {
 
-    private final List<ChapterItem> mValues;
+    private final List<DummyItem> mValues;
     private final OnListFragmentInteractionListener mListener;
-    private final Context mContext;
 
-    public MyChaptersRecyclerViewAdapter(List<ChapterItem> items, OnListFragmentInteractionListener listener, Context context) {
+    public MyHikeRecyclerViewAdapter(List<DummyItem> items, OnListFragmentInteractionListener listener) {
         mValues = items;
         mListener = listener;
-        mContext = context;
     }
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.fragment_chapters, parent, false);
+                .inflate(R.layout.fragment_hike, parent, false);
         return new ViewHolder(view);
     }
 
     @Override
     public void onBindViewHolder(final ViewHolder holder, int position) {
         holder.mItem = mValues.get(position);
-        //holder.mIdView.setText(mValues.get(position).id);
+        holder.mIdView.setText(mValues.get(position).id);
         holder.mContentView.setText(mValues.get(position).content);
-        String iconName = holder.mItem.content + ".png";
-        iconName = iconName.replaceAll("-"," ");
-        ColorMatrix matrix = new ColorMatrix();
-        matrix.setSaturation(0);
-
-        ColorMatrixColorFilter filter = new ColorMatrixColorFilter(matrix);
-
-
-        try {
-            holder.mImageView.setImageBitmap(BitmapFactory.decodeStream(mContext.getAssets().open(iconName)));
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        holder.mImageView.setColorFilter(filter);
-
 
         holder.mView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -86,14 +60,14 @@ public class MyChaptersRecyclerViewAdapter extends RecyclerView.Adapter<MyChapte
 
     public class ViewHolder extends RecyclerView.ViewHolder {
         public final View mView;
-        public final ImageView mImageView;
+        public final TextView mIdView;
         public final TextView mContentView;
-        public ChapterItem mItem;
+        public DummyItem mItem;
 
         public ViewHolder(View view) {
             super(view);
             mView = view;
-            mImageView = (ImageView) view.findViewById(R.id.item_image);
+            mIdView = (TextView) view.findViewById(R.id.item_number);
             mContentView = (TextView) view.findViewById(R.id.content);
         }
 
