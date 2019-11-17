@@ -73,5 +73,12 @@
         android:label="Label"
         tools:layout="@layout/hike_creation_fragment"/>
 
+    <fragment
+        android:id="@+id/help"
+        android:name="com.WWU.explorerspack.ui.help.OnBoardingFragment"
+        android:label="Tips"
+        tools:layout="@layout/help"
+        />
+
 
 </navigation>
