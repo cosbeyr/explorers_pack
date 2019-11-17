@@ -4,6 +4,8 @@ import android.os.Bundle;
 
 
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 
 import com.WWU.explorerspack.ui.logs.HikeFragment;
@@ -90,6 +92,7 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
         return navController.navigateUp();//this might not be necessary.
     }
 
+
     @Override
     public void onListFragmentInteraction(ChapterContent.ChapterItem chapterItem) {
         //do stuff
@@ -118,6 +121,25 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
         getSupportActionBar().setTitle(title);
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.my_menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle presses on the action bar items
+        switch (item.getItemId()) {
+            case R.id.info:
+                Log.i("INFO", "info icon was pressed");
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+
 
     @Override
     public void onSubListFragmentInteraction(String item) {
@@ -127,3 +149,5 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
         navController.navigate(R.id.action_navigation_chapter_to_sub_chapter_page, args);
     }
 }
+
+
