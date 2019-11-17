@@ -52,7 +52,7 @@ public class MyChaptersRecyclerViewAdapter extends RecyclerView.Adapter<MyChapte
         //holder.mIdView.setText(mValues.get(position).id);
         holder.mContentView.setText(mValues.get(position).content);
         String iconName = holder.mItem.content + ".png";
-
+        iconName = iconName.replaceAll("-"," ");
         ColorMatrix matrix = new ColorMatrix();
         matrix.setSaturation(0);
 

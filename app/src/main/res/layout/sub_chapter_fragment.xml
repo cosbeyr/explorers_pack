@@ -5,9 +5,9 @@
     android:layout_height="match_parent"
     tools:context=".ui.guide.L3.SubChapterFragment">
 
-    <TextView
+    <us.feras.mdv.MarkdownView
+        android:id="@+id/markdownView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello" />
+        android:layout_height="match_parent" />
 
 </LinearLayout>
