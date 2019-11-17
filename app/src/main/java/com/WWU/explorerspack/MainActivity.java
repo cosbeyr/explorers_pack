@@ -7,7 +7,7 @@ import android.util.Log;
 import android.view.View;
 
 import com.WWU.explorerspack.ui.logs.HikeFragment;
-import com.WWU.explorerspack.ui.logs.hike_item.HikeItem;
+import com.WWU.explorerspack.ui.logs.hike_item.HikeList;
 import com.WWU.explorerspack.ui.guide.L3.SubChapterFragment;
 import com.WWU.explorerspack.utilities.StorageUtilities;
 import com.WWU.explorerspack.ui.guide.GuideListFragment;
@@ -109,7 +109,7 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
     }
 
     @Override
-    public void onListFragmentInteraction(HikeItem.DummyItem item) {
+    public void onListFragmentInteraction(HikeList.HikeItem item) {
         //do stuff
     }
 

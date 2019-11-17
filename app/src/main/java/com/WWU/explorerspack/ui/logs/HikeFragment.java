@@ -11,10 +11,20 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import com.WWU.explorerspack.R;
-import com.WWU.explorerspack.ui.logs.hike_item.HikeItem;
-import com.WWU.explorerspack.ui.logs.hike_item.HikeItem.DummyItem;
+
+import com.WWU.explorerspack.ui.logs.hike_item.HikeList;
+import com.WWU.explorerspack.ui.logs.hike_item.HikeList.HikeItem;
+import com.WWU.explorerspack.utilities.StorageUtilities;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.Iterator;
+
+import static com.WWU.explorerspack.ui.logs.hike_item.HikeList.HikeItem.addItem;
 
 /**
  * A fragment representing a list of Items.
@@ -70,7 +80,22 @@ public class HikeFragment extends Fragment {
             } else {
                 recyclerView.setLayoutManager(new GridLayoutManager(context, mColumnCount));
             }
-            recyclerView.setAdapter(new MyHikeRecyclerViewAdapter(HikeItem.ITEMS, mListener));
+
+            JSONObject hikeLogs = null;
+            String storage = StorageUtilities.read(getActivity(), StorageUtilities.jsonStorageName);
+            try {
+                hikeLogs = new JSONObject(storage);
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Toast.makeText(getActivity(), "Failed to load hike log information",
+                        Toast.LENGTH_SHORT).show();
+            }
+            Iterator<String> keys = hikeLogs.keys();
+            while(keys.hasNext()) {
+                String key = keys.next();
+                addItem(key);
+            }
+            recyclerView.setAdapter(new MyHikeRecyclerViewAdapter(HikeList.ITEMS, mListener));
         }
         return view;
     }
@@ -105,6 +130,6 @@ public class HikeFragment extends Fragment {
      */
     public interface OnListFragmentInteractionListener {
         // TODO: Update argument type and name
-        void onListFragmentInteraction(DummyItem item);
+        void onListFragmentInteraction(HikeItem item);
     }
 }
