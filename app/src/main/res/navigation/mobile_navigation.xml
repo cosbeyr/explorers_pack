@@ -22,7 +22,7 @@
     <fragment
         android:id="@+id/sub_chapter_page"
         android:name="com.WWU.explorerspack.ui.guide.L3.SubChapterFragment"
-        android:label="Sub-Chapter"
+        android:label=""
         tools:layout="@layout/sub_chapter_fragment"
         />
 
@@ -56,7 +56,7 @@
     <fragment
         android:id="@+id/chapter_page"
         android:name="com.WWU.explorerspack.ui.guide.L2.ChapterPageFragment"
-        android:label="chapter"
+        android:label=""
         tools:layout="@layout/chapter_page_fragment">
     <action
         android:id="@+id/action_navigation_chapter_to_sub_chapter_page"

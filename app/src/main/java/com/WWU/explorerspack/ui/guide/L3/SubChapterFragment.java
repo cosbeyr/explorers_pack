@@ -69,10 +69,6 @@ public class SubChapterFragment extends Fragment {
         mViewModel = ViewModelProviders.of(this).get(SubChapterViewModel.class);
         // TODO: Use the ViewModel
     }
-    //this is implemented for the
-    public interface OnSubListFragmentInteractionListener {
-        // TODO: Update argument type and name
-        void onSubListFragmentInteraction(String item);
-    }
+
 
 }
