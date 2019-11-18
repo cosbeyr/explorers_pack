@@ -1,5 +1,6 @@
 package com.WWU.explorerspack;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
 
 
@@ -27,6 +28,7 @@ import androidx.navigation.NavDestination;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
+import androidx.preference.PreferenceManager;
 
 import java.util.List;
 
@@ -74,6 +76,16 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
         // this.navController = navController;
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(navView, navController);
+        boolean homePageTips = true;
+        try{
+            SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
+            homePageTips = sharedPreferences.getBoolean("home_page_tips", true);
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+        if(homePageTips){
+            navController.navigate(R.id.help);
+        }
     }
 
     @Override
@@ -133,6 +145,7 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
         // Handle presses on the action bar items
         switch (item.getItemId()) {
             case R.id.info:
+                navController.navigate(R.id.help);
                 Log.i("INFO", "info icon was pressed");
                 return true;
             default:
