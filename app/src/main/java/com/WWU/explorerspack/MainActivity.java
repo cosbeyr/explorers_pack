@@ -1,11 +1,15 @@
 package com.WWU.explorerspack;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
 
 
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 
+import com.WWU.explorerspack.ui.guide.L2.SubChapterData.SubChapterContent;
 import com.WWU.explorerspack.ui.logs.HikeFragment;
 import com.WWU.explorerspack.ui.logs.hike_item.HikeList;
 import com.WWU.explorerspack.ui.guide.L3.SubChapterFragment;
@@ -15,20 +19,35 @@ import com.WWU.explorerspack.ui.guide.ChapterData.ChapterContent;
 import com.WWU.explorerspack.ui.guide.L2.ChapterPageFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.snackbar.Snackbar;
 
 import androidx.annotation.Nullable;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 import androidx.navigation.NavController;
 import androidx.navigation.NavDestination;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
+import androidx.preference.PreferenceManager;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Dictionary;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity implements GuideListFragment.OnListFragmentInteractionListener, HikeFragment.OnListFragmentInteractionListener, SubChapterFragment.OnSubListFragmentInteractionListener {
+public class MainActivity extends AppCompatActivity implements GuideListFragment.OnListFragmentInteractionListener,HikeFragment.OnListFragmentInteractionListener, ChapterPageFragment.OnSubListFragmentInteractionListener{
     private NavController navController;
 
     @Override
@@ -72,6 +91,16 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
         // this.navController = navController;
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(navView, navController);
+        boolean homePageTips = true;
+        try{
+            SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
+            homePageTips = sharedPreferences.getBoolean("home_page_tips", true);
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+        if(homePageTips){
+            navController.navigate(R.id.help);
+        }
     }
 
     @Override
@@ -89,6 +118,7 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
     public boolean onSupportNavigateUp() {
         return navController.navigateUp();//this might not be necessary.
     }
+
 
     @Override
     public void onListFragmentInteraction(ChapterContent.ChapterItem chapterItem) {
@@ -120,12 +150,36 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
         getSupportActionBar().setTitle(title);
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.my_menu, menu);
+        return true;
+    }
 
     @Override
-    public void onSubListFragmentInteraction(String item) {
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle presses on the action bar items
+        switch (item.getItemId()) {
+            case R.id.info:
+                navController.navigate(R.id.help);
+                Log.i("INFO", "info icon was pressed");
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+
+
+    @Override
+    public void onSubListFragmentInteraction(SubChapterContent.SubChapterItem item) {
+        //chapter name,id of sub chapter -- name
         SubChapterFragment fragment = new SubChapterFragment();
         Bundle args = new Bundle();
-        args.putString("id", item);
+        args.putString("chapter", item.chapter);
+        args.putString("subChapter",item.subChapter);
         navController.navigate(R.id.action_navigation_chapter_to_sub_chapter_page, args);
     }
 }
+
+

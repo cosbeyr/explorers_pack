@@ -15,18 +15,41 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
+import com.WWU.explorerspack.MainActivity;
 import com.WWU.explorerspack.R;
+import com.WWU.explorerspack.ui.guide.ChapterData.ChapterContent;
+import com.WWU.explorerspack.ui.guide.JSONManager;
+
+import org.json.JSONObject;
+
+import us.feras.mdv.MarkdownView;
 
 import static androidx.navigation.Navigation.findNavController;
 
 public class SubChapterFragment extends Fragment {
 
     private SubChapterViewModel mViewModel;
+    private String content = "Test Content";
+    private String chapter = "Camouflage";
+    private String subChapter = "Hiding";
 
     public static SubChapterFragment newInstance() {
         return new SubChapterFragment();
+    }
+
+    @Override
+    public void onCreate(Bundle savedInstanceState){
+        super.onCreate(savedInstanceState);
+
+        if(getArguments() != null){
+            chapter = getArguments().getString("chapter");
+            subChapter = getArguments().getString("subChapter");
+            content = JSONManager.getInstance(null).getSubChapter(chapter, subChapter);
+        }
+        ((MainActivity) getActivity()).setActionBarTitle(chapter + " > " + subChapter);
     }
 
     @Override
@@ -34,7 +57,8 @@ public class SubChapterFragment extends Fragment {
                              @Nullable Bundle savedInstanceState) {
 
         final View rootView = inflater.inflate(R.layout.sub_chapter_fragment, container, false);
-
+        MarkdownView markdownView = rootView.findViewById(R.id.markdownView);
+        markdownView.loadMarkdown(content);
 
         return rootView;
     }
@@ -45,10 +69,6 @@ public class SubChapterFragment extends Fragment {
         mViewModel = ViewModelProviders.of(this).get(SubChapterViewModel.class);
         // TODO: Use the ViewModel
     }
-    //this is implemented for the
-    public interface OnSubListFragmentInteractionListener {
-        // TODO: Update argument type and name
-        void onSubListFragmentInteraction(String item);
-    }
+
 
 }

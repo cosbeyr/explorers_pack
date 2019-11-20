@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal"
-   >
+    android:layout_height="wrap_content">
+
     <androidx.cardview.widget.CardView
-        android:layout_width="130dp"
-        android:layout_height="130dp"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
         android:foreground="?android:attr/selectableItemBackground"
         android:layout_gravity="center"
         android:layout_margin="16dp"
@@ -17,26 +17,14 @@
             android:layout_height="match_parent"
             android:background="@color/tile"
             android:orientation="vertical">
-
-            <ImageView
-                android:id="@+id/item_image"
-                android:layout_width="93dp"
-                android:layout_height="48dp"
-                android:layout_gravity="center"
-                android:layout_margin="@dimen/text_margin"
-                android:src="@drawable/ic_placeholder_photo"
-                android:textAppearance="?attr/textAppearanceListItem" />
-
             <TextView
-                android:id="@+id/content"
+                android:id="@+id/section"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="@dimen/text_margin"
                 android:gravity="center"
                 android:textAppearance="?attr/textAppearanceListItem"
-                android:textColor="#ffffff"
-                android:textStyle="bold"
-                android:textSize="20dp"/>
+                android:textColor="#ffffff" />
 
 
         </LinearLayout>
