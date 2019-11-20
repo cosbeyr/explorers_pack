@@ -1,5 +1,9 @@
 package com.WWU.explorerspack.ui.logs.hike_item;
 
+import com.WWU.explorerspack.utilities.StorageUtilities;
+
+import org.json.JSONObject;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -11,23 +15,37 @@ import java.util.Map;
  * <p>
  * TODO: Replace all uses of this class before publishing your app.
  */
-public class HikeItem {
+public class HikeList {
+
+    public static List<HikeItem> ITEMS = new ArrayList<HikeItem>();
+
+    public static Map<String, HikeItem> ITEM_MAP = new HashMap<String, HikeItem>();
 
     /**
-     * An array of sample (dummy) items.
+     * A hike item representing a hike.
      */
+    public static class HikeItem {
+        public final String id;
+
+        public HikeItem(String id) {
+            this.id = id;
+        }
+        public static void addItem(String id) {
+            HikeItem item = new HikeItem(id);
+            ITEMS.add(item);
+            ITEM_MAP.put(item.id, item);
+        }
+    }
+
+    /*
     public static final List<DummyItem> ITEMS = new ArrayList<DummyItem>();
 
-    /**
-     * A map of sample (dummy) items, by ID.
-     */
+
     public static final Map<String, DummyItem> ITEM_MAP = new HashMap<String, DummyItem>();
 
-    private static final int COUNT = 25;
-
     static {
-        // Add some sample items.
-        for (int i = 1; i <= COUNT; i++) {
+        //Add some sample items.
+        for (int i = 1; i <= 2; i++) {
             addItem(createDummyItem(i));
         }
     }
@@ -50,9 +68,7 @@ public class HikeItem {
         return builder.toString();
     }
 
-    /**
-     * A dummy item representing a piece of content.
-     */
+
     public static class DummyItem {
         public final String id;
         public final String content;
@@ -68,5 +84,5 @@ public class HikeItem {
         public String toString() {
             return content;
         }
-    }
+    } */
 }
