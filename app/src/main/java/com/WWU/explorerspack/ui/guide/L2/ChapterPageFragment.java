@@ -32,15 +32,12 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import org.w3c.dom.Text;
 
-import us.feras.mdv.MarkdownView;
-
 public class ChapterPageFragment extends Fragment {
 
     private ChapterPageViewModel mViewModel;
     private JSONObject chapterObj;
     private String id;
     private String title;
-    private String intro;
     private JSONArray subChapters;
     private int mColumnCount = 2;
     private OnSubListFragmentInteractionListener mListener;
@@ -72,7 +69,6 @@ public class ChapterPageFragment extends Fragment {
                              @Nullable Bundle savedInstanceState) {
          //may need to remove final
          final View rootView = inflater.inflate(R.layout.chapter_page_fragment, container, false);
-        MarkdownView markdownView = rootView.findViewById(R.id.markdownView);
 //        Button L3Button = rootView.findViewById(R.id.go_to_button);
 //
 //        L3Button.setOnClickListener(new View.OnClickListener() {
@@ -93,14 +89,12 @@ public class ChapterPageFragment extends Fragment {
              //System.out.println(chapterObj.toString());
              title = ChapterContent.ITEM_MAP.get(id).content;
              try {
-                 intro = chapterObj.getString("Introduction");
                  subChapters = JSONManager.getInstance(null).getL2Tiles(title);
              } catch (Exception e) {
                  //DO nothing
              }
              System.out.println("");
          }
-         markdownView.loadMarkdown(intro);
          //send the sub chapters to the recycler view.
 
         //set the adapter for the recycler view
