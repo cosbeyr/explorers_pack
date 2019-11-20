@@ -44,6 +44,13 @@
             app:exitAnim="@anim/nav_default_exit_anim"
             app:popEnterAnim="@anim/nav_default_pop_enter_anim"
             app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_navigation_hike_to_sub_hike_page"
+            app:destination="@id/sub_hike_page"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
     </fragment>
 
     <fragment
@@ -74,11 +81,15 @@
         tools:layout="@layout/hike_creation_fragment"/>
 
     <fragment
+        android:id="@+id/sub_hike_page"
+        android:name="com.WWU.explorerspack.ui.logs.SubHikeFragment"
+        android:label="Label"
+        tools:layout="@layout/sub_hike_fragment"/>
+    <fragment
         android:id="@+id/help"
         android:name="com.WWU.explorerspack.ui.help.OnBoardingFragment"
         android:label="Tips"
         tools:layout="@layout/help"
         />
-
 
 </navigation>
