@@ -51,7 +51,6 @@ public class HikeCreationFragment extends Fragment {
                 String titleText = titleTextObj.getText().toString();
                 String notesText = notesTextObj.getText().toString();
                 JSONObject hikeLogs = createHike(titleText, notesText);
-                Iterator<String> keys = hikeLogs.keys();
             }
         });
 

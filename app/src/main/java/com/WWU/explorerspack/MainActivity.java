@@ -110,7 +110,9 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
 
     @Override
     public void onListFragmentInteraction(HikeList.HikeItem item) {
-        //do stuff
+        Bundle args = new Bundle();
+        args.putString("id", item.id);
+        navController.navigate(R.id.action_navigation_hike_to_sub_hike_page, args);
     }
 
 

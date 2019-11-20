@@ -17,9 +17,9 @@ import java.util.Map;
  */
 public class HikeList {
 
-    public static final List<HikeItem> ITEMS = new ArrayList<HikeItem>();
+    public static List<HikeItem> ITEMS = new ArrayList<HikeItem>();
 
-    public static final Map<String, HikeItem> ITEM_MAP = new HashMap<String, HikeItem>();
+    public static Map<String, HikeItem> ITEM_MAP = new HashMap<String, HikeItem>();
 
     /**
      * A hike item representing a hike.

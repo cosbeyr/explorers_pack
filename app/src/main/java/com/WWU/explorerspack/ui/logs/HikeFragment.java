@@ -22,7 +22,10 @@ import com.WWU.explorerspack.utilities.StorageUtilities;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Iterator;
+import java.util.Map;
 
 import static com.WWU.explorerspack.ui.logs.hike_item.HikeList.HikeItem.addItem;
 
@@ -91,10 +94,14 @@ public class HikeFragment extends Fragment {
                         Toast.LENGTH_SHORT).show();
             }
             Iterator<String> keys = hikeLogs.keys();
+            HikeList.ITEMS = new ArrayList<HikeItem>();
+            HikeList.ITEM_MAP = new HashMap<String, HikeItem>();
+
             while(keys.hasNext()) {
                 String key = keys.next();
                 addItem(key);
             }
+            
             recyclerView.setAdapter(new MyHikeRecyclerViewAdapter(HikeList.ITEMS, mListener));
         }
         return view;
