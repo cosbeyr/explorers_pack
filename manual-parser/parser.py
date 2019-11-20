@@ -88,8 +88,6 @@ def getSections(title, data, start):
     sections = OrderedDict()
  
     for line in data[start:]:
-        line = line.strip()
-
         if line[0:3] == '###':
             curr_section = line[4:].title()
             sections[curr_section] = ''
