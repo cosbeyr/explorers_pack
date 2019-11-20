@@ -11,10 +11,10 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/hike_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Title (replace with @string)"
+            android:text="Title"
             android:textColor="#000000"
             android:textStyle="bold" />
 
@@ -27,21 +27,13 @@
             android:textIsSelectable="false"
             android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/textView3"
+        <EditText
+            android:id="@+id/note_edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView (replace with @string)"
-            android:textColor="#000000" />
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine" />
 
-        <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical" />
-        </ScrollView>
     </LinearLayout>
 </FrameLayout>
