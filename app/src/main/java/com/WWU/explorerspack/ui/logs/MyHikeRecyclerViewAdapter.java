@@ -9,21 +9,21 @@ import android.widget.TextView;
 
 import com.WWU.explorerspack.R;
 import com.WWU.explorerspack.ui.logs.HikeFragment.OnListFragmentInteractionListener;
-import com.WWU.explorerspack.ui.logs.hike_item.HikeItem.DummyItem;
+import com.WWU.explorerspack.ui.logs.hike_item.HikeList.HikeItem;
 
 import java.util.List;
 
 /**
- * {@link RecyclerView.Adapter} that can display a {@link DummyItem} and makes a call to the
+ * {@link RecyclerView.Adapter} that can display a {@link HikeItem} and makes a call to the
  * specified {@link OnListFragmentInteractionListener}.
  * TODO: Replace the implementation with code for your data type.
  */
 public class MyHikeRecyclerViewAdapter extends RecyclerView.Adapter<MyHikeRecyclerViewAdapter.ViewHolder> {
 
-    private final List<DummyItem> mValues;
+    private final List<HikeItem> mValues;
     private final OnListFragmentInteractionListener mListener;
 
-    public MyHikeRecyclerViewAdapter(List<DummyItem> items, OnListFragmentInteractionListener listener) {
+    public MyHikeRecyclerViewAdapter(List<HikeItem> items, OnListFragmentInteractionListener listener) {
         mValues = items;
         mListener = listener;
     }
@@ -39,7 +39,6 @@ public class MyHikeRecyclerViewAdapter extends RecyclerView.Adapter<MyHikeRecycl
     public void onBindViewHolder(final ViewHolder holder, int position) {
         holder.mItem = mValues.get(position);
         holder.mIdView.setText(mValues.get(position).id);
-        holder.mContentView.setText(mValues.get(position).content);
 
         holder.mView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -62,12 +61,12 @@ public class MyHikeRecyclerViewAdapter extends RecyclerView.Adapter<MyHikeRecycl
         public final View mView;
         public final TextView mIdView;
         public final TextView mContentView;
-        public DummyItem mItem;
+        public HikeItem mItem;
 
         public ViewHolder(View view) {
             super(view);
             mView = view;
-            mIdView = (TextView) view.findViewById(R.id.item_number);
+            mIdView = (TextView) view.findViewById(R.id.hike_id);
             mContentView = (TextView) view.findViewById(R.id.content);
         }
 
