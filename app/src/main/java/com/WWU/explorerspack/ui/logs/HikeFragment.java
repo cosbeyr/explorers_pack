@@ -1,5 +1,6 @@
 package com.WWU.explorerspack.ui.logs;
 
+import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 
@@ -11,6 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Toast;
 
 import com.WWU.explorerspack.R;
@@ -59,7 +61,10 @@ public class HikeFragment extends Fragment {
         fragment.setArguments(args);
         return fragment;
     }
-
+    public static void hideKeyboardFrom(Context context, View view) {
+        InputMethodManager imm = (InputMethodManager) context.getSystemService(Activity.INPUT_METHOD_SERVICE);
+        imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
+    }
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -73,7 +78,7 @@ public class HikeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_hike_list, container, false);
-
+        hideKeyboardFrom(view.getContext(), view);
         // Set the adapter
         if (view instanceof RecyclerView) {
             Context context = view.getContext();
@@ -101,7 +106,7 @@ public class HikeFragment extends Fragment {
                 String key = keys.next();
                 addItem(key);
             }
-            
+
             recyclerView.setAdapter(new MyHikeRecyclerViewAdapter(HikeList.ITEMS, mListener));
         }
         return view;
