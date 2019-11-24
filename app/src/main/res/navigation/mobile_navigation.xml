@@ -78,7 +78,15 @@
         android:id="@+id/hike_creation"
         android:name="com.WWU.explorerspack.ui.logs.HikeCreationFragment"
         android:label="Label"
-        tools:layout="@layout/hike_creation_fragment"/>
+        tools:layout="@layout/hike_creation_fragment">
+        <action
+            android:id="@+id/action_navigation_hike_creation_to_hike"
+            app:destination="@+id/sub_hike_page"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
 
     <fragment
         android:id="@+id/sub_hike_page"

@@ -1,5 +1,6 @@
 package com.WWU.explorerspack;
 
+import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 
@@ -8,7 +9,9 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
+import com.WWU.explorerspack.ui.guide.GuideFragment;
 import com.WWU.explorerspack.ui.guide.L2.SubChapterData.SubChapterContent;
 import com.WWU.explorerspack.ui.logs.HikeFragment;
 import com.WWU.explorerspack.ui.logs.hike_item.HikeList;
@@ -20,10 +23,15 @@ import com.WWU.explorerspack.ui.guide.L2.ChapterPageFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
+import com.jayway.jsonpath.Configuration;
+import com.jayway.jsonpath.JsonPath;
+import com.jayway.jsonpath.ReadContext;
 
 import androidx.annotation.Nullable;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.SearchView;
+import androidx.core.view.MenuItemCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.navigation.NavController;
@@ -33,25 +41,19 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 import androidx.preference.PreferenceManager;
 
-import org.json.JSONArray;
-import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.Dictionary;
+import java.util.Iterator;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements GuideListFragment.OnListFragmentInteractionListener,HikeFragment.OnListFragmentInteractionListener, ChapterPageFragment.OnSubListFragmentInteractionListener{
     private NavController navController;
+    private JSONObject guideJSON;
+    public String current_title = "Created";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTheme(R.style.AppTheme);
         boolean isFilePresent = StorageUtilities.isFilePresent(this, StorageUtilities.jsonStorageName);
         if (!isFilePresent) {
             boolean isFileCreated = StorageUtilities.create(this, StorageUtilities.jsonStorageName, StorageUtilities.template(true).toString());
@@ -148,12 +150,112 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
 
     public void setActionBarTitle(String title) {
         getSupportActionBar().setTitle(title);
+        current_title = title;
+    }
+
+    // See above
+    private class SearchViewExpandListener implements MenuItemCompat.OnActionExpandListener {
+
+        private Context context;
+
+        public SearchViewExpandListener (Context c) {
+            context = c;
+        }
+
+        @Override
+        public boolean onMenuItemActionExpand(MenuItem item) {
+            ((AppCompatActivity) context).getSupportActionBar().setDisplayShowHomeEnabled(true);
+            return false;
+        }
+
+        @Override
+        public boolean onMenuItemActionCollapse(MenuItem item) {
+            ((AppCompatActivity) context).getSupportActionBar().setDisplayShowHomeEnabled(false);
+            return false;
+        }
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.my_menu, menu);
+        MenuItem searchItem = menu.findItem(R.id.action_search);
+        SearchView searchView = (SearchView) searchItem.getActionView();
+        final String guideRaw = StorageUtilities.loadJSONFromAsset(this);
+        Object document = Configuration.defaultConfiguration().jsonProvider().parse(guideRaw);
+
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+
+            @Override
+            public boolean onQueryTextSubmit(String s) {
+                if (current_title.equals("Guide")){
+                    JSONObject parsedGuide;
+                    // search max 5 results
+                    String[] results = new String[5];
+                    int counter = 0;
+                    try{
+                        parsedGuide = new JSONObject(guideRaw);
+                        Iterator<String> keys = parsedGuide.keys();
+                        while(keys.hasNext() && counter < 5) {
+                            String key = keys.next();
+                            if(key.toLowerCase().startsWith(s.toLowerCase())){
+                                results[counter] = key;
+                                counter++;
+                            }
+                        }
+                        Toast.makeText(MainActivity.this, "Found topic: " + results[0], Toast.LENGTH_SHORT).show();
+
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+
+                } else if (current_title.contains(" > ")) {
+                    String[] subsection = current_title.split(" > ");
+                    JSONObject parsedGuide;
+                    int position;
+                    try{
+                        parsedGuide = new JSONObject(guideRaw);
+                        JSONObject section = parsedGuide.getJSONObject(subsection[0]);
+                        String subsectionData = section.getString(subsection[1]);
+                        position = subsectionData.indexOf(s);
+                        Toast.makeText(MainActivity.this, "Found details at position " + position, Toast.LENGTH_SHORT).show();
+
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+
+                } else {
+
+                    JSONObject parsedGuide;
+                    // search max 5 results
+                    String[] results = new String[5];
+                    int counter = 0;
+                    try{
+                        parsedGuide = new JSONObject(guideRaw);
+                        JSONObject section = parsedGuide.getJSONObject(current_title);
+                        Iterator<String> keys = section.keys();
+                        while(keys.hasNext() && counter < 5) {
+                            String key = keys.next();
+                            if(key.toLowerCase().startsWith(s.toLowerCase())){
+                                results[counter] = key;
+                                counter++;
+                            }
+                        }
+                        Toast.makeText(MainActivity.this, "Found section: " + results[0], Toast.LENGTH_SHORT).show();
+
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                }
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String s) {
+                // Log.i("info",s);
+                return false;
+            }
+        });
         return true;
     }
 
