@@ -10,7 +10,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
-
 import com.WWU.explorerspack.ui.guide.L2.SubChapterData.SubChapterContent;
 import com.WWU.explorerspack.ui.logs.HikeFragment;
 import com.WWU.explorerspack.ui.logs.hike_item.HikeList;
@@ -37,22 +36,13 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 import androidx.preference.PreferenceManager;
 
-import org.json.JSONArray;
-import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.Dictionary;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements GuideListFragment.OnListFragmentInteractionListener,HikeFragment.OnListFragmentInteractionListener, ChapterPageFragment.OnSubListFragmentInteractionListener{
     private NavController navController;
+    private JSONObject guideJSON;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -182,6 +172,15 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
         getMenuInflater().inflate(R.menu.my_menu, menu);
         MenuItem searchItem = menu.findItem(R.id.action_search);
         SearchView searchView = (SearchView) searchItem.getActionView();
+        String guideRaw = StorageUtilities.loadJSONFromAsset(this);
+
+        try {
+            guideJSON = new JSONObject(guideRaw);
+        } catch (Exception e) {
+            e.printStackTrace();
+            Toast.makeText(MainActivity.this, "Search is disabled...", Toast.LENGTH_SHORT).show();
+        }
+
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
 
             @Override
