@@ -28,6 +28,7 @@ import androidx.navigation.NavController;
 import com.WWU.explorerspack.R;
 import com.WWU.explorerspack.utilities.StorageUtilities;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -120,6 +121,8 @@ public class HikeCreationFragment extends DialogFragment {
         JSONObject hikeLogs = null;
         String storage = StorageUtilities.read(getActivity(), StorageUtilities.jsonStorageName);
         JSONObject hike = new JSONObject();
+        JSONObject photo = new JSONObject();
+        JSONArray jsonArray = new JSONArray();
         try {
             hikeLogs = new JSONObject(storage);
         } catch (JSONException e) {
@@ -134,6 +137,9 @@ public class HikeCreationFragment extends DialogFragment {
         } catch (JSONException e1) {
             try {
                 hike.put("notes", notes);
+                jsonArray.put(photo);
+                hike.put("map","");
+                hike.put("photos", jsonArray);
                 hikeLogs.put(title, hike);
                 StorageUtilities.create(getActivity(), StorageUtilities.jsonStorageName, hikeLogs.toString());
 
