@@ -210,8 +210,20 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
                     }
 
                 } else if (current_title.contains(" > ")) {
-                    Toast.makeText(MainActivity.this, "You searched " + s + " inside subsection " + current_title, Toast.LENGTH_SHORT).show();
-                    
+                    String[] subsection = current_title.split(">");
+                    JSONObject parsedGuide;
+                    int position;
+                    try{
+                        parsedGuide = new JSONObject(guideRaw);
+                        JSONObject section = parsedGuide.getJSONObject(subsection[0].trim());
+                        String subsectionData = section.getString(subsection[1].trim());
+                        position = subsectionData.indexOf(s);
+                        Toast.makeText(MainActivity.this, "Found details at position " + position, Toast.LENGTH_SHORT).show();
+
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+
                 } else {
 
                     JSONObject parsedGuide;
