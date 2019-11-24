@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTheme(R.style.AppTheme);
         boolean isFilePresent = StorageUtilities.isFilePresent(this, StorageUtilities.jsonStorageName);
         if (!isFilePresent) {
             boolean isFileCreated = StorageUtilities.create(this, StorageUtilities.jsonStorageName, StorageUtilities.template(true).toString());
