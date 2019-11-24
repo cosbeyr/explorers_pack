@@ -10,4 +10,10 @@
     <style name="DarkTheme" parent="Theme.AppCompat.DayNight">
 
     </style>
+    <style name="AppTheme.Launcher">
+    <item name="android:windowBackground">@drawable/explorerspack_lauch_screen</item>
+    <!-- Optional, on Android 5+ you can modify the colorPrimaryDark color to match the windowBackground color for further branding-->
+    <!-- <item name="colorPrimaryDark">@android:color/white</item> -->
+    </style>
+
 </resources>

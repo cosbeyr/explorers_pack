@@ -21,6 +21,7 @@ import android.widget.Button;
 import android.widget.SearchView;
 import android.widget.Toast;
 
+import com.WWU.explorerspack.MainActivity;
 import com.WWU.explorerspack.R;
 import com.WWU.explorerspack.ui.guide.ChapterData.ChapterContent;
 import com.WWU.explorerspack.ui.guide.ChapterData.ChapterContent.ChapterItem;
@@ -98,7 +99,7 @@ public class GuideListFragment extends Fragment implements SearchView.OnQueryTex
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_chapters_list, container, false);
-
+        ((MainActivity) getActivity()).setActionBarTitle("Guide");
 
 
         // Set the adapter

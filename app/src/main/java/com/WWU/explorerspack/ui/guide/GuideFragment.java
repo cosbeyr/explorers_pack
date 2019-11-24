@@ -13,6 +13,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
+import com.WWU.explorerspack.MainActivity;
 import com.WWU.explorerspack.R;
 
 import org.json.JSONArray;
@@ -34,7 +35,7 @@ public class GuideFragment extends Fragment {
                 ViewModelProviders.of(this).get(GuideViewModel.class);
         View root = inflater.inflate(R.layout.fragment_guide, container, false);
         final TextView textView = root.findViewById(R.id.text_guide);
-
+        ((MainActivity) getActivity()).setActionBarTitle("Guide");
 
         guideViewModel.getText().observe(this, new Observer<String>() {
             @Override

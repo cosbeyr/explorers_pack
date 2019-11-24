@@ -4,12 +4,14 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.recyclerview.widget.RecyclerView;
 import com.WWU.explorerspack.utilities.StorageUtilities;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -44,7 +46,7 @@ public class MyHikeRecyclerViewAdapter extends RecyclerView.Adapter<MyHikeRecycl
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.fragment_hike, parent, false);
-
+        hideKeyboardFrom(view.getContext(), view);
         return new ViewHolder(view);
     }
 
@@ -69,6 +71,11 @@ public class MyHikeRecyclerViewAdapter extends RecyclerView.Adapter<MyHikeRecycl
         this.notifyDataSetChanged();
     }
 
+    public static void hideKeyboardFrom(Context context, View view) {
+        InputMethodManager imm = (InputMethodManager) context.getSystemService(Activity.INPUT_METHOD_SERVICE);
+        imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
+    }
+
     @Override
     public int getItemCount() {
         return mValues.size();
@@ -86,6 +93,7 @@ public class MyHikeRecyclerViewAdapter extends RecyclerView.Adapter<MyHikeRecycl
             mIdView = (TextView) view.findViewById(R.id.hike_id);
             mContentView = (TextView) view.findViewById(R.id.content);
             removeButton = (Button) view.findViewById(R.id.remove_hike);
+            hideKeyboardFrom(view.getContext(), view);
             removeButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
