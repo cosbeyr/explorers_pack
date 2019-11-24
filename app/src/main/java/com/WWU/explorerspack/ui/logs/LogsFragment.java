@@ -12,6 +12,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
+import com.WWU.explorerspack.MainActivity;
 import com.WWU.explorerspack.R;
 
 public class LogsFragment extends Fragment {

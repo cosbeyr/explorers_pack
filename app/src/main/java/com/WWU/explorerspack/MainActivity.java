@@ -10,6 +10,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
+
+import com.WWU.explorerspack.ui.guide.GuideFragment;
 import com.WWU.explorerspack.ui.guide.L2.SubChapterData.SubChapterContent;
 import com.WWU.explorerspack.ui.logs.HikeFragment;
 import com.WWU.explorerspack.ui.logs.hike_item.HikeList;
@@ -21,6 +23,9 @@ import com.WWU.explorerspack.ui.guide.L2.ChapterPageFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
+import com.jayway.jsonpath.Configuration;
+import com.jayway.jsonpath.JsonPath;
+import com.jayway.jsonpath.ReadContext;
 
 import androidx.annotation.Nullable;
 import androidx.annotation.NonNull;
@@ -43,6 +48,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity implements GuideListFragment.OnListFragmentInteractionListener,HikeFragment.OnListFragmentInteractionListener, ChapterPageFragment.OnSubListFragmentInteractionListener{
     private NavController navController;
     private JSONObject guideJSON;
+    public String current_title = "Created";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -143,6 +149,7 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
 
     public void setActionBarTitle(String title) {
         getSupportActionBar().setTitle(title);
+        current_title = title;
     }
 
     // See above
@@ -174,19 +181,16 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
         MenuItem searchItem = menu.findItem(R.id.action_search);
         SearchView searchView = (SearchView) searchItem.getActionView();
         String guideRaw = StorageUtilities.loadJSONFromAsset(this);
+        Object document = Configuration.defaultConfiguration().jsonProvider().parse(guideRaw);
 
-        try {
-            guideJSON = new JSONObject(guideRaw);
-        } catch (Exception e) {
-            e.printStackTrace();
-            Toast.makeText(MainActivity.this, "Search is disabled...", Toast.LENGTH_SHORT).show();
-        }
 
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
 
             @Override
             public boolean onQueryTextSubmit(String s) {
-                Toast.makeText(MainActivity.this, "You searched " + s, Toast.LENGTH_SHORT).show();
+
+                Toast.makeText(MainActivity.this, "You searched " + s + " inside " + current_title, Toast.LENGTH_SHORT).show();
+
                 return false;
             }
 

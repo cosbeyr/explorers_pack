@@ -1,5 +1,6 @@
 package com.WWU.explorerspack.ui.camera;
 
+import com.WWU.explorerspack.MainActivity;
 import com.WWU.explorerspack.utilities.StorageUtilities;
 import android.Manifest;
 import android.app.AlertDialog;
