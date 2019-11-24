@@ -12,14 +12,25 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.WWU.explorerspack.MainActivity;
 import com.WWU.explorerspack.R;
 
 public class SubHikeFragment extends Fragment {
 
     private SubHikeViewModel mViewModel;
+    private String hikeTitle;
 
     public static SubHikeFragment newInstance() {
         return new SubHikeFragment();
+    }
+
+    @Override
+    public void onCreate(Bundle savedInstanceState){
+        super.onCreate(savedInstanceState);
+        if(getArguments() != null){
+            hikeTitle = getArguments().getString("id");
+            ((MainActivity) getActivity()).setActionBarTitle(hikeTitle);
+        }
     }
 
     @Override
