@@ -210,13 +210,13 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
                     }
 
                 } else if (current_title.contains(" > ")) {
-                    String[] subsection = current_title.split(">");
+                    String[] subsection = current_title.split(" > ");
                     JSONObject parsedGuide;
                     int position;
                     try{
                         parsedGuide = new JSONObject(guideRaw);
-                        JSONObject section = parsedGuide.getJSONObject(subsection[0].trim());
-                        String subsectionData = section.getString(subsection[1].trim());
+                        JSONObject section = parsedGuide.getJSONObject(subsection[0]);
+                        String subsectionData = section.getString(subsection[1]);
                         position = subsectionData.indexOf(s);
                         Toast.makeText(MainActivity.this, "Found details at position " + position, Toast.LENGTH_SHORT).show();
 
