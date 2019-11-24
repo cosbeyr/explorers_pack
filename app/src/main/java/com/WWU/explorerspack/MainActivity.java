@@ -203,7 +203,7 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
                                 counter++;
                             }
                         }
-                        Toast.makeText(MainActivity.this, "Found " + results[0], Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this, "Found topic: " + results[0], Toast.LENGTH_SHORT).show();
 
                     } catch (Exception e) {
                         e.printStackTrace();
@@ -211,8 +211,29 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
 
                 } else if (current_title.contains(" > ")) {
                     Toast.makeText(MainActivity.this, "You searched " + s + " inside subsection " + current_title, Toast.LENGTH_SHORT).show();
+                    
                 } else {
-                    Toast.makeText(MainActivity.this, "You searched " + s + " inside section " + current_title, Toast.LENGTH_SHORT).show();
+
+                    JSONObject parsedGuide;
+                    // search max 5 results
+                    String[] results = new String[5];
+                    int counter = 0;
+                    try{
+                        parsedGuide = new JSONObject(guideRaw);
+                        JSONObject section = parsedGuide.getJSONObject(current_title);
+                        Iterator<String> keys = section.keys();
+                        while(keys.hasNext() && counter < 5) {
+                            String key = keys.next();
+                            if(key.toLowerCase().startsWith(s.toLowerCase())){
+                                results[counter] = key;
+                                counter++;
+                            }
+                        }
+                        Toast.makeText(MainActivity.this, "Found section: " + results[0], Toast.LENGTH_SHORT).show();
+
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
                 }
                 return false;
             }
