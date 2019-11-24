@@ -1,5 +1,6 @@
 package com.WWU.explorerspack;
 
+import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 
@@ -8,6 +9,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 import com.WWU.explorerspack.ui.guide.L2.SubChapterData.SubChapterContent;
 import com.WWU.explorerspack.ui.logs.HikeFragment;
@@ -24,6 +26,8 @@ import com.google.android.material.snackbar.Snackbar;
 import androidx.annotation.Nullable;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.SearchView;
+import androidx.core.view.MenuItemCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.navigation.NavController;
@@ -150,10 +154,47 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
         getSupportActionBar().setTitle(title);
     }
 
+    // See above
+    private class SearchViewExpandListener implements MenuItemCompat.OnActionExpandListener {
+
+        private Context context;
+
+        public SearchViewExpandListener (Context c) {
+            context = c;
+        }
+
+        @Override
+        public boolean onMenuItemActionExpand(MenuItem item) {
+            ((AppCompatActivity) context).getSupportActionBar().setDisplayShowHomeEnabled(true);
+            return false;
+        }
+
+        @Override
+        public boolean onMenuItemActionCollapse(MenuItem item) {
+            ((AppCompatActivity) context).getSupportActionBar().setDisplayShowHomeEnabled(false);
+            return false;
+        }
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.my_menu, menu);
+        MenuItem searchItem = menu.findItem(R.id.action_search);
+        SearchView searchView = (SearchView) searchItem.getActionView();
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+
+            @Override
+            public boolean onQueryTextSubmit(String s) {
+                Toast.makeText(MainActivity.this, "You searched " + s, Toast.LENGTH_SHORT).show();
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String s) {
+                return false;
+            }
+        });
         return true;
     }
 
