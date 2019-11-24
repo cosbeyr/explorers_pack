@@ -8,6 +8,7 @@ import androidx.preference.PreferenceManager;
 import androidx.preference.SwitchPreference;
 
 
+import com.WWU.explorerspack.MainActivity;
 import com.WWU.explorerspack.R;
 
 public class SettingsFragment extends PreferenceFragmentCompat implements SharedPreferences.OnSharedPreferenceChangeListener {
@@ -16,6 +17,7 @@ public class SettingsFragment extends PreferenceFragmentCompat implements Shared
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         setPreferencesFromResource(R.xml.settings, rootKey);
         sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getActivity());
+        ((MainActivity) getActivity()).setActionBarTitle("Guide");
     }
 
     @Override

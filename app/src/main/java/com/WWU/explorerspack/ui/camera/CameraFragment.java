@@ -288,7 +288,7 @@ public class CameraFragment extends DialogFragment {
         imageView = root.findViewById(R.id.image_view);
         takePicture = root.findViewById(R.id.button);
         String storage = StorageUtilities.read(getActivity(), StorageUtilities.jsonStorageName);
-
+        ((MainActivity) getActivity()).setActionBarTitle("Guide");
 
         try {
             JSONObject hikes = new JSONObject(storage);
