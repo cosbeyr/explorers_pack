@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:foreground="?android:attr/selectableItemBackground"
     android:orientation="horizontal"
@@ -13,21 +13,29 @@
         >
         <LinearLayout
 
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#009688"
-            android:orientation="vertical"
+            android:orientation="horizontal"
             android:layout_gravity="center">
 
             <TextView
                 android:id="@+id/hike_id"
-                android:layout_width="387dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-
+                android:layout_weight="1"
                 android:textAppearance="?attr/textAppearanceListItem"
                 android:textColor="#FFFFFF"
                 android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:id="@+id/remove_hike"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="Remove" />
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
