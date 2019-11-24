@@ -2,6 +2,8 @@ package com.WWU.explorerspack.ui.logs;
 
 import androidx.lifecycle.ViewModelProviders;
 
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -12,16 +14,20 @@ import android.text.TextWatcher;
 import android.text.TextWatcher;
 import android.text.Editable;
 
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
+import android.widget.LinearLayout;
+import android.widget.ImageView;
 
 import com.WWU.explorerspack.MainActivity;
 import com.WWU.explorerspack.R;
 import com.WWU.explorerspack.utilities.StorageUtilities;
 
 import org.json.JSONObject;
+import org.json.JSONArray;
 
 import java.util.concurrent.ExecutionException;
 
@@ -56,6 +62,8 @@ public class SubHikeFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
         final View rootView = inflater.inflate(R.layout.sub_hike_fragment, container, false);
+
+       ///////////////////////////////////////////////////////////////// // Notes Setup
         EditText notes = rootView.findViewById(R.id.note_edit_text);
         try {
             notes.setText(hikeJSON.getString("notes"));
@@ -79,7 +87,27 @@ public class SubHikeFragment extends Fragment {
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {}
         });
-        
+
+
+
+        /////////////////////////////////////////////////////////////////////////////// Photos Setup
+        LinearLayout photosLayout = rootView.findViewById(R.id.photos);
+        try {
+            JSONArray hikePhotosArray = hikeJSON.getJSONArray("photos");
+            int len = hikePhotosArray.length();
+            for(int i = 0; i < len; i++) {
+                ImageView nextImage = new ImageView(getContext());
+                //TODO GET PARAMETERS FOR SETPIC, test
+                setPic();
+                photosLayout.addView(nextImage);
+
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+
+
         return rootView;
     }
 
@@ -88,6 +116,30 @@ public class SubHikeFragment extends Fragment {
         super.onActivityCreated(savedInstanceState);
         mViewModel = ViewModelProviders.of(this).get(SubHikeViewModel.class);
         // TODO: Use the ViewModel
+    }
+
+    private void setPic(ImageView imageView, String photoPath) {
+        // Get the dimensions of the View
+        int targetW = imageView.getWidth();
+        int targetH = imageView.getHeight();
+
+        // Get the dimensions of the bitmap
+        BitmapFactory.Options bmOptions = new BitmapFactory.Options();
+        bmOptions.inJustDecodeBounds = true;
+
+        int photoW = bmOptions.outWidth;
+        int photoH = bmOptions.outHeight;
+
+        // Determine how much to scale down the image
+        int scaleFactor = Math.min(photoW/targetW, photoH/targetH);
+
+        // Decode the image file into a Bitmap sized to fill the View
+        bmOptions.inJustDecodeBounds = false;
+        bmOptions.inSampleSize = scaleFactor;
+        bmOptions.inPurgeable = true;
+
+        Bitmap bitmap = BitmapFactory.decodeFile(photoPath, bmOptions);
+        imageView.setImageBitmap(bitmap);
     }
 
 }
