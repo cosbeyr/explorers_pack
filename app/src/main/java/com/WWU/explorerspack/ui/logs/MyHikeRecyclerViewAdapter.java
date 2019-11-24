@@ -2,6 +2,8 @@ package com.WWU.explorerspack.ui.logs;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.WWU.explorerspack.MainActivity;
 import com.WWU.explorerspack.utilities.StorageUtilities;
 
 import android.app.Activity;

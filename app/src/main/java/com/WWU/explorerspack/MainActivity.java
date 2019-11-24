@@ -184,6 +184,7 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
         final String guideRaw = StorageUtilities.loadJSONFromAsset(this);
         Object document = Configuration.defaultConfiguration().jsonProvider().parse(guideRaw);
 
+
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
 
             @Override
@@ -224,6 +225,8 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
                         e.printStackTrace();
                     }
 
+                } else if(current_title.equals("Logs")) {
+                    Toast.makeText(MainActivity.this, "Searching in logs", Toast.LENGTH_SHORT).show();
                 } else {
 
                     JSONObject parsedGuide;

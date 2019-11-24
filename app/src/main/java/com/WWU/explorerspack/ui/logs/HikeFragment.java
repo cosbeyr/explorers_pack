@@ -15,6 +15,7 @@ import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Toast;
 
+import com.WWU.explorerspack.MainActivity;
 import com.WWU.explorerspack.R;
 
 import com.WWU.explorerspack.ui.logs.hike_item.HikeList;
@@ -79,6 +80,7 @@ public class HikeFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_hike_list, container, false);
         hideKeyboardFrom(view.getContext(), view);
+        ((MainActivity) getActivity()).setActionBarTitle("Logs");
         // Set the adapter
         if (view instanceof RecyclerView) {
             Context context = view.getContext();
