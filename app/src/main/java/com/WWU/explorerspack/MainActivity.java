@@ -43,6 +43,7 @@ import androidx.preference.PreferenceManager;
 
 import org.json.JSONObject;
 
+import java.util.Iterator;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements GuideListFragment.OnListFragmentInteractionListener,HikeFragment.OnListFragmentInteractionListener, ChapterPageFragment.OnSubListFragmentInteractionListener{
@@ -180,22 +181,45 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
         getMenuInflater().inflate(R.menu.my_menu, menu);
         MenuItem searchItem = menu.findItem(R.id.action_search);
         SearchView searchView = (SearchView) searchItem.getActionView();
-        String guideRaw = StorageUtilities.loadJSONFromAsset(this);
+        final String guideRaw = StorageUtilities.loadJSONFromAsset(this);
         Object document = Configuration.defaultConfiguration().jsonProvider().parse(guideRaw);
-
 
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
 
             @Override
             public boolean onQueryTextSubmit(String s) {
+                if (current_title.equals("Guide")){
+                    JSONObject parsedGuide;
+                    // search max 5 results
+                    String[] results = new String[5];
+                    int counter = 0;
+                    try{
+                        parsedGuide = new JSONObject(guideRaw);
+                        Iterator<String> keys = parsedGuide.keys();
+                        while(keys.hasNext() && counter < 5) {
+                            String key = keys.next();
+                            if(key.toLowerCase().startsWith(s.toLowerCase())){
+                                results[counter] = key;
+                                counter++;
+                            }
+                        }
+                        Toast.makeText(MainActivity.this, "Found " + results[0], Toast.LENGTH_SHORT).show();
 
-                Toast.makeText(MainActivity.this, "You searched " + s + " inside " + current_title, Toast.LENGTH_SHORT).show();
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
 
+                } else if (current_title.contains(" > ")) {
+                    Toast.makeText(MainActivity.this, "You searched " + s + " inside subsection " + current_title, Toast.LENGTH_SHORT).show();
+                } else {
+                    Toast.makeText(MainActivity.this, "You searched " + s + " inside section " + current_title, Toast.LENGTH_SHORT).show();
+                }
                 return false;
             }
 
             @Override
             public boolean onQueryTextChange(String s) {
+                // Log.i("info",s);
                 return false;
             }
         });
