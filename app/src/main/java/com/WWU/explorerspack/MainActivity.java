@@ -12,6 +12,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.WWU.explorerspack.ui.guide.L2.MySectionRecyclerViewAdapter;
 import com.WWU.explorerspack.ui.guide.L2.SubChapterData.SubChapterContent;
 import com.WWU.explorerspack.ui.guide.MyChaptersRecyclerViewAdapter;
 import com.WWU.explorerspack.ui.logs.HikeFragment;
@@ -51,6 +52,7 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
     public String current_title = "Created";
     public MyHikeRecyclerViewAdapter logAdaptor;
     public MyChaptersRecyclerViewAdapter guideAdaptor;
+    public MySectionRecyclerViewAdapter sectionAdaptor;
     private final int MAX_SEARCH_RESULT = 5;
 
 
@@ -151,6 +153,10 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
         navController.navigate(R.id.action_navigation_hike_to_sub_hike_page, args);
     }
 
+    public void setSectionAdaptor(MySectionRecyclerViewAdapter adaptor){
+        sectionAdaptor = adaptor;
+    }
+
     public void setLogAdaptor(MyHikeRecyclerViewAdapter adaptor){
         logAdaptor = adaptor;
     }
@@ -186,6 +192,18 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
         }
     }
 
+    public void releaseSearchHoldingItems(){
+        if(logAdaptor != null){
+            logAdaptor.returnItems();
+        }
+        if(guideAdaptor != null){
+            guideAdaptor.returnItems();
+        }
+        if(sectionAdaptor != null) {
+            sectionAdaptor.returnItems();
+        }
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -216,17 +234,13 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
 
             @Override
             public boolean onMenuItemActionCollapse(MenuItem item) {
-                // Do whatever you need
-                if(logAdaptor != null){
-                    logAdaptor.returnItems();
-                }
-                if(guideAdaptor != null){
-                    guideAdaptor.returnItems();
-                }
+                releaseSearchHoldingItems();
 
                 return true; // OR FALSE IF YOU DIDN'T WANT IT TO CLOSE!
             }
         });
+
+
 
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
 
@@ -256,31 +270,11 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
 
                 } else if(current_title.equals("Logs")) {
                     if (!s.equals("")){
-                        logAdaptor.search(s);
+                        logAdaptor.search(s.toLowerCase());
                     }
                 } else {
                     if(!s.equals("")){
-                        // searching in section
-                        JSONObject parsedGuide;
-                        // hideItems max 5 results
-                        String[] results = new String[5];
-                        int counter = 0;
-                        try{
-                            parsedGuide = new JSONObject(guideRaw);
-                            JSONObject section = parsedGuide.getJSONObject(current_title);
-                            Iterator<String> keys = section.keys();
-                            while(keys.hasNext() && counter < 5) {
-                                String key = keys.next();
-                                if(key.toLowerCase().startsWith(s.toLowerCase())){
-                                    results[counter] = key;
-                                    counter++;
-                                }
-                            }
-                            Toast.makeText(MainActivity.this, "Found section: " + results[0], Toast.LENGTH_SHORT).show();
-
-                        } catch (Exception e) {
-                            e.printStackTrace();
-                        }
+                        sectionAdaptor.search(s.toLowerCase());
                     }
 
                 }
@@ -293,6 +287,10 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
                     logAdaptor.search(s.toLowerCase());
                 } else if(current_title.equals("Guide")){
                     guideAdaptor.search(s.toLowerCase());
+                } else if (current_title.contains(" > ")){
+
+                } else {
+                    sectionAdaptor.search(s.toLowerCase());
                 }
                 return false;
             }

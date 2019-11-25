@@ -76,7 +76,7 @@ public class MyHikeRecyclerViewAdapter extends RecyclerView.Adapter<MyHikeRecycl
     public void search(String searchString){
         returnItems();
         for (HikeItem hike: mValues) {
-            if(!hike.id.startsWith(searchString)){
+            if(!hike.id.toLowerCase().startsWith(searchString)){
                 // add to remove hike list to show again later
                 removedValues.add(hike);
                 // keep track of order of item

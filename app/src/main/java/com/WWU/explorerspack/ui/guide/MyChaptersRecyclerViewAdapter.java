@@ -41,7 +41,6 @@ public class MyChaptersRecyclerViewAdapter extends RecyclerView.Adapter<MyChapte
     private final Context mContext;
     private ArrayList<ChapterItem> removedItem = new ArrayList<>();
     private HashMap<String, Integer> indexMap = new HashMap<>();
-    private JSONManager myJSONManager = JSONManager.getInstance(null);
 
     public MyChaptersRecyclerViewAdapter(List<ChapterItem> items, OnListFragmentInteractionListener listener, Context context) {
         mValues = items;

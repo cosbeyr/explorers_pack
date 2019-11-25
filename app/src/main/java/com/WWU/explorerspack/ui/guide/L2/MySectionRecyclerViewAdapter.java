@@ -5,6 +5,7 @@ import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.graphics.ColorMatrix;
 import android.graphics.ColorMatrixColorFilter;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,6 +17,8 @@ import com.WWU.explorerspack.R;
 import com.WWU.explorerspack.ui.guide.L2.SubChapterData.SubChapterContent;
 
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 public class MySectionRecyclerViewAdapter extends RecyclerView.Adapter <MySectionRecyclerViewAdapter.ViewHolder>{
@@ -23,6 +26,8 @@ public class MySectionRecyclerViewAdapter extends RecyclerView.Adapter <MySectio
     private final List<SubChapterContent.SubChapterItem> mValues;
     private final ChapterPageFragment.OnSubListFragmentInteractionListener mListener;
     private final Context mContext;
+    private ArrayList<SubChapterContent.SubChapterItem> removedItems = new ArrayList<>();
+    private HashMap<String, Integer> indexMap = new HashMap<>();
 
     public MySectionRecyclerViewAdapter(List<SubChapterContent.SubChapterItem> items, ChapterPageFragment.OnSubListFragmentInteractionListener listener, Context context){
         mValues = items;
@@ -50,6 +55,44 @@ public class MySectionRecyclerViewAdapter extends RecyclerView.Adapter <MySectio
                 }
             }
         });
+    }
+
+    public void search(String searchValue){
+        returnItems();
+        for(SubChapterContent.SubChapterItem item: mValues){
+            if(item != null) {
+                if(!item.subChapter.trim().toLowerCase().startsWith(searchValue)){
+                    removedItems.add(item);
+                    indexMap.put(item.subChapter,mValues.indexOf(item));
+
+                }
+            }
+        }
+        for(SubChapterContent.SubChapterItem item: removedItems){
+            mValues.remove(item);
+        }
+        update();
+    }
+
+
+    public void returnItems(){
+        while(!removedItems.isEmpty()){
+            SubChapterContent.SubChapterItem item = removedItems.remove(0);
+            if(item != null){
+                try{
+                    mValues.add(indexMap.get(item.subChapter),item);
+                    indexMap.remove(item.subChapter);
+                } catch (Exception e){
+                    e.printStackTrace();
+                }
+            }
+        }
+        update();
+
+    }
+
+    private void update(){
+        this.notifyDataSetChanged();
     }
 
     @Override
