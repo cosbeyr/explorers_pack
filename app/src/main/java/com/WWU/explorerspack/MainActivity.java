@@ -51,6 +51,7 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
     public MyHikeRecyclerViewAdapter logAdaptor;
     private final int MAX_SEARCH_RESULT = 5;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         setTheme(R.style.AppTheme);

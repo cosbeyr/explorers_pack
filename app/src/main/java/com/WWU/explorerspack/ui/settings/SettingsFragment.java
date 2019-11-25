@@ -18,6 +18,7 @@ public class SettingsFragment extends PreferenceFragmentCompat implements Shared
     @Override
     public void onPrepareOptionsMenu(Menu menu) {
         menu.findItem(R.id.action_search).setVisible(false);
+        menu.findItem(R.id.action_search).collapseActionView();
         super.onPrepareOptionsMenu(menu);
     }
 
@@ -25,7 +26,7 @@ public class SettingsFragment extends PreferenceFragmentCompat implements Shared
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         setPreferencesFromResource(R.xml.settings, rootKey);
         sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getActivity());
-        ((MainActivity) getActivity()).setActionBarTitle("Camera");
+        ((MainActivity) getActivity()).setActionBarTitle("Settings");
         setHasOptionsMenu(true);
     }
 

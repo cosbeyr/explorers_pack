@@ -284,6 +284,7 @@ public class CameraFragment extends DialogFragment {
     @Override
     public void onPrepareOptionsMenu(Menu menu) {
         menu.findItem(R.id.action_search).setVisible(false);
+        menu.findItem(R.id.action_search).collapseActionView();
         super.onPrepareOptionsMenu(menu);
     }
 
