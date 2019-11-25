@@ -39,7 +39,7 @@ public class ChapterPageFragment extends Fragment {
     private String id;
     private String title;
     private JSONArray subChapters;
-    private int mColumnCount = 2;
+    private int mColumnCount = 1;
     private OnSubListFragmentInteractionListener mListener;
 
     public static ChapterPageFragment newInstance() {
