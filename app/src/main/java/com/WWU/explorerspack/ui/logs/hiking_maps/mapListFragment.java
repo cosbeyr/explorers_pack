@@ -16,6 +16,9 @@ import android.view.ViewGroup;
 import com.WWU.explorerspack.R;
 import com.WWU.explorerspack.ui.logs.hiking_maps.MapContent.MapListContent;
 import com.WWU.explorerspack.ui.logs.hiking_maps.MapContent.MapListContent.MapListItem;
+import com.WWU.explorerspack.utilities.APIUtilities;
+
+import java.util.ArrayList;
 
 /**
  * A fragment representing a list of Items.
@@ -23,13 +26,15 @@ import com.WWU.explorerspack.ui.logs.hiking_maps.MapContent.MapListContent.MapLi
  * Activities containing this fragment MUST implement the {@link OnMapListFragmentInteractionListener}
  * interface.
  */
-public class mapListFragment extends Fragment {
+public class mapListFragment extends Fragment implements APIUtilities.AsyncResponse {
 
     // TODO: Customize parameter argument names
     private static final String ARG_COLUMN_COUNT = "column-count";
     // TODO: Customize parameters
     private int mColumnCount = 1;
     private OnMapListFragmentInteractionListener mListener;
+    private APIUtilities queryTask;
+    private MymapListItemRecyclerViewAdapter mAdapter;
 
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the
@@ -38,7 +43,7 @@ public class mapListFragment extends Fragment {
     public mapListFragment() {
     }
 
-    // TODO: Customize parameter initialization
+
     @SuppressWarnings("unused")
     public static mapListFragment newInstance(int columnCount) {
         mapListFragment fragment = new mapListFragment();
@@ -62,6 +67,10 @@ public class mapListFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_map_list, container, false);
 
+        queryTask = new APIUtilities(getActivity());
+        queryTask.delegate = this;
+        queryTask.execute("");//TODO: implement query string.
+
         // Set the adapter
         if (view instanceof RecyclerView) {
             Context context = view.getContext();
@@ -74,7 +83,8 @@ public class mapListFragment extends Fragment {
             } else {
                 recyclerView.setLayoutManager(new GridLayoutManager(context, mColumnCount));
             }
-            recyclerView.setAdapter(new MymapListItemRecyclerViewAdapter(MapListContent.ITEMS, mListener));
+            mAdapter = new MymapListItemRecyclerViewAdapter(MapListContent.ITEMS,mListener);
+            recyclerView.setAdapter(mAdapter);
         }
         return view;
     }
@@ -97,6 +107,14 @@ public class mapListFragment extends Fragment {
         mListener = null;
     }
 
+    @Override
+    public void processFinish(ArrayList<MapListItem> resultList) {
+        //Here you will receive the result fired from async class
+        //of onPostExecute(result) method.
+        mAdapter.updateData(resultList);
+        //TODO: save query to file then implement caching method here
+    }
+
     /**
      * This interface must be implemented by activities that contain this
      * fragment to allow an interaction in this fragment to be communicated
@@ -108,7 +126,7 @@ public class mapListFragment extends Fragment {
      * >Communicating with Other Fragments</a> for more information.
      */
     public interface OnMapListFragmentInteractionListener {
-        // TODO: Update argument type and name
+
         void onListFragmentInteraction(MapListItem item);
     }
 }

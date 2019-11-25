@@ -24,7 +24,8 @@ import java.util.ArrayList;
 public class APIUtilities extends AsyncTask<String, Integer, ArrayList<MapListContent.MapListItem>> {
     private ProgressDialog p;
     private String JSONResultString;
-
+    private ArrayList<MapListContent.MapListItem> resultList;
+    public AsyncResponse delegate = null;
     private Context mContext;
 
     public APIUtilities (Context context){
@@ -42,7 +43,7 @@ public class APIUtilities extends AsyncTask<String, Integer, ArrayList<MapListCo
                     public void onResponse(String response) {
                         // Display the first 500 characters of the response string.
                         JSONResultString = response;
-
+                        //TODO:
                         //time to build the list string.
                         //call a method in the context?
 
@@ -94,6 +95,16 @@ public class APIUtilities extends AsyncTask<String, Integer, ArrayList<MapListCo
     @Override
     protected void onPostExecute(ArrayList<MapListContent.MapListItem> queryResultList){
         super.onPostExecute(queryResultList);
+        delegate.processFinish(queryResultList);
         mContext = null;
     }
+
+    public ArrayList<MapListContent.MapListItem> getResultList(){
+        return resultList;
+    }
+
+    public interface AsyncResponse {
+        void processFinish(ArrayList<MapListContent.MapListItem> resultList);
+    }
+
 }

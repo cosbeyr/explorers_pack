@@ -12,6 +12,7 @@ import com.WWU.explorerspack.R;
 import com.WWU.explorerspack.ui.logs.hiking_maps.MapContent.MapListContent;
 import com.WWU.explorerspack.ui.logs.hiking_maps.mapListFragment.OnMapListFragmentInteractionListener;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -27,6 +28,12 @@ public class MymapListItemRecyclerViewAdapter extends RecyclerView.Adapter<Mymap
     public MymapListItemRecyclerViewAdapter(List<MapListContent.MapListItem> items, OnMapListFragmentInteractionListener listener) {
         mValues = items;
         mListener = listener;
+    }
+
+    public void updateData(ArrayList<MapListContent.MapListItem> newList){
+        mValues.clear();
+        mValues.addAll(newList);
+        notifyDataSetChanged();
     }
 
     @Override
