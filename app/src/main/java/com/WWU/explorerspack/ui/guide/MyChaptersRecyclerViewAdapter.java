@@ -22,6 +22,7 @@ import com.WWU.explorerspack.ui.guide.ChapterData.ChapterContent;
 import com.WWU.explorerspack.ui.guide.GuideListFragment.OnListFragmentInteractionListener;
 import com.WWU.explorerspack.ui.guide.ChapterData.ChapterContent.ChapterItem;
 
+import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
@@ -40,6 +41,7 @@ public class MyChaptersRecyclerViewAdapter extends RecyclerView.Adapter<MyChapte
     private final Context mContext;
     private ArrayList<ChapterItem> removedItem = new ArrayList<>();
     private HashMap<String, Integer> indexMap = new HashMap<>();
+    private JSONManager myJSONManager = JSONManager.getInstance(null);
 
     public MyChaptersRecyclerViewAdapter(List<ChapterItem> items, OnListFragmentInteractionListener listener, Context context) {
         mValues = items;
@@ -96,7 +98,22 @@ public class MyChaptersRecyclerViewAdapter extends RecyclerView.Adapter<MyChapte
         returnItems();
         for(ChapterItem item: mValues){
             if (item != null){
-                if(!item.toString().trim().toLowerCase().startsWith(searchInput)){
+                boolean subChapterMatch = false;
+                // perform second level search
+                JSONArray subChapters = JSONManager.getInstance(null).getL2Tiles(item.toString());
+                for(int i=0; i<subChapters.length();i++){
+                    try{
+                        String subChapter = (String)subChapters.get(i);
+                        subChapter = subChapter.trim().toLowerCase();
+                        if(subChapter.startsWith(searchInput)){
+                            subChapterMatch = true;
+                        }
+                    } catch (Exception e){
+                        e.printStackTrace();
+                    }
+
+                }
+                if(!item.toString().trim().toLowerCase().startsWith(searchInput) && !subChapterMatch){
                     removedItem.add(item);
                     indexMap.put(item.toString(), mValues.indexOf(item));
                 }
@@ -105,6 +122,7 @@ public class MyChaptersRecyclerViewAdapter extends RecyclerView.Adapter<MyChapte
         for(ChapterItem item:removedItem){
             mValues.remove(item);
         }
+
         update();
     }
 
