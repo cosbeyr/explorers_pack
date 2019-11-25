@@ -100,6 +100,7 @@ public class GuideListFragment extends Fragment implements SearchView.OnQueryTex
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_chapters_list, container, false);
         ((MainActivity) getActivity()).setActionBarTitle("Guide");
+        ((MainActivity) getActivity()).releaseSearchHoldingItems();
 
 
         // Set the adapter
