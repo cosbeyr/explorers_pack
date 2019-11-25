@@ -248,7 +248,9 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
             public boolean onQueryTextSubmit(String s) {
                 if (current_title.equals("Guide")){
                     if (!s.equals("")){
-                        guideAdaptor.search(s.toLowerCase());
+                        if (guideAdaptor != null) {
+                            guideAdaptor.search(s.toLowerCase());
+                        }
                     }
 
                 } else if (current_title.contains(" > ")) {
@@ -270,11 +272,15 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
 
                 } else if(current_title.equals("Logs")) {
                     if (!s.equals("")){
-                        logAdaptor.search(s.toLowerCase());
+                        if (logAdaptor != null){
+                            logAdaptor.search(s.toLowerCase());
+                        }
                     }
                 } else {
                     if(!s.equals("")){
-                        sectionAdaptor.search(s.toLowerCase());
+                        if (sectionAdaptor != null){
+                            sectionAdaptor.search(s.toLowerCase());
+                        }
                     }
 
                 }
@@ -284,13 +290,19 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
             @Override
             public boolean onQueryTextChange(String s) {
                 if(current_title.equals("Logs")){
-                    logAdaptor.search(s.toLowerCase());
+                    if(logAdaptor != null) {
+                        logAdaptor.search(s.toLowerCase());
+                    }
                 } else if(current_title.equals("Guide")){
-                    guideAdaptor.search(s.toLowerCase());
+                    if (guideAdaptor != null) {
+                        guideAdaptor.search(s.toLowerCase());
+                    }
                 } else if (current_title.contains(" > ")){
 
                 } else {
-                    sectionAdaptor.search(s.toLowerCase());
+                    if(sectionAdaptor != null){
+                        sectionAdaptor.search(s.toLowerCase());
+                    }
                 }
                 return false;
             }
