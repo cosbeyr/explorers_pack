@@ -119,11 +119,13 @@ public class ChapterPageFragment extends Fragment {
             ex.printStackTrace();
             throw new RuntimeException(ex);
         }
-
-        recyclerView.setAdapter(new MySectionRecyclerViewAdapter(subChapterContent.ITEMS,mListener,this.getContext()));
+        MySectionRecyclerViewAdapter adapter = new MySectionRecyclerViewAdapter(subChapterContent.ITEMS,mListener,this.getContext());
+        recyclerView.setAdapter(adapter);
+        ((MainActivity) getActivity()).setSectionAdaptor(adapter);
 
          return rootView;
     }
+
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {

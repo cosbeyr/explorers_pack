@@ -9,11 +9,14 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.Toast;
 
-import com.WWU.explorerspack.ui.guide.GuideFragment;
+import com.WWU.explorerspack.ui.guide.L2.MySectionRecyclerViewAdapter;
 import com.WWU.explorerspack.ui.guide.L2.SubChapterData.SubChapterContent;
+import com.WWU.explorerspack.ui.guide.MyChaptersRecyclerViewAdapter;
 import com.WWU.explorerspack.ui.logs.HikeFragment;
+import com.WWU.explorerspack.ui.logs.MyHikeRecyclerViewAdapter;
 import com.WWU.explorerspack.ui.logs.hike_item.HikeList;
 import com.WWU.explorerspack.ui.guide.L3.SubChapterFragment;
 import com.WWU.explorerspack.utilities.StorageUtilities;
@@ -22,10 +25,7 @@ import com.WWU.explorerspack.ui.guide.ChapterData.ChapterContent;
 import com.WWU.explorerspack.ui.guide.L2.ChapterPageFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
 import com.jayway.jsonpath.Configuration;
-import com.jayway.jsonpath.JsonPath;
-import com.jayway.jsonpath.ReadContext;
 
 import androidx.annotation.Nullable;
 import androidx.annotation.NonNull;
@@ -33,7 +33,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SearchView;
 import androidx.core.view.MenuItemCompat;
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentTransaction;
 import androidx.navigation.NavController;
 import androidx.navigation.NavDestination;
 import androidx.navigation.Navigation;
@@ -43,6 +42,7 @@ import androidx.preference.PreferenceManager;
 
 import org.json.JSONObject;
 
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
@@ -50,12 +50,18 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
     private NavController navController;
     private JSONObject guideJSON;
     public String current_title = "Created";
+    public MyHikeRecyclerViewAdapter logAdaptor;
+    public MyChaptersRecyclerViewAdapter guideAdaptor;
+    public MySectionRecyclerViewAdapter sectionAdaptor;
+    private final int MAX_SEARCH_RESULT = 5;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         setTheme(R.style.AppTheme);
         boolean isFilePresent = StorageUtilities.isFilePresent(this, StorageUtilities.jsonStorageName);
         if (!isFilePresent) {
+            // TODO remove include example from final version
             boolean isFileCreated = StorageUtilities.create(this, StorageUtilities.jsonStorageName, StorageUtilities.template(true).toString());
             if (isFileCreated) {
                 //proceed with storing the first show ui
@@ -147,6 +153,17 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
         navController.navigate(R.id.action_navigation_hike_to_sub_hike_page, args);
     }
 
+    public void setSectionAdaptor(MySectionRecyclerViewAdapter adaptor){
+        sectionAdaptor = adaptor;
+    }
+
+    public void setLogAdaptor(MyHikeRecyclerViewAdapter adaptor){
+        logAdaptor = adaptor;
+    }
+
+    public void setGuideAdaptor(MyChaptersRecyclerViewAdapter adaptor) {
+        guideAdaptor = adaptor;
+    }
 
     public void setActionBarTitle(String title) {
         getSupportActionBar().setTitle(title);
@@ -175,84 +192,106 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
         }
     }
 
+    public void releaseSearchHoldingItems(){
+        if(logAdaptor != null){
+            logAdaptor.returnItems();
+        }
+        if(guideAdaptor != null){
+            guideAdaptor.returnItems();
+        }
+        if(sectionAdaptor != null) {
+            sectionAdaptor.returnItems();
+        }
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.my_menu, menu);
-        MenuItem searchItem = menu.findItem(R.id.action_search);
-        SearchView searchView = (SearchView) searchItem.getActionView();
+        final MenuItem searchItem = menu.findItem(R.id.action_search);
+        final SearchView searchView = (SearchView) searchItem.getActionView();
         final String guideRaw = StorageUtilities.loadJSONFromAsset(this);
+        final String storageRaw = StorageUtilities.read(this, StorageUtilities.jsonStorageName);
         Object document = Configuration.defaultConfiguration().jsonProvider().parse(guideRaw);
+        searchView.setQueryHint("Search this page...");
+
+        searchItem.setOnActionExpandListener(new MenuItem.OnActionExpandListener() {
+
+            @Override
+            public boolean onMenuItemActionExpand(MenuItem item) {
+                // Do whatever you need
+                if(current_title.equals("Guide")){
+                    searchView.setQueryHint("Search a topic...");
+                } else if (current_title.equals("Logs")) {
+                    searchView.setQueryHint("Search a hike name...");
+                } else if (current_title.contains(" > ")){
+                    searchView.setQueryHint("Search a text...");
+                } else {
+                    searchView.setQueryHint("Search a section...");
+                }
+                return true; // KEEP IT TO TRUE OR IT DOESN'T OPEN !!
+            }
+
+            @Override
+            public boolean onMenuItemActionCollapse(MenuItem item) {
+                releaseSearchHoldingItems();
+
+                return true; // OR FALSE IF YOU DIDN'T WANT IT TO CLOSE!
+            }
+        });
+
+
 
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
 
             @Override
             public boolean onQueryTextSubmit(String s) {
                 if (current_title.equals("Guide")){
-                    JSONObject parsedGuide;
-                    // search max 5 results
-                    String[] results = new String[5];
-                    int counter = 0;
-                    try{
-                        parsedGuide = new JSONObject(guideRaw);
-                        Iterator<String> keys = parsedGuide.keys();
-                        while(keys.hasNext() && counter < 5) {
-                            String key = keys.next();
-                            if(key.toLowerCase().startsWith(s.toLowerCase())){
-                                results[counter] = key;
-                                counter++;
-                            }
-                        }
-                        Toast.makeText(MainActivity.this, "Found topic: " + results[0], Toast.LENGTH_SHORT).show();
-
-                    } catch (Exception e) {
-                        e.printStackTrace();
+                    if (!s.equals("")){
+                        guideAdaptor.search(s.toLowerCase());
                     }
 
                 } else if (current_title.contains(" > ")) {
-                    String[] subsection = current_title.split(" > ");
-                    JSONObject parsedGuide;
-                    int position;
-                    try{
-                        parsedGuide = new JSONObject(guideRaw);
-                        JSONObject section = parsedGuide.getJSONObject(subsection[0]);
-                        String subsectionData = section.getString(subsection[1]);
-                        position = subsectionData.indexOf(s);
-                        Toast.makeText(MainActivity.this, "Found details at position " + position, Toast.LENGTH_SHORT).show();
+                    if (!s.equals("")){
+                        String[] subsection = current_title.split(" > ");
+                        JSONObject parsedGuide;
+                        int position;
+                        try{
+                            parsedGuide = new JSONObject(guideRaw);
+                            JSONObject section = parsedGuide.getJSONObject(subsection[0]);
+                            String subsectionData = section.getString(subsection[1]);
+                            position = subsectionData.indexOf(s);
+                            Toast.makeText(MainActivity.this, "Found details at position " + position, Toast.LENGTH_SHORT).show();
 
-                    } catch (Exception e) {
-                        e.printStackTrace();
-                    }
-
-                } else {
-
-                    JSONObject parsedGuide;
-                    // search max 5 results
-                    String[] results = new String[5];
-                    int counter = 0;
-                    try{
-                        parsedGuide = new JSONObject(guideRaw);
-                        JSONObject section = parsedGuide.getJSONObject(current_title);
-                        Iterator<String> keys = section.keys();
-                        while(keys.hasNext() && counter < 5) {
-                            String key = keys.next();
-                            if(key.toLowerCase().startsWith(s.toLowerCase())){
-                                results[counter] = key;
-                                counter++;
-                            }
+                        } catch (Exception e) {
+                            e.printStackTrace();
                         }
-                        Toast.makeText(MainActivity.this, "Found section: " + results[0], Toast.LENGTH_SHORT).show();
-
-                    } catch (Exception e) {
-                        e.printStackTrace();
                     }
+
+                } else if(current_title.equals("Logs")) {
+                    if (!s.equals("")){
+                        logAdaptor.search(s.toLowerCase());
+                    }
+                } else {
+                    if(!s.equals("")){
+                        sectionAdaptor.search(s.toLowerCase());
+                    }
+
                 }
                 return false;
             }
 
             @Override
             public boolean onQueryTextChange(String s) {
-                // Log.i("info",s);
+                if(current_title.equals("Logs")){
+                    logAdaptor.search(s.toLowerCase());
+                } else if(current_title.equals("Guide")){
+                    guideAdaptor.search(s.toLowerCase());
+                } else if (current_title.contains(" > ")){
+
+                } else {
+                    sectionAdaptor.search(s.toLowerCase());
+                }
                 return false;
             }
         });

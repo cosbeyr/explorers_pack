@@ -13,8 +13,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
+import android.widget.Adapter;
 import android.widget.Toast;
 
+import com.WWU.explorerspack.MainActivity;
 import com.WWU.explorerspack.R;
 
 import com.WWU.explorerspack.ui.logs.hike_item.HikeList;
@@ -44,6 +46,7 @@ public class HikeFragment extends Fragment {
     // TODO: Customize parameters
     private int mColumnCount = 1;
     private OnListFragmentInteractionListener mListener;
+    private MyHikeRecyclerViewAdapter adapter;
 
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the
@@ -79,6 +82,7 @@ public class HikeFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_hike_list, container, false);
         hideKeyboardFrom(view.getContext(), view);
+        ((MainActivity) getActivity()).setActionBarTitle("Logs");
         // Set the adapter
         if (view instanceof RecyclerView) {
             Context context = view.getContext();
@@ -106,10 +110,15 @@ public class HikeFragment extends Fragment {
                 String key = keys.next();
                 addItem(key);
             }
-
-            recyclerView.setAdapter(new MyHikeRecyclerViewAdapter(HikeList.ITEMS, mListener));
+            adapter = new MyHikeRecyclerViewAdapter(HikeList.ITEMS, mListener);
+            recyclerView.setAdapter(adapter);
+            ((MainActivity) getActivity()).setLogAdaptor(adapter);
         }
         return view;
+    }
+
+    public MyHikeRecyclerViewAdapter getLogsAdaptor(){
+        return adapter;
     }
 
 
