@@ -13,6 +13,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
+import android.widget.Adapter;
 import android.widget.Toast;
 
 import com.WWU.explorerspack.MainActivity;
@@ -45,6 +46,7 @@ public class HikeFragment extends Fragment {
     // TODO: Customize parameters
     private int mColumnCount = 1;
     private OnListFragmentInteractionListener mListener;
+    private MyHikeRecyclerViewAdapter adapter;
 
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the
@@ -108,10 +110,15 @@ public class HikeFragment extends Fragment {
                 String key = keys.next();
                 addItem(key);
             }
-
-            recyclerView.setAdapter(new MyHikeRecyclerViewAdapter(HikeList.ITEMS, mListener));
+            adapter = new MyHikeRecyclerViewAdapter(HikeList.ITEMS, mListener);
+            recyclerView.setAdapter(adapter);
+            ((MainActivity) getActivity()).setLogAdaptor(adapter);
         }
         return view;
+    }
+
+    public MyHikeRecyclerViewAdapter getLogsAdaptor(){
+        return adapter;
     }
 
 

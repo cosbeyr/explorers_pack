@@ -26,8 +26,10 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
+import java.util.ListIterator;
 
 /**
  * {@link RecyclerView.Adapter} that can display a {@link HikeItem} and makes a call to the
@@ -38,7 +40,8 @@ public class MyHikeRecyclerViewAdapter extends RecyclerView.Adapter<MyHikeRecycl
 
     private final List<HikeItem> mValues;
     private final OnListFragmentInteractionListener mListener;
-
+    private ArrayList<HikeItem> removedValues = new ArrayList<>();
+    private HashMap<String, Integer> indexMap = new HashMap<>();
     public MyHikeRecyclerViewAdapter(List<HikeItem> items, OnListFragmentInteractionListener listener) {
         mValues = items;
         mListener = listener;
@@ -69,6 +72,39 @@ public class MyHikeRecyclerViewAdapter extends RecyclerView.Adapter<MyHikeRecycl
         });
 
     }
+
+    public void search(String searchString){
+        returnItems();
+        for (HikeItem hike: mValues) {
+            if(!hike.id.startsWith(searchString)){
+                // add to remove hike list to show again later
+                removedValues.add(hike);
+                // keep track of order of item
+                indexMap.put(hike.id, mValues.indexOf(hike));
+
+            }
+        }
+        for (HikeItem hike: removedValues){
+            mValues.remove(hike);
+        }
+        update();
+
+    }
+
+    public void returnItems(){
+        while(!removedValues.isEmpty()){
+            HikeItem hike = removedValues.remove(0);
+            try {
+                mValues.add(indexMap.get(hike.id),hike);
+                indexMap.remove(hike.id);
+            } catch (Exception e){
+                e.printStackTrace();
+            }
+
+        }
+        update();
+    }
+
     private void update(){
         this.notifyDataSetChanged();
     }
