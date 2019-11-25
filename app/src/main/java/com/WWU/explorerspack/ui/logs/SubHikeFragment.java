@@ -13,8 +13,11 @@ import androidx.fragment.app.Fragment;
 import android.text.TextWatcher;
 import android.text.TextWatcher;
 import android.text.Editable;
+import android.media.ExifInterface;
 
+import android.graphics.Matrix;
 
+import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -88,18 +91,63 @@ public class SubHikeFragment extends Fragment {
             public void onTextChanged(CharSequence s, int start, int before, int count) {}
         });
 
+/*
+        LinearLayout layout = (LinearLayout)findViewById(R.id.imageLayout);
+        for(int i=0;i<10;i++)
+        {
+            ImageView image = new ImageView(this);
+            image.setLayoutParams(new android.view.ViewGroup.LayoutParams(80,60));
+            image.setMaxHeight(20);
+            image.setMaxWidth(20);
 
-
+            // Adds the view to the layout
+            layout.addView(image);
+        }
+*/
         /////////////////////////////////////////////////////////////////////////////// Photos Setup
-        LinearLayout photosLayout = rootView.findViewById(R.id.photos);
+        LinearLayout photosLayout = (LinearLayout) rootView.findViewById(R.id.photos);
+
         try {
             JSONArray hikePhotosArray = hikeJSON.getJSONArray("photos");
             int len = hikePhotosArray.length();
             for(int i = 0; i < len; i++) {
+                JSONObject photoObj = hikePhotosArray.getJSONObject(i);
+
                 ImageView nextImage = new ImageView(getContext());
-                //TODO GET PARAMETERS FOR SETPIC, test
-                setPic();
-                photosLayout.addView(nextImage);
+
+                int margin = (int) convertDpToPixel(8);
+                LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+                lp.setMargins(margin, margin, margin, margin);
+                nextImage.setLayoutParams(lp);
+
+                /*
+                                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="@dimen/text_margin"
+                android:src="@drawable/ic_placeholder_photo"
+                android:textAppearance="?attr/textAppearanceListItem" />
+                 */
+
+                JSONArray photoArray = photoObj.names();
+                if(photoArray != null) {
+                    String photoPath = photoArray.getString(0);
+
+                    int px = (int) convertDpToPixel(100);
+
+                    Bitmap bitmap = BitmapFactory.decodeFile(photoObj.getString(photoPath));
+                    bitmap = bitmap.createScaledBitmap(bitmap, px, px, false);
+                    int rotation = getPhotoRotation(photoPath);
+                    Matrix matrix = new Matrix();
+                    matrix.postRotate(90);
+                    bitmap = Bitmap.createBitmap(bitmap, 0, 0, bitmap.getWidth(), bitmap.getHeight(), matrix, true);
+                    int bmw = bitmap.getWidth();
+                    int bmh = bitmap.getHeight();
+                    //bitmap.setWidth(100);
+                    //bitmap.setHeight(100);
+
+                    nextImage.setImageBitmap(bitmap);
+                    photosLayout.addView(nextImage);
+                }
 
             }
         } catch (Exception e) {
@@ -118,28 +166,38 @@ public class SubHikeFragment extends Fragment {
         // TODO: Use the ViewModel
     }
 
-    private void setPic(ImageView imageView, String photoPath) {
-        // Get the dimensions of the View
-        int targetW = imageView.getWidth();
-        int targetH = imageView.getHeight();
-
-        // Get the dimensions of the bitmap
-        BitmapFactory.Options bmOptions = new BitmapFactory.Options();
-        bmOptions.inJustDecodeBounds = true;
-
-        int photoW = bmOptions.outWidth;
-        int photoH = bmOptions.outHeight;
-
-        // Determine how much to scale down the image
-        int scaleFactor = Math.min(photoW/targetW, photoH/targetH);
-
-        // Decode the image file into a Bitmap sized to fill the View
-        bmOptions.inJustDecodeBounds = false;
-        bmOptions.inSampleSize = scaleFactor;
-        bmOptions.inPurgeable = true;
-
-        Bitmap bitmap = BitmapFactory.decodeFile(photoPath, bmOptions);
-        imageView.setImageBitmap(bitmap);
+    public float convertDpToPixel(float dp){
+        return dp * ((float) getContext().getResources().getDisplayMetrics().densityDpi / DisplayMetrics.DENSITY_DEFAULT);
     }
 
+    public static int getPhotoRotation(String photoPath) {
+        int rotation = 0;
+        try {
+            ExifInterface ei = new ExifInterface(photoPath);
+            int orientation = ei.getAttributeInt(ExifInterface.TAG_ORIENTATION,
+                    ExifInterface.ORIENTATION_UNDEFINED);
+
+            switch(orientation) {
+
+                case ExifInterface.ORIENTATION_ROTATE_90:
+                    rotation = 90;
+                    break;
+
+                case ExifInterface.ORIENTATION_ROTATE_180:
+                    rotation = 180;
+                    break;
+
+                case ExifInterface.ORIENTATION_ROTATE_270:
+                    rotation = 270;
+                    break;
+
+                case ExifInterface.ORIENTATION_NORMAL:
+                default:
+                    rotation = 0;
+        }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return rotation;
+    }
 }

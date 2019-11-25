@@ -101,6 +101,9 @@
             android:textColor="#000000"
             android:textIsSelectable="false"
             android:textStyle="bold" />
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
         <LinearLayout
             android:id="@+id/photos"
             android:layout_width="match_parent"
@@ -108,20 +111,7 @@
             android:background="@color/tile"
             android:orientation="horizontal"
 >
-            <ImageView
-                android:id="@+id/item_image"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_margin="@dimen/text_margin"
-                android:src="@drawable/ic_placeholder_photo"
-                android:textAppearance="?attr/textAppearanceListItem" />
-            <ImageView
-                android:id="@+id/item_image2"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_margin="@dimen/text_margin"
-                android:src="@drawable/ic_placeholder_photo"
-                android:textAppearance="?attr/textAppearanceListItem" />
+
             <ImageView
                 android:id="@+id/item_image3"
                 android:layout_width="100dp"
@@ -130,9 +120,6 @@
                 android:src="@drawable/ic_placeholder_photo"
                 android:textAppearance="?attr/textAppearanceListItem" />
         </LinearLayout>
-
-
+        </HorizontalScrollView>
     </LinearLayout>
-
-
 </LinearLayout>

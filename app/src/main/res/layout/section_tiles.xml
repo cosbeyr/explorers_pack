@@ -26,7 +26,6 @@
                 android:textAppearance="?attr/textAppearanceListItem"
                 android:textColor="#ffffff" />
 
-
         </LinearLayout>
 
 
