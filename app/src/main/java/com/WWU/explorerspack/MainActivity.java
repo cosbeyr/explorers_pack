@@ -13,6 +13,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.WWU.explorerspack.ui.guide.L2.SubChapterData.SubChapterContent;
+import com.WWU.explorerspack.ui.guide.MyChaptersRecyclerViewAdapter;
 import com.WWU.explorerspack.ui.logs.HikeFragment;
 import com.WWU.explorerspack.ui.logs.MyHikeRecyclerViewAdapter;
 import com.WWU.explorerspack.ui.logs.hike_item.HikeList;
@@ -49,6 +50,7 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
     private JSONObject guideJSON;
     public String current_title = "Created";
     public MyHikeRecyclerViewAdapter logAdaptor;
+    public MyChaptersRecyclerViewAdapter guideAdaptor;
     private final int MAX_SEARCH_RESULT = 5;
 
 
@@ -153,6 +155,10 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
         logAdaptor = adaptor;
     }
 
+    public void setGuideAdaptor(MyChaptersRecyclerViewAdapter adaptor) {
+        guideAdaptor = adaptor;
+    }
+
     public void setActionBarTitle(String title) {
         getSupportActionBar().setTitle(title);
         current_title = title;
@@ -212,8 +218,9 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
             public boolean onMenuItemActionCollapse(MenuItem item) {
                 // Do whatever you need
                 if(current_title.equals("Logs")){
-                    Toast.makeText(MainActivity.this, "returned item", Toast.LENGTH_SHORT).show();
                     logAdaptor.returnItems();
+                } else if (current_title.equals("Guide")){
+                    guideAdaptor.returnItems();
                 }
                 return true; // OR FALSE IF YOU DIDN'T WANT IT TO CLOSE!
             }
@@ -225,26 +232,7 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
             public boolean onQueryTextSubmit(String s) {
                 if (current_title.equals("Guide")){
                     if (!s.equals("")){
-                        // searching in topic
-                        JSONObject parsedGuide;
-                        // hideItems max 5 results
-                        String[] results = new String[MAX_SEARCH_RESULT];
-                        int counter = 0;
-                        try{
-                            parsedGuide = new JSONObject(guideRaw);
-                            Iterator<String> keys = parsedGuide.keys();
-                            while(keys.hasNext() && counter < MAX_SEARCH_RESULT) {
-                                String key = keys.next();
-                                if(key.toLowerCase().startsWith(s.toLowerCase())){
-                                    results[counter] = key;
-                                    counter++;
-                                }
-                            }
-                            Toast.makeText(MainActivity.this, "Found topic: " + results[0], Toast.LENGTH_SHORT).show();
-
-                        } catch (Exception e) {
-                            e.printStackTrace();
-                        }
+                        guideAdaptor.search(s.toLowerCase());
                     }
 
                 } else if (current_title.contains(" > ")) {
@@ -300,7 +288,9 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
             @Override
             public boolean onQueryTextChange(String s) {
                 if(current_title.equals("Logs")){
-                    logAdaptor.search(s);
+                    logAdaptor.search(s.toLowerCase());
+                } else if(current_title.equals("Guide")){
+                    guideAdaptor.search(s.toLowerCase());
                 }
                 return false;
             }
