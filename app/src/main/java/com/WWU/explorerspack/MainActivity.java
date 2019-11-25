@@ -119,7 +119,6 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
 
     @Override
     public boolean onSupportNavigateUp() {
-        Toast.makeText(MainActivity.this, "navigating up from " + current_title, Toast.LENGTH_SHORT).show();
         return navController.navigateUp();//this might not be necessary.
     }
 
