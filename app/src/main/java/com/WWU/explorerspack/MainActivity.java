@@ -217,11 +217,13 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
             @Override
             public boolean onMenuItemActionCollapse(MenuItem item) {
                 // Do whatever you need
-                if(current_title.equals("Logs")){
+                if(logAdaptor != null){
                     logAdaptor.returnItems();
-                } else if (current_title.equals("Guide")){
+                }
+                if(guideAdaptor != null){
                     guideAdaptor.returnItems();
                 }
+
                 return true; // OR FALSE IF YOU DIDN'T WANT IT TO CLOSE!
             }
         });

@@ -122,7 +122,6 @@ public class MyChaptersRecyclerViewAdapter extends RecyclerView.Adapter<MyChapte
         for(ChapterItem item:removedItem){
             mValues.remove(item);
         }
-
         update();
     }
 
