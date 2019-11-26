@@ -5,7 +5,7 @@ android {
     buildToolsVersion "29.0.2"
     defaultConfig {
         applicationId "com.WWU.explorerspack"
-        minSdkVersion 15
+        minSdkVersion 16
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
@@ -37,4 +37,6 @@ dependencies {
     implementation 'us.feras.mdv:markdownview:1.1.0'
     implementation 'org.osmdroid:osmdroid-android:6.1.2'
     implementation 'com.jayway.jsonpath:json-path:2.4.0'
+    implementation"io.noties.markwon:core:4.2.0"
+    implementation"io.noties.markwon:image:4.2.0"
 }

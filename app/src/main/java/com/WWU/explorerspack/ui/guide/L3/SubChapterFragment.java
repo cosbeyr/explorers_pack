@@ -12,6 +12,8 @@ import androidx.fragment.app.Fragment;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 
+import android.text.Spanned;
+import android.text.method.ScrollingMovementMethod;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -28,7 +30,9 @@ import com.WWU.explorerspack.ui.guide.ChapterData.ChapterContent;
 import com.WWU.explorerspack.ui.guide.JSONManager;
 
 import org.json.JSONObject;
+import org.w3c.dom.Text;
 
+import io.noties.markwon.Markwon;
 import us.feras.mdv.MarkdownView;
 
 import static androidx.navigation.Navigation.findNavController;
@@ -72,9 +76,13 @@ public class SubChapterFragment extends Fragment {
                              @Nullable Bundle savedInstanceState) {
         setHasOptionsMenu(true);
         final View rootView = inflater.inflate(R.layout.sub_chapter_fragment, container, false);
-        markdownView = rootView.findViewById(R.id.markdownView);
-        markdownView.loadMarkdown(content);
-
+        TextView markdownView = rootView.findViewById(R.id.markdownView);
+        //markdownView.loadMarkdown(content);
+        final Markwon markwon = Markwon.create(getActivity());
+        final Spanned markdown = markwon.toMarkdown(content);
+        markwon.setParsedMarkdown(markdownView, markdown);
+        markdownView.setMovementMethod(new ScrollingMovementMethod());
+        // Toast.makeText(getActivity(), markdown, Toast.LENGTH_LONG).show();
         return rootView;
     }
 
