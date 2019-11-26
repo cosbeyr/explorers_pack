@@ -261,6 +261,7 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
             @Override
             public boolean onMenuItemActionCollapse(MenuItem item) {
                 releaseSearchHoldingItems();
+                currentSearch = "";
 
                 return true; // OR FALSE IF YOU DIDN'T WANT IT TO CLOSE!
             }
