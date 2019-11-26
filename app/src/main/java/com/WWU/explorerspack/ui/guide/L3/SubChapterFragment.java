@@ -1,6 +1,7 @@
 package com.WWU.explorerspack.ui.guide.L3;
 
 import androidx.annotation.NavigationRes;
+import androidx.appcompat.widget.SearchView;
 import androidx.lifecycle.ViewModelProviders;
 
 import android.os.Bundle;
@@ -12,9 +13,12 @@ import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -35,15 +39,26 @@ public class SubChapterFragment extends Fragment {
     private String content = "Test Content";
     private String chapter = "Camouflage";
     private String subChapter = "Hiding";
+    private EditText markdownEditText;
+    private MarkdownView markdownView;
+    private String searchKey;
 
     public static SubChapterFragment newInstance() {
         return new SubChapterFragment();
     }
 
     @Override
+    public void onPrepareOptionsMenu(Menu menu) {
+        MenuItem searchItem = menu.findItem(R.id.action_search);
+        SearchView searchView = (SearchView) searchItem.getActionView();
+        searchView.setQuery(searchKey,true);
+        super.onPrepareOptionsMenu(menu);
+    }
+
+    @Override
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-
+        searchKey = ((MainActivity) getActivity()).getCurrentSearch();
         if(getArguments() != null){
             chapter = getArguments().getString("chapter");
             subChapter = getArguments().getString("subChapter");
@@ -55,9 +70,9 @@ public class SubChapterFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-
+        setHasOptionsMenu(true);
         final View rootView = inflater.inflate(R.layout.sub_chapter_fragment, container, false);
-        MarkdownView markdownView = rootView.findViewById(R.id.markdownView);
+        markdownView = rootView.findViewById(R.id.markdownView);
         markdownView.loadMarkdown(content);
 
         return rootView;
