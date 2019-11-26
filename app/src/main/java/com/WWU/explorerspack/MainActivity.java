@@ -248,7 +248,7 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
                 // Do whatever you need
                 if(current_title.equals("Survival Guide")){
                     searchView.setQueryHint("Search chapters...");
-                } else if (current_title.equals("Logs")) {
+                } else if (current_title.equals("Hike Logs")) {
                     searchView.setQueryHint("Search for a hike...");
                 } else if (current_title.contains(" > ")) {
                     searchView.setQueryHint("Search section content...");
@@ -289,7 +289,7 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
                         }
                     }
 
-                } else if(current_title.equals("Logs")) {
+                } else if(current_title.equals("Hike Logs")) {
                     if (!s.equals("")){
                         if (logAdaptor != null){
                             currentSearch = s;
@@ -312,7 +312,7 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
             @Override
             public boolean onQueryTextChange(String s) {
 
-                if(current_title.equals("Logs")){
+                if(current_title.equals("Hike Logs")){
                     if(logAdaptor != null) {
                         currentSearch = s;
                         logAdaptor.search(s.toLowerCase());

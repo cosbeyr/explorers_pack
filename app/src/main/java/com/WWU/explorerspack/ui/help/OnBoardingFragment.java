@@ -35,7 +35,7 @@ public class OnBoardingFragment extends DialogFragment {
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.help, container, false);
-        ((MainActivity) getActivity()).setActionBarTitle("Tips");
+        ((MainActivity) getActivity()).setActionBarTitle("");
         setHasOptionsMenu(true);
         return root;
     }

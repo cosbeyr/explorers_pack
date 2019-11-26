@@ -25,7 +25,7 @@ public class LogsFragment extends Fragment {
                 ViewModelProviders.of(this).get(LogsViewModel.class);
         View root = inflater.inflate(R.layout.fragment_logs, container, false);
         final TextView textView = root.findViewById(R.id.text_logs);
-        ((MainActivity) getActivity()).setActionBarTitle("Logs");
+        ((MainActivity) getActivity()).setActionBarTitle("Hike Logs");
         notificationsViewModel.getText().observe(this, new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
