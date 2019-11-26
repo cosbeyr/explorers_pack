@@ -14,6 +14,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import com.WWU.explorerspack.R;
+import com.WWU.explorerspack.ui.guide.JSONManager;
 import com.WWU.explorerspack.ui.guide.L2.SubChapterData.SubChapterContent;
 
 
@@ -61,7 +62,9 @@ public class MySectionRecyclerViewAdapter extends RecyclerView.Adapter <MySectio
         returnItems();
         for(SubChapterContent.SubChapterItem item: mValues){
             if(item != null) {
-                if(!item.subChapter.trim().toLowerCase().startsWith(searchValue)){
+                String subchapterContent = JSONManager.getInstance(null).getSubChapter(item.chapter, item.subChapter);
+                int position = subchapterContent.indexOf(searchValue);
+                if(!item.subChapter.trim().toLowerCase().startsWith(searchValue) && position == -1){
                     removedItems.add(item);
                     indexMap.put(item.subChapter,mValues.indexOf(item));
 
