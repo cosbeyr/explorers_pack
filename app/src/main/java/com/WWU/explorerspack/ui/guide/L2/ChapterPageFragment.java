@@ -1,5 +1,6 @@
 package com.WWU.explorerspack.ui.guide.L2;
 
+import androidx.appcompat.widget.SearchView;
 import androidx.lifecycle.ViewModelProviders;
 
 import android.content.Context;
@@ -14,7 +15,10 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -41,14 +45,25 @@ public class ChapterPageFragment extends Fragment {
     private JSONArray subChapters;
     private int mColumnCount = 2;
     private OnSubListFragmentInteractionListener mListener;
+    private  String searchKey;
 
     public static ChapterPageFragment newInstance() {
         return new ChapterPageFragment();
     }
 
     @Override
+    public void onPrepareOptionsMenu(Menu menu) {
+        MenuItem searchItem = menu.findItem(R.id.action_search);
+        final SearchView searchView = (SearchView) searchItem.getActionView();
+        searchView.setQuery(searchKey,true);
+        super.onPrepareOptionsMenu(menu);
+    }
+
+    @Override
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
+        searchKey = ((MainActivity) getActivity()).getCurrentSearch();
+        setHasOptionsMenu(true);
 
         if(getArguments() != null){
             id = getArguments().getString("id");

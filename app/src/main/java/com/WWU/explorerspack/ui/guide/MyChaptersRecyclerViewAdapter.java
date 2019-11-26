@@ -106,6 +106,13 @@ public class MyChaptersRecyclerViewAdapter extends RecyclerView.Adapter<MyChapte
                         subChapter = subChapter.trim().toLowerCase();
                         if(subChapter.startsWith(searchInput)){
                             subChapterMatch = true;
+                        } else {
+                            // perform third level search
+                            String subchapterContent = JSONManager.getInstance(null).getSubChapter(item.toString(), (String)subChapters.get(i));
+                            int position = subchapterContent.indexOf(searchInput);
+                            if(position != -1) {
+                                subChapterMatch = true;
+                            }
                         }
                     } catch (Exception e){
                         e.printStackTrace();
