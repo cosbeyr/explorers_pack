@@ -43,15 +43,15 @@ public class SettingsFragment extends PreferenceFragmentCompat implements Shared
         Preference preference = findPreference(key);
         if (preference instanceof SwitchPreference && key.equals("save_to_gallery")) {
             if (((SwitchPreference) preference).isChecked()){
-                Toast.makeText(getActivity(),"Got it! We'll save pictures to your gallery.",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(),"Pictures will be saved to your gallery.",Toast.LENGTH_SHORT).show();
             } else {
                 Toast.makeText(getActivity(),"Pictures won't be saved to your gallery.", Toast.LENGTH_SHORT).show();
             }
         } else if (preference instanceof SwitchPreference && key.equals("home_page_tips")){
             if (((SwitchPreference) preference).isChecked()){
-                Toast.makeText(getActivity(),"We've got useful hints for you!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(),"Home page will be displayed on start up.", Toast.LENGTH_SHORT).show();
             } else {
-                Toast.makeText(getActivity(),"Looks like you've mastered our app!",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(),"Home page will be hidden on start up.",Toast.LENGTH_SHORT).show();
             }
         }
     }
