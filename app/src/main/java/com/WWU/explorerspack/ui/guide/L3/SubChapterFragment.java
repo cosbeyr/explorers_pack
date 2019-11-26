@@ -4,6 +4,7 @@ import androidx.annotation.NavigationRes;
 import androidx.appcompat.widget.SearchView;
 import androidx.lifecycle.ViewModelProviders;
 
+import android.graphics.Color;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -38,7 +39,9 @@ import java.security.spec.ECField;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import io.noties.markwon.AbstractMarkwonPlugin;
 import io.noties.markwon.Markwon;
+import io.noties.markwon.core.MarkwonTheme;
 import us.feras.mdv.MarkdownView;
 
 import static androidx.navigation.Navigation.findNavController;
@@ -133,7 +136,17 @@ public class SubChapterFragment extends Fragment {
         }
         complete = complete + tail;
         final TextView markdownView = rootView.findViewById(R.id.markdownView);
-        final Markwon markwon = Markwon.create(getActivity());
+
+        final Markwon markwon = Markwon.builder(getActivity())
+                .usePlugin(new AbstractMarkwonPlugin() {
+                    @Override
+                    public void configureTheme(@NonNull MarkwonTheme.Builder builder) {
+                        builder
+                                .codeTextColor(Color.BLACK)
+                                .codeBackgroundColor(Color.YELLOW);
+                    }
+                })
+                .build();
         final Spanned markdown = markwon.toMarkdown(complete);
         markwon.setParsedMarkdown(markdownView, markdown);
         scrollToPosition(firstMatchPosition);
