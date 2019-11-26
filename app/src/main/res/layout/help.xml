@@ -4,32 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#DAEFF2"
+    android:background="#FFFFFF"
     android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/welcome"
-        android:layout_width="266dp"
-        android:layout_height="82dp"
-        android:layout_marginStart="72dp"
-        android:layout_marginLeft="72dp"
-        android:layout_marginTop="144dp"
-        android:layout_marginEnd="73dp"
-        android:layout_marginRight="73dp"
-        android:autoText="false"
-        android:background="#0888B0"
-        android:bufferType="spannable"
-        android:capitalize="characters"
-        android:gravity="center"
-        android:singleLine="false"
-        android:text="WELCOME TO EXPLORER'S PACK"
-        android:textAllCaps="true"
-        android:textColor="#FFFFFF"
-        android:textIsSelectable="false"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        android:visibility="visible"
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:srcCompat="@drawable/infopage" />
 </androidx.constraintlayout.widget.ConstraintLayout>
