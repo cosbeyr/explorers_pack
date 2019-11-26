@@ -1,5 +1,7 @@
 package com.WWU.explorerspack.ui.logs.hiking_maps.MapContent;
 
+import android.graphics.Bitmap;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -61,6 +63,9 @@ public class MapListContent {
         public  String imageURL;
         public  String stars;
         public  String length;
+        public String location;
+        public Bitmap imageMap;
+        public boolean isdummy =false;
 
 
         public MapListItem(String id, String hikeName, String lat, String lon) {
@@ -68,9 +73,10 @@ public class MapListContent {
             this.hikeName = hikeName;
             this.lat = lat;
             this.lon = lon;
+            isdummy =true;
         }
 
-        public MapListItem(String id, String hikeName, String lat, String lon, String imageURL, String stars, String length) {
+        public MapListItem(String id, String hikeName, String lat, String lon, String imageURL, String stars, String length, String location, Bitmap imageMap) {
             this.id = id;
             this.hikeName = hikeName;
             this.lat = lat;
@@ -78,6 +84,8 @@ public class MapListContent {
             this.imageURL = imageURL;
             this.stars = stars;
             this.length = length;
+            this.location = location;
+            this.imageMap = imageMap;
         }
 
         @Override

@@ -14,5 +14,6 @@
     <string name="save_to_gallery">save_to_gallery</string>
     <string name="home_page_tips">home_page_tips</string>
     <string name="find_a_map">Find a Map</string>
+    <string name="hikename">hikeName</string>
 
 </resources>

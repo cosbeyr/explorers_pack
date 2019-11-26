@@ -6,6 +6,8 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.RatingBar;
 import android.widget.TextView;
 import com.WWU.explorerspack.R;
 
@@ -40,6 +42,12 @@ public class MymapListItemRecyclerViewAdapter extends RecyclerView.Adapter<Mymap
             Log.i("ADAPTER","list is empty");
         }
         notifyDataSetChanged();
+        MapListContent.ITEMS.clear();
+        MapListContent.ITEMS.addAll(newList);
+        MapListContent.ITEM_MAP.clear();
+        for (int i = 0; i<newList.size();i++){
+            MapListContent.ITEM_MAP.put(newList.get(i).hikeName,newList.get(i));//insert the new hikes into the map by name.
+        }
     }
 
     @Override
@@ -52,8 +60,18 @@ public class MymapListItemRecyclerViewAdapter extends RecyclerView.Adapter<Mymap
     @Override
     public void onBindViewHolder(final ViewHolder holder, int position) {
         holder.mItem = mValues.get(position);
-        holder.mIdView.setText(mValues.get(position).id);
+        //holder.mIdView.setText(mValues.get(position).id);
         holder.mHikeNameView.setText(mValues.get(position).hikeName);
+        if(!mValues.get(position).isdummy) {
+            String length = mValues.get(position).length + " mi";
+            holder.mlengthView.setText(length);
+            holder.mLocationView.setText(mValues.get(position).location);
+            holder.mratingView.setRating(Float.parseFloat(mValues.get(position).stars));
+            if (mValues.get(position).imageMap != null){
+                holder.mpictureView.setImageBitmap(mValues.get(position).imageMap);
+            }
+
+        }
 
         holder.mView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -74,15 +92,24 @@ public class MymapListItemRecyclerViewAdapter extends RecyclerView.Adapter<Mymap
 
     public class ViewHolder extends RecyclerView.ViewHolder {
         public final View mView;
-        public final TextView mIdView;
+        //public final TextView mIdView;
         public final TextView mHikeNameView;
+        public RatingBar mratingView;
+        public  TextView mlengthView;
+        public  ImageView mpictureView;
+        public TextView mLocationView;
         public MapListContent.MapListItem mItem;
 
         public ViewHolder(View view) {
             super(view);
             mView = view;
-            mIdView = (TextView) view.findViewById(R.id.item_number);
+            //mIdView = (TextView) view.findViewById(R.id.item_number);
             mHikeNameView = (TextView) view.findViewById(R.id.hikeName);
+            mlengthView = (TextView) view.findViewById(R.id.hike_length);
+            mpictureView = (ImageView) view.findViewById(R.id.trail_image);
+            mratingView = (RatingBar) view.findViewById(R.id.rating);
+            mLocationView = (TextView) view.findViewById(R.id.location);
+
         }
 
         @Override

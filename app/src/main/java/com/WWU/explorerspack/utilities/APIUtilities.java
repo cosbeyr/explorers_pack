@@ -3,6 +3,8 @@ package com.WWU.explorerspack.utilities;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.location.Address;
 import android.location.Geocoder;
 import android.location.Location;
@@ -35,6 +37,9 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.IOException;
+import java.io.InputStream;
+import java.net.URL;
+import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
@@ -49,6 +54,7 @@ public class APIUtilities extends AsyncTask<String, Integer, ArrayList<MapListCo
     private FusedLocationProviderClient fusedLocationClient;
     private String city = "default";
     private boolean isCached = false;
+    private InputStream urlInputStream;
 
     public APIUtilities (Context context){
         mContext = context;
@@ -57,12 +63,14 @@ public class APIUtilities extends AsyncTask<String, Integer, ArrayList<MapListCo
     @Override
     protected ArrayList<MapListContent.MapListItem> doInBackground(String... queryString) {
         MapListContent.MapListItem tempItem;
+        Bitmap imagemap = null;
         String hikeName;
         String lat;
         String lon;
         String imageurl;
         String stars;
         String length;
+        String hikeLocation;
         fusedLocationClient = LocationServices.getFusedLocationProviderClient(mContext);
         Geocoder gcd = new Geocoder(mContext, Locale.getDefault());
 
@@ -72,14 +80,16 @@ public class APIUtilities extends AsyncTask<String, Integer, ArrayList<MapListCo
             if (addresses.size() > 0) {
                 city = addresses.get(0).getLocality();
                 //todo: the caching logic here
-                String fileJSON = StorageUtilities.read(mContext,StorageUtilities.apiCache);
-                JSONObject queryList = new JSONObject(fileJSON);
-                if(queryList.get(city) != null){
-                    isCached = true;
+                if (StorageUtilities.isFilePresent(mContext, StorageUtilities.apiCache)) {
+                    String fileJSON = StorageUtilities.read(mContext, StorageUtilities.apiCache);
+                    JSONObject queryList = new JSONObject(fileJSON);
+                    if (queryList.get(city) != null) {
+                        isCached = true;
+                    }
+                    //System.out.println(addresses.get(0).getLocality());
+                } else {
+                    isCached = false;
                 }
-                //System.out.println(addresses.get(0).getLocality());
-            } else {
-                // do your stuff
             }
         }catch (ExecutionException e) {
             // The Task failed, this is the same exception you'd get in a non-blocking
@@ -107,9 +117,29 @@ public class APIUtilities extends AsyncTask<String, Integer, ArrayList<MapListCo
                     lat = ((JSONObject) trails.get(i)).getString("latitude");
                     lon = ((JSONObject) trails.get(i)).getString("longitude");
                     imageurl = ((JSONObject) trails.get(i)).getString("imgSqSmall");
+                    try {
+                        URLConnection con = new URL(imageurl).openConnection();
+                        con.setUseCaches(true);
+                        urlInputStream = con.getInputStream();
+                        imagemap = BitmapFactory.decodeStream(urlInputStream);
+                        if (this.urlInputStream != null) {
+                            try {
+                                this.urlInputStream.close();
+                            } catch (IOException e) {
+                                ; // swallow
+                            } finally {
+                                this.urlInputStream = null;
+                            }
+                        }
+
+                    }catch (Exception ex){
+                        ex.printStackTrace();
+                    }
+                    // can use some more params, i.e. caching directory etc
                     stars = ((JSONObject) trails.get(i)).getString("stars");
                     length = ((JSONObject) trails.get(i)).getString("length");
-                    tempItem = new MapListContent.MapListItem(Integer.toString(i), hikeName, lat, lon, imageurl, stars, length);
+                    hikeLocation = ((JSONObject) trails.get(i)).getString("location");
+                    tempItem = new MapListContent.MapListItem(Integer.toString(i), hikeName, lat, lon, imageurl, stars, length,hikeLocation, imagemap);
                     resultList.add(tempItem);
                     Log.i("BUILDING", resultList.get(i).hikeName);
 
@@ -142,7 +172,7 @@ public class APIUtilities extends AsyncTask<String, Integer, ArrayList<MapListCo
 
             JSONResultString = response;
 
-            //TODO: add expiration dates to each query and remove them over time. We could do this 
+            //TODO: add expiration dates to each query and remove them over time. We could do this
 
 
             try {
@@ -167,7 +197,28 @@ public class APIUtilities extends AsyncTask<String, Integer, ArrayList<MapListCo
                     imageurl = ((JSONObject) trails.get(i)).getString("imgSqSmall");
                     stars = ((JSONObject) trails.get(i)).getString("stars");
                     length = ((JSONObject) trails.get(i)).getString("length");
-                    tempItem = new MapListContent.MapListItem(Integer.toString(i), hikeName, lat, lon, imageurl, stars, length);
+                    hikeLocation = ((JSONObject) trails.get(i)).getString("location");
+
+                    try {
+                        URLConnection con = new URL(imageurl).openConnection();
+                        con.setUseCaches(true);
+                        urlInputStream = con.getInputStream();
+                        imagemap = BitmapFactory.decodeStream(urlInputStream);
+                        if (this.urlInputStream != null) {
+                            try {
+                                this.urlInputStream.close();
+                            } catch (IOException e) {
+                                ; // swallow
+                            } finally {
+                                this.urlInputStream = null;
+                            }
+                        }
+
+                    }catch (Exception ex){
+                        ex.printStackTrace();
+                    }
+
+                    tempItem = new MapListContent.MapListItem(Integer.toString(i), hikeName, lat, lon, imageurl, stars, length,hikeLocation, imagemap);
                     resultList.add(tempItem);
                     Log.i("BUILDING", resultList.get(i).hikeName);
 
