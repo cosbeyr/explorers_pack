@@ -2,6 +2,7 @@ package com.WWU.explorerspack.ui.logs.hiking_maps;
 
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -33,6 +34,11 @@ public class MymapListItemRecyclerViewAdapter extends RecyclerView.Adapter<Mymap
     public void updateData(ArrayList<MapListContent.MapListItem> newList){
         mValues.clear();
         mValues.addAll(newList);
+        if (newList.size() != 0)
+        Log.i("ADAPTER: ", newList.get(0).hikeName);
+        else{
+            Log.i("ADAPTER","list is empty");
+        }
         notifyDataSetChanged();
     }
 

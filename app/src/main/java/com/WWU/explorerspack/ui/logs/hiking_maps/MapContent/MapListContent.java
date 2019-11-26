@@ -58,12 +58,26 @@ public class MapListContent {
         public final String hikeName;//the hike name
         public final String lat;//latitude of hike
         public final String lon;//longitude of hike
+        public  String imageURL;
+        public  String stars;
+        public  String length;
+
 
         public MapListItem(String id, String hikeName, String lat, String lon) {
             this.id = id;
             this.hikeName = hikeName;
             this.lat = lat;
             this.lon = lon;
+        }
+
+        public MapListItem(String id, String hikeName, String lat, String lon, String imageURL, String stars, String length) {
+            this.id = id;
+            this.hikeName = hikeName;
+            this.lat = lat;
+            this.lon = lon;
+            this.imageURL = imageURL;
+            this.stars = stars;
+            this.length = length;
         }
 
         @Override
