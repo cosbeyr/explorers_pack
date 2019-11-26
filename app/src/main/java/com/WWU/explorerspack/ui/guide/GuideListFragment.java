@@ -99,7 +99,7 @@ public class GuideListFragment extends Fragment implements SearchView.OnQueryTex
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_chapters_list, container, false);
-        ((MainActivity) getActivity()).setActionBarTitle("Guide");
+        ((MainActivity) getActivity()).setActionBarTitle("Survival Guide");
         ((MainActivity) getActivity()).releaseSearchHoldingItems();
 
 

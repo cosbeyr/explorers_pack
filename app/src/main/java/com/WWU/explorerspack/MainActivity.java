@@ -246,14 +246,14 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
             @Override
             public boolean onMenuItemActionExpand(MenuItem item) {
                 // Do whatever you need
-                if(current_title.equals("Guide")){
-                    searchView.setQueryHint("Search a topic...");
+                if(current_title.equals("Survival Guide")){
+                    searchView.setQueryHint("Search chapters...");
                 } else if (current_title.equals("Logs")) {
-                    searchView.setQueryHint("Search a hike name...");
-                } else if (current_title.contains(" > ")){
-                    searchView.setQueryHint("Search a text...");
+                    searchView.setQueryHint("Search for a hike...");
+                } else if (current_title.contains(" > ")) {
+                    searchView.setQueryHint("Search section content...");
                 } else {
-                    searchView.setQueryHint("Search a section...");
+                    searchView.setQueryHint("Search sections...");
                 }
                 return true; // KEEP IT TO TRUE OR IT DOESN'T OPEN !!
             }
@@ -272,7 +272,7 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
             @Override
             public boolean onQueryTextSubmit(String s) {
 
-                if (current_title.equals("Guide")){
+                if (current_title.equals("Survival Guide")){
                     if (!s.equals("")){
                         if (guideAdaptor != null) {
                             currentSearch = s;
@@ -316,7 +316,7 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
                         currentSearch = s;
                         logAdaptor.search(s.toLowerCase());
                     }
-                } else if(current_title.equals("Guide")){
+                } else if(current_title.equals("Survival Guide")){
                     if (guideAdaptor != null) {
                         currentSearch = s;
                         guideAdaptor.search(s.toLowerCase());
