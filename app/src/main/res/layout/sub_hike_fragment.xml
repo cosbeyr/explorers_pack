@@ -41,13 +41,14 @@
                 android:text="Notes"
                 android:textColor="#000000"
                 android:textIsSelectable="false"
+                android:textSize="18sp"
                 android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/note_edit_text"
                 android:layout_width="match_parent"
+                android:layout_height="318dp"
                 android:layout_marginLeft="8dp"
-                android:layout_height="300dp"
                 android:ems="10"
                 android:gravity="start|top"
                 android:inputType="textMultiLine" />
@@ -62,14 +63,16 @@
             android:orientation="vertical"
             android:layout_weight="1"
             android:background="@color/tile">
+
             <TextView
                 android:id="@+id/map_text"
                 android:layout_width="match_parent"
-                android:layout_marginLeft="8dp"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
                 android:text="Map"
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
                 android:textIsSelectable="false"
+                android:textSize="18sp"
                 android:textStyle="bold" />
 
             <ImageView
@@ -92,25 +95,30 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:orientation="vertical">
+
         <TextView
             android:id="@+id/photo_text"
             android:layout_width="match_parent"
-            android:layout_marginLeft="8dp"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
             android:text="Photos"
             android:textColor="#000000"
             android:textIsSelectable="false"
+            android:textSize="18sp"
             android:textStyle="bold" />
+
         <HorizontalScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-        <LinearLayout
-            android:id="@+id/photos"
-            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/tile"
-            android:orientation="horizontal"
-/>
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin">
+
+            <LinearLayout
+                android:id="@+id/photos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/tile"
+                android:orientation="horizontal" />
         </HorizontalScrollView>
     </LinearLayout>
 </LinearLayout>
