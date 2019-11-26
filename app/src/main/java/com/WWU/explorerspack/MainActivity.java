@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
     public MyHikeRecyclerViewAdapter logAdaptor;
     public MyChaptersRecyclerViewAdapter guideAdaptor;
     public MySectionRecyclerViewAdapter sectionAdaptor;
+    public SubChapterFragment currentSubChapter;
     private String currentSearch = "";
     private String previousSearch = "";
     private final int MAX_SEARCH_RESULT = 5;
@@ -168,6 +169,9 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
         return previousSearch;
     }
 
+    public void setCurrentSubChapter(SubChapterFragment subChapter){
+        currentSubChapter = subChapter;
+    }
     public void setLogAdaptor(MyHikeRecyclerViewAdapter adaptor){
         logAdaptor = adaptor;
     }
@@ -284,8 +288,16 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
                             JSONObject section = parsedGuide.getJSONObject(subsection[0]);
                             String subsectionData = section.getString(subsection[1]);
                             position = subsectionData.indexOf(s);
-                            Toast.makeText(MainActivity.this, "Found details at position " + position, Toast.LENGTH_SHORT).show();
 
+                            if (position == -1){
+                                Toast.makeText(MainActivity.this, "No results found!", Toast.LENGTH_SHORT).show();
+                            } else {
+                                if (currentSubChapter != null){
+                                    currentSubChapter.scrollToPosition(position);
+                                } else {
+                                    Toast.makeText(MainActivity.this, "Failed to search!", Toast.LENGTH_SHORT).show();
+                                }
+                            }
                         } catch (Exception e) {
                             e.printStackTrace();
                         }

@@ -21,6 +21,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -45,6 +46,7 @@ public class SubChapterFragment extends Fragment {
     private String subChapter = "Hiding";
     private EditText markdownEditText;
     private MarkdownView markdownView;
+    private View rootView;
     private String searchKey;
 
     public static SubChapterFragment newInstance() {
@@ -75,15 +77,29 @@ public class SubChapterFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
         setHasOptionsMenu(true);
-        final View rootView = inflater.inflate(R.layout.sub_chapter_fragment, container, false);
-        TextView markdownView = rootView.findViewById(R.id.markdownView);
-        //markdownView.loadMarkdown(content);
+
+        rootView = inflater.inflate(R.layout.sub_chapter_fragment, container, false);
+        ((MainActivity) getActivity()).setCurrentSubChapter(this);
+        final TextView markdownView = rootView.findViewById(R.id.markdownView);
+        markdownView.setMovementMethod(new ScrollingMovementMethod());
         final Markwon markwon = Markwon.create(getActivity());
         final Spanned markdown = markwon.toMarkdown(content);
         markwon.setParsedMarkdown(markdownView, markdown);
-        markdownView.setMovementMethod(new ScrollingMovementMethod());
-        // Toast.makeText(getActivity(), markdown, Toast.LENGTH_LONG).show();
         return rootView;
+    }
+
+    public void scrollToPosition(final int position){
+        final TextView markdownView = rootView.findViewById(R.id.markdownView);
+        final ScrollView s = rootView.findViewById(R.id.scroll_view);
+        // how to scroll
+        s.post(new Runnable() {
+            @Override
+            public void run() {
+                int line = markdownView.getLayout().getLineForOffset(position);
+                int y = markdownView.getLayout().getLineTop(line); // e.g. I want to scroll to line 40
+                s.scrollTo(0, y);
+            }
+        });
     }
 
     @Override
