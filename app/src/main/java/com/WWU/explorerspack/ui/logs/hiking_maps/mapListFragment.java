@@ -48,7 +48,7 @@ public class mapListFragment extends Fragment implements APIUtilities.AsyncRespo
     private String lon = "-122.4858";
     private String maxDistance = "200"; //max distance in miles from location to search for hikes.
     private String sort = "distance";
-    private String maxResults = "50";
+    private String maxResults = "20";
     private String queryString;//the completed query string for the api.
     private FusedLocationProviderClient fusedLocationClient;
 
