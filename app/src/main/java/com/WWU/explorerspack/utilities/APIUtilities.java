@@ -10,6 +10,7 @@ import android.location.Geocoder;
 import android.location.Location;
 import android.net.IpSecManager;
 import android.os.AsyncTask;
+import android.provider.Telephony;
 import android.util.Log;
 import android.widget.Toast;
 
@@ -71,15 +72,24 @@ public class APIUtilities extends AsyncTask<String, Integer, ArrayList<MapListCo
         String stars;
         String length;
         String hikeLocation;
+        double defaultLat = 48.7519;
+        double defaultLon = -122.4787;
         fusedLocationClient = LocationServices.getFusedLocationProviderClient(mContext);
         Geocoder gcd = new Geocoder(mContext, Locale.getDefault());
-
+        //TODO: fix null location error.
         try {
             Location location =  Tasks.await(fusedLocationClient.getLastLocation());
-            List<Address> addresses = gcd.getFromLocation(location.getLatitude(), location.getLongitude(), 1);
+            List<Address> addresses;
+            if(location != null){
+                addresses = gcd.getFromLocation(location.getLatitude(), location.getLongitude(), 1);
+
+            }
+            else{
+                addresses = gcd.getFromLocation(defaultLat,defaultLon,1);
+            }
+
             if (addresses.size() > 0) {
                 city = addresses.get(0).getLocality();
-                //todo: the caching logic here
                 if (StorageUtilities.isFilePresent(mContext, StorageUtilities.apiCache)) {
                     String fileJSON = StorageUtilities.read(mContext, StorageUtilities.apiCache);
                     JSONObject queryList = new JSONObject(fileJSON);

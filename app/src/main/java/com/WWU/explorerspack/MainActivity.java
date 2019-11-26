@@ -19,6 +19,7 @@ import com.WWU.explorerspack.ui.logs.MyHikeRecyclerViewAdapter;
 import com.WWU.explorerspack.ui.logs.hike_item.HikeList;
 import com.WWU.explorerspack.ui.guide.L3.SubChapterFragment;
 import com.WWU.explorerspack.ui.logs.hiking_maps.MapContent.MapListContent;
+import com.WWU.explorerspack.ui.logs.hiking_maps.MymapListItemRecyclerViewAdapter;
 import com.WWU.explorerspack.ui.logs.hiking_maps.mapListFragment;
 import com.WWU.explorerspack.utilities.StorageUtilities;
 import com.WWU.explorerspack.ui.guide.GuideListFragment;
@@ -56,6 +57,7 @@ public class MainActivity extends AppCompatActivity implements mapListFragment.O
     public MyChaptersRecyclerViewAdapter guideAdaptor;
     public MySectionRecyclerViewAdapter sectionAdaptor;
     public SubChapterFragment currentSubChapter;
+    public MymapListItemRecyclerViewAdapter mapAdapter;
     private String currentSearch = "";
     private String previousSearch = "";
     private final int MAX_SEARCH_RESULT = 5;
@@ -178,6 +180,10 @@ public class MainActivity extends AppCompatActivity implements mapListFragment.O
         logAdaptor = adaptor;
     }
 
+    public void setMapAdaptor(MymapListItemRecyclerViewAdapter adaptor){
+        mapAdapter = adaptor;
+    }
+
     public void setGuideAdaptor(MyChaptersRecyclerViewAdapter adaptor) {
         guideAdaptor = adaptor;
     }
@@ -230,6 +236,9 @@ public class MainActivity extends AppCompatActivity implements mapListFragment.O
         if (currentSubChapter != null){
             currentSubChapter.returnContent();
         }
+        if (mapAdapter !=null){
+            mapAdapter.returnItem();
+        }
     }
 
     @Override
@@ -254,7 +263,10 @@ public class MainActivity extends AppCompatActivity implements mapListFragment.O
                     searchView.setQueryHint("Search a hike name...");
                 } else if (current_title.contains(" > ")){
                     searchView.setQueryHint("Search a text...");
-                } else {
+                }else if(current_title.equals("Maps")){
+                    searchView.setQueryHint("Search a map...");
+                }
+                else {
                     searchView.setQueryHint("Search a section...");
                 }
                 return true; // KEEP IT TO TRUE OR IT DOESN'T OPEN !!
@@ -298,7 +310,14 @@ public class MainActivity extends AppCompatActivity implements mapListFragment.O
                             logAdaptor.search(s.toLowerCase());
                         }
                     }
-                } else {
+                }else if(current_title.equals("Maps")){
+                    if (!s.equals("")){
+                        if (mapAdapter != null){
+                            mapAdapter.search(s.toLowerCase());
+                        }
+                    }
+                }
+                else {
                     if(!s.equals("")){
                         previousSearch = currentSearch;
                         currentSearch = s;
@@ -331,7 +350,12 @@ public class MainActivity extends AppCompatActivity implements mapListFragment.O
                         } else if (currentSubChapter !=null && s.equals("")){
                             currentSubChapter.returnContent();
                         }
-                } else {
+                }else if(current_title.equals("Maps")){
+                    if(mapAdapter != null){
+                       mapAdapter.search(s.toLowerCase());
+                    }
+                }
+                else {
                     if(sectionAdaptor != null){
                         currentSearch = s;
                         sectionAdaptor.search(s.toLowerCase());
