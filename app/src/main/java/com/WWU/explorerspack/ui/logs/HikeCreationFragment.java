@@ -44,27 +44,36 @@ public class HikeCreationFragment extends DialogFragment {
                              @Nullable Bundle savedInstanceState) {
 
         final View rootView = inflater.inflate(R.layout.hike_creation_fragment, container, false);
+        // must check permission at run time
+        if (ActivityCompat.checkSelfPermission(getContext(), Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED ||
+                ActivityCompat.checkSelfPermission(getContext(), Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED ||
+                ActivityCompat.checkSelfPermission(getContext(), Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED ||
+                ActivityCompat.checkSelfPermission(getContext(), Manifest.permission.INTERNET) != PackageManager.PERMISSION_GRANTED ||
+                ActivityCompat.checkSelfPermission(getContext(), Manifest.permission.ACCESS_NETWORK_STATE) != PackageManager.PERMISSION_GRANTED) {
 
+            requestPermissions( //Method of Fragment
+                    requiredPermissions,
+                    REQUEST_PERMISSIONS
+            );
+        }
         Button buttonView = rootView.findViewById(R.id.create_button);
+        Button findMapButton = rootView.findViewById(R.id.find_map_button);
         final EditText titleTextObj = rootView.findViewById(R.id.hike_title_text);
         final EditText notesTextObj = rootView.findViewById(R.id.notes_text);
+
+        findMapButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavController navController = Navigation.findNavController(rootView);
+                navController.navigate(R.id.action_hike_creation_to_mapListFragment);
+            }
+        });
 
         buttonView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 NavController navController = Navigation.findNavController(rootView);
-                // must check permission at run time
-                if (ActivityCompat.checkSelfPermission(getContext(), Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED ||
-                        ActivityCompat.checkSelfPermission(getContext(), Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED ||
-                        ActivityCompat.checkSelfPermission(getContext(), Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED ||
-                        ActivityCompat.checkSelfPermission(getContext(), Manifest.permission.INTERNET) != PackageManager.PERMISSION_GRANTED ||
-                        ActivityCompat.checkSelfPermission(getContext(), Manifest.permission.ACCESS_NETWORK_STATE) != PackageManager.PERMISSION_GRANTED) {
 
-                    requestPermissions( //Method of Fragment
-                            requiredPermissions,
-                            REQUEST_PERMISSIONS
-                    );
-                }
                 navController.navigateUp();
                 String titleText = titleTextObj.getText().toString();
                 String notesText = notesTextObj.getText().toString();

@@ -86,6 +86,13 @@
             app:exitAnim="@anim/nav_default_exit_anim"
             app:popEnterAnim="@anim/nav_default_pop_enter_anim"
             app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_hike_creation_to_mapListFragment"
+            app:destination="@id/mapListFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
     </fragment>
 
     <fragment
@@ -99,5 +106,10 @@
         android:label="Tips"
         tools:layout="@layout/help"
         />
+    <fragment
+        android:id="@+id/mapListFragment"
+        android:name="com.WWU.explorerspack.ui.logs.hiking_maps.mapListFragment"
+        android:label="fragment_map_list"
+        tools:layout="@layout/fragment_map_list" />
 
 </navigation>
