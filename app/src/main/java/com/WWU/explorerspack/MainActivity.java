@@ -50,9 +50,13 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
     private NavController navController;
     private JSONObject guideJSON;
     public String current_title = "Created";
+    public String previous_title = "Born";
     public MyHikeRecyclerViewAdapter logAdaptor;
     public MyChaptersRecyclerViewAdapter guideAdaptor;
     public MySectionRecyclerViewAdapter sectionAdaptor;
+    public SubChapterFragment currentSubChapter;
+    private String currentSearch = "";
+    private String previousSearch = "";
     private final int MAX_SEARCH_RESULT = 5;
 
 
@@ -157,6 +161,17 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
         sectionAdaptor = adaptor;
     }
 
+    public String getCurrentSearch(){
+        return currentSearch;
+    }
+
+    public String getPreviousSearch(){
+        return previousSearch;
+    }
+
+    public void setCurrentSubChapter(SubChapterFragment subChapter){
+        currentSubChapter = subChapter;
+    }
     public void setLogAdaptor(MyHikeRecyclerViewAdapter adaptor){
         logAdaptor = adaptor;
     }
@@ -167,7 +182,15 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
 
     public void setActionBarTitle(String title) {
         getSupportActionBar().setTitle(title);
+        previous_title = current_title;
         current_title = title;
+    }
+
+    public String getCurrentTitle(){
+        return current_title;
+    }
+    public String getPreviousTitle(){
+        return previous_title;
     }
 
     // See above
@@ -201,6 +224,9 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
         }
         if(sectionAdaptor != null) {
             sectionAdaptor.returnItems();
+        }
+        if (currentSubChapter != null){
+            currentSubChapter.returnContent();
         }
     }
 
@@ -241,43 +267,38 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
         });
 
 
-
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
 
             @Override
             public boolean onQueryTextSubmit(String s) {
+
                 if (current_title.equals("Guide")){
                     if (!s.equals("")){
                         if (guideAdaptor != null) {
+                            currentSearch = s;
                             guideAdaptor.search(s.toLowerCase());
                         }
                     }
 
                 } else if (current_title.contains(" > ")) {
                     if (!s.equals("")){
-                        String[] subsection = current_title.split(" > ");
-                        JSONObject parsedGuide;
-                        int position;
-                        try{
-                            parsedGuide = new JSONObject(guideRaw);
-                            JSONObject section = parsedGuide.getJSONObject(subsection[0]);
-                            String subsectionData = section.getString(subsection[1]);
-                            position = subsectionData.indexOf(s);
-                            Toast.makeText(MainActivity.this, "Found details at position " + position, Toast.LENGTH_SHORT).show();
-
-                        } catch (Exception e) {
-                            e.printStackTrace();
+                        currentSearch = s;
+                        if (currentSubChapter != null){
+                            currentSubChapter.search(s);
                         }
                     }
 
                 } else if(current_title.equals("Logs")) {
                     if (!s.equals("")){
                         if (logAdaptor != null){
+                            currentSearch = s;
                             logAdaptor.search(s.toLowerCase());
                         }
                     }
                 } else {
                     if(!s.equals("")){
+                        previousSearch = currentSearch;
+                        currentSearch = s;
                         if (sectionAdaptor != null){
                             sectionAdaptor.search(s.toLowerCase());
                         }
@@ -289,18 +310,27 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
 
             @Override
             public boolean onQueryTextChange(String s) {
+
                 if(current_title.equals("Logs")){
                     if(logAdaptor != null) {
+                        currentSearch = s;
                         logAdaptor.search(s.toLowerCase());
                     }
                 } else if(current_title.equals("Guide")){
                     if (guideAdaptor != null) {
+                        currentSearch = s;
                         guideAdaptor.search(s.toLowerCase());
                     }
                 } else if (current_title.contains(" > ")){
-
+                        currentSearch = s;
+                        if(currentSubChapter != null && !s.equals("")){
+                            currentSubChapter.search(s);
+                        } else if (currentSubChapter !=null && s.equals("")){
+                            currentSubChapter.returnContent();
+                        }
                 } else {
                     if(sectionAdaptor != null){
+                        currentSearch = s;
                         sectionAdaptor.search(s.toLowerCase());
                     }
                 }
