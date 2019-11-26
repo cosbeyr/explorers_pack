@@ -31,7 +31,7 @@
         android:foreground="?android:attr/selectableItemBackground"
         android:src="@android:drawable/ic_input_add"
         android:tint="@android:color/white"
-        app:backgroundTint="#4CAF50"
+        app:backgroundTint="@color/colorAccent"
         app:fabSize="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
