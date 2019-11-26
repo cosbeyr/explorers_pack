@@ -49,11 +49,8 @@ public class SubChapterFragment extends Fragment {
     private String content = "Test Content";
     private String chapter = "Camouflage";
     private String subChapter = "Hiding";
-    private EditText markdownEditText;
-    private MarkdownView markdownView;
     private View rootView;
     private String searchKey;
-    private String searchedContent;
 
     public static SubChapterFragment newInstance() {
         return new SubChapterFragment();
@@ -111,9 +108,10 @@ public class SubChapterFragment extends Fragment {
         String test  = content;
         String head = "";
         String tail = "";
-        String startMarker = "<u>**";
-        String endMarker = "**<u>";
-        Pattern word = Pattern.compile(searchKeyWord);
+        String startMarker = "`";
+        String endMarker = "`";
+
+        Pattern word = Pattern.compile(searchKeyWord.trim().replaceAll("[\\W]", "\\\\$0"), Pattern.CASE_INSENSITIVE);
         Matcher match = word.matcher(test);
         String result;
         String complete = "";
