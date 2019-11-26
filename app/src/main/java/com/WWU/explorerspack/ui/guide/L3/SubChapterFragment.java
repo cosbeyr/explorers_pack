@@ -14,6 +14,7 @@ import androidx.navigation.Navigation;
 
 import android.text.Spanned;
 import android.text.method.ScrollingMovementMethod;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -33,6 +34,10 @@ import com.WWU.explorerspack.ui.guide.JSONManager;
 import org.json.JSONObject;
 import org.w3c.dom.Text;
 
+import java.security.spec.ECField;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import io.noties.markwon.Markwon;
 import us.feras.mdv.MarkdownView;
 
@@ -48,6 +53,7 @@ public class SubChapterFragment extends Fragment {
     private MarkdownView markdownView;
     private View rootView;
     private String searchKey;
+    private String searchedContent;
 
     public static SubChapterFragment newInstance() {
         return new SubChapterFragment();
@@ -91,17 +97,57 @@ public class SubChapterFragment extends Fragment {
     public void scrollToPosition(final int position){
         final TextView markdownView = rootView.findViewById(R.id.markdownView);
         final ScrollView s = rootView.findViewById(R.id.scroll_view);
-        // how to scroll
         s.post(new Runnable() {
             @Override
             public void run() {
                 int line = markdownView.getLayout().getLineForOffset(position);
                 int y = markdownView.getLayout().getLineTop(line); // e.g. I want to scroll to line 40
-                s.scrollTo(0, y);
+                s.scrollTo(0, y-10);
             }
         });
     }
 
+    public void search(String searchKeyWord){
+        String test  = content;
+        String head = "";
+        String tail = "";
+        String startMarker = "<u>**";
+        String endMarker = "**<u>";
+        Pattern word = Pattern.compile(searchKeyWord);
+        Matcher match = word.matcher(test);
+        String result;
+        String complete = "";
+        int firstMatchPosition = -1;
+        while (match.find()) {
+            result = test.substring(0, match.start()) + startMarker + test.substring(match.start(), (match.end()-1)+1) + endMarker + test.substring((match.end()-1)+1);
+            head = result.substring(0, (match.end()-1)+1+endMarker.length()+startMarker.length());
+            tail = result.substring((match.end()-1)+1+endMarker.length()+startMarker.length());
+            complete = complete + head;
+            test = tail;
+            if (firstMatchPosition == -1){
+                firstMatchPosition = match.start();
+            }
+            match = word.matcher(test);
+        }
+        complete = complete + tail;
+        final TextView markdownView = rootView.findViewById(R.id.markdownView);
+        final Markwon markwon = Markwon.create(getActivity());
+        final Spanned markdown = markwon.toMarkdown(complete);
+        markwon.setParsedMarkdown(markdownView, markdown);
+        scrollToPosition(firstMatchPosition);
+    }
+
+    public void returnContent(){
+        try{
+            final TextView markdownView = rootView.findViewById(R.id.markdownView);
+            final Markwon markwon = Markwon.create(getActivity());
+            final Spanned markdown = markwon.toMarkdown(content);
+            markwon.setParsedMarkdown(markdownView, markdown);
+        } catch (Exception e){
+            //
+        }
+
+    }
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);

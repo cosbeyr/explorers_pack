@@ -225,6 +225,9 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
         if(sectionAdaptor != null) {
             sectionAdaptor.returnItems();
         }
+        if (currentSubChapter != null){
+            currentSubChapter.returnContent();
+        }
     }
 
     @Override
@@ -280,26 +283,8 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
                 } else if (current_title.contains(" > ")) {
                     if (!s.equals("")){
                         currentSearch = s;
-                        String[] subsection = current_title.split(" > ");
-                        JSONObject parsedGuide;
-                        int position;
-                        try{
-                            parsedGuide = new JSONObject(guideRaw);
-                            JSONObject section = parsedGuide.getJSONObject(subsection[0]);
-                            String subsectionData = section.getString(subsection[1]);
-                            position = subsectionData.indexOf(s);
-
-                            if (position == -1){
-                                Toast.makeText(MainActivity.this, "No results found!", Toast.LENGTH_SHORT).show();
-                            } else {
-                                if (currentSubChapter != null){
-                                    currentSubChapter.scrollToPosition(position);
-                                } else {
-                                    Toast.makeText(MainActivity.this, "Failed to search!", Toast.LENGTH_SHORT).show();
-                                }
-                            }
-                        } catch (Exception e) {
-                            e.printStackTrace();
+                        if (currentSubChapter != null){
+                            currentSubChapter.search(s);
                         }
                     }
 
@@ -338,6 +323,11 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
                     }
                 } else if (current_title.contains(" > ")){
                         currentSearch = s;
+                        if(currentSubChapter != null && !s.equals("")){
+                            currentSubChapter.search(s);
+                        } else if (currentSubChapter !=null && s.equals("")){
+                            currentSubChapter.returnContent();
+                        }
                 } else {
                     if(sectionAdaptor != null){
                         currentSearch = s;
