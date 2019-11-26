@@ -19,6 +19,7 @@ import android.graphics.Matrix;
 
 import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
+import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
@@ -46,6 +47,13 @@ public class SubHikeFragment extends Fragment {
     }
 
     @Override
+    public void onPrepareOptionsMenu(Menu menu) {
+        menu.findItem(R.id.action_search).setVisible(false);
+        menu.findItem(R.id.action_search).collapseActionView();
+        super.onPrepareOptionsMenu(menu);
+    }
+
+    @Override
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         if(getArguments() != null){
@@ -64,6 +72,7 @@ public class SubHikeFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
+
         final View rootView = inflater.inflate(R.layout.sub_hike_fragment, container, false);
 
        ///////////////////////////////////////////////////////////////// // Notes Setup
@@ -155,8 +164,12 @@ public class SubHikeFragment extends Fragment {
         }
 
 
-
+        setHasOptionsMenu(true);
         return rootView;
+
+        
+
+
     }
 
     @Override

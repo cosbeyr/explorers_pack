@@ -20,6 +20,7 @@ import android.os.Environment;
 import android.provider.MediaStore;
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.AlphaAnimation;
@@ -280,6 +281,13 @@ public class CameraFragment extends DialogFragment {
         window.show();
     }
 
+    @Override
+    public void onPrepareOptionsMenu(Menu menu) {
+        menu.findItem(R.id.action_search).setVisible(false);
+        menu.findItem(R.id.action_search).collapseActionView();
+        super.onPrepareOptionsMenu(menu);
+    }
+
     public View onCreateView(@NonNull LayoutInflater inflater,
                          ViewGroup container, Bundle savedInstanceState) {
         cameraViewModel =
@@ -288,7 +296,8 @@ public class CameraFragment extends DialogFragment {
         imageView = root.findViewById(R.id.image_view);
         takePicture = root.findViewById(R.id.button);
         String storage = StorageUtilities.read(getActivity(), StorageUtilities.jsonStorageName);
-
+        ((MainActivity) getActivity()).setActionBarTitle("Camera");
+        setHasOptionsMenu(true);
 
         try {
             JSONObject hikes = new JSONObject(storage);

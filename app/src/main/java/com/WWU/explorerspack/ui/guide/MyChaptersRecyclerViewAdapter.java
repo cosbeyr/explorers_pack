@@ -2,6 +2,7 @@ package com.WWU.explorerspack.ui.guide;
 
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,9 +18,15 @@ import android.graphics.ColorMatrixColorFilter;
 
 
 import com.WWU.explorerspack.R;
+import com.WWU.explorerspack.ui.guide.ChapterData.ChapterContent;
 import com.WWU.explorerspack.ui.guide.GuideListFragment.OnListFragmentInteractionListener;
 import com.WWU.explorerspack.ui.guide.ChapterData.ChapterContent.ChapterItem;
 
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -32,6 +39,8 @@ public class MyChaptersRecyclerViewAdapter extends RecyclerView.Adapter<MyChapte
     private final List<ChapterItem> mValues;
     private final OnListFragmentInteractionListener mListener;
     private final Context mContext;
+    private ArrayList<ChapterItem> removedItem = new ArrayList<>();
+    private HashMap<String, Integer> indexMap = new HashMap<>();
 
     public MyChaptersRecyclerViewAdapter(List<ChapterItem> items, OnListFragmentInteractionListener listener, Context context) {
         mValues = items;
@@ -77,6 +86,64 @@ public class MyChaptersRecyclerViewAdapter extends RecyclerView.Adapter<MyChapte
                 }
             }
         });
+    }
+
+    private void update(){
+        this.notifyDataSetChanged();
+    }
+
+
+    public void search(String searchInput){
+        returnItems();
+        for(ChapterItem item: mValues){
+            if (item != null){
+                boolean subChapterMatch = false;
+                // perform second level search
+                JSONArray subChapters = JSONManager.getInstance(null).getL2Tiles(item.toString());
+                for(int i=0; i<subChapters.length();i++){
+                    try{
+                        String subChapter = (String)subChapters.get(i);
+                        subChapter = subChapter.trim().toLowerCase();
+                        if(subChapter.startsWith(searchInput)){
+                            subChapterMatch = true;
+                        } else {
+                            // perform third level search
+                            String subchapterContent = JSONManager.getInstance(null).getSubChapter(item.toString(), (String)subChapters.get(i));
+                            int position = subchapterContent.indexOf(searchInput);
+                            if(position != -1) {
+                                subChapterMatch = true;
+                            }
+                        }
+                    } catch (Exception e){
+                        e.printStackTrace();
+                    }
+
+                }
+                if(!item.toString().trim().toLowerCase().startsWith(searchInput) && !subChapterMatch){
+                    removedItem.add(item);
+                    indexMap.put(item.toString(), mValues.indexOf(item));
+                }
+            }
+        }
+        for(ChapterItem item:removedItem){
+            mValues.remove(item);
+        }
+        update();
+    }
+
+    public void returnItems(){
+        while(!removedItem.isEmpty()){
+            ChapterItem item = removedItem.remove(0);
+            if (item != null){
+                try{
+                    mValues.add(indexMap.get(item.toString()),item);
+                    indexMap.remove(item.toString());
+                } catch (Exception e){
+                    e.printStackTrace();
+                }
+            }
+        }
+        update();
     }
 
     @Override

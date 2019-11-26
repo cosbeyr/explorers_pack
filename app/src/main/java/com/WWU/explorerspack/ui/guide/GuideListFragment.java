@@ -100,6 +100,7 @@ public class GuideListFragment extends Fragment implements SearchView.OnQueryTex
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_chapters_list, container, false);
         ((MainActivity) getActivity()).setActionBarTitle("Guide");
+        ((MainActivity) getActivity()).releaseSearchHoldingItems();
 
 
         // Set the adapter
@@ -130,8 +131,9 @@ public class GuideListFragment extends Fragment implements SearchView.OnQueryTex
                 throw new RuntimeException(ex);//JSON exceptions are rarely recoverable according to the docs.
             }
 
-
-            recyclerView.setAdapter(new MyChaptersRecyclerViewAdapter(ChapterContent.ITEMS, mListener, this.getContext()));
+            MyChaptersRecyclerViewAdapter adapter = new MyChaptersRecyclerViewAdapter(ChapterContent.ITEMS, mListener, this.getContext());
+            ((MainActivity) getActivity()).setGuideAdaptor(adapter);
+            recyclerView.setAdapter(adapter);
         }
         return view;
     }
