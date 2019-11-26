@@ -141,6 +141,7 @@ public class SubChapterFragment extends Fragment {
             final Markwon markwon = Markwon.create(getActivity());
             final Spanned markdown = markwon.toMarkdown(content);
             markwon.setParsedMarkdown(markdownView, markdown);
+            scrollToPosition(0);
         } catch (Exception e){
             //
         }
