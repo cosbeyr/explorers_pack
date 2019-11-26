@@ -99,7 +99,7 @@ public class SubChapterFragment extends Fragment {
             public void run() {
                 int line = markdownView.getLayout().getLineForOffset(position);
                 int y = markdownView.getLayout().getLineTop(line); // e.g. I want to scroll to line 40
-                s.scrollTo(0, y-10);
+                s.scrollTo(0, y);
             }
         });
     }
