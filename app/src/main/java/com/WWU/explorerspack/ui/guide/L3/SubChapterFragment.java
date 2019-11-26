@@ -98,7 +98,11 @@ public class SubChapterFragment extends Fragment {
             @Override
             public void run() {
                 int line = markdownView.getLayout().getLineForOffset(position);
+                if(line-2 > 0){
+                    line = line - 2;
+                }
                 int y = markdownView.getLayout().getLineTop(line); // e.g. I want to scroll to line 40
+
                 s.scrollTo(0, y);
             }
         });
