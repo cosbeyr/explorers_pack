@@ -16,6 +16,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
+import com.WWU.explorerspack.MainActivity;
 import com.WWU.explorerspack.R;
 import com.WWU.explorerspack.ui.logs.hiking_maps.MapContent.MapListContent;
 import com.WWU.explorerspack.ui.logs.hiking_maps.MapContent.MapListContent.MapListItem;
@@ -47,6 +48,7 @@ public class mapListFragment extends Fragment implements APIUtilities.AsyncRespo
     private String lon = "-122.4858";
     private String maxDistance = "200"; //max distance in miles from location to search for hikes.
     private String sort = "distance";
+    private String maxResults = "20";
     private String queryString;//the completed query string for the api.
     private FusedLocationProviderClient fusedLocationClient;
 
@@ -86,7 +88,7 @@ public class mapListFragment extends Fragment implements APIUtilities.AsyncRespo
 
         queryTask = new APIUtilities(getActivity());
         queryTask.delegate = this;
-        queryString = String.format("https://www.hikingproject.com/data/get-trails?lat=%s&lon=%s&maxDistance=%s&key=%s&sort=%s",lat,lon,maxDistance,privateKey,sort);
+        queryString = String.format("https://www.hikingproject.com/data/get-trails?lat=%s&lon=%s&maxDistance=%s&key=%s&sort=%s&maxResults=%s",lat,lon,maxDistance,privateKey,sort,maxResults);
         queryTask.execute(queryString);//TODO: implement query string.
 
         // Set the adapter
@@ -102,6 +104,8 @@ public class mapListFragment extends Fragment implements APIUtilities.AsyncRespo
                 recyclerView.setLayoutManager(new GridLayoutManager(context, mColumnCount));
             }
             mAdapter = new MymapListItemRecyclerViewAdapter(MapListContent.ITEMS,mListener);
+            ((MainActivity)getActivity()).setMapAdaptor(mAdapter);
+            ((MainActivity)getActivity()).setActionBarTitle("Maps");
             recyclerView.setAdapter(mAdapter);
         }
         return view;
