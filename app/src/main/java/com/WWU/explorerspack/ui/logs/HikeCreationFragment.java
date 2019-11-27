@@ -25,7 +25,9 @@ import androidx.fragment.app.DialogFragment;
 import androidx.navigation.Navigation;
 import androidx.navigation.NavController;
 
+import com.WWU.explorerspack.MainActivity;
 import com.WWU.explorerspack.R;
+import com.WWU.explorerspack.ui.logs.hiking_maps.MapContent.MapListContent;
 import com.WWU.explorerspack.utilities.StorageUtilities;
 
 import org.json.JSONArray;
@@ -37,7 +39,38 @@ public class HikeCreationFragment extends DialogFragment {
     private Button ok;
     private AlphaAnimation buttonClick = new AlphaAnimation(1F, 0.8F);
     private static final int REQUEST_PERMISSIONS = 1;
+    private String titleText = "";
+    private String notesText = "";
+    private int index =-1;
+    String indexStr = "";
+    private boolean isRestored;
     private final String[] requiredPermissions = {Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.INTERNET, Manifest.permission.ACCESS_NETWORK_STATE};
+
+
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState); // Always call the superclass first
+
+        // Check whether we're recreating a previously destroyed instance
+        if (savedInstanceState != null) {
+            // Restore value of members from saved state
+            if(savedInstanceState.containsKey("notes")) {
+                titleText = savedInstanceState.getString("name");
+                notesText = savedInstanceState.getString("notes");
+
+                isRestored = true;
+            }
+            if(savedInstanceState.containsKey("index"))
+                index = savedInstanceState.getInt("index");
+        } else {
+            // Probably initialize members with default values for a new instance
+            isRestored = false;
+        }
+        // ...
+    }
+
+
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
@@ -61,9 +94,24 @@ public class HikeCreationFragment extends DialogFragment {
         final EditText titleTextObj = rootView.findViewById(R.id.hike_title_text);
         final EditText notesTextObj = rootView.findViewById(R.id.notes_text);
 
+        if(isRestored) {
+            titleTextObj.setText(titleText);
+            titleTextObj.setText(notesText);
+            //show the card from ind)ex.
+            indexStr = ((MainActivity) getActivity()).index;
+            MapListContent.MapListItem mapListItem = MapListContent.ITEMS.get(Integer.parseInt(indexStr));
+            //TODO:show and build the card here
+            //set the lat and lon to their values and save to json
+            //then you can try and work on the maps. --> pull master first
+
+        }
+
+
         findMapButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                titleText = titleTextObj.getText().toString();
+                notesText = notesTextObj.getText().toString();
                 NavController navController = Navigation.findNavController(rootView);
                 navController.navigate(R.id.action_hike_creation_to_mapListFragment);
             }
@@ -75,8 +123,8 @@ public class HikeCreationFragment extends DialogFragment {
                 NavController navController = Navigation.findNavController(rootView);
 
                 navController.navigateUp();
-                String titleText = titleTextObj.getText().toString();
-                String notesText = notesTextObj.getText().toString();
+                titleText = titleTextObj.getText().toString();
+                notesText = notesTextObj.getText().toString();
                 JSONObject hikeLogs = createHike(titleText, notesText);
                 hideKeyboardFrom(getActivity(),rootView);
             }
@@ -160,5 +208,37 @@ public class HikeCreationFragment extends DialogFragment {
         }
 
         return hikeLogs;
+    }
+
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        // Check whether we're recreating a previously destroyed instance
+        if (savedInstanceState != null) {
+            // Restore value of members from saved state
+            if(savedInstanceState.containsKey("name")) {
+                titleText = savedInstanceState.getString("name");
+                if(savedInstanceState.containsKey("notes"))
+                notesText = savedInstanceState.getString("notes");
+
+                isRestored = true;
+            }
+            if(savedInstanceState.containsKey("index"))
+                index = savedInstanceState.getInt("index");
+        } else {
+            // Probably initialize members with default values for a new instance
+            isRestored = false;
+        }
+    }
+
+
+    @Override
+    public void onSaveInstanceState(Bundle savedInstanceState) {
+        // Save the user's current game state
+        savedInstanceState.putString("name", titleText);
+        savedInstanceState.putString("notes",notesText);
+
+        // Always call the superclass so it can save the view hierarchy state
+        super.onSaveInstanceState(savedInstanceState);
     }
 }
