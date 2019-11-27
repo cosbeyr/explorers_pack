@@ -11,14 +11,15 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
-
+import com.WWU.explorerspack.ui.guide.MyChaptersRecyclerViewAdapter;
 import com.WWU.explorerspack.ui.guide.L2.MySectionRecyclerViewAdapter;
 import com.WWU.explorerspack.ui.guide.L2.SubChapterData.SubChapterContent;
-import com.WWU.explorerspack.ui.guide.MyChaptersRecyclerViewAdapter;
 import com.WWU.explorerspack.ui.logs.HikeFragment;
 import com.WWU.explorerspack.ui.logs.MyHikeRecyclerViewAdapter;
 import com.WWU.explorerspack.ui.logs.hike_item.HikeList;
 import com.WWU.explorerspack.ui.guide.L3.SubChapterFragment;
+import com.WWU.explorerspack.ui.logs.hiking_maps.MapContent.MapListContent;
+import com.WWU.explorerspack.ui.logs.hiking_maps.mapListFragment;
 import com.WWU.explorerspack.utilities.StorageUtilities;
 import com.WWU.explorerspack.ui.guide.GuideListFragment;
 import com.WWU.explorerspack.ui.guide.ChapterData.ChapterContent;
@@ -46,7 +47,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity implements GuideListFragment.OnListFragmentInteractionListener,HikeFragment.OnListFragmentInteractionListener, ChapterPageFragment.OnSubListFragmentInteractionListener{
+public class MainActivity extends AppCompatActivity implements mapListFragment.OnMapListFragmentInteractionListener, GuideListFragment.OnListFragmentInteractionListener,HikeFragment.OnListFragmentInteractionListener, ChapterPageFragment.OnSubListFragmentInteractionListener{
     private NavController navController;
     private JSONObject guideJSON;
     public String current_title = "Created";
@@ -90,6 +91,7 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
                 R.id.navigation_home, R.id.navigation_dashboard, R.id.navigation_notifications, R.id.navigation_settings)
                 .build();
         navController = Navigation.findNavController(this, R.id.nav_host_fragment);
+
         navController.addOnDestinationChangedListener(new NavController.OnDestinationChangedListener() {
             @Override
             public void onDestinationChanged(@NonNull NavController controller, @NonNull NavDestination destination, @Nullable Bundle arguments) {
@@ -364,6 +366,12 @@ public class MainActivity extends AppCompatActivity implements GuideListFragment
         args.putString("subChapter",item.subChapter);
         navController.navigate(R.id.action_navigation_chapter_to_sub_chapter_page, args);
     }
+    @Override
+    public void onListFragmentInteraction(MapListContent.MapListItem mapListItem){
+        Toast.makeText(MainActivity.this, mapListItem.id+mapListItem.hikeName, Toast.LENGTH_SHORT).show();
+    }
+
+
 }
 
 

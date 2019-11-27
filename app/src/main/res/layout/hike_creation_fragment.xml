@@ -53,6 +53,11 @@
         android:textAllCaps="false"
         android:textColor="#000000"
         android:textSize="18sp" />
+    <Button
+        android:id="@+id/find_map_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/find_a_map"/>
 
     <Button
         android:id="@+id/create_button"
@@ -64,5 +69,6 @@
         android:text="Create Hike"
         android:textColor="#FFFFFF"
         android:textSize="18sp" />
+
 
 </LinearLayout>
