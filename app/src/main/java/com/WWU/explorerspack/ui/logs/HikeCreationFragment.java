@@ -47,6 +47,7 @@ public class HikeCreationFragment extends DialogFragment {
     private String notesText = "";
     private int index =-1;
     String indexStr = "";
+    MapListContent.MapListItem mapListItem;
     private boolean isRestored;
     private final String[] requiredPermissions = {Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.INTERNET, Manifest.permission.ACCESS_NETWORK_STATE};
 
@@ -98,7 +99,7 @@ public class HikeCreationFragment extends DialogFragment {
             notesTextObj.setText(notesText);
             //show the card from ind)ex.
             indexStr = ((MainActivity) getActivity()).index;
-            MapListContent.MapListItem mapListItem = MapListContent.ITEMS.get(Integer.parseInt(indexStr));
+            mapListItem = MapListContent.ITEMS.get(Integer.parseInt(indexStr));
             //TODO:show and build the card here
             //set the lat and lon to their values and save to json
             //then you can try and work on the maps. --> pull master first
@@ -185,6 +186,7 @@ public class HikeCreationFragment extends DialogFragment {
         JSONObject hikeLogs = null;
         String storage = StorageUtilities.read(getActivity(), StorageUtilities.jsonStorageName);
         JSONObject hike = new JSONObject();
+        JSONObject map = new JSONObject();
         JSONObject photo = new JSONObject();
         JSONArray jsonArray = new JSONArray();
         try {
@@ -202,7 +204,17 @@ public class HikeCreationFragment extends DialogFragment {
             try {
                 hike.put("notes", notes);
                 jsonArray.put(photo);
-                hike.put("map","");
+                if(mapListItem != null){
+                    String lat = mapListItem.lat;
+                    String lon = mapListItem.lon;
+                    map.put("lat",lat);
+                    map.put("lon",lon);
+                    hike.put("map",map);
+                }
+                else{
+                    hike.put("map","");
+                }
+
                 hike.put("photos", jsonArray);
                 hikeLogs.put(title, hike);
                 StorageUtilities.create(getActivity(), StorageUtilities.jsonStorageName, hikeLogs.toString());
