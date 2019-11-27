@@ -75,31 +75,21 @@ Bees or ants going into a hole in a tree may point to a water-filled hole. Sipho
 
 Water sometimes gathers in tree crotches or rock crevices. Use the above procedures to get the water. In arid areas, bird droppings around a crack in the rocks may indicate water in or near the crack.
 
-Green bamboo thickets are an excellent source of fresh water. Water from green bamboo is clear and odorless. To get the water, bend a green bamboo stalk, tie it down, and cut off the top ([Figure 6-3](#fig6-3)). The water will drip freely during the night. Old, cracked bamboo may also contain water.
-
-<a name="fig6-3"></a>![Figure 6-3\. Water From Green Bamboo](fig06-03.png)
-
-**Figure 6-3\. Water From Green Bamboo**
+Green bamboo thickets are an excellent source of fresh water. Water from green bamboo is clear and odorless. To get the water, bend a green bamboo stalk, tie it down, and cut off the top. The water will drip freely during the night. Old, cracked bamboo may also contain water.
 
 > **CAUTION**
 > 
 > Purify the water before drinking it.
 
-Wherever you find banana trees, plantain trees, or sugarcane, you can get water. Cut down the tree, leaving about a 30-centimeter (12-inch) stump, and scoop out the center of the stump so that the hollow is bowl-shaped. Water from the roots will immediately start to fill the hollow. The first three fillings of water will be bitter, but succeeding fillings will be palatable. The stump ([Figure 6-4](#fig6-4)) will supply water for up to 4 days. Be sure to cover it to keep out insects.
+Wherever you find banana trees, plantain trees, or sugarcane, you can get water. Cut down the tree, leaving about a 30-centimeter (12-inch) stump, and scoop out the center of the stump so that the hollow is bowl-shaped. Water from the roots will immediately start to fill the hollow. The first three fillings of water will be bitter, but succeeding fillings will be palatable. The stump will supply water for up to 4 days. Be sure to cover it to keep out insects.
 
-<a name="fig6-4"></a>![Figure 6-4\. Water From Plantain or Banana Tree Stump](fig06-04.png)
 
-**Figure 6-4\. Water From Plantain or Banana Tree Stump**
-
-Some tropical vines can give you water. Cut a notch in the vine as high as you can reach, then cut the vine off close to the ground. Catch the dropping liquid in a container or in your mouth ([Figure 6-5](#fig6-5)).
+Some tropical vines can give you water. Cut a notch in the vine as high as you can reach, then cut the vine off close to the ground. Catch the dropping liquid in a container or in your mouth.
 
 > **CAUTION**
 > 
 > Ensure that the vine is not poisonous.
 
-<a name="fig6-5"></a>![Figure 6-5\. Water From a Vine](fig06-05.png)
-
-**Figure 6-5\. Water From a Vine**
 
 The milk from young, green (unripe) coconuts is a good thirst quencher. However, the milk from mature, brown, coconuts contains an oil that acts as a laxative. Drink in moderation only.
 
@@ -132,11 +122,8 @@ You can use stills in various areas of the world. They draw moisture from the gr
 
 **ABOVEGROUND STILLS**
 
-You can construct two types of aboveground stills. To make the **vegetation bag still**, you need a sunny slope on which to place the still, a clear plastic bag, green leafy vegetation, and a small rock ([Figure 6-6](#fig6-6)).
+You can construct two types of aboveground stills. To make the **vegetation bag still**, you need a sunny slope on which to place the still, a clear plastic bag, green leafy vegetation, and a small rock.
 
-<a name="fig6-6"></a>![Figure 6-6\. Vegetation Bag Still](fig06-06.png)
-
-**Figure 6-6\. Vegetation Bag Still**
 
 To make the still, you should:
 
@@ -156,21 +143,14 @@ To get the condensed water from the still, loosen the tie around the bag's mouth
 
 Change the vegetation in the bag after extracting most of the water from it. This will ensure maximum output of water.
 
-Making a **transpiration bag still** is similar to the vegetation bag, only easier. Simply tie the plastic bag over a leafy tree limb with a tube inserted, and tie the mouth of the bag off tightly around the branch to form an airtight seal. Tie the end of the limb so that it hangs below the level of the mouth of the bag. The water will collect there ([Figure 6-7](#fig6-7)).
+Making a **transpiration bag still** is similar to the vegetation bag, only easier. Simply tie the plastic bag over a leafy tree limb with a tube inserted, and tie the mouth of the bag off tightly around the branch to form an airtight seal. Tie the end of the limb so that it hangs below the level of the mouth of the bag. The water will collect there.
 
-<a name="fig6-7"></a>![Figure 6-7\. Water Transpiration Bag](fig06-07.png)
-
-**Figure 6-7\. Water Transpiration Bag**
 
 The same limb may be used for 3 to 5 days without causing long-term harm to the limb. It will heal itself within a few hours of removing the bag.
 
 **BELOWGROUND STILL**
 
-To make a belowground still, you need a digging tool, a container, a clear plastic sheet, a drinking tube, and a rock ([Figure 6-8](#fig6-8)).
-
-<a name="fig6-8"></a>![Figure 6-8\. Belowground Still](fig06-08.png)
-
-**Figure 6-8\. Belowground Still**
+To make a belowground still, you need a digging tool, a container, a clear plastic sheet, a drinking tube, and a rock.
 
 Select a site where you believe the soil will contain moisture (such as a dry streambed or a low spot where rainwater has collected). The soil at this site should be easy to dig, and sunlight must hit the site most of the day.
 
@@ -191,11 +171,8 @@ You can drink water without disturbing the still by using the tube as a straw. B
 
 You may want to use plants in the hole as a moisture source. If so, dig out additional soil from the sides of the hole to form a slope on which to place the plants. Then proceed as above.
 
-If polluted water is your only moisture source, dig a small trough outside the hole about 25 centimeters (10 inches) from the still's lip ([Figure 6-9](#fig6-9)). Dig the trough about 25 centimeters (10 inches) deep and 8 centimeters (3 inches) wide. Pour the polluted water in the trough. Be sure you do not spill any polluted water around the rim of the hole where the plastic sheet touches the soil. The trough holds the polluted water and the soil filters it as the still draws it. The water then condenses on the plastic and drains into the container. This process works extremely well when your only water source is salt water.
+If polluted water is your only moisture source, dig a small trough outside the hole about 25 centimeters (10 inches) from the still's lip. Dig the trough about 25 centimeters (10 inches) deep and 8 centimeters (3 inches) wide. Pour the polluted water in the trough. Be sure you do not spill any polluted water around the rim of the hole where the plastic sheet touches the soil. The trough holds the polluted water and the soil filters it as the still draws it. The water then condenses on the plastic and drains into the container. This process works extremely well when your only water source is salt water.
 
-<a name="fig6-9"></a>![Figure 6-9\. Belowground Still to Get Potable Water From Polluted Water](fig06-09.png)
-
-**Figure 6-9\. Belowground Still to Get Potable Water From Polluted Water**
 
 You will need at least three stills to meet your individual daily water intake needs. In comparison to the belowground still and the water transpiration bag still, the vegetation bag produces the best yield of water.
 
@@ -207,7 +184,7 @@ When possible, purify all water you get from vegetation or from the ground by bo
 
 Purify water by the following methods:
 
-* If you are lucky you packed a filter like [the LifeStraw](LifeStraw) as part of [your Kit](Kits)
+* If you are lucky you packed a filter like the LifeStraw as part of your kit.
 * Use water purification tablets. (Follow the directions provided.)
 * Place 5 drops of 2 percent tincture of iodine in a canteen full of clear water. If the canteen is full of cloudy or cold water, use 10 drops. (Let the canteen of water stand for 30 minutes before drinking.)
 * Use 2 drops of 10 percent (military strength) povidone-iodine or 1 percent titrated povidone-iodine. The civilian equivalent is usually 2 percent strength, so 10 drops will be needed. Let stand for 30 minutes. If the water is cold and clear, wait 60 minutes. If it's very cold or cloudy, add 4 drops and wait 60 minutes.
@@ -241,10 +218,7 @@ If the water you find is also muddy, stagnant, and foul-smelling, you can clear 
 
 **NOTE:** These procedures only clear the water and make it more palatable. You will have to purify it.
 
-To make a filtering system, place several centimeters or layers of filtering material such as sand, crushed rock, charcoal, or cloth in bamboo, a hollow log, or an article of clothing ([Figure 6-10](#fig6-10)).
+To make a filtering system, place several centimeters or layers of filtering material such as sand, crushed rock, charcoal, or cloth in bamboo, a hollow log, or an article of clothing.
 
-<a name="fig6-10"></a>![Figure 6-10\. Water Filtering Systems](fig06-10.png)
-
-**Figure 6-10\. Water Filtering Systems**
 
 Remove the odor from water by adding charcoal from your fire. Charcoal is also helpful in absorbing some agricultural and industrial chemicals. Let the water stand for 45 minutes before drinking it.

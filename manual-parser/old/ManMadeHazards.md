@@ -110,11 +110,8 @@ The primary reason for finding and building a shelter is to get protection again
 
 **Shielding Materials**
 
-The thickness required to weaken gamma radiation from fallout is far less than that needed to shield against initial gamma radiation. Fallout radiation has less energy than a nuclear detonation's initial radiation. For fallout radiation, a relatively small amount of shielding material can provide adequate protection. [Figure 23-1](#fig23-1) shows the thickness of various materials needed to reduce residual gamma radiation transmission by 50 percent.
+The thickness required to weaken gamma radiation from fallout is far less than that needed to shield against initial gamma radiation. Fallout radiation has less energy than a nuclear detonation's initial radiation. For fallout radiation, a relatively small amount of shielding material can provide adequate protection.
 
-<a name="fig23-1"></a>![Figure 23-1\. Materials to Reduce Gamma Radiation](fig23-01.png)
-
-**Figure 23-1\. Materials to Reduce Gamma Radiation**
 
 The principle of **half-value layer thickness** is useful in understanding the absorption of gamma radiation by various materials. According to this principle, if 5 centimeters (2 inches) of brick reduce the gamma radiation level by one-half, adding another 5 centimeters (2 inches) of brick (another half-value layer) will reduce the intensity by another half, namely, to one-fourth the original amount. Fifteen centimeters (6 inches) will reduce gamma radiation fallout levels to one-eighth its original amount, 20 centimeters (8 inches) to one-sixteenth, and so on. Thus, a shelter protected by 1 meter (3 feet) of dirt would reduce a radiation intensity of 1,000 cGy per hour on the outside to about 0.5 cGy per hour inside the shelter.
 

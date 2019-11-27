@@ -71,12 +71,9 @@ To answer these questions, you need to know how to make various types of shelter
 
 **PONCHO LEAN-TO**
 
-It takes only a short time and minimal equipment to build this lean-to ([Figure 5-1](#fig5-1)).
+It takes only a short time and minimal equipment to build this lean-to.
 You need a poncho, 2 to 3 meters (7 to 10 feet) of rope or parachute suspension line, three stakes about 30 centimeters (1 foot) long, and two trees or two poles 2 to 3 meters (7 to 10 feet) apart. Before selecting the trees you will use or the location of your poles, check the wind direction. Ensure that the back of your lean-to will be into the wind.
 
-<a name="fig5-1"></a>![Figure 5-1\. Poncho Lean-to](fig05-01.png)
-
-**Figure 5-1\. Poncho Lean-to**
 
 To make the lean-to, you should:
 
@@ -104,11 +101,8 @@ To increase your security from enemy observation, lower the lean-to's silhouette
 
 **PONCHO TENT**
 
-This tent ([Figure 5-2](#fig5-2)) provides a low silhouette. It also protects you from the elements on two sides. It has, however, less usable space and observation area than a lean-to, decreasing your reaction time to enemy detection. To make this tent, you need a poncho, two 1.5- to 2.5-meter (5- to 8-foot) ropes, six sharpened sticks about 30 centimeters (1 foot) long, and two trees 2 to 3 meters (7 to 10 feet) apart.
+This tent provides a low silhouette. It also protects you from the elements on two sides. It has, however, less usable space and observation area than a lean-to, decreasing your reaction time to enemy detection. To make this tent, you need a poncho, two 1.5- to 2.5-meter (5- to 8-foot) ropes, six sharpened sticks about 30 centimeters (1 foot) long, and two trees 2 to 3 meters (7 to 10 feet) apart.
 
-<a name="fig5-2"></a>![Figure 5-2\. Poncho Tent Using Overhanging Branch](fig05-02.png)
-
-**Figure 5-2\. Poncho Tent Using Overhanging Branch**
 
 To make the tent, you should:
 
@@ -119,13 +113,10 @@ To make the tent, you should:
 * Follow the same procedure on the other side.
 
 If you need a center support, use the same methods as for the poncho lean-to.
-Another center support is an A-frame set outside but over the center of the tent ([Figure 5-3](#fig5-3)).
+Another center support is an A-frame set outside but over the center of the tent.
 Use two 90- to 120-centimeter-long (12- to 16-foot-long) sticks, one with a forked end, to form the A-frame.
 Tie the hood's drawstring to the A-frame to support the center of the tent.
 
-<a name="fig5-3"></a>![Figure 5-3\. Poncho Tent With A-Frame](fig05-03.png)
-
-**Figure 5-3\. Poncho Tent With A-Frame**
 
 **THREE-POLE PARACHUTE TEPEE**
 
@@ -133,11 +124,8 @@ If you have a parachute and three poles and the tactical situation allows, make 
 It is easy and takes very little time to make this tepee.
 It provides protection from the elements and can act as a signaling device by enhancing a small amount of light from a fire or candle. It is large enough to hold several people and their equipment and to allow sleeping, cooking, and storing firewood.
 
-You can make this tepee ([Figure 5-4](#fig5-4)) using parts of or a whole personnel main or reserve parachute canopy. If using a standard personnel parachute, you need three poles 3.5 to 4.5 meters (12 to 15 feet) long and about 5 centimeters (2 inches) in diameter.
+You can make this tepee using parts of or a whole personnel main or reserve parachute canopy. If using a standard personnel parachute, you need three poles 3.5 to 4.5 meters (12 to 15 feet) long and about 5 centimeters (2 inches) in diameter.
 
-<a name="fig5-4"></a>![Figure 5-4\. Three-Pole Parachute Tepee](fig05-04.png)
-
-**Figure 5-4\. Three-Pole Parachute Tepee**
 
 To make this tepee, you should:
 
@@ -152,11 +140,8 @@ To make this tepee, you should:
 * Place all extra canopy underneath the tepee poles and inside to create a floor for the shelter.
 * Leave a 30- to 50-centimeter (12- to 20-inch) opening at the top for ventilation if you intend to have a fire inside the tepee.
 
-You need a 14-gore section (normally) of canopy, stakes, a stout center pole, and an inner core and needle to construct this tepee ([Figure 5-5](#fig5-5)). You cut the suspension lines except for 40- to 45-centimeter (16- to 18-inch) lengths at the canopy's lower lateral band.
+You need a 14-gore section (normally) of canopy, stakes, a stout center pole, and an inner core and needle to construct this tepee. You cut the suspension lines except for 40- to 45-centimeter (16- to 18-inch) lengths at the canopy's lower lateral band.
 
-<a name="fig5-5"></a>![Figure 5-5\. One-Pole Parachute Tepee](fig05-05.png)
-
-**Figure 5-5\. One-Pole Parachute Tepee**
 
 To make this tepee, you should:
 
@@ -171,11 +156,8 @@ To make this tepee, you should:
 
 **NO-POLE PARACHUTE TEPEE**
 
-Except for the center pole, you use the same materials for a no-pole parachute tepee ([Figure 5-6](#fig5-6)), as for the one-pole parachute tepee.
+Except for the center pole, you use the same materials for a no-pole parachute tepee, as for the one-pole parachute tepee.
 
-<a name="fig5-6"></a>![Figure 5-6\. No-Pole Parachute Tepee](fig05-06.png)
-
-**Figure 5-6\. No-Pole Parachute Tepee**
 
 To make this tepee, you should:
 
@@ -189,12 +171,9 @@ After staking down the material, unfasten the line tied to the tree trunk, tight
 
 **ONE-MAN SHELTER**
 
-A one-man shelter ([Figure 5-7](#fig5-7)) you can easily make using a parachute requires a tree and three poles.
+A one-man shelter you can easily make using a parachute requires a tree and three poles.
 One pole should be about 4.5 meters (15 feet) long and the other two about 3 meters (10 feet) long.
 
-<a name="fig5-7"></a>![Figure 5-7\. One-Man Shelter](fig05-07.png)
-
-**Figure 5-7\. One-Man Shelter**
 
 To make this shelter, you should:
 
@@ -211,19 +190,12 @@ However, this shelter is unsatisfactory when snow is falling, as even a light sn
 
 **PARACHUTE HAMMOCK**
 
-You can make a hammock using six to eight gores of parachute canopy and two trees about 4.5 meters (15 feet) apart ([Figure 5-8](#fig5-8)).
+You can make a hammock using six to eight gores of parachute canopy and two trees about 4.5 meters (15 feet) apart.
 
-<a name="fig5-8"></a>![Figure 5-8\. Parachute Hammock](fig05-08.png)
-
-**Figure 5-8\. Parachute Hammock**
 
 **FIELD-EXPEDIENT LEAN-TO**
 
-If you are in a wooded area and have enough natural materials, you can make a field-expedient lean-to ([Figure 5-9](#fig5-9)) without the aid of tools or with only a knife. It takes longer to make this type of shelter than it does to make other types, but it will protect you from the elements.
-
-<a name="fig5-9"></a>![Figure 5-9\. Field-Expedient Lean-to and Fire Reflector](fig05-09.png)
-
-**Figure 5-9\. Field-Expedient Lean-to and Fire Reflector**
+If you are in a wooded area and have enough natural materials, you can make a field-expedient lean-to without the aid of tools or with only a knife. It takes longer to make this type of shelter than it does to make other types, but it will protect you from the elements.
 
 You will need two trees (or upright poles) about 2 meters (7 feet) apart; one pole about 2 meters (7 feet) long and 2.5 centimeters (1 inch) in diameter; five to eight poles about 3 meters (10 feet) long and 2.5 centimeters (1 inch) in diameter for beams; cord or vines for securing the horizontal support to the trees; and other poles, saplings, or vines to crisscross the beams.
 
@@ -235,7 +207,7 @@ To make this lean-to, you should:
 * Cover the framework with brush, leaves, pine needles, or grass, starting at the bottom and working your way up like shingling.
 * Place straw, leaves, pine needles, or grass inside the shelter for bedding.
 
-In cold weather, add to your lean-to's comfort by building a fire reflector wall ([Figure 5-9](#fig5-9)).
+In cold weather, add to your lean-to's comfort by building a fire reflector wall.
 Drive four 1.5-meter-long (5-foot-long) stakes into the ground to support the wall.
 Stack green logs on top of one another between the support stakes.
 Form two rows of stacked logs to create an inner space within the wall that you can fill with dirt.
@@ -249,12 +221,9 @@ Place and tie smaller sticks across these poles. You now have a place to dry clo
 
 **SWAMP BED**
 
-In a marsh or swamp, or any area with standing water or continually wet ground, the swamp bed ([Figure 5-10](#fig5-10)) keeps you out of the water.
+In a marsh or swamp, or any area with standing water or continually wet ground, the swamp bed keeps you out of the water.
 When selecting such a site, consider the weather, wind, tides, and available materials.
 
-<a name="fig5-10"></a>![Figure 5-10\. Swamp Bed](fig05-10.png)
-
-**Figure 5-10\. Swamp Bed**
 
 To make a swamp bed, you should:
 
@@ -280,9 +249,6 @@ Do not overlook natural formations that provide shelter. Examples are caves, roc
 For warmth and ease of construction, the debris hut ([Figure 5-11](#fig5-11)) is one of the best.
 When shelter is essential to survival, build this shelter.
 
-<a name="fig5-11"></a>![Figure 5-11\. Debris Hut](fig05-11.png)
-
-**Figure 5-11\. Debris Hut**
 
 To make a debris hut, you should:
 
@@ -297,11 +263,8 @@ To make a debris hut, you should:
 
 **TREE-PIT SNOW SHELTER**
 
-If you are in a cold, snow-covered area where evergreen trees grow and you have a digging tool, you can make a tree-pit shelter ([Figure 5-12](#fig5-12)).
+If you are in a cold, snow-covered area where evergreen trees grow and you have a digging tool, you can make a tree-pit shelter.
 
-<a name="fig5-12"></a>![Figure 5-12\. Tree-Pit Snow Shelter](fig05-12.png)
-
-**Figure 5-12\. Tree-Pit Snow Shelter**
 
 To make this shelter, you should:
 
@@ -310,16 +273,13 @@ To make this shelter, you should:
 * Pack the snow around the top and the inside of the hole to provide support.
 * Find and cut other evergreen boughs. Place them over the top of the pit to give you additional overhead cover. Place evergreen boughs in the bottom of the pit for insulation.
 
-See [Cold](Cold) for other arctic or cold weather shelters.
+See **Cold** for other arctic or cold weather shelters.
 
 **BEACH SHADE SHELTER**
 
-The beach shade shelter ([Figure 5-13](#fig5-13)) protects you from the sun, wind, rain, and heat.
+The beach shade shelter protects you from the sun, wind, rain, and heat.
 It is easy to make using natural materials.
 
-<a name="fig5-13"></a>![Figure 5-13\. Beach Shade Shelter](fig05-13.png)
-
-**Figure 5-13\. Beach Shade Shelter**
 
 To make this shelter, you should:
 
@@ -349,11 +309,8 @@ In a sandy area, you should:
 
 **NOTE:** If you have enough material, fold it in half and form a 30- to 45-centimeter (12- to 18-inch) airspace between the two halves. This airspace will reduce the temperature under the shelter.
 
-A belowground shelter ([Figure 5-14](#fig5-14)) can reduce the midday heat as much as 16 to 22 degrees C (30 to 40 degrees F). However, building it requires more time and effort than for other shelters. Since your physical effort will make you sweat more and increase dehydration, construct it before the heat of the day.
+A belowground shelter can reduce the midday heat as much as 16 to 22 degrees C (30 to 40 degrees F). However, building it requires more time and effort than for other shelters. Since your physical effort will make you sweat more and increase dehydration, construct it before the heat of the day.
 
-<a name="fig5-14"></a>![Figure 5-14\. Belowground Desert Shelter](fig05-14.png)
-
-**Figure 5-14\. Belowground Desert Shelter**
 
 To make this shelter, you should:
 
@@ -366,8 +323,5 @@ To make this shelter, you should:
 If you have extra material, you can further decrease the midday temperature in the trench by securing the material 30 to 45 centimeters (12 to 18 inches) above the other cover. This layering of the material will reduce the inside temperature 11 to 22 degrees C (20 to 40 degrees F).
 
 The open desert shelter is of similar construction, except all sides are open to air currents and circulation.
-For maximum protection, you need a minimum of two layers of parachute material ([Figure 5-15](#fig5-15)). White is the best color to reflect heat; the innermost layer should be of darker material.
+For maximum protection, you need a minimum of two layers of parachute material. White is the best color to reflect heat; the innermost layer should be of darker material.
 
-<a name="fig5-15"></a>![Figure 5-15\. Open Desert Shelter](fig05-15.png)
-
-**Figure 5-15\. Open Desert Shelter**
