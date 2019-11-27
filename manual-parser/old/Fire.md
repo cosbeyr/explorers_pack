@@ -34,120 +34,27 @@ Look for a dry spot that:
 
 If you are in a wooded or brush-covered area, clear the brush and scrape the surface soil from the spot you have selected. Clear a circle at least 1 meter (3 feet) in diameter so there is little chance of the fire spreading.
 
-If time allows, construct a fire wall using logs or rocks. This wall will help to reflect or direct the heat where you want it ([Figure 7-1](#fig7-1)). It will also reduce flying sparks and cut down on the amount of wind blowing into the fire. However, you will need enough wind to keep the fire burning.
+If time allows, construct a fire wall using logs or rocks. This wall will help to reflect or direct the heat where you want it. It will also reduce flying sparks and cut down on the amount of wind blowing into the fire. However, you will need enough wind to keep the fire burning.
 
 > **CAUTION**
 > 
 > Do not use wet or porous rocks as they may explode when heated.
 
-<a name="fig7-1"></a>![Figure 7-1\. Types of Fire Walls](fig07-01.png)
-
-**Figure 7-1\. Types of Fire Walls**
 
 In some situations, you may find that an underground fireplace will best meet your needs.
 It conceals the fire and serves well for cooking food.
-To make an underground fireplace or Dakota fire hole ([Figure 7-2](#fig7-2)):
+To make an underground fireplace or Dakota fire hole:
 
 * Dig a hole in the ground.
 * On the upwind side of this hole, poke or dig a large connecting hole for ventilation.
 * Build your fire in the hole as illustrated.
 
-<a name="fig7-2"></a>![Figure 7-2\. Dakota Fire Hole](fig07-02.png)
+If you are in a snow-covered area, use green logs to make a dry base for your fire. Trees with wrist-sized trunks are easily broken in extreme cold. Cut or break several green logs and lay them side by side on top of the snow. Add one or two more layers. Lay the top layer of logs opposite those below it.
 
-**Figure 7-2\. Dakota Fire Hole**
-
-If you are in a snow-covered area, use green logs to make a dry base for your fire ([Figure 7-3](#fig7-3)). Trees with wrist-sized trunks are easily broken in extreme cold. Cut or break several green logs and lay them side by side on top of the snow. Add one or two more layers. Lay the top layer of logs opposite those below it.
-
-<a name="fig7-3"></a>![Figure 7-3\. Base for Fire in Snow-covered Area](fig07-03.png)
-
-**Figure 7-3\. Base for Fire in Snow-covered Area**
 
 ### FIRE MATERIAL SELECTION
 
-You need three types of materials ([Figure 7-4](#fig7-4)) to build a fire.
-
-<a name="fig7-4"></a><table>
-  <tbody>
-    <tr>
-      <th align="center">Tinder</th>
-      <th align="center">Kindling</th>
-      <th align="center">Fuel</th>
-    </tr>
-    <tr>
-      <td>
-        <ul>
-          <li>Birch bark</li>
-          <li>Shredded inner bark from cedar, chestnut, red elm trees</li>
-          <li>Fine wood shavings</li>
-          <li>Dead grass, ferns, moss, fungi</li>
-          <li>Straw</li>
-          <li>Sawdust</li>
-          <li>Very fine pitchwood scrapings</li>
-          <li>Dead evergreen needles</li>
-        </ul>
-      </td>
-      <td>
-        <ul>
-          <li>Small twigs</li>
-          <li>Small strips of wood</li>
-          <li>Lighter knot from pine tree stumps with a heavy concentration of resin</li>
-          <li>Heavy cardboard</li>
-          <li>Pieces of wood removed from the inside of larger pieces</li>
-          <li>Wood that has been doused with highly flammable materials, such as gasoline, oil, or wax</li>
-        </ul>
-      </td>
-      <td>
-        <ul>
-          <li>Dry, standing wood and dry, dead branches</li>
-          <li>Dry inside (heart) of fallen tree trunks and large branches</li>
-          <li>Green wood that is finely split</li>
-          <li>Dry grasses twisted into bunches</li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-**Figure 7-4\. Materials for Building Fires**
-
-<a name="fig7-4b"></a><table>
-  <tbody>
-    <tr>
-      <th align="center">Tinder</th>
-      <th align="center">Fuel</th>
-    </tr>
-    <tr>
-      <td>
-        <ul>
-          <li>Punk (the completely rotted portions of dead logs or trees)</li>
-          <li>Evergreen tree knots</li>
-          <li>Bird down (fine feathers)</li>
-          <li>Down seed heads (milkweed, dry cattails, bulrush, or thistle)</li>
-          <li>Fine, dried vegetable fibers</li>
-          <li>Spongy threads of dead puffball</li>
-          <li>Dead palm leaves</li>
-          <li>Skinlike membrane lining bamboo</li>
-          <li>Lint from pockets and seams</li>
-          <li>Charred cloth</li>
-          <li>Waxed paper</li>
-          <li>Other bamboo shavings</li>
-          <li>Gunpowder</li>
-          <li>Cotton</li>
-        </ul>
-      </td>
-      <td>
-        <ul>
-          <li>Peat dry enough to burn (this may be found at the top of undercut banks)</li>
-          <li>Dried animal dung</li>
-          <li>Animal fats</li>
-          <li>Coal, oil shale, or oil lying on the surface</li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-**Figure 7-4\. Materials for Building Fires (Continued)**
+You need three types of materials to build a fire.
 
 Tinder is dry material that ignites with little heat - a spark starts a fire. The tinder must be absolutely dry to be sure just a spark will ignite it. If you have a device that generates only sparks, charred cloth will be almost essential. It holds a spark for long periods, allowing you to put tinder on the hot area to generate a small flame. You can make charred cloth by heating cotton cloth until it turns black, but does not burn. Once it is black, you must keep it in an airtight container to keep it dry. Prepare this cloth well in advance of any survival situation. Add it to your individual survival kit. Other impromptu items could be alcohol pads or petroleum jelly gauze.
 
@@ -162,26 +69,22 @@ The situation you are in will determine which of the following fires to use.
 
 **TEPEE**
 
-To make a tepee fire ([Figure 7-5](#fig7-5)), arrange the tinder and a few sticks of kindling in the shape of a tepee or cone. Light the center. As the tepee burns, the outside logs will fall inward, feeding the fire. This type of fire burns well even with wet wood.
+To make a tepee fire, arrange the tinder and a few sticks of kindling in the shape of a tepee or cone. Light the center. As the tepee burns, the outside logs will fall inward, feeding the fire. This type of fire burns well even with wet wood.
 
 **LEAN-TO**
 
-To lay a lean-to fire ([Figure 7-5](#fig7-5)), push a green stick into the ground at a 30-degree angle.
+To lay a lean-to fire, push a green stick into the ground at a 30-degree angle.
 Point the end of the stick in the direction of the wind. Place some tinder deep under this lean-to stick.
 Lean pieces of kindling against the lean-to stick.
 Light the tinder. As the kindling catches fire from the tinder, add more kindling.
 
 **CROSS-DITCH**
 
-To use the cross-ditch method ([Figure 7-5](#fig7-5)), scratch a cross about 30 centimeters (12 inches) in size in the ground. Dig the cross 7.5 centimeters (about 3 inches) deep. Put a large wad of tinder in the middle of the cross. Build a kindling pyramid above the tinder. The shallow ditch allows air to sweep under the tinder to provide a draft.
+To use the cross-ditch method, scratch a cross about 30 centimeters (12 inches) in size in the ground. Dig the cross 7.5 centimeters (about 3 inches) deep. Put a large wad of tinder in the middle of the cross. Build a kindling pyramid above the tinder. The shallow ditch allows air to sweep under the tinder to provide a draft.
 
 **PYRAMID**
 
-To lay the pyramid fire ([Figure 7-5](#fig7-5)), place two small logs or branches parallel on the ground. Place a solid layer of small logs across the parallel logs. Add three or four more layers of logs, each layer smaller than and at a right angle to the layer below it. Make a starter fire on top of the pyramid. As the starter fire burns, it will ignite the logs below it. This gives you a fire that burns downward, requiring no attention during the night.
-
-<a name="fig7-5"></a>![Figure 7-5\. Methods for Laying Fires](fig07-05.png)
-
-**Figure 7-5\. Methods for Laying Fires**
+To lay the pyramid fire, place two small logs or branches parallel on the ground. Place a solid layer of small logs across the parallel logs. Add three or four more layers of logs, each layer smaller than and at a right angle to the layer below it. Make a starter fire on top of the pyramid. As the starter fire burns, it will ignite the logs below it. This gives you a fire that burns downward, requiring no attention during the night.
 
 There are several other ways to lay a fire that are quite effective. Your situation and the material available in the area may make another method more suitable.
 
@@ -202,15 +105,12 @@ Make sure these matches are waterproof. Also, store them in a waterproof contain
 
 **Convex Lens**
 
-Use this method ([Figure 7-6](#fig7-6)) only on bright, sunny days.
+Use this method only on bright, sunny days.
 The lens can come from binoculars, a camera, telescopic sights, or magnifying glasses.
 Angle the lens to concentrate the sun's rays on the tinder.
 Hold the lens over the same spot until the tinder begins to smolder.
 Gently blow or fan the tinder into a flame and apply it to the fire lay.
 
-<a name="fig7-6"></a>![Figure 7-6\. Lens Method](fig07-06.png)
-
-**Figure 7-6\. Lens Method**
 
 **Metal Match**
 
@@ -244,15 +144,12 @@ The spark will spread and burst into flames.
 
 **Fire-Plow**
 
-The fire-plow ([Figure 7-7](#fig7-7)) is a friction method of ignition. To use this method, cut a straight groove in a softwood base and plow the blunt tip of a hardwood shaft up and down the groove. The plowing action of the shaft pushes out small particles of wood fibers. Then, as you apply more pressure on each stroke, the friction ignites the wood particles.
+The fire-plow is a friction method of ignition. To use this method, cut a straight groove in a softwood base and plow the blunt tip of a hardwood shaft up and down the groove. The plowing action of the shaft pushes out small particles of wood fibers. Then, as you apply more pressure on each stroke, the friction ignites the wood particles.
 
-<a name="fig7-7"></a>![Figure 7-7\. Fire-Plow](fig07-07.png)
-
-**Figure 7-7\. Fire-Plow**
 
 **Bow and Drill**
 
-The technique of starting a fire with a bow and drill ([Figure 7-8](#fig7-8)) is simple, but you must exert much effort and be persistent to produce a fire.
+The technique of starting a fire with a bow and drill is simple, but you must exert much effort and be persistent to produce a fire.
  You need the following items to use this method:
 
 * _Socket._ The socket is an easily grasped stone or piece of hardwood with a slight depression in one side. Use it to hold the drill in place and to apply downward pressure.
@@ -260,16 +157,13 @@ The technique of starting a fire with a bow and drill ([Figure 7-8](#fig7-8)) is
 * _Fire board._ Although any board may be used, a seasoned softwood board about 2.5 centimeters (1 inch) thick and 10 centimeters (4 inches) wide is preferable. Cut a depression about 2 centimeters (3/4 inch) from the edge on one side of the board. On the underside, make a V-shaped cut from the edge of the board to the depression.
 * _Bow._ The bow is a resilient, green stick about 2.5 centimeters (3/4 inch) in diameter with a bowstring. The type of wood is not important. The bowstring can be any type of cordage. Tie the bowstring from one end of the bow to the other, without any slack.
 
-<a name="fig7-8"></a>![Figure 7-8\. Bow and Drill](fig07-08.png)
-
-**Figure 7-8\. Bow and Drill**
 
 To use the bow and drill, first prepare the fire lay.
 Then place a bundle of tinder under the V-shaped cut in the fire board.
 Place one foot on the fire board.
 Loop the bowstring over the drill and place the drill in the precut depression on the fire board.
 Place the socket, held in one hand, on the top of the drill to hold it in position.
-Press down on the drill and saw the bow back and forth to twirl the drill ([Figure 7-8](#fig7-8)).
+Press down on the drill and saw the bow back and forth to twirl the drill.
 Once you have established a smooth motion, apply more downward pressure and work the bow faster.
 This action will grind hot black powder into the tinder, causing a spark to catch.
 Blow on the tinder until it ignites.

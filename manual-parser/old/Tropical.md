@@ -32,11 +32,8 @@ There is no standard jungle. The tropical area may be any of the following:
 
 The climate varies little in rain forests. You find these forests across the equator in the Amazon and Congo basins, parts of Indonesia, and several Pacific islands. Up to 3.5 meters (12 feet) of rain falls throughout the year. Temperatures range from about 32 degrees C (90 degrees F) in the day to 21 degrees C (70 degrees F) at night.
 
-There are five layers of vegetation in this jungle ([Figure 14-1](#fig14-1)). Where untouched by man, jungle trees rise from buttress roots to heights of 60 meters (198 feet). Below them, smaller trees produce a canopy so thick that little light reaches the jungle floor. Seedlings struggle beneath them to reach light, and masses of vines and lianas twine up to the sun. Ferns, mosses, and herbaceous plants push through a thick carpet of leaves, and a great variety of fungi grow on leaves and fallen tree trunks.
+There are five layers of vegetation in this jungle. Where untouched by man, jungle trees rise from buttress roots to heights of 60 meters (198 feet). Below them, smaller trees produce a canopy so thick that little light reaches the jungle floor. Seedlings struggle beneath them to reach light, and masses of vines and lianas twine up to the sun. Ferns, mosses, and herbaceous plants push through a thick carpet of leaves, and a great variety of fungi grow on leaves and fallen tree trunks.
 
-<a name="fig14-1"></a>![Figure 14.1\. Five Layers of Tropical Rain Forest Vegetation](fig14-01.png)
-
-**Figure 14-1\. Five Layers of Tropical Rain Forest Vegetation**
 
 Because of the lack of light on the jungle floor, there is little undergrowth to hamper movement, but dense growth limits visibility to about 50 meters (165 feet). You can easily lose your sense of direction in this jungle, and it is extremely hard for aircraft to see you.
 

@@ -175,15 +175,12 @@ You can open an airway and maintain it by using the following steps:
 * _Step 1._ You should check to see if the victim has a partial or complete airway obstruction. If he can cough or speak, allow him to clear the obstruction naturally. Stand by, reassure the victim, and be ready to clear his airway and perform mouth-to-mouth resuscitation should he become unconscious. If his airway is completely obstructed, administer abdominal thrusts until the obstruction is cleared.
 * _Step 2._ Using a finger, quickly sweep the victim's mouth clear of any foreign objects, broken teeth, dentures, and sand.
 * _Step 3._ Using the jaw thrust method, grasp the angles of the victim's lower jaw and lift with both hands, one on each side, moving the jaw forward. For stability, rest your elbows on the surface on which the victim is lying. If his lips are closed, gently open the lower lip with your thumb. 
-
-![](med_open_airway.vd)
-
-**Figure 4-1\. Jaw Thrust Method**
-
 * _Step 4._ With the victim's airway open, pinch his nose closed with your thumb and forefinger and blow two complete breaths into his lungs. Allow the lungs to deflate after the second inflation and perform the following:
- *  **Look** for his chest to rise and fall.
- *  **Listen** for escaping air during exhalation.
- *  **Feel** for flow of air on your cheek.
+
+>**Look** for his chest to rise and fall.
+> **Listen** for escaping air during exhalation.
+>**Feel** for flow of air on your cheek.
+
 * _Step 5._ If the forced breaths do not stimulate spontaneous breathing, maintain the victim's breathing by performing mouth-to-mouth resuscitation.
 * _Step 6._ There is danger of the victim vomiting during mouth-to-mouth resuscitation. Check the victim's mouth periodically for vomit and clear as needed.
 
@@ -203,11 +200,8 @@ You can control external bleeding by direct pressure, indirect (pressure points)
 
 The most effective way to control external bleeding is by applying pressure directly over the wound. This pressure must not only be firm enough to stop the bleeding, but it must also be maintained long enough to "seal off" the damaged surface.
 
-If bleeding continues after having applied direct pressure for 30 minutes, apply a pressure dressing. This dressing consists of a thick dressing of gauze or other suitable material applied directly over the wound and held in place with a tightly wrapped bandage ([Figure 4-2](#fig4-2)). It should be tighter than an ordinary compression bandage but not so tight that it impairs circulation to the rest of the limb. Once you apply the dressing, **do not remove it,** even when the dressing becomes blood soaked.
+If bleeding continues after having applied direct pressure for 30 minutes, apply a pressure dressing. This dressing consists of a thick dressing of gauze or other suitable material applied directly over the wound and held in place with a tightly wrapped bandage. It should be tighter than an ordinary compression bandage but not so tight that it impairs circulation to the rest of the limb. Once you apply the dressing, **do not remove it,** even when the dressing becomes blood soaked.
 
-<a name="fig4-2"></a>![Figure 4-2\. Application of a Pressure Dressing](fig04-02.png)
-
-**Figure 4-2\. Application of a Pressure Dressing**
 
 Leave the pressure dressing in place for 1 or 2 days, after which you can remove and replace it with a smaller dressing. In the long-term survival environment, make fresh, daily dressing changes and inspect for signs of infection.
 
@@ -217,11 +211,8 @@ Raising an injured extremity as high as possible above the heart's level slows b
 
 **Pressure Points**
 
-A pressure point is a location where the main artery to the wound lies near the surface of the skin or where the artery passes directly over a bony prominence ([Figure 4-3](#fig4-3)). You can use digital pressure on a pressure point to slow arterial bleeding until the application of a pressure dressing. Pressure point control is not as effective for controlling bleeding as direct pressure exerted on the wound. It is rare when a single major compressible artery supplies a damaged vessel.
+A pressure point is a location where the main artery to the wound lies near the surface of the skin or where the artery passes directly over a bony prominence. You can use digital pressure on a pressure point to slow arterial bleeding until the application of a pressure dressing. Pressure point control is not as effective for controlling bleeding as direct pressure exerted on the wound. It is rare when a single major compressible artery supplies a damaged vessel.
 
-<a name="fig4-3"></a>![Figure 4-3\. Pressure Points](fig04-03.png)
-
-**Figure 4-3\. Pressure Points**
 
 If you cannot remember the exact location of the pressure points, follow this rule: Apply pressure at the end of the joint just above the injured area. On hands, feet, and head, this will be the wrist, ankle, and neck, respectively.
 
@@ -237,17 +228,13 @@ You can stop major bleeding immediately or slow it down by applying pressure wit
 
 **Tourniquet**
 
-Use a tourniquet only when direct pressure over the bleeding point and all other methods did not control the bleeding. If you leave a tourniquet in place too long, the damage to the tissues can progress to gangrene, with a loss of the limb later. An improperly applied tourniquet can also cause permanent damage to nerves and other tissues at the site of the constriction. If you must use a tourniquet, place it around the extremity, between the wound and the heart, 5 to 10 centimeters (2 to 4 inches) above the wound site. Never place it directly over the wound or a fracture. [Figure 4-4](#fig4-4) explains how to apply a tourniquet.
-
-<a name="fig4-4"></a>![Figure 4-4\. Application of Tourniquet](fig04-04.png)
-
-**Figure 4-4\. Application of Tourniquet**
+Use a tourniquet only when direct pressure over the bleeding point and all other methods did not control the bleeding. If you leave a tourniquet in place too long, the damage to the tissues can progress to gangrene, with a loss of the limb later. An improperly applied tourniquet can also cause permanent damage to nerves and other tissues at the site of the constriction. If you must use a tourniquet, place it around the extremity, between the wound and the heart, 5 to 10 centimeters (2 to 4 inches) above the wound site. Never place it directly over the wound or a fracture. 
 
 After you secure the tourniquet, clean and bandage the wound. A lone survivor **does not** remove or release an applied tourniquet. However, in a buddy system, the buddy can release the tourniquet pressure every 10 to 15 minutes for 1 or 2 minutes to let blood flow to the rest of the extremity to prevent limb loss.
 
 **PREVENT AND TREAT SHOCK**
 
-Anticipate shock in all injured personnel. Treat all injured persons as follows, regardless of what symptoms appear ([Figure 4-5](#fig4-5)):
+Anticipate shock in all injured personnel. Treat all injured persons as follows, regardless of what symptoms appear:
 
 * If the victim is conscious, place him on a level surface with the lower extremities elevated 15 to 20 centimeters (6 to 8 inches).
 * If the victim is unconscious, place him on his side or abdomen with his head turned to one side to prevent choking on vomit, blood, or other fluids.
@@ -262,9 +249,6 @@ Anticipate shock in all injured personnel. Treat all injured persons as follows,
 * If you are a lone survivor, lie in a depression in the ground, behind a tree, or any other place out of the weather, with your head lower than your feet.
 * If you are with a buddy, reassess your patient constantly.
 
-<a name="fig4-5"></a>![Figure 4-5\. Treatment for Shock](fig04-05.png)
-
-**Figure 4-5\. Treatment for Shock**
 
 ### BONE AND JOINT INJURY
 
@@ -282,11 +266,8 @@ The dangers with a fracture are the severing or the compression of a nerve or bl
 
 Often you must maintain traction during the splinting and healing process. You can effectively pull smaller bones such as the arm or lower leg by hand. You can create traction by wedging a hand or foot in the V-notch of a tree and pushing against the tree with the other extremity. You can then splint the break.
 
-Strong muscles hold a broken thighbone (femur) in place making it difficult to maintain traction during healing. You can make an improvised traction splint using natural material ([Figure 4-6](#fig4-6)) as explained below.
+Strong muscles hold a broken thighbone (femur) in place making it difficult to maintain traction during healing. You can make an improvised traction splint using natural material as explained below.
 
-<a name="fig4-6"></a>![Figure 4-6\. Improvised Traction Splint](fig04-06.png)
-
-**Figure 4-6\. Improvised Traction Splint**
 
 * Get two forked branches or saplings at least 5 centimeters (2 inches) in diameter. Measure one from the patient's armpit to 20 to 30 centimeters (8 to 12 inches) past his unbroken leg. Measure the other from the groin to 20 to 30 centimeters (8 to 12 inches) past the unbroken leg. Ensure that both extend an equal distance beyond the end of the leg.
 * Pad the two splints. Notch the ends without forks and lash a 20- to 30-centimeter (8- to 12-inch) cross member made from a 5-centimeter (2-inch) diameter branch between them.
@@ -445,11 +426,7 @@ The "open treatment" method is the safest way to manage wounds in survival situa
 
 Cover the wound with a clean dressing. Place a bandage on the dressing to hold it in place. Change the dressing daily to check for infection.
 
-If a wound is gaping, you can bring the edges together with adhesive tape cut in the form of a "butterfly" or "dumbbell" ([Figure 4-7](#fig4-7)). Use this method with extreme caution in the absence of antibiotics. You must always allow for proper drainage of the wound to avoid infection.
-
-<a name="fig4-7"></a>![Figure 4-7\. Butterfly Closure](fig04-07.png)
-
-**Figure 4-7\. Butterfly Closure**
+If a wound is gaping, you can bring the edges together with adhesive tape cut in the form of a "butterfly" or "dumbbell." Use this method with extreme caution in the absence of antibiotics. You must always allow for proper drainage of the wound to avoid infection.
 
 In a survival situation, some degree of wound infection is almost inevitable. Pain, swelling, and redness around the wound, increased temperature, and pus in the wound or on the dressing indicate infection is present.
 

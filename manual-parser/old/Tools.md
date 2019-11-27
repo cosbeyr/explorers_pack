@@ -27,17 +27,11 @@ To make a weighted club, first find a stone that has a shape that will allow you
 
 Next, find a piece of wood that is the right length for you. A straight-grained hardwood is best. The length of the wood should feel comfortable in relation to the weight of the stone. Finally, lash the stone to the handle using a technique shown in [Figure 12-1](#fig12-1). The technique you use will depend on the type of handle you choose.
 
-<a name="fig12-1"></a>![Figure 12-1\. Lashing Clubs](fig12-01.png)
-
-**Figure 12-1\. Lashing Clubs**
 
 **Sling Club**
 
-A sling club is another type of weighted club. A weight hangs 8 to 10 centimeters (3 to 4 inches) from the handle by a strong, flexible lashing ([Figure 12-2](#fig12-2)). This type of club both extends the user's reach and multiplies the force of the blow.
+A sling club is another type of weighted club. A weight hangs 8 to 10 centimeters (3 to 4 inches) from the handle by a strong, flexible lashing. This type of club both extends the user's reach and multiplies the force of the blow.
 
-<a name="fig12-2"></a>![Figure 12-2\. Sling Club](fig12-02.png)
-
-**Figure 12-2\. Sling Club**
 
 ### EDGED WEAPONS
 
@@ -49,15 +43,12 @@ A knife has three basic functions. It can puncture, slash or chop, and cut. A kn
 
 **Stone**
 
-To make a stone knife, you will need a sharp-edged piece of stone, a chipping tool, and a flaking tool. A chipping tool is a light, blunt-edged tool used to break off small pieces of stone. A flaking tool is a pointed tool used to break off thin, flattened pieces of stone. You can make a chipping tool from wood, bone, or metal, and a flaking tool from bone, antler tines, or soft iron ([Figure 12-3](#fig12-3)).
+To make a stone knife, you will need a sharp-edged piece of stone, a chipping tool, and a flaking tool. A chipping tool is a light, blunt-edged tool used to break off small pieces of stone. A flaking tool is a pointed tool used to break off thin, flattened pieces of stone. You can make a chipping tool from wood, bone, or metal, and a flaking tool from bone, antler tines, or soft iron.
 
-<a name="fig12-3"></a>![Figure 12-3\. Making a Stone Knife](fig12-03.png)
-
-**Figure 12-3\. Making a Stone Knife**
 
 Start making the knife by roughing out the desired shape on your sharp piece of stone, using the chipping tool. Try to make the knife fairly thin. Then, press the flaking tool against the edges. This action will cause flakes to come off the opposite side of the edge, leaving a razor-sharp edge. Use the flaking tool along the entire length of the edge you need to sharpen. Eventually, you will have a very, sharp cutting edge that you can use as a knife.
 
-Lash the blade to some type of hilt ([Figure 12-3](#fig12-3)).
+Lash the blade to some type of hilt.
 
 **NOTE:** Stone will make an excellent puncturing tool and a good chopping tool but will not hold a fine edge. Some stones such as chert or flint can have very fine edges.
 
@@ -83,11 +74,8 @@ You can use other materials to produce edged weapons. Glass is a good alternativ
 
 **Spear Blades**
 
-To make spears, use the same procedures to make the blade that you used to make a knife blade. Then select a shaft (a straight sapling) 1.2 to 1.5 meters (4 to 5 feet) long. The length should allow you to handle the spear easily and effectively. Attach the spear blade to the shaft using lashing. The preferred method is to split the handle, insert the blade, then wrap or lash it tightly. You can use other materials without adding a blade. Select a 1.2- to 1.5-meter (4- to 5-foot) long straight hardwood shaft and shave one end to a point. If possible, fire-harden the point. Bamboo also makes an excellent spear. Select a piece 1.2 to 1.5 meters (4 to 5 feet) long. Starting 8 to 10 centimeters (3 to 4 inches) back from the end used as the point, shave down the end at a 45-degree angle ([Figure 12-4](#fig12-4)). Remember, to sharpen the edges, shave only the inner portion.
+To make spears, use the same procedures to make the blade that you used to make a knife blade. Then select a shaft (a straight sapling) 1.2 to 1.5 meters (4 to 5 feet) long. The length should allow you to handle the spear easily and effectively. Attach the spear blade to the shaft using lashing. The preferred method is to split the handle, insert the blade, then wrap or lash it tightly. You can use other materials without adding a blade. Select a 1.2- to 1.5-meter (4- to 5-foot) long straight hardwood shaft and shave one end to a point. If possible, fire-harden the point. Bamboo also makes an excellent spear. Select a piece 1.2 to 1.5 meters (4 to 5 feet) long. Starting 8 to 10 centimeters (3 to 4 inches) back from the end used as the point, shave down the end at a 45-degree angle. Remember, to sharpen the edges, shave only the inner portion.
 
-<a name="fig12-4"></a>![Figure 12-4\. Bamboo Spear](fig12-04.png)
-
-**Figure 12-4\. Bamboo Spear**
 
 **Arrow Points**
 
@@ -99,41 +87,28 @@ You can make other field-expedient weapons such as the throwing stick, archery e
 
 **Throwing Stick**
 
-The throwing stick, commonly known as the rabbit stick, is very effective against small game (squirrels, chipmunks, and rabbits). The rabbit stick itself is a blunt stick, naturally curved at about a 45-degree angle. Select a stick with the desired angle from heavy hardwood such as oak. Shave off two opposite sides so that the stick is flat like a boomerang ([Figure 12-5](#fig12-5)). You must practice the throwing technique for accuracy and speed. First, align the target by extending the nonthrowing arm in line with the mid- to lower-section of the target. Slowly and repeatedly raise the throwing arm up and back until the throwing stick crosses the back at about a 45-degree angle or is in line with the nonthrowing hip. Bring the throwing arm forward until it is just slightly above and parallel to the nonthrowing arm. This will be the throwing stick's release point. Practice slowly and repeatedly to attain accuracy.
+The throwing stick, commonly known as the rabbit stick, is very effective against small game (squirrels, chipmunks, and rabbits). The rabbit stick itself is a blunt stick, naturally curved at about a 45-degree angle. Select a stick with the desired angle from heavy hardwood such as oak. Shave off two opposite sides so that the stick is flat like a boomerang. You must practice the throwing technique for accuracy and speed. First, align the target by extending the nonthrowing arm in line with the mid- to lower-section of the target. Slowly and repeatedly raise the throwing arm up and back until the throwing stick crosses the back at about a 45-degree angle or is in line with the nonthrowing hip. Bring the throwing arm forward until it is just slightly above and parallel to the nonthrowing arm. This will be the throwing stick's release point. Practice slowly and repeatedly to attain accuracy.
 
-<a name="fig12-5"></a>![Figure 12-5\. Rabbit Stick](fig12-05.png)
-
-**Figure 12-5\. Rabbit Stick**
 
 **Archery Equipment**
 
-You can make a bow and arrow ([Figure 12-6](#fig12-6)) from materials available in your survival area. To make a bow, use the procedure described in [Chapter Food](Food).
+You can make a bow and arrow from materials available in your survival area. To make a bow, use the procedure described in **Food**.
 
-<a name="fig12-6"></a>![Figure 12-6\. Archery Equipment](fig12-06.png)
-
-**Figure 12-6\. Archery Equipment**
 
 While it may be relatively simple to make a bow and arrow, it is not easy to use one. You must practice using it a long time to be reasonably sure that you will hit your target. Also, a field-expedient bow will not last very long before you have to make a new one. For the time and effort involved, you may well decide to use another type of field-expedient weapon.
 
 **Bola**
 
-The bola is another field-expedient weapon that is easy to make ([Figure 12-7](#fig12-7)). It is especially effective for capturing running game or low-flying fowl in a flock. To use the bola, hold it by the center knot and twirl it above your head. Release the knot so that the bola flies toward your target. When you release the bola, the weighted cords will separate. These cords will wrap around and immobilize the fowl or animal that you hit.
+The bola is another field-expedient weapon that is easy to make. It is especially effective for capturing running game or low-flying fowl in a flock. To use the bola, hold it by the center knot and twirl it above your head. Release the knot so that the bola flies toward your target. When you release the bola, the weighted cords will separate. These cords will wrap around and immobilize the fowl or animal that you hit.
 
-<a name="fig12-7"></a>![Figure 12-7\. Bola](fig12-07.png)
-
-**Figure 12-7\. Bola**
 
 ### CORDAGE AND LASHING
 
-<a name="para12-25"></a>12-25\. Many materials are strong enough for use as cordage and lashing. A number of natural and man-made materials are available in a survival situation. For example, you can make a cotton web belt much more useful by unraveling it. You can then use the string for other purposes (fishing line, thread for sewing, and lashing).
+Many materials are strong enough for use as cordage and lashing. A number of natural and man-made materials are available in a survival situation. For example, you can make a cotton web belt much more useful by unraveling it. You can then use the string for other purposes (fishing line, thread for sewing, and lashing).
 
 **Natural Cordage Selection**
 
-12-26\. Before making cordage, there are a few simple tests you can do to determine you material's suitability. First, pull on a length of the material to test for strength. Next, twist it between your fingers and roll the fibers together. If it withstands this handling and does not snap apart, tie an overhand knot with the fibers and gently tighten. If the knot does not break, the material is usable. [Figure 12-8](#fig12-8) shows various methods of making cordage.
-
-<a name="fig12-8"></a>![Figure 12-8\. Making Lines From Plant Fibers](fig12-08.png)
-
-**Figure 12-8\. Making Lines From Plant Fibers**
+Before making cordage, there are a few simple tests you can do to determine you material's suitability. First, pull on a length of the material to test for strength. Next, twist it between your fingers and roll the fibers together. If it withstands this handling and does not snap apart, tie an overhand knot with the fibers and gently tighten. If the knot does not break, the material is usable. 
 
 **Lashing Material**
 
@@ -151,19 +126,11 @@ There are several construction techniques for backpacks. Many are very elaborate
 
 **Horseshoe Pack**
 
-This pack is simple to make and use and relatively comfortable to carry over one shoulder. Lay available square-shaped material, such as poncho, blanket, or canvas, flat on the ground. Lay items on one edge of the material. Pad the hard items. Roll the material (with the items) toward the opposite edge and tie both ends securely. Add extra ties along the length of the bundle. You can drape the pack over one shoulder with a line connecting the two ends ([Figure 12-9](#fig12-9)).
-
-<a name="fig12-9"></a>![Figure 12-9\. Horseshoe Pack](fig12-09.png)
-
-**Figure 12-9\. Horseshoe Pack**
+This pack is simple to make and use and relatively comfortable to carry over one shoulder. Lay available square-shaped material, such as poncho, blanket, or canvas, flat on the ground. Lay items on one edge of the material. Pad the hard items. Roll the material (with the items) toward the opposite edge and tie both ends securely. Add extra ties along the length of the bundle. You can drape the pack over one shoulder with a line connecting the two ends.
 
 **Square Pack**
 
-This pack is easy to construct if rope or cordage is available. Otherwise, you must first make cordage. To make this pack, construct a square frame from bamboo, limbs, or sticks. Size will vary for each person and the amount of equipment carried ([Figure 12-10](#fig12-10)).
-
-<a name="fig12-10"></a>![Figure 12-10\. Square Pack](fig12-10.png)
-
-**Figure 12-10\. Square Pack**
+This pack is easy to construct if rope or cordage is available. Otherwise, you must first make cordage. To make this pack, construct a square frame from bamboo, limbs, or sticks. Size will vary for each person and the amount of equipment carried.
 
 ### CLOTHING AND INSULATION
 
@@ -195,11 +162,8 @@ Use wood, bone, horn, bark, or other similar material to make bowls. To make woo
 
 You can also use this method with containers made of bark or leaves. However, these containers will burn above the waterline unless you keep them moist or keep the fire low.
 
-A section of bamboo also works very well for cooking. Be sure you cut out a section between two sealed joints ([Figure 12-11](#fig12-11)).
+A section of bamboo also works very well for cooking. Be sure you cut out a section between two sealed joints.
 
-<a name="fig12-11"></a>![Figure 12-11\. Containers for Boiling Food](fig12-11.png)
-
-**Figure 12-11\. Containers for Boiling Food**
 
 > **CAUTION**
 > 
@@ -215,7 +179,7 @@ Carve forks, knives, and spoons from nonresinous woods so that you do not get a 
 
 You can make pots from turtle shells or wood. As described with bowls, using hot rocks in a hollowed out piece of wood is very effective. Bamboo is the best wood for making cooking containers.
 
-To use turtle shells, first thoroughly boil the upper portion of the shell. Then use it to heat food and water over a flame ([Figure 12-11](#fig12-11)).
+To use turtle shells, first thoroughly boil the upper portion of the shell. Then use it to heat food and water over a flame.
 
 **Water Bottles**
 
@@ -238,16 +202,3 @@ The common available tools in a typical MultiTool are:
 But there are also special tools like: bit-drivers, whistle, scissors, Ferrocerium Rod to spark a fire, Sharpener, ..
 
 If you use a Multi-Tool in every-day life, then you know how to use it in a survival situation. The seconds you are faster and the confidence you have in your tool can decide between life and death.
-
-**Leatherman**
-
-There are a lot of options out there. I really like my [Leatherman OHT](OHTMultiTool).
-I am carrying it most of the time when going out.
-
-Basically just leave it at home when I want to go dance and jump around or have to go to a place with security which might have a problem with the tool as it contains a sharp knife. At some point I might buy a [Tread Bracelet MultiTool](TreadMultiTool) for these cases.
-
-Also I like the story behind the company. There is a nice video with the [inventor on youtube](https://www.youtube.com/watch?v=QJwyIF4VBTk). He wanted this tool and persisted in a very humble way. He is also proudly showing the durability in this video - really worth a look if you still have internet ;-)
-
-**Victorinox**
-
-Another option is Victorinox, the swiss provider of the Swiss Army Knife (along with Swiss owned Wenger company). With less diversity in the model shapes - two in fact, straight or ergonomic. Victorinox offers a serious selection of embeddable tools. One Recommendation is the SwissTool Spirit (the ergonomic one).

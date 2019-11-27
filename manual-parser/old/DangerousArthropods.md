@@ -1,7 +1,4 @@
 > Insects are often overlooked as a danger to the survivor. More people in the United States die each year from bee stings, and resulting anaphylactic shock, than from snake bites. A few other insects are venomous enough to kill, but often the greatest danger is the transmission of disease.
-** *
-
-![](image232.jpg)
 
 **Scorpion**  
 _Scorpionidae_ order  
@@ -17,8 +14,6 @@ _Scorpionidae_ order
 > Scorpions sting with their tails, causing local pain, swelling, possible incapacitation, and death.
 ** *
 
-![](image233.jpg)
-
 **Brown house spider or brown recluse spider**  
 _Laxosceles reclusa_  
 
@@ -29,8 +24,6 @@ _Laxosceles reclusa_
 **Distribution:** North America.
 
 ** *
-
-![](image234.jpg)
 
 **Funnelweb spider**  
 _Atrax_ species (_A. robustus, A. formidablis_)  

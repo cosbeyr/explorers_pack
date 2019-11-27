@@ -26,11 +26,8 @@ If your aircraft goes down at sea, take the following actions. Whether you are i
 * Get clear of fuel-covered water in case the fuel ignites.
 * Try to find other survivors.
 
-A search for survivors usually takes place around the entire area of and near the crash site. Missing personnel may be unconscious and floating low in the water. [Figure 16-1](#fig16-1), illustrates three rescue procedures.
+A search for survivors usually takes place around the entire area of and near the crash site. Missing personnel may be unconscious and floating low in the water.
 
-<a name="fig16-1"></a>![Figure 16-1\. Rescue From Water](fig16-01.png)
-
-**Figure 16-1\. Rescue From Water**
 
 The best technique for rescuing personnel from the water is to throw them a life preserver attached to a line (A). Another is to send a swimmer (rescuer) from the raft with a line attached to a flotation device that will support the rescuer's weight (B). This device will help conserve a rescuer's energy while recovering the survivor. The least acceptable technique is to send an attached swimmer without flotation devices to retrieve a survivor (C). In all cases, the rescuer wears a life preserver. A rescuer should not underestimate the strength of a panic-stricken person in the water. A careful approach can prevent injury to the rescuer.
 
@@ -38,11 +35,7 @@ When the rescuer approaches a survivor in trouble from behind, there is little d
 
 If you are in the water, make your way to a raft. If no rafts are available, try to find a large piece of floating debris to cling to. Relax; a person who knows how to relax in ocean water is in very little danger of drowning. The body's natural buoyancy will keep at least the top of the head above water, but some movement is needed to keep the face above water.
 
-Floating on your back takes the least energy. Lie on your back in the water, spread your arms and legs, and arch your back. By controlling your breathing in and out, your face will always be out of the water and you may even sleep in this position for short periods. Your head will be partially submerged, but your face will be above water. If you cannot float on your back or if the sea is too rough, float facedown in the water as shown in [Figure 16-2](#fig16-2).
-
-<a name="fig16-2"></a>![Figure 16-2\. Floating Position](fig16-02.png)
-
-**Figure 16-2\. Floating Position**
+Floating on your back takes the least energy. Lie on your back in the water, spread your arms and legs, and arch your back. By controlling your breathing in and out, your face will always be out of the water and you may even sleep in this position for short periods. Your head will be partially submerged, but your face will be above water. If you cannot float on your back or if the sea is too rough, float facedown in the water.
 
 The following are the best swimming strokes during a survival situation:
 
@@ -64,11 +57,8 @@ If you are in an area where surface oil is burning:
 
 If you are in oil-covered water that is free of fire, hold your head high to keep the oil out of your eyes. Attach your life preserver to your wrist and then use it as a raft.
 
-If you have a life preserver, you can stay afloat for an indefinite period. In this case, use the "Heat Escaping Lessening Posture (HELP)" body position ([Figure 16-3](#fig16-3)). Remain still and assume the fetal position to help you retain body heat. You lose about 50 percent of your body heat through your head. Therefore, keep your head out of the water. Other areas of high heat loss are the neck, the sides, and the groin.
+If you have a life preserver, you can stay afloat for an indefinite period. In this case, use the "Heat Escaping Lessening Posture (HELP)" body position. Remain still and assume the fetal position to help you retain body heat. You lose about 50 percent of your body heat through your head. Therefore, keep your head out of the water. Other areas of high heat loss are the neck, the sides, and the groin.
 
-<a name="fig16-3"></a>![Figure 16-3\. HELP Position](fig16-03.png)
-
-**Figure 16-3\. HELP Position**
 
 If you are in a raft (also see Raft Procedures):
 
@@ -78,23 +68,13 @@ If you are in a raft (also see Raft Procedures):
 * Remember, rescue at sea is a cooperative effort. Use all available visual or electronic signaling devices to signal and make contact with rescuers. For example, raise a flag or reflecting material on an oar as high as possible to attract attention.
 * Locate the emergency radio and get it into operation. Operating instructions are on it. Use the emergency transceiver only when friendly aircraft are likely to be in the area.
 * Have other signaling devices ready for instant use. If you are in enemy territory, avoid using a signaling device that will alert the enemy. However, if your situation is desperate, you may have to signal the enemy for rescue if you are to survive.
-* Check the raft for inflation, leaks, and points of possible chafing. Make sure the main buoyancy chambers are firm (well rounded) but not overly tight ([Figure 16-4](#fig16-4)). Check inflation regularly. Air expands with heat; therefore, on hot days, release some air and add air when the weather cools.
+* Check the raft for inflation, leaks, and points of possible chafing. Make sure the main buoyancy chambers are firm (well rounded) but not overly tight. Check inflation regularly. Air expands with heat; therefore, on hot days, release some air and add air when the weather cools.
 * Decontaminate the raft of all fuel. Petroleum will weaken its surfaces and break down its glued joints.
-* Throw out the sea anchor, or improvise a drag from the raft's case, a bailing bucket, or a roll of clothing. A sea anchor helps you stay close to your ditching site, making it easier for searchers to find you if you have relayed your location. Without a sea anchor, your raft may drift over 160 kilometers (96 miles) in a day, making it much harder to find you. You can adjust the sea anchor to act as a drag to slow down the rate of travel with the current, or as a means to travel with the current. You make this adjustment by opening or closing the sea anchor's apex. When open, the sea anchor ([Figure 16-5](#fig16-5)) acts as a drag that keeps you in the general area. When closed, it forms a pocket for the current to strike and propels the raft in the current's direction.
+* Throw out the sea anchor, or improvise a drag from the raft's case, a bailing bucket, or a roll of clothing. A sea anchor helps you stay close to your ditching site, making it easier for searchers to find you if you have relayed your location. Without a sea anchor, your raft may drift over 160 kilometers (96 miles) in a day, making it much harder to find you. You can adjust the sea anchor to act as a drag to slow down the rate of travel with the current, or as a means to travel with the current. You make this adjustment by opening or closing the sea anchor's apex. When open, the sea anchor acts as a drag that keeps you in the general area. When closed, it forms a pocket for the current to strike and propels the raft in the current's direction.
 
-<a name="fig16-4"></a>![Figure 16-4\. Inflating the Raft](fig16-04.png)
 
-**Figure 16-4\. Inflating the Raft**
+Also adjust the sea anchor so that when the raft is on the wave's crest, the sea anchor is in the wave's trough.
 
-<a name="fig16-5"></a>![Figure 16-5\. Sea Anchor](fig16-05.png)
-
-**Figure 16-5\. Sea Anchor**
-
-Also adjust the sea anchor so that when the raft is on the wave's crest, the sea anchor is in the wave's trough ([Figure 16-6](#fig16-6)).
-
-<a name="fig16-6"></a>![Figure 16-6\. Deployment of the Sea Anchor](fig16-06.png)
-
-**Figure 16-6\. Deployment of the Sea Anchor**
 
 * Wrap the sea anchor rope with cloth to prevent its chafing the raft. The anchor also helps to keep the raft headed into the wind and waves.
 * In stormy water, rig the spray and windshield at once. In a 25-man raft, keep the canopy erected at all times. Keep your raft as dry as possible. Keep it properly balanced. All personnel should stay seated, the heaviest one in the center.
@@ -118,18 +98,7 @@ If you are in a cold climate:
 * Huddle with others to keep warm, moving enough to keep the blood circulating. Spread an extra tarpaulin, sail, or parachute over the group.
 * Give extra rations, if available, to men suffering from exposure to cold.
 
-The greatest threat you face when submerged in cold water is death due to hypothermia. The average ocean temperature around the world is only 11 degrees C (51 degrees F). However, do not be fooled by warm water-hypothermia can even occur in 27-degree C (80-degree F) water. When you are immersed in cold water, hypothermia occurs rapidly due to the decreased insulating quality of wet clothing and the result of water displacing the layer of still air that normally surrounds the body. The rate of heat exchange in water is about 25 times greater than it is in air of the same temperature. [Figure 16-7](#fig16-7) lists life expectancy times for immersion in water.
-
-|Water Temperature|Time|
-|-----------------|----|
-|21.0-15.5 degrees C (70-60 degrees F)|12 hours|
-|15.5-10.0 degrees C (60-50 degrees F)|6 hours|
-|10.0-4.5 degreesC (50-40 degrees F)|1 hour|
-|4.5 degrees C (40 degrees F) and below|Less than 1 hour|
-
-**Note:** Wearing an antiexposure suit may increase these times up to a maximum of 24 hours.
-
-**Figure 16-7\. Life Expectancy Times for Immersion in Water**
+The greatest threat you face when submerged in cold water is death due to hypothermia. The average ocean temperature around the world is only 11 degrees C (51 degrees F). However, do not be fooled by warm water-hypothermia can even occur in 27-degree C (80-degree F) water. When you are immersed in cold water, hypothermia occurs rapidly due to the decreased insulating quality of wet clothing and the result of water displacing the layer of still air that normally surrounds the body. The rate of heat exchange in water is about 25 times greater than it is in air of the same temperature. 
 
 Your best protection against the effects of cold water is to get into the life raft, stay dry, and insulate your body from the cold surface of the bottom of the raft. If these actions are not possible, wearing an antiexposure suit will extend your life expectancy considerably. Remember, keep your head and neck out of the water and well insulated from the cold water's effects when the temperature is below 19 degrees C (66 degrees F). Wearing life preservers increases the predicted survival time as body position in the water increases the chance of survival.
 
@@ -146,11 +115,11 @@ Most of the rafts in the U.S. Army and Air Force inventories can satisfy the nee
 
 **NOTE:** Before boarding any raft, remove and tether (attach) your life preserver to yourself or the raft. Ensure there are no other metallic or sharp objects on your clothing or equipment that could damage the raft. After boarding the raft, don your life preserver again.
 
-<a name="para16-22"></a>16-22\. For all rafts, remember the five As. These are the first things you should do if you are the first person into the raft:
+For all rafts, remember the five As. These are the first things you should do if you are the first person into the raft:
 
 * Air-Check that all chambers are inflated and that all inflation valves are closed and equalization tube clamps (found on the 25-, 35-, and 46-man rafts) are clamped off when fully inflated.
 * Assistance-Assist others into the raft. Remove all puncture-producing items from pockets and move flotation devices to the rear of the body. Use proper boarding techniques; for example, the boarding loop on the seven-man raft and the boarding ramps on the 25-, 35-, and 46-man rafts.
-* Anchor-Ensure the sea anchor is properly deployed. It can be found 180 degreesaway from the equalization tube on the 25-, 35-, and 46-man rafts.
+* Anchor-Ensure the sea anchor is properly deployed. It can be found 180 degrees away from the equalization tube on the 25-, 35-, and 46-man rafts.
 * Accessory bag-Locate the accessory bag. It will be tethered to the raft between the smooth side of the CO<sub>2</sub> bottle and the closest boarding ramp.
 * Assessment-Assess the situation and keep a positive mental attitude.
 
@@ -158,73 +127,42 @@ Most of the rafts in the U.S. Army and Air Force inventories can satisfy the nee
 
 The one-man raft has a main cell inflation. If the CO<sub>2</sub> bottle should malfunction or if the raft develops a leak, you can inflate it by mouth.
 
-The spray shield acts as a shelter from the cold, wind, and water. In some cases, this shield serves as insulation. The raft's insulated bottom limits the conduction of cold thereby protecting you from hypothermia ([Figure 16-8](#fig16-8)).
+The spray shield acts as a shelter from the cold, wind, and water. In some cases, this shield serves as insulation. The raft's insulated bottom limits the conduction of cold thereby protecting you from hypothermia.
 
-<a name="fig16-8"></a>![Figure 16-8\. One-Man Raft With Spray Shield](fig16-08.png)
-
-**Figure 16-8\. One-Man Raft With Spray Shield**
 
 You can travel more effectively by inflating or deflating the raft to take advantage of the wind or current. You can use the spray shield as a sail while the ballast buckets serve to increase drag in the water. You may use the sea anchor to control the raft's speed and direction.
 
 There are rafts developed for use in tactical areas that are black. These rafts blend with the sea's background. You can further modify these rafts for evasion by partially deflating them to obtain a lower profile.
 
-A lanyard connects the one-man raft to a parachutist (survivor) landing in the water. You (the survivor) inflate it upon landing. You do not swim to the raft, but pull it to you via the lanyard. The raft may hit the water upside down, but you can right it by approaching the side to which the bottle is attached and flipping the raft over. The spray shield must be in the raft to expose the boarding handles. Follow the five As outlined under raft procedures above when boarding the raft ([Figure 16-9](#fig16-9)).
+A lanyard connects the one-man raft to a parachutist (survivor) landing in the water. You (the survivor) inflate it upon landing. You do not swim to the raft, but pull it to you via the lanyard. The raft may hit the water upside down, but you can right it by approaching the side to which the bottle is attached and flipping the raft over. The spray shield must be in the raft to expose the boarding handles. Follow the five As outlined under raft procedures above when boarding the raft.
 
-<a name="fig16-9"></a>![Figure 16-9\. Boarding the One-Man Raft](fig16-09.png)
 
-**Figure 16-9\. Boarding the One-Man Raft**
+If you have an arm injury, the best way to board is by turning your back to the small end of the raft, pushing the raft under your buttocks, and lying back. Another way to board the raft is to push down on its small end until one knee is inside and lie forward.
 
-If you have an arm injury, the best way to board is by turning your back to the small end of the raft, pushing the raft under your buttocks, and lying back. Another way to board the raft is to push down on its small end until one knee is inside and lie forward ([Figure 16-10](#fig16-10)).
 
-<a name="fig16-10"></a>![Figure 16-10\. Other Methods of Boarding the One-Man Raft](fig16-10.png)
+In rough seas, it may be easier for you to grasp the small end of the raft and, in a prone position, to kick and pull yourself into the raft. When you are lying face down in the raft, deploy and adjust the sea anchor. To sit upright, you may have to disconnect one side of the seat kit and roll to that side. Then you adjust the spray shield. There are two variations of the one-man raft; the improved model incorporates an inflatable spray shield and floor that provide additional insulation. The spray shield helps keep you dry and warm in cold oceans and protects you from the sun in the hot climates.
 
-**Figure 16-10\. Other Methods of Boarding the One-Man Raft**
-
-In rough seas, it may be easier for you to grasp the small end of the raft and, in a prone position, to kick and pull yourself into the raft. When you are lying face down in the raft, deploy and adjust the sea anchor. To sit upright, you may have to disconnect one side of the seat kit and roll to that side. Then you adjust the spray shield. There are two variations of the one-man raft; the improved model incorporates an inflatable spray shield and floor that provide additional insulation. The spray shield helps keep you dry and warm in cold oceans and protects you from the sun in the hot climates ([Figure 16-11](#fig16-11)).
-
-<a name="fig16-11"></a>![Figure 16-11\. One-Man Raft With Spray Shield Inflated](fig16-11.png)
-
-**Figure 16-11\. One-Man Raft With Spray Shield Inflated**
 
 **Seven-Man Raft**
 
-Some multiplace aircraft carry the seven-man raft. It is a component of the survival drop kit ([Figure 16-12](#fig16-12)). This raft may inflate upside down and require you to right the raft before boarding. Always work from the bottle side to prevent injury if the raft turns over. Facing into the wind, the wind provides additional help in righting the raft. Use the handles on the inside bottom of the raft for boarding ([Figure 16-13](#fig16-13)).
+Some multiplace aircraft carry the seven-man raft. It is a component of the survival drop kit. This raft may inflate upside down and require you to right the raft before boarding. Always work from the bottle side to prevent injury if the raft turns over. Facing into the wind, the wind provides additional help in righting the raft. Use the handles on the inside bottom of the raft for boarding.
 
-<a name="fig16-12"></a>![Figure 16-12\. Seven-Man Raft](fig16-12.png)
 
-**Figure 16-12\. Seven-Man Raft**
-
-<a name="fig16-13"></a>![Figure 16-13\. Method of Righting Raft](fig16-13.png)
-
-**Figure 16-13\. Method of Righting Raft**
-
-Use the boarding ramp if someone holds down the raft's opposite side. If you don't have help, again work from the bottle side with the wind at your back to help hold down the raft. Follow the five As outlined in [paragraph 16-22](#para16-22). Then grasp an oarlock and boarding handle, kick your legs to get your body prone on the water, and then kick and pull yourself into the raft. If you are weak or injured, you may partially deflate the raft to make boarding easier ([Figure 16-14](#fig16-14)).
-
-<a name="fig16-14"></a>![Figure 16-14\. Method of Boarding Seven-Man Raft](fig16-14.png)
-
-**Figure 16-14\. Method of Boarding Seven-Man Raft**
+Use the boarding ramp if someone holds down the raft's opposite side. If you don't have help, again work from the bottle side with the wind at your back to help hold down the raft. Then grasp an oarlock and boarding handle, kick your legs to get your body prone on the water, and then kick and pull yourself into the raft. If you are weak or injured, you may partially deflate the raft to make boarding easier.
 
 Use the hand pump to keep the buoyancy chambers and cross seat firm. Never overinflate the raft.
 
 **25-, 35-, and 46-Man Rafts**
 
-You may find 25-, 35-, or 46-man rafts in multiplace aircraft ([Figure 16-15](#fig16-15)). The 20-man raft has been discontinued. The rafts are stowed in raft compartments on the outside of the fuselage, usually on the wings, alongside the upper half of the port (left) side of the aircraft. There will always be enough raft space to accommodate all personnel on each type of aircraft. If the number of personnel exceeds the maximum number of raft spaces, additional rafts will be centerline-loaded and ratchet-strapped to the cargo bay floor. Some may be automatically deployed from the cockpit or from stations within the cargo area, usually near the crew chief's station, while others may need manual deployment. No matter how the raft lands in the water, it is ready for boarding. A lanyard connects the accessory kit to the raft and you retrieve the kit by hand. You must manually inflate the center chamber with the hand pump. Board the 25-, 35-, or 46-man raft from the aircraft, if possible. If not, board in the following manner:
+You may find 25-, 35-, or 46-man rafts in multiplace aircraft. The 20-man raft has been discontinued. The rafts are stowed in raft compartments on the outside of the fuselage, usually on the wings, alongside the upper half of the port (left) side of the aircraft. There will always be enough raft space to accommodate all personnel on each type of aircraft. If the number of personnel exceeds the maximum number of raft spaces, additional rafts will be centerline-loaded and ratchet-strapped to the cargo bay floor. Some may be automatically deployed from the cockpit or from stations within the cargo area, usually near the crew chief's station, while others may need manual deployment. No matter how the raft lands in the water, it is ready for boarding. A lanyard connects the accessory kit to the raft and you retrieve the kit by hand. You must manually inflate the center chamber with the hand pump. Board the 25-, 35-, or 46-man raft from the aircraft, if possible. If not, board in the following manner:
 
 * Approach the lower boarding ramp, following the arrows printed on the outside of the raft.
 * Remove your life preserver and tether it to yourself so that it trails behind you.
 * Grasp the boarding handles and kick your legs to get your body into a prone position on the water's surface; then kick and pull until you are inside the raft.
 
-<a name="fig16-15"></a>![Figure 16-15\. 25-Man Raft](fig16-15.png)
-
-**Figure 16-15\. 25-Man Raft**
-
 An incompletely inflated raft will make boarding easier. Approach the intersection of the raft and ramp, grasp the upper boarding handle, and swing one leg onto the center of the ramp, as in mounting a horse.
 
-Immediately tighten the equalizer clamp upon entering the raft to prevent deflating the entire raft in case of a puncture ([Figure 16-16](#fig16-16)).
-
-<a name="fig16-16"></a>![Figure 16-16\. Immediate Action-Multiplace Raft](fig16-16.png)
-
-**Figure 16-16\. Immediate Action-Multiplace Raft**
+Immediately tighten the equalizer clamp upon entering the raft to prevent deflating the entire raft in case of a puncture.
 
 Use the pump to keep these rafts' chambers and center ring firm. They should be well rounded but not overly tight. The center rings keep the center of the floor afloat, and give raft occupants something to brace their feet against to prevent all occupants from sliding toward the center.
 
@@ -232,11 +170,8 @@ Use the pump to keep these rafts' chambers and center ring firm. They should be 
 
 Rafts do not have keels, therefore, you can't sail them into the wind. However, anyone can sail a raft downwind. You can successfully sail the seven-man raft 10 degrees off from the direction of the wind. Do not try to sail the raft unless land is near. If you decide to sail and the wind is blowing toward a desired destination, fully inflate the raft, sit high, take in the sea anchor, rig a sail, and use an oar as a rudder.
 
-In the seven-man raft, erect a square sail in the bow using the oars and their extensions as the mast and crossbar ([Figure 16-17](#fig16-17)). You may use a waterproof tarpaulin or parachute material for the sail. If the raft has no regular mast socket and step, erect the mast by tying it securely to the front cross seat using braces. Pad the bottom of the mast to prevent it from chafing or punching a hole through the floor, whether or not there is a socket. The heel of a shoe, with the toe wedged under the seat, makes a good improvised mast step. Do not secure the corners of the lower edge of the sail. Hold the lines attached to the corners with your hands so that a gust of wind will not rip the sail, break the mast, or capsize the raft.
+In the seven-man raft, erect a square sail in the bow using the oars and their extensions as the mast and crossbar. You may use a waterproof tarpaulin or parachute material for the sail. If the raft has no regular mast socket and step, erect the mast by tying it securely to the front cross seat using braces. Pad the bottom of the mast to prevent it from chafing or punching a hole through the floor, whether or not there is a socket. The heel of a shoe, with the toe wedged under the seat, makes a good improvised mast step. Do not secure the corners of the lower edge of the sail. Hold the lines attached to the corners with your hands so that a gust of wind will not rip the sail, break the mast, or capsize the raft.
 
-<a name="fig16-17"></a>![Figure 16-17\. Sail Construction](fig16-17.png)
-
-**Figure 16-17\. Sail Construction**
 
 Take every precaution to prevent the raft from turning over. In rough weather, keep the sea anchor away from the bow. Have the passengers sit low in the raft, with their weight distributed to hold the upwind side down. To prevent falling out, they should also avoid sitting on the sides of the raft or standing up. Avoid sudden movements without warning the other passengers. When the sea anchor is not in use, tie it to the raft and stow it in such a manner that it will hold immediately if the raft capsizes.
 
@@ -335,7 +270,7 @@ Your fishing should be successful if you remember the following important hints:
 
 **Birds**
 
-As stated in [Chapter Food](Food), all sea birds are edible. Eat any birds you can catch. Sometimes birds may land on your raft, but usually they are cautious. You may be able to attract some birds by towing a bright piece of metal behind the raft. This will bring the bird within shooting range, provided you have a firearm.
+As stated in **Food**, all sea birds are edible. Eat any birds you can catch. Sometimes birds may land on your raft, but usually they are cautious. You may be able to attract some birds by towing a bright piece of metal behind the raft. This will bring the bird within shooting range, provided you have a firearm.
 
 If a bird lands within your reach, you may be able to catch it. If the birds do not land close enough or land on the other end of the raft, you may be able to catch them with a bird noose. Bait the center of the noose and wait for the bird to land. When the bird's feet are in the center of the noose, pull it tight.
 
@@ -370,7 +305,7 @@ These sores result from a break in skin exposed to saltwater for an extended per
 
 **Immersion Rot, Frostbite, and Hypothermia**
 
-These problems are similar to those encountered in cold weather environments. Symptoms and treatment are the same as covered in [Chapter Cold](Cold).
+These problems are similar to those encountered in cold weather environments. Symptoms and treatment are the same as covered in **Cold**.
 
 **Blindness or Headache**
 
@@ -440,11 +375,8 @@ There usually are more birds near land than over the open sea. The direction fro
 
 Mirages occur at any latitude, but they are more likely in the tropics, especially during the middle of the day. Be careful not to mistake a mirage for nearby land. A mirage disappears or its appearance and elevation change when viewed from slightly different heights.
 
-You may be able to detect land by the pattern of the waves (refracted) as they approach land ([Figure 16-18](#fig16-18)). By traveling with the waves and parallel to the slightly turbulent area marked "X" on the illustration, you should reach land.
+You may be able to detect land by the pattern of the waves (refracted) as they approach land. By traveling with the waves and parallel to the slightly turbulent area marked "X" on the illustration, you should reach land.
 
-<a name="fig16-18"></a>![Figure 16-18\. Wave Patterns About an Island](fig16-18.png)
-
-**Figure 16-18\. Wave Patterns About an Island**
 
 **RAFTING OR BEACHING TECHNIQUES**
 
@@ -520,7 +452,7 @@ Fish toxins are water soluble; no amount of cooking will neutralize them. They a
 
 The toxins will produce a numbness of the lips, tongue, toes, and tips of the fingers, severe itching, and a clear reversal of temperature sensations. Cold items appear hot and hot items cold. There will probably also be nausea, vomiting, loss of speech, dizziness, and a paralysis that eventually brings death.
 
-In addition to fish with poisonous flesh, there are those that are dangerous to touch. Many stingrays have a poisonous barb in their tail. There are also species that can deliver an electric shock. Some reef fish, such as stonefish and toadfish, have venomous spines that can cause very painful although seldom fatal injuries. The venom from these spines causes a burning sensation or even an agonizing pain that is out of proportion to the apparent severity of the wound. A jellyfish, while not usually fatal, can inflict a very painful sting if it touches you with its tentacles. See [Chapter Animals](Animals) and [Appendix](FishAndMollusks) for details on particularly dangerous fish of the sea and seashore.
+In addition to fish with poisonous flesh, there are those that are dangerous to touch. Many stingrays have a poisonous barb in their tail. There are also species that can deliver an electric shock. Some reef fish, such as stonefish and toadfish, have venomous spines that can cause very painful although seldom fatal injuries. The venom from these spines causes a burning sensation or even an agonizing pain that is out of proportion to the apparent severity of the wound. A jellyfish, while not usually fatal, can inflict a very painful sting if it touches you with its tentacles. See **Animals** and **Fish And Mollusks** for details on particularly dangerous fish of the sea and seashore.
 
 **Aggressive Fish**
 
@@ -548,7 +480,7 @@ Obtaining food along a seashore should not present a problem. There are many typ
 
 **Mollusks**
 
-Mussels, limpets, clams, sea snails, octopuses, squids, and sea slugs are all edible. Shellfish will usually supply most of the protein eaten by coastal survivors. Avoid the blue-ringed octopus and cone shells (described in [Chapter Animals](Animals) and [Appendix](FishAndMollusks)). Also, beware of "red tides" that make mollusks poisonous. Apply the edibility test on each species before eating.
+Mussels, limpets, clams, sea snails, octopuses, squids, and sea slugs are all edible. Shellfish will usually supply most of the protein eaten by coastal survivors. Avoid the blue-ringed octopus and cone shells (described in **Animals** and **Fish And Mollusks**. Also, beware of "red tides" that make mollusks poisonous. Apply the edibility test on each species before eating.
 
 **Worms**
 

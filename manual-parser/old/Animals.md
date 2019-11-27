@@ -8,13 +8,13 @@
 
 Insects are part of the arthropod family (creatures with exoskeleton and articulated legs) so do the arachnids and the centipedes. Insects have six legs, arachnids eight and centipedes and millipedes many more. All these small creatures become pests when they bite, sting, or irritate you.
 
-Although their venom can be quite painful, bee, wasp, and hornet stings rarely kill a person who is not allergic to that particular toxin. Even the most dangerous spiders rarely kill, and the effects of tick-borne diseases are very slow-acting. However, in all cases, avoidance is the best defense. In environments known to have spiders and scorpions, check your footgear and clothing every morning. Also check your bedding and shelter. Use care when turning over rocks and logs. See [Appendix](DangerousArthropods) for examples of dangerous insects and arachnids.
+Although their venom can be quite painful, bee, wasp, and hornet stings rarely kill a person who is not allergic to that particular toxin. Even the most dangerous spiders rarely kill, and the effects of tick-borne diseases are very slow-acting. However, in all cases, avoidance is the best defense. In environments known to have spiders and scorpions, check your footgear and clothing every morning. Also check your bedding and shelter. Use care when turning over rocks and logs. See **Dangerous Arthropods** for examples of dangerous insects and arachnids.
 
-**SCORPIONS**
+**SCORPIONS** 
 
 You find scorpions (_Buthotus_ species) in deserts, jungles, and forests of tropical, subtropical, and warm temperate areas of the world. They are mostly nocturnal. Desert scorpions range from below sea level in Death Valley to elevations as high as 3,600 meters (12,000 feet) in the Andes. Typically brown or black in moist areas, they may be yellow or light green in the desert. Their average size is about 2.5 centimeters (1 inch). However, there are 20-centimeter (8-inch) giants in the jungles of Central America, New Guinea, and southern Africa. Fatalities from scorpion stings are rare, but do occur with children, the elderly, and ill persons. Scorpions resemble small lobsters with raised, jointed tails bearing a stinger in the tip. Nature mimics the scorpions with whip scorpions or vinegarroons. These are harmless and have a tail like a wire or whip, rather than the jointed tail and stinger of true scorpions.
 
-**SPIDERS**
+**SPIDERS** 
 
 The brown recluse, or fiddleback spider, of North America (_Loxosceles reclusa_) is recognized by a prominent violin-shaped light spot on the back of its body. As its name suggests, this spider likes to hide in dark places. Though its bite is rarely fatal, it can cause excessive tissue degeneration around the wound, leading to amputation of the digits if left untreated.
 
@@ -32,7 +32,7 @@ Centipedes and millipedes are mostly small and harmless, although some tropical 
 
 Bees, wasps, and hornets come in many varieties and have a wide diversity of habits and habitats. You recognize bees by their hairy and usually thick body, while the wasps, hornets, and yellow jackets have more slender, nearly hairless bodies. Some bees, such as honeybees, live in colonies. They may be either domesticated or living wild in caves or hollow trees. You may find other bees, such as carpenter bees, in individual nest holes in wood or in the ground like bumblebees. The main danger from bees is the barbed stinger located on their abdomens. When a bee stings you, it rips its stinger out of its abdomen along with the venom sac, and dies. Except for killer bees, most bees tend to be more docile than wasps, hornets, and yellow jackets, which have smooth stingers and are capable of repeated attacks.
 
- voidance is the best tactic for self-protection. Watch out for flowers or fruit where bees may be feeding. Be careful of meat-eating yellow jackets when cleaning fish or game. The average person has a relatively minor and temporary reaction to bee stings and recovers in a couple of hours when the pain and headache go away. Those who are allergic to bee venom have severe reactions including anaphylactic shock, coma, and death. If antihistamine medicine is not available and you cannot find a substitute, an allergy sufferer in a survival situation is in grave danger.
+Avoidance is the best tactic for self-protection. Watch out for flowers or fruit where bees may be feeding. Be careful of meat-eating yellow jackets when cleaning fish or game. The average person has a relatively minor and temporary reaction to bee stings and recovers in a couple of hours when the pain and headache go away. Those who are allergic to bee venom have severe reactions including anaphylactic shock, coma, and death. If antihistamine medicine is not available and you cannot find a substitute, an allergy sufferer in a survival situation is in grave danger.
 
 **TICKS**
 
@@ -48,7 +48,7 @@ Despite the legends, bats (_Desmodus_ species) are a relatively small hazard to 
 
 ### SNAKES
 
-**Venomous Snakes**
+**VENOMOUS SNAKES**
 
 There are no infallible rules for expedient identification of venomous snakes in the field, because the guidelines all require close observation or manipulation of the snake's body. The best strategy is to leave all snakes alone. Where snakes are plentiful and venomous species are present, the risk of their bites negates their food value. Apply the following safety rules when traveling in areas where there are venomous snakes:
 
@@ -60,8 +60,6 @@ There are no infallible rules for expedient identification of venomous snakes in
 * Carefully check bedding, shelter, and clothing.
 * Be calm when you encounter serpents. Snakes cannot hear and you can occasionally surprise them when they are sleeping or sunning. Normally, they will flee if given the opportunity.
 * Use extreme care if you must kill snakes for food or safety. Although it is not common, warm, sleeping human bodies occasionally attract snakes.
-
-<center><a name="fig11-1"></a>
 
 <table cellspacing="0" cellpadding="7" border="1" width="426">
 
@@ -145,7 +143,6 @@ There are no infallible rules for expedient identification of venomous snakes in
 
 </table>
 
-**Figure 11-1\. Venomous Snakes of the World**
 
 <table cellspacing="0" cellpadding="7" border="1" width="426">
 
@@ -225,7 +222,6 @@ There are no infallible rules for expedient identification of venomous snakes in
 
 </center>
 
-**Figure 11-1\. Venomous Snakes of the World (Continued)**
 
 **SNAKE-FREE AREAS**
 
@@ -275,7 +271,7 @@ Stonefish (_Synanceja_ species) are in the Pacific and Indian oceans. They can i
 
 Weever fish (_Trachinidae_ species) average 30 centimeters (12 inches) long. They are hard to see as they lie buried in the sand off the coasts of Europe, Africa, and the Mediterranean. Their color is usually a dull brown. They have venomous spines on the back and gills.
 
-**NOTE:** The [Appendix](FishAndMollusks) provides more details on these venomous fish and toxic mollusks.
+**NOTE:** **Fish And Mollusks** provides more details on these venomous fish and toxic mollusks.
 
 The livers of polar bears are considered toxic due to high concentrations of vitamin A. There is a chance of death after eating this organ. Another toxic meat is the flesh of the hawksbill turtle. These animals are distinguished by a down-turned bill and yellow polka dots on their neck and front flippers. They weigh more than 275 kilograms (605 pounds) and are unlikely to be captured.
 

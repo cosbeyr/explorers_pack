@@ -2,7 +2,7 @@
 
 ### SURVIVAL KITS
 
-The environment is the key to the types of items you will need in your survival kit. How much equipment you put in your kit depends on how you will carry the kit. A kit carried on your body will have to be smaller than one carried in a vehicle. Keep the most important items on your body. For example, your map and compass ( also in the form of [Apps](Apps) on your phone ) should always be on your body, as should a lighter and a [Multi-Tool](MultiTool). 
+The environment is the key to the types of items you will need in your survival kit. How much equipment you put in your kit depends on how you will carry the kit. A kit carried on your body will have to be smaller than one carried in a vehicle. Keep the most important items on your body. For example, your map and compass should always be on your body, as should a lighter and a MultiTool. 
 
 In preparing your survival kit, select items that are multipurpose, compact, lightweight, durable, and most importantly, functional. An item is not good if it looks great but doesn't do what it was designed for. Items should complement each other from layer to layer. A signal mirror in your pocket can be backed up by pen flares in your LBE and a signal panel in your rucksack. A lighter in your pocket can be augmented by a magnesium bar in your LBE and additional dry tinder in your rucksack.
 
@@ -36,7 +36,7 @@ Each category should contain items that allow you to sustain your basic needs. F
 
 ## Water
 
-* water filter like the [LifeStraw](LifeStraw) 
+* water filter like the LifeStraw
 * non-lubricated condoms for carrying water
 * bleach
 * povidone-iodine drops
@@ -59,7 +59,7 @@ Each category should contain items that allow you to sustain your basic needs. F
 
 ## Food
 
-* knife ( can be the one on your MultiTool
+* knife (can be the one on your MultiTool)
 * snare wire
 * fishhooks
 * fish and snare line
