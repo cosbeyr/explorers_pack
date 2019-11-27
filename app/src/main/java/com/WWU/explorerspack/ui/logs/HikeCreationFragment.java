@@ -15,6 +15,9 @@ import android.view.animation.AlphaAnimation;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.RatingBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 
@@ -33,6 +36,7 @@ import com.WWU.explorerspack.utilities.StorageUtilities;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.w3c.dom.Text;
 
 
 public class HikeCreationFragment extends DialogFragment {
@@ -53,16 +57,11 @@ public class HikeCreationFragment extends DialogFragment {
         super.onCreate(savedInstanceState); // Always call the superclass first
 
         // Check whether we're recreating a previously destroyed instance
-        if (savedInstanceState != null) {
+        if (!notesText.equals("") || !titleText.equals("")) {
             // Restore value of members from saved state
-            if(savedInstanceState.containsKey("notes")) {
-                titleText = savedInstanceState.getString("name");
-                notesText = savedInstanceState.getString("notes");
-
+                //titleText = savedInstanceState.getString("name");
+                //notesText = savedInstanceState.getString("notes");
                 isRestored = true;
-            }
-            if(savedInstanceState.containsKey("index"))
-                index = savedInstanceState.getInt("index");
         } else {
             // Probably initialize members with default values for a new instance
             isRestored = false;
@@ -94,15 +93,23 @@ public class HikeCreationFragment extends DialogFragment {
         final EditText titleTextObj = rootView.findViewById(R.id.hike_title_text);
         final EditText notesTextObj = rootView.findViewById(R.id.notes_text);
 
-        if(isRestored) {
+        if(!notesText.equals("") || !titleText.equals("")) {
             titleTextObj.setText(titleText);
-            titleTextObj.setText(notesText);
+            notesTextObj.setText(notesText);
             //show the card from ind)ex.
             indexStr = ((MainActivity) getActivity()).index;
             MapListContent.MapListItem mapListItem = MapListContent.ITEMS.get(Integer.parseInt(indexStr));
             //TODO:show and build the card here
             //set the lat and lon to their values and save to json
             //then you can try and work on the maps. --> pull master first
+            rootView.findViewById(R.id.card_view).setVisibility(View.VISIBLE);
+            //image, name, length, location,rating
+            ((ImageView)rootView.findViewById(R.id.trail_image)).setImageBitmap(mapListItem.imageMap);
+            ((TextView) rootView.findViewById(R.id.hikeName)).setText(mapListItem.hikeName);
+            ((TextView) rootView.findViewById(R.id.hike_length)).setText(mapListItem.length+" mi");
+            ((TextView) rootView.findViewById(R.id.location)).setText(mapListItem.location);
+            RatingBar myRatingBar = (RatingBar) rootView.findViewById(R.id.rating);
+            myRatingBar.setVisibility(View.INVISIBLE);
 
         }
 
@@ -214,17 +221,25 @@ public class HikeCreationFragment extends DialogFragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         // Check whether we're recreating a previously destroyed instance
-        if (savedInstanceState != null) {
+        if (!notesText.equals("") || !titleText.equals("")) {
             // Restore value of members from saved state
-            if(savedInstanceState.containsKey("name")) {
-                titleText = savedInstanceState.getString("name");
-                if(savedInstanceState.containsKey("notes"))
-                notesText = savedInstanceState.getString("notes");
-
-                isRestored = true;
-            }
-            if(savedInstanceState.containsKey("index"))
-                index = savedInstanceState.getInt("index");
+            //titleText = savedInstanceState.getString("name");
+            //notesText = savedInstanceState.getString("notes");
+            isRestored = true;
+        } else {
+            // Probably initialize members with default values for a new instance
+            isRestored = false;
+        }
+    }
+    @Override
+    public void onResume(){
+        super.onResume();
+        // Check whether we're recreating a previously destroyed instance
+        if (!notesText.equals("") || !titleText.equals("")) {
+            // Restore value of members from saved state
+            //titleText = savedInstanceState.getString("name");
+            //notesText = savedInstanceState.getString("notes");
+            isRestored = true;
         } else {
             // Probably initialize members with default values for a new instance
             isRestored = false;
