@@ -16,6 +16,7 @@ import com.WWU.explorerspack.ui.logs.hiking_maps.MapContent.MapListContent;
 import com.WWU.explorerspack.ui.logs.hiking_maps.mapListFragment.OnMapListFragmentInteractionListener;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -27,6 +28,8 @@ public class MymapListItemRecyclerViewAdapter extends RecyclerView.Adapter<Mymap
 
     private final List<MapListContent.MapListItem> mValues;
     private final OnMapListFragmentInteractionListener mListener;
+    private ArrayList<MapListContent.MapListItem> removedItems = new ArrayList<>();
+    private HashMap<String,Integer> keyMap = new HashMap<>();
 
     public MymapListItemRecyclerViewAdapter(List<MapListContent.MapListItem> items, OnMapListFragmentInteractionListener listener) {
         mValues = items;
@@ -88,6 +91,40 @@ public class MymapListItemRecyclerViewAdapter extends RecyclerView.Adapter<Mymap
     @Override
     public int getItemCount() {
         return mValues.size();
+    }
+
+    private void update(){
+        this.notifyDataSetChanged();
+    }
+
+    public void search(String keywords){
+        returnItem();
+        for (MapListContent.MapListItem map: mValues) {
+            if(!map.hikeName.toLowerCase().startsWith(keywords)){
+                // add to remove hike list to show again later
+                removedItems.add(map);
+                // keep track of order of item
+                keyMap.put(map.id, mValues.indexOf(map));
+
+            }
+        }
+        for (MapListContent.MapListItem map: removedItems){
+            mValues.remove(map);
+        }
+        update();
+    }
+    public void returnItem(){
+        while(!removedItems.isEmpty()){
+            MapListContent.MapListItem map = removedItems.remove(0);
+            try {
+                mValues.add(keyMap.get(map.id),map);
+                keyMap.remove(map.id);
+            } catch (Exception e){
+                e.printStackTrace();
+            }
+
+        }
+        update();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {

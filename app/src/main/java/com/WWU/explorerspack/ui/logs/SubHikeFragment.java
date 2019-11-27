@@ -14,6 +14,7 @@ import android.text.TextWatcher;
 import android.text.TextWatcher;
 import android.text.Editable;
 import android.media.ExifInterface;
+import android.view.View.OnClickListener;
 
 import android.graphics.Matrix;
 
@@ -100,19 +101,6 @@ public class SubHikeFragment extends Fragment {
             public void onTextChanged(CharSequence s, int start, int before, int count) {}
         });
 
-/*
-        LinearLayout layout = (LinearLayout)findViewById(R.id.imageLayout);
-        for(int i=0;i<10;i++)
-        {
-            ImageView image = new ImageView(this);
-            image.setLayoutParams(new android.view.ViewGroup.LayoutParams(80,60));
-            image.setMaxHeight(20);
-            image.setMaxWidth(20);
-
-            // Adds the view to the layout
-            layout.addView(image);
-        }
-*/
         /////////////////////////////////////////////////////////////////////////////// Photos Setup
         LinearLayout photosLayout = (LinearLayout) rootView.findViewById(R.id.photos);
 
@@ -149,10 +137,6 @@ public class SubHikeFragment extends Fragment {
                     Matrix matrix = new Matrix();
                     matrix.postRotate(90);
                     bitmap = Bitmap.createBitmap(bitmap, 0, 0, bitmap.getWidth(), bitmap.getHeight(), matrix, true);
-                    int bmw = bitmap.getWidth();
-                    int bmh = bitmap.getHeight();
-                    //bitmap.setWidth(100);
-                    //bitmap.setHeight(100);
 
                     nextImage.setImageBitmap(bitmap);
                     photosLayout.addView(nextImage);
