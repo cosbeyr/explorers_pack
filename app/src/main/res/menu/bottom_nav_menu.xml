@@ -5,25 +5,24 @@
 
     <item
         android:id="@+id/navigation_home"
-        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:icon="@drawable/menu_survival_guide"
         android:title="@string/title_guide"
-        app:showAsAction="always"/>
+        app:showAsAction="always" />
 
     <item
         android:id="@+id/navigation_dashboard"
-        android:icon="@android:drawable/ic_menu_camera"
+        android:icon="@drawable/menu_camera"
         android:title="@string/title_camera"
-        app:showAsAction="always"/>
+        app:showAsAction="always" />
 
     <item
         android:id="@+id/navigation_notifications"
-        android:icon="@android:drawable/ic_menu_gallery"
+        android:icon="@drawable/menu_hike_logs"
         android:title="@string/title_logs"
-        app:showAsAction="always"/>
+        app:showAsAction="always" />
     <item
         android:id="@+id/navigation_settings"
-        android:icon="@android:drawable/ic_menu_preferences"
+        android:icon="@drawable/menu_settings"
         android:title="@string/settings"
-        app:showAsAction="always"
-/>
+        app:showAsAction="always" />
 </menu>
