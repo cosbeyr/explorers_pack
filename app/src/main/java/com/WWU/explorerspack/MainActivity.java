@@ -258,17 +258,16 @@ public class MainActivity extends AppCompatActivity implements mapListFragment.O
             @Override
             public boolean onMenuItemActionExpand(MenuItem item) {
                 // Do whatever you need
-                if(current_title.equals("Guide")){
-                    searchView.setQueryHint("Search a topic...");
-                } else if (current_title.equals("Logs")) {
-                    searchView.setQueryHint("Search a hike name...");
-                } else if (current_title.contains(" > ")){
-                    searchView.setQueryHint("Search a text...");
-                }else if(current_title.equals("Maps")){
+                if(current_title.equals("Survival Guide")){
+                    searchView.setQueryHint("Search chapters...");
+                } else if (current_title.equals("Hike Logs")) {
+                    searchView.setQueryHint("Search for a hike...");
+                } else if (current_title.contains(" > ")) {
+                    searchView.setQueryHint("Search section content...");
+                } else if(current_title.equals("Maps")){
                     searchView.setQueryHint("Search a map...");
-                }
-                else {
-                    searchView.setQueryHint("Search a section...");
+                } else {
+                    searchView.setQueryHint("Search sections...");
                 }
                 return true; // KEEP IT TO TRUE OR IT DOESN'T OPEN !!
             }
@@ -288,7 +287,7 @@ public class MainActivity extends AppCompatActivity implements mapListFragment.O
             @Override
             public boolean onQueryTextSubmit(String s) {
 
-                if (current_title.equals("Guide")){
+                if (current_title.equals("Survival Guide")){
                     if (!s.equals("")){
                         if (guideAdaptor != null) {
                             currentSearch = s;
@@ -304,7 +303,7 @@ public class MainActivity extends AppCompatActivity implements mapListFragment.O
                         }
                     }
 
-                } else if(current_title.equals("Logs")) {
+                } else if(current_title.equals("Hike Logs")) {
                     if (!s.equals("")){
                         if (logAdaptor != null){
                             currentSearch = s;
@@ -334,12 +333,12 @@ public class MainActivity extends AppCompatActivity implements mapListFragment.O
             @Override
             public boolean onQueryTextChange(String s) {
 
-                if(current_title.equals("Logs")){
+                if(current_title.equals("Hike Logs")){
                     if(logAdaptor != null) {
                         currentSearch = s;
                         logAdaptor.search(s.toLowerCase());
                     }
-                } else if(current_title.equals("Guide")){
+                } else if(current_title.equals("Survival Guide")){
                     if (guideAdaptor != null) {
                         currentSearch = s;
                         guideAdaptor.search(s.toLowerCase());

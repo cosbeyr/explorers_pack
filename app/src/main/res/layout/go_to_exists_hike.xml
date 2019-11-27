@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="80dp"
-    android:background="#3E80B4"
-    android:orientation="vertical" >
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAccent"
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/txt_dia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="10dp"
-        android:text="That Hike Already Exists!"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="@dimen/text_margin"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="@dimen/text_margin"
+        android:text="Hike Already Exists"
         android:textColor="@android:color/white"
         android:textSize="15dp"
         android:textStyle="bold" />
@@ -21,17 +24,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:background="#3E80B4"
-        android:orientation="horizontal" >
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/btn_ok"
             android:layout_width="100dp"
             android:layout_height="30dp"
+            android:layout_marginBottom="@dimen/text_margin"
             android:background="@android:color/white"
             android:clickable="true"
-            android:text="Okay"
-            android:textColor="#5DBCD2"
+            android:text="Rename"
+            android:textColor="@color/colorAccent"
             android:textStyle="bold" />
 
     </LinearLayout>

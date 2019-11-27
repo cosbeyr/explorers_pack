@@ -9,6 +9,9 @@
         android:id="@+id/hike_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/text_margin"
+        android:layout_marginTop="@dimen/text_margin"
+        android:layout_marginRight="@dimen/text_margin"
         android:text="Hike Title"
         android:textColor="#000000"
         android:textSize="20sp"
@@ -18,31 +21,67 @@
         android:id="@+id/hike_title_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/text_margin"
+        android:layout_marginRight="@dimen/text_margin"
+        android:layout_marginBottom="@dimen/text_margin"
         android:ems="10"
         android:inputType="textPersonName"
         android:textColor="#000000"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/notes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/text_margin"
+        android:layout_marginRight="@dimen/text_margin"
         android:text="Notes"
         android:textColor="#000000"
         android:textSize="20sp"
         android:textStyle="bold" />
 
-    <EditText
-        android:id="@+id/notes_text"
-        android:layout_width="match_parent"
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+        <EditText
+            android:id="@+id/notes_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+    </ScrollView>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:gravity="start|top"
-        android:inputType="textMultiLine"
-        android:textAllCaps="false"
-        android:textColor="#000000"
-        android:textSize="18sp" />
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/find_map_button"
+            android:layout_width="189dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:background="@color/colorAccent"
+            android:text="@string/find_a_map"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/create_button"
+            android:layout_width="189dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:background="@color/colorAccent"
+            android:text="Create Hike"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+    </LinearLayout>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card_view"
@@ -53,7 +92,8 @@
         >
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
             <ImageView
                 android:id="@+id/trail_image"
@@ -101,18 +141,6 @@
 
 
     </androidx.cardview.widget.CardView>
-    <Button
-        android:id="@+id/find_map_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/find_a_map"/>
-
-    <Button
-        android:id="@+id/create_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Create Hike"
-        android:textSize="18sp" />
 
 
 </LinearLayout>

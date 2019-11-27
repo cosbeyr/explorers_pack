@@ -82,7 +82,7 @@ public class HikeFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_hike_list, container, false);
         hideKeyboardFrom(view.getContext(), view);
-        ((MainActivity) getActivity()).setActionBarTitle("Logs");
+        ((MainActivity) getActivity()).setActionBarTitle("Hike Logs");
         // Set the adapter
         if (view instanceof RecyclerView) {
             Context context = view.getContext();

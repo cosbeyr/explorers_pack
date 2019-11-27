@@ -48,30 +48,9 @@ public class HikeCreationFragment extends DialogFragment {
     private int index =-1;
     String indexStr = "";
     MapListContent.MapListItem mapListItem;
+    private boolean createHike = true;
     private boolean isRestored;
     private final String[] requiredPermissions = {Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.INTERNET, Manifest.permission.ACCESS_NETWORK_STATE};
-
-
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState); // Always call the superclass first
-
-        // Check whether we're recreating a previously destroyed instance
-        if (!notesText.equals("") || !titleText.equals("")) {
-            // Restore value of members from saved state
-                //titleText = savedInstanceState.getString("name");
-                //notesText = savedInstanceState.getString("notes");
-                isRestored = true;
-        } else {
-            // Probably initialize members with default values for a new instance
-            isRestored = false;
-        }
-        // ...
-    }
-
-
-
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
@@ -94,7 +73,7 @@ public class HikeCreationFragment extends DialogFragment {
         final EditText titleTextObj = rootView.findViewById(R.id.hike_title_text);
         final EditText notesTextObj = rootView.findViewById(R.id.notes_text);
 
-        if(!notesText.equals("") || !titleText.equals("")) {
+        if(!notesText.equals("") || !titleText.equals("") || isRestored) {
             titleTextObj.setText(titleText);
             notesTextObj.setText(notesText);
             //show the card from ind)ex.
@@ -120,6 +99,7 @@ public class HikeCreationFragment extends DialogFragment {
             public void onClick(View view) {
                 titleText = titleTextObj.getText().toString();
                 notesText = notesTextObj.getText().toString();
+                isRestored = true;
                 NavController navController = Navigation.findNavController(rootView);
                 navController.navigate(R.id.action_hike_creation_to_mapListFragment);
             }
@@ -128,13 +108,16 @@ public class HikeCreationFragment extends DialogFragment {
         buttonView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                NavController navController = Navigation.findNavController(rootView);
-
-                navController.navigateUp();
-                titleText = titleTextObj.getText().toString();
-                notesText = notesTextObj.getText().toString();
+                String titleText = titleTextObj.getText().toString();
+                String notesText = notesTextObj.getText().toString();
                 JSONObject hikeLogs = createHike(titleText, notesText);
-                hideKeyboardFrom(getActivity(),rootView);
+                if(createHike) {
+                    NavController navController = Navigation.findNavController(rootView);
+
+                    navController.navigateUp();
+
+                    hideKeyboardFrom(getActivity(), rootView);
+                }
             }
         });
 
@@ -196,8 +179,12 @@ public class HikeCreationFragment extends DialogFragment {
             Toast.makeText(getActivity(), "Failed to load hike log information",
                     Toast.LENGTH_SHORT).show();
         }
+        createHike = true;
+        System.out.println("TRUE");
         try {
             hikeLogs.get(title);
+            createHike = false;
+            System.out.println("FALSE");
             showExistingHike();
 
         } catch (JSONException e1) {
