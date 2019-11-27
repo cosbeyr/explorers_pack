@@ -23,7 +23,7 @@
                 android:layout_width="93dp"
                 android:layout_height="48dp"
                 android:layout_gravity="center"
-                android:layout_margin="@dimen/text_margin"
+                android:layout_marginTop="16dp"
                 android:src="@drawable/ic_placeholder_photo"
                 android:textAppearance="?attr/textAppearanceListItem" />
 
