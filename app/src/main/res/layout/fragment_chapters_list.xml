@@ -8,9 +8,7 @@
     android:name="com.WWU.explorerspack.ui.guide.ChaptersFragment"
     android:layout_width="wrap_content"
     android:layout_height="485dp"
-    android:layout_marginLeft="8dp"
-    android:layout_marginRight="8dp"
-    android:layout_marginBottom="8dp"
+    android:layout_gravity="center_horizontal"
     app:layoutManager="GridLayoutManager"
     tools:context=".ui.guide.GuideListFragment"
     tools:listitem="@layout/fragment_chapters" />

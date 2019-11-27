@@ -5,13 +5,13 @@
     <SwitchPreference
         android:defaultValue="true"
         android:key="@string/save_to_gallery"
-        android:icon="@drawable/ic_image_dark_green_24dp"
+        android:icon="@drawable/ic_perm_media_yellow_24dp"
         android:title="Save To Gallery" />
 
     <SwitchPreference
         android:defaultValue="true"
         android:key="@string/home_page_tips"
-        android:icon="@drawable/ic_help_dark_green_24dp"
+        android:icon="@drawable/ic_explore_yellow_24dp"
         android:title="Home Page Tips" />
 
 </PreferenceScreen>

@@ -35,7 +35,7 @@ public class GuideFragment extends Fragment {
                 ViewModelProviders.of(this).get(GuideViewModel.class);
         View root = inflater.inflate(R.layout.fragment_guide, container, false);
         final TextView textView = root.findViewById(R.id.text_guide);
-        ((MainActivity) getActivity()).setActionBarTitle("Guide");
+        ((MainActivity) getActivity()).setActionBarTitle("Survival Guide");
 
         guideViewModel.getText().observe(this, new Observer<String>() {
             @Override
