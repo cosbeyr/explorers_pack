@@ -37,7 +37,7 @@
                 android:id="@+id/remove_hike"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
-                android:gravity="right|center_horizontal|center_vertical"
+                android:gravity="center|right|center_horizontal|center_vertical"
                 android:text="Remove" />
 
         </LinearLayout>
