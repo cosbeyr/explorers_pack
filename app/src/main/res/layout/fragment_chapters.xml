@@ -2,18 +2,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:orientation="horizontal"
-   >
+    android:layout_margin="16dp"
+    android:orientation="horizontal">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cv"
         android:layout_width="160dp"
         android:layout_height="130dp"
         android:layout_gravity="center"
-        android:layout_marginLeft="5dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginBottom="16dp"
         android:foreground="?android:attr/selectableItemBackground">
 
         <LinearLayout
@@ -27,8 +23,7 @@
                 android:layout_width="93dp"
                 android:layout_height="48dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="15dp"
-                android:layout_marginBottom="0dp"
+                android:layout_margin="@dimen/text_margin"
                 android:src="@drawable/ic_placeholder_photo"
                 android:textAppearance="?attr/textAppearanceListItem" />
 
