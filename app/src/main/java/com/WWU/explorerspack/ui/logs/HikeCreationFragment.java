@@ -38,7 +38,7 @@ public class HikeCreationFragment extends DialogFragment {
     private AlphaAnimation buttonClick = new AlphaAnimation(1F, 0.8F);
     private static final int REQUEST_PERMISSIONS = 1;
     private final String[] requiredPermissions = {Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.INTERNET, Manifest.permission.ACCESS_NETWORK_STATE};
-
+    private boolean createHike = true;
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
@@ -72,14 +72,17 @@ public class HikeCreationFragment extends DialogFragment {
         buttonView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                NavController navController = Navigation.findNavController(rootView);
+                    String titleText = titleTextObj.getText().toString();
+                    String notesText = notesTextObj.getText().toString();
+                    JSONObject hikeLogs = createHike(titleText, notesText);
+                    if(createHike) {
+                        NavController navController = Navigation.findNavController(rootView);
 
-                navController.navigateUp();
-                String titleText = titleTextObj.getText().toString();
-                String notesText = notesTextObj.getText().toString();
-                JSONObject hikeLogs = createHike(titleText, notesText);
-                hideKeyboardFrom(getActivity(),rootView);
-            }
+                        navController.navigateUp();
+
+                        hideKeyboardFrom(getActivity(), rootView);
+                    }
+                }
         });
 
         return rootView;
@@ -139,8 +142,12 @@ public class HikeCreationFragment extends DialogFragment {
             Toast.makeText(getActivity(), "Failed to load hike log information",
                     Toast.LENGTH_SHORT).show();
         }
+        createHike = true;
+        System.out.println("TRUE");
         try {
             hikeLogs.get(title);
+            createHike = false;
+            System.out.println("FALSE");
             showExistingHike();
 
         } catch (JSONException e1) {

@@ -135,7 +135,7 @@ public class SubHikeFragment extends Fragment {
                     bitmap = bitmap.createScaledBitmap(bitmap, px, px, false);
                     int rotation = getPhotoRotation(photoPath);
                     Matrix matrix = new Matrix();
-                    matrix.postRotate(90);
+                    matrix.postRotate(rotation);
                     bitmap = Bitmap.createBitmap(bitmap, 0, 0, bitmap.getWidth(), bitmap.getHeight(), matrix, true);
 
                     nextImage.setImageBitmap(bitmap);
