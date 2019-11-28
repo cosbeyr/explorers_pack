@@ -39,7 +39,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
                 android:text="Notes"
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
+                android:background="@color/tile"
                 android:textIsSelectable="false"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -86,14 +87,10 @@
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
-            <ImageView
-                android:id="@+id/map_image"
+            <com.google.android.gms.maps.MapView
+                android:id="@+id/map_view"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:layout_margin="@dimen/text_margin"
-                android:src="@drawable/ic_placeholder_photo"
-                android:textAppearance="?attr/textAppearanceListItem" />
+                android:layout_height="match_parent"/>
 
 
         </LinearLayout>
@@ -113,9 +110,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
+            android:layout_marginBottom="16dp"
             android:text="Photos"
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
+            android:background="@color/tile"
             android:textIsSelectable="false"
+            android:gravity="center"
             android:textSize="18sp"
             android:textStyle="bold" />
 

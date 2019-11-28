@@ -194,6 +194,7 @@ public class HikeCreationFragment extends DialogFragment {
                 if(mapListItem != null){
                     String lat = mapListItem.lat;
                     String lon = mapListItem.lon;
+                    map.put("trail",mapListItem.hikeName);
                     map.put("lat",lat);
                     map.put("lon",lon);
                     hike.put("map",map);

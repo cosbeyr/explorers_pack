@@ -392,7 +392,7 @@ public class MainActivity extends AppCompatActivity implements mapListFragment.O
     }
     @Override
     public void onListFragmentInteraction(MapListContent.MapListItem mapListItem){
-        Toast.makeText(MainActivity.this, mapListItem.id+mapListItem.hikeName, Toast.LENGTH_SHORT).show();
+        Toast.makeText(MainActivity.this, "Selected "+mapListItem.hikeName, Toast.LENGTH_SHORT).show();
         index = mapListItem.id;
         //navController.navigate(R.id.action_mapListFragment_to_hike_creation,args);
         navController.navigateUp();

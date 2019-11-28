@@ -14,6 +14,7 @@ import android.text.TextWatcher;
 import android.text.TextWatcher;
 import android.text.Editable;
 import android.media.ExifInterface;
+import android.util.Log;
 import android.view.View.OnClickListener;
 
 import android.graphics.Matrix;
@@ -31,17 +32,29 @@ import com.WWU.explorerspack.MainActivity;
 import com.WWU.explorerspack.R;
 import com.WWU.explorerspack.utilities.StorageUtilities;
 
+import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.JSONArray;
 
+import com.google.android.gms.common.GooglePlayServicesNotAvailableException;
+import com.google.android.gms.maps.CameraUpdateFactory;
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapView;
+import com.google.android.gms.maps.MapsInitializer;
+import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
+
 import java.util.concurrent.ExecutionException;
 
-public class SubHikeFragment extends Fragment {
+public class SubHikeFragment extends Fragment implements OnMapReadyCallback{
 
     private SubHikeViewModel mViewModel;
     private String hikeTitle;
     private JSONObject hikeJSON;
     private JSONObject storage;
+    MapView mapView;
+    GoogleMap map;
 
     public static SubHikeFragment newInstance() {
         return new SubHikeFragment();
@@ -71,10 +84,57 @@ public class SubHikeFragment extends Fragment {
     }
 
     @Override
+    public void onMapReady(GoogleMap map) {
+        if (android.os.Debug.isDebuggerConnected())
+            android.os.Debug.waitForDebugger();
+        this.map = map;
+        float lat = 0.0f;
+        float lon = 0.0f;
+        String trailName = "";
+        try {
+            if (hikeJSON.has("map")){
+                Object test = hikeJSON.get("map");
+                if(test instanceof JSONObject) {
+                    JSONObject mapObj = hikeJSON.getJSONObject("map");
+                    if (mapObj.has("lat")) {
+                        lat = Float.parseFloat(mapObj.getString("lat"));
+                        lon = Float.parseFloat(mapObj.getString("lon"));
+                        trailName = mapObj.getString("trail");
+                    }
+                }
+            }
+
+        }catch (JSONException ex){
+            ex.printStackTrace();
+            throw new RuntimeException();
+        }
+        if(!trailName.equals("")) {
+            LatLng trail = new LatLng(lat, lon);
+            map.addMarker(new MarkerOptions().position(trail).title(trailName));
+            map.moveCamera(CameraUpdateFactory.newLatLng(trail));
+            map.animateCamera( CameraUpdateFactory.zoomTo( 10.0f ) );
+        }
+        mapView.onResume();
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+        mapView.onStop();
+    }
+
+    @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
 
         final View rootView = inflater.inflate(R.layout.sub_hike_fragment, container, false);
+
+        mapView = (MapView) rootView.findViewById(R.id.map_view);
+        mapView.onCreate(savedInstanceState);
+        MapsInitializer.initialize(getActivity());
+        mapView.getMapAsync(this);
+
+
 
        ///////////////////////////////////////////////////////////////// // Notes Setup
         EditText notes = rootView.findViewById(R.id.note_edit_text);
@@ -154,6 +214,61 @@ public class SubHikeFragment extends Fragment {
         
 
 
+    }
+
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+//        mapView = (MapView) view.findViewById(R.id.map_view);
+//        mapView.onCreate(savedInstanceState);
+//        mapView.getMapAsync(this);
+
+    }
+
+
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        if (mapView != null) {
+            mapView.onResume();
+        }
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        if (mapView != null) {
+            mapView.onPause();
+        }
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        if (mapView != null) {
+            try {
+                mapView.onDestroy();
+            } catch (NullPointerException e) {
+                Log.e("ERROR", "Error while attempting MapView.onDestroy(), ignoring exception", e);
+            }
+        }
+    }
+
+    @Override
+    public void onLowMemory() {
+        super.onLowMemory();
+        if (mapView != null) {
+            mapView.onLowMemory();
+        }
+    }
+
+    @Override
+    public void onSaveInstanceState(@NonNull Bundle outState) {
+        super.onSaveInstanceState(outState);
+        if (mapView != null) {
+            mapView.onSaveInstanceState(outState);
+        }
     }
 
     @Override
