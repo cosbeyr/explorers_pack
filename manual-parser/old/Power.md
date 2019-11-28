@@ -1,10 +1,10 @@
-> To use the [Apps](Apps) on your phone you need power. Power can also provide you with light and empower you in many other ways but the grid and outlets might not be available. In the early days of this app there were a lot of comments claiming that this app is useless as you will not have access to grid power. I disagree and have created this section to address these concerns.
+> To use the apps on your phone you need power. Power can also provide you with light and empower you in many other ways but the grid and outlets might not be available. In the early days of this app there were a lot of comments claiming that this app is useless as you will not have access to grid power. I disagree and have created this section to address these concerns.
 
 ### Methods to generate power
  
 **Solar**
 
-There are [Solar USB chargers](SolarUSBCharger). Harvesting the power of the sun is a great and very clean way to generate power. There are only 2 real drawbacks for this kind of power:
+There are Solar USB chargers. Harvesting the power of the sun is a great and very clean way to generate power. There are only 2 real drawbacks for this kind of power:
 
 * it is not available at night 
 * the output depends on the weather
@@ -37,15 +37,15 @@ You can also use water to generate power. One option is to use the flow of a riv
 
 **Heat-Difference**
 
-You can also generate power by harnessing heat differentials, e.g. with a fire. There are now turnkey solutions like the [BioLite Wood Burning Campstove with USB](CampStoveUSB) or there are also some fire pots out there with a power USB outlet. Breakthroughs in science and engineering have recently introduced new exciting, portable options. You can also harvest the power of a fire via steam, as is often done in a large scale today. But on a small scale, this is labor-intensive to use and hard to implement in practice.
+You can also generate power by harnessing heat differentials, e.g. with a fire. There are now turnkey solutions like the BioLite Wood Burning Campstove with USB or there are also some fire pots out there with a power USB outlet. Breakthroughs in science and engineering have recently introduced new exciting, portable options. You can also harvest the power of a fire via steam, as is often done in a large scale today. But on a small scale, this is labor-intensive to use and hard to implement in practice.
 
 **Hand Crank**
 
-Using the muscles of your arm is another option. There are small USB cranks to operate by hand, some even [with a light](HandCrankUSB) or which also recharge standard AA/LR06 batteries. But be aware that this really binds you to the task, as you cannot do much else while turning the crank. Additionally, I personally find it an exhausting and boring task - I prefer to use the bicycle (which is using bigger muscles). However, it is always good to have an array of options and I own a small crank for emergencies.
+Using the muscles of your arm is another option. There are small USB cranks to operate by hand, some even with a light or which also recharge standard AA/LR06 batteries. But be aware that this really binds you to the task, as you cannot do much else while turning the crank. Additionally, I personally find it an exhausting and boring task - I prefer to use the bicycle (which is using bigger muscles). However, it is always good to have an array of options and I own a small crank for emergencies.
 
 **Car**
 
-You can also use a car or truck with a combustion engine to generate power. Cars and trucks (hereafter referred to as "car") always come with a generator in the form of an alternator that recharges the car's battery and provides power to the car's systems while the engine is running. When the engine is running, power is being produced. Most car batteries are 12V. You just have to convert the 12V to 5V for the phone. You can really easily build this yourself cheaply e.g. with a LM7805 Voltage Regulator IC or you buy a [car usb-charger](CarUSBCharger). But be aware that this is a wildly inefficient means to produce power, as the majority of the output is being used to power the car itself. You also hurt the environment when doing so, as the vehicle is being powered by gasoline or diesel fuel. This should be the last resort as a car is making 80% of heat energy (usually from fossil fuel) using just 20% to actually move you around, and an accessory converts a small portion of this movement into electricity via average efficiency converters. It is much better to take advantage of this while driving to your destination, as the power is there anyway.
+You can also use a car or truck with a combustion engine to generate power. Cars and trucks (hereafter referred to as "car") always come with a generator in the form of an alternator that recharges the car's battery and provides power to the car's systems while the engine is running. When the engine is running, power is being produced. Most car batteries are 12V. You just have to convert the 12V to 5V for the phone. You can really easily build this yourself cheaply e.g. with a LM7805 Voltage Regulator IC or you buy a car usb-charger. But be aware that this is a wildly inefficient means to produce power, as the majority of the output is being used to power the car itself. You also hurt the environment when doing so, as the vehicle is being powered by gasoline or diesel fuel. This should be the last resort as a car is making 80% of heat energy (usually from fossil fuel) using just 20% to actually move you around, and an accessory converts a small portion of this movement into electricity via average efficiency converters. It is much better to take advantage of this while driving to your destination, as the power is there anyway.
 
 **Voltaic pile**
 

@@ -38,29 +38,16 @@ Consider the following when collecting wild plants for food:
 
 You identify plants, other than by memorizing particular varieties through familiarity, by using such factors as leaf shape and margin, leaf arrangements, and root structure.
 
-The basic leaf margins ([Figure 9-1](#fig9-1)) are toothed, lobed, and toothless or smooth.
+The basic leaf margins are toothed, lobed, and toothless or smooth.
 
-<a name="fig9-1"></a>![Figure 9-1\. Leaf Margins](fig09-01.png)
 
-**Figure 9-1\. Leaf Margins**
+These leaves may be lance-shaped, elliptical, egg-shaped, oblong, wedge-shaped, triangular, long-pointed, or top-shaped.
 
-These leaves may be lance-shaped, elliptical, egg-shaped, oblong, wedge-shaped, triangular, long-pointed, or top-shaped ([Figure 9-2](#fig9-2)).
+The basic types of leaf arrangements are opposite, alternate, compound, simple, and basal rosette.
 
-<a name="fig9-2"></a>![Figure 9-2\. Leaf Shapes](fig09-02.png)
 
-**Figure 9-2\. Leaf Shapes**
+The basic types of root structures are the taproot, tuber, bulb, rhizome, clove, corm, and crown. Bulbs are familiar to us as onions and, when sliced in half, will show concentric rings. Cloves are those bulblike structures that remind us of garlic and will separate into small pieces when broken apart. This characteristic separates wild onions from wild garlic. Taproots resemble carrots and may be single-rooted or branched, but usually only one plant stalk arises from each root. Tubers are like potatoes and daylilies. You will find these structures either on strings or in clusters underneath the parent plants. Rhizomes are large creeping rootstock or underground stems. Many plants arise from the "eyes" of these roots. Corms are similar to bulbs but are solid when cut rather than possessing rings. A crown is the type of root structure found on plants such as asparagus. Crowns look much like a mophead under the soil's surface.
 
-The basic types of leaf arrangements ([Figure 9-3](#fig9-3)) are opposite, alternate, compound, simple, and basal rosette.
-
-<a name="fig9-3"></a>![Figure 9-3\. Leaf Arrangements](fig09-03.png)
-
-**Figure 9-3\. Leaf Arrangements**
-
-The basic types of root structures are the taproot, tuber, bulb, rhizome, clove, corm, and crown ([Figure 9-4](#fig9-4)). Bulbs are familiar to us as onions and, when sliced in half, will show concentric rings. Cloves are those bulblike structures that remind us of garlic and will separate into small pieces when broken apart. This characteristic separates wild onions from wild garlic. Taproots resemble carrots and may be single-rooted or branched, but usually only one plant stalk arises from each root. Tubers are like potatoes and daylilies. You will find these structures either on strings or in clusters underneath the parent plants. Rhizomes are large creeping rootstock or underground stems. Many plants arise from the "eyes" of these roots. Corms are similar to bulbs but are solid when cut rather than possessing rings. A crown is the type of root structure found on plants such as asparagus. Crowns look much like a mophead under the soil's surface.
-
-<a name="fig9-4"></a>![Figure 9-4\. Root Structures](fig09-04.png)
-
-**Figure 9-4\. Root Structures**
 
 Learn as much as possible about the unique characteristics of plants you intend to use for food. Some plants have both edible and poisonous parts. Many are edible only at certain times of the year. Others may have poisonous relatives that look very similar to the varieties you can eat or use for medicine.
 
@@ -118,7 +105,7 @@ To avoid potentially poisonous plants, stay away from any wild or unknown plants
 
 Using the above criteria as eliminators when choosing plants for the Universal Edibility Test will cause you to avoid some edible plants. More important, these criteria will often help you avoid plants that are potentially toxic to eat or touch.
 
-An entire encyclopedia of edible wild plants could be written, but space limits the number of plants presented here. Learn as much as possible about the plant life of the areas where you train regularly and where you expect to be traveling or working. [Figure 9-6](#fig9-6) list some of the most common edible and medicinal plants.
+An entire encyclopedia of edible wild plants could be written, but space limits the number of plants presented here. Learn as much as possible about the plant life of the areas where you train regularly and where you expect to be traveling or working. 
 
 ## Temperate Zone
 

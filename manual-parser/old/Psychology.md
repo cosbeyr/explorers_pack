@@ -43,11 +43,11 @@ Stressors are not courteous; one stressor does not leave because another one arr
 
 **Injury, Illness, or Death**
 
-Injury, illness, and death are real possibilities that you have to face. Perhaps nothing is more stressful than being alone in an unfamiliar environment where you could die from hostile action, an accident, or from eating something lethal. Illness and injury can also add to stress by limiting your ability to manoeuvre, get food and drink, find shelter, and defend yourself. Even if illness and injury don't lead to death, they add to stress through the pain and discomfort they generate. It is only by controlling the stress associated with the vulnerability to injury, illness, and death that you can have the courage to take the risks associated with survival tasks.
+Injury, illness, and death are real possibilities that you have to face. Perhaps nothing is more stressful than being alone in an unfamiliar environment where you could die from hostile action, an accident, or from eating something lethal. Illness and injury can also add to stress by limiting your ability to maneuver, get food and drink, find shelter, and defend yourself. Even if illness and injury don't lead to death, they add to stress through the pain and discomfort they generate. It is only by controlling the stress associated with the vulnerability to injury, illness, and death that you can have the courage to take the risks associated with survival tasks.
 
 **Uncertainty and Lack of Control**
 
-Some people have trouble operating in com.WWU.explorerspack.ui.settings where everything is not clear-cut. The only guarantee in a survival situation is that nothing is guaranteed. It can be extremely stressful operating on limited information in a setting where you also have limited control of your surroundings. This uncertainty and lack of control also add to the stress of being ill or injured.
+Some people have trouble operating in settings where everything is not clear-cut. The only guarantee in a survival situation is that nothing is guaranteed. It can be extremely stressful operating on limited information in a setting where you also have limited control of your surroundings. This uncertainty and lack of control also add to the stress of being ill or injured.
 
 **Environment**
 
