@@ -68,8 +68,7 @@ public class MainActivity extends AppCompatActivity implements mapListFragment.O
         setTheme(R.style.AppTheme);
         boolean isFilePresent = StorageUtilities.isFilePresent(this, StorageUtilities.jsonStorageName);
         if (!isFilePresent) {
-            // TODO remove include example from final version
-            boolean isFileCreated = StorageUtilities.create(this, StorageUtilities.jsonStorageName, StorageUtilities.template(true).toString());
+            boolean isFileCreated = StorageUtilities.create(this, StorageUtilities.jsonStorageName, StorageUtilities.template(false).toString());
             if (isFileCreated) {
                 //proceed with storing the first show ui
             } else {

@@ -2,33 +2,31 @@
 
 ### TERRAIN
 
-Most arid areas have several types of terrain. The five basic desert terrain types are:
-
-*  Mountainous (high altitude).
-*  Rocky plateau.
-*  Sand dunes.
-*  Salt marshes.
-*  Broken, dissected terrain ("gebel" or "wadi").
-
+Most arid areas have several types of terrain. 
 Desert terrain makes movement difficult and demanding. Land navigation will be extremely difficult as there may be very few landmarks. Cover and concealment may be very limited; therefore, the threat of exposure to the enemy remains constant.
+** *
 
 **MOUNTAIN DESERTS**
 
 Scattered ranges or areas of barren hills or mountains separated by dry, flat basins characterize mountain deserts. High ground may rise gradually or abruptly from flat areas to several thousand meters above sea level. Most of the infrequent rainfall occurs on high ground and runs off rapidly in the form of flash floods. These floodwaters erode deep gullies and ravines and deposit sand and gravel around the edges of the basins. Water rapidly evaporates, leaving the land as barren as before, although there may be short-lived vegetation. If enough water enters the basin to compensate for the rate of evaporation, shallow lakes may develop, such as the Great Salt Lake in Utah or the Dead Sea. Most of these lakes have a high salt content.
+** *
 
 **ROCKY PLATEAU DESERTS**
 
 Rocky plateau deserts have relatively slight relief interspersed with extensive flat areas with quantities of solid or broken rock at or near the surface. There may be steep-walled, eroded valleys, known as wadis in the Middle East and arroyos or canyons in the United States and Mexico. Although their flat bottoms may be superficially attractive as assembly areas, the narrower valleys can be extremely dangerous to men and material due to flash flooding after rains. The Golan Heights is an example of a rocky plateau desert.
+** *
 
 **SANDY OR DUNE DESERTS**
 
 Sandy or dune deserts are extensive flat areas covered with sand or gravel. "Flat" is a relative term, as some areas may contain sand dunes that are over 300 meters (1,000 feet) high and 16 to 24 kilometers (10 to 15 miles) long. Trafficability in such terrain will depend on the windward or leeward slope of the dunes and the texture of the sand. However, other areas may be flat for 3,000 meters (10,000 feet) and more. Plant life may vary from none to scrub over 2 meters (7 feet) high. Examples of this type of desert include the edges of the Sahara, the empty quarter of the Arabian Desert, areas of California and New Mexico, and the Kalahari in South Africa.
+** *
 
 **SALT MARSHES**
 
 Salt marshes are flat, desolate areas, sometimes studded with clumps of grass but devoid of other vegetation. They occur in arid areas where rainwater has collected, evaporated, and left large deposits of alkali salts and water with a high salt concentration. The water is so salty it is undrinkable. A crust that may be 2.5 to 30 centimeters (1 to 12 inches) thick forms over the saltwater.
 
 In arid areas, there are salt marshes hundreds of kilometers square. These areas usually support many insects, most of which bite. Avoid salt marshes. This type of terrain is highly corrosive to boots, clothing, and skin. A good example is the Shatt al Arab waterway along the Iran-Iraq border.
+** *
 
 **BROKEN TERRAIN**
 
@@ -37,20 +35,12 @@ All arid areas contain broken or highly dissected terrain. Rainstorms that erode
 ### ENVIRONMENTAL FACTORS
 
 Surviving and evading the enemy in an arid area depends on what you know and how prepared you are for the environmental conditions you will face. Determine what equipment you will need, the tactics you will use, and the environment's impact on them and you.
-
-In a desert area there are seven environmental factors that you must consider:
-
-*  Low rainfall.
-*  Intense sunlight and heat.
-*  Wide temperature range.
-*  Sparse vegetation.
-*  High mineral content near ground surface.
-*  Sandstorms.
-*  Mirages.
+** *
 
 **LOW RAINFALL**
 
 Low rainfall is the most obvious environmental factor in an arid area. Some desert areas receive less than 10 centimeters (4 inches) of rain annually, and this rain comes in brief torrents that quickly run off the ground surface. You cannot survive long without water in high desert temperatures. In a desert survival situation, you must first consider the amount of water you have and other water sources.
+** *
 
 **INTENSE SUNLIGHT AND HEAT**
 
@@ -61,10 +51,12 @@ The temperature of desert sand and rock typically range from 16 to 22 degrees C 
 Intense sunlight and heat increase the body's need for water. To conserve your body fluids and energy, you will need a shelter to reduce your exposure to the heat of the day. Travel at night to lessen your use of water.
 
 Radios and sensitive items of equipment exposed to direct intense sunlight will malfunction.
+** * 
 
 **WIDE TEMPERATURE RANGE**
 
 Temperatures in arid areas may get as high as 55 degrees C (130 degrees F) during the day and as low as 10 degrees C (50 degrees F) during the night. The drop in temperature at night occurs rapidly and will chill a person who lacks warm clothing and is unable to move about. The cool evenings and nights are the best times to work or travel. If your plan is to rest at night, you will find a wool sweater, long underwear, and a wool stocking cap extremely helpful.
+** *
 
 **SPARSE VEGETATION**
 
@@ -77,10 +69,12 @@ If traveling in hostile territory, follow the principles of desert camouflage:
 *  Cover objects that will reflect the light from the sun.
 
 Before moving, survey the area for sites that provide cover and concealment. You will have trouble estimating distance. The emptiness of desert terrain causes most people to underestimate distance by a factor of three: What appears to be 1 kilometer (1/2 mile) away is really 3 kilometers (1 3/4 miles) away.
+** *
 
 **HIGH MINERAL CONTENT**
 
 All arid regions have areas where the surface soil has a high mineral content (borax, salt, alkali, and lime). Material in contact with this soil wears out quickly, and water in these areas is extremely hard and undrinkable. Wetting your uniform in such water to cool off may cause a skin rash. The Great Salt Lake area in Utah is an example of this type of mineral-laden water and soil. There is little or no plant life; therefore, shelter is hard to find. Avoid these areas if possible.
+** *
 
 **SANDSTORMS**
 
@@ -89,6 +83,7 @@ Sandstorms (sand-laden winds) occur frequently in most deserts. The _Seistan_ de
 The greatest danger is getting lost in a swirling wall of sand. Wear goggles and cover your mouth and nose with cloth. If natural shelter is unavailable, mark your direction of travel, lie down, and sit out the storm.
 
 Dust and wind-blown sand interfere with radio transmissions. Therefore, be ready to use other means for signaling, such as pyrotechnics, signal mirrors, or marker panels, if available.
+** *
 
 **MIRAGES**
 
@@ -128,14 +123,16 @@ Drinking water at regular intervals helps your body remain cool and decreases sw
 ### HEAT CASUALTIES
 
 Your chances of becoming a heat casualty as a survivor are great, due to injury, stress, and lack of critical items of equipment. Following are the major types of heat casualties and their treatment when **little** water and **no** medical help are available.
-
+** *
 **HEAT CRAMPS**
 
 The loss of salt due to excessive sweating causes heat cramps. Symptoms are moderate to severe muscle cramps in legs, arms, or abdomen. These symptoms may start as a mild muscular discomfort. You should now stop all activity, get in the shade, and drink water. If you fail to recognize the early symptoms and continue your physical activity, you will have severe muscle cramps and pain. Treat as for heat exhaustion, below.
+** *
 
 **HEAT EXHAUSTION**
 
 A large loss of body water and salt causes heat exhaustion. Symptoms are headache, mental confusion, irritability, excessive sweating, weakness, dizziness, cramps, and pale, moist, cold (clammy) skin. Immediately get the patient under shade. Make him lie on a stretcher or similar item about 45 centimeters (18 inches) off the ground. Loosen his clothing. Sprinkle him with water and fan him. Have him drink small amounts of water every 3 minutes. Ensure he stays quiet and rests.
+** *
 
 **HEAT STROKE**
 
