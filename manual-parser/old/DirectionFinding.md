@@ -7,16 +7,22 @@
 ### USING THE SUN AND SHADOWS
 
 The earth's relationship to the sun can help you to determine direction on earth. The sun always rises in the east and sets in the west, but not exactly due east or due west. There is also some seasonal variation. Shadows will move in the opposite direction of the sun. In the Northern Hemisphere, they will move from west to east, and will point north at noon. In the Southern Hemisphere, shadows will indicate south at noon. With practice, you can use shadows to determine both direction and time of day. The shadow methods used for direction finding are the shadow-tip and watch methods.
+** *
 
 **SHADOW-TIP METHODS**
 
 In the first shadow-tip method, find a straight stick 1 meter (3 feet) long, and a level spot free of brush on which the stick will cast a definite shadow. This method is simple and accurate and consists of four steps:
-*  _Step 1._ Place the stick or branch into the ground at a level spot where it will cast a distinctive shadow. Mark the shadow's tip with a stone, twig, or other means. This first shadow mark is always west - **everywhere** on earth.
-*  _Step 2._ Wait 10 to 15 minutes until the shadow tip moves a few centimeters. Mark the shadow tip's new position in the same way as the first. This mark will represent East.
-*  _Step 3._ Draw a straight line through the two marks to obtain an approximate east-west line.
-*  _Step 4._ Stand with the first mark (west) to your left and the second mark to your right - you are now facing north. This fact is true **everywhere** on earth.
+
+_Step 1._ Place the stick or branch into the ground at a level spot where it will cast a distinctive shadow. Mark the shadow's tip with a stone, twig, or other means. This first shadow mark is always west - **everywhere** on earth.  
+
+_Step 2._ Wait 10 to 15 minutes until the shadow tip moves a few centimeters. Mark the shadow tip's new position in the same way as the first. This mark will represent East.  
+
+_Step 3._ Draw a straight line through the two marks to obtain an approximate east-west line.  
+
+_Step 4._ Stand with the first mark (west) to your left and the second mark to your right - you are now facing north. This fact is true **everywhere** on earth.
 
 An alternate method is more accurate but requires more time. Set up your shadow stick and mark the first shadow in the morning. Use a piece of string to draw a clean arc through this mark and around the stick. At midday, the shadow will shrink and disappear. In the afternoon, it will lengthen again and at the point where it touches the arc, make a second mark. Draw a line through the two marks to get an accurate east-west line.
+** *
 
 **THE WATCH METHOD**
 
@@ -50,7 +56,7 @@ After locating the North Star, locate the North Pole or true north by drawing an
 
 **THE SOUTHERN SKY**
 
-Because there is no single star bright enough to be easily recognized near the south celestial pole, you can use a constellation known as the Southern Cross. You can use it as a signpost to the South ([Figure 18-4](#fig18-4)). The Southern Cross or Crux has five stars. Its four brightest stars form a cross. The two stars that make up the Cross's long axis are used as a guideline. To determine south, imagine a distance four-and-one-half to five times the distance between these stars and the horizon. The pointer stars to the left of the Southern Cross serve two purposes. First, they provide an additional cue toward south by imagining a line from the stars toward the ground. Second, the pointer stars help accurately identify the true Southern Cross from the False Cross. The intersection of the Southern Cross and the two pointer stars is very dark and devoid of stars. This area is called the coal sac. Look down to the horizon from this imaginary point and select a landmark to steer by. In a static survival situation, you can fix this location in daylight if you drive stakes in the ground at night to point the way.
+Because there is no single star bright enough to be easily recognized near the south celestial pole, you can use a constellation known as the Southern Cross. You can use it as a signpost to the South. The Southern Cross or Crux has five stars. Its four brightest stars form a cross. The two stars that make up the Cross's long axis are used as a guideline. To determine south, imagine a distance four-and-one-half to five times the distance between these stars and the horizon. The pointer stars to the left of the Southern Cross serve two purposes. First, they provide an additional cue toward south by imagining a line from the stars toward the ground. Second, the pointer stars help accurately identify the true Southern Cross from the False Cross. The intersection of the Southern Cross and the two pointer stars is very dark and devoid of stars. This area is called the coal sac. Look down to the horizon from this imaginary point and select a landmark to steer by. In a static survival situation, you can fix this location in daylight if you drive stakes in the ground at night to point the way.
 
 ### MAKING IMPROVISED COMPASSES
 

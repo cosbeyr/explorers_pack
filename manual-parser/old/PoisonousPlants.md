@@ -1,4 +1,11 @@
 > Successful use of plants in a survival situation depends on positive identification. Knowing poisonous plants is as important to you as knowing edible plants. Knowing the poisonous plants will help you avoid sustaining injuries from them.
+>
+>Many poisonous plants look like their edible relatives or like other edible plants. For example, poison hemlock appears very similar to wild carrot. Certain plants are safe to eat in certain seasons or stages of growth but poisonous in other stages. For example, the leaves of the pokeweed are edible when it first starts to grow, but they soon become poisonous. You can eat some plants and their fruits only when they are ripe. For example, the ripe fruit of May apple is edible, but all other parts and the green fruit are poisonous. Some plants contain both edible and poisonous parts; potatoes and tomatoes are common plant foods, but their green parts are poisonous.
+>
+>Some plants become toxic after wilting. For example, when the black cherry starts to wilt, hydrocyanic acid develops. Specific preparation methods make some plants edible that are poisonous raw. You can eat the thinly sliced and thoroughly dried (drying may take a year) corms of the jack-in-the-pulpit, but they are poisonous if not thoroughly dried.
+>
+>Learn to identify and use plants before a survival situation. Some sources of information about plants are pamphlets, books, films, nature trails, botanical gardens, local markets, and local natives. Gather and cross-reference information from as many sources as possible, because many sources will not contain all the information needed.
+
 
 ### HOW PLANTS POISON
 
@@ -20,13 +27,6 @@ Some common **misconceptions** about poisonous plants are:
 
 The point is there is no one rule to aid in identifying poisonous plants. You must make an effort to learn as much about them as possible.
 
-### ALL ABOUT PLANTS
-
-Many poisonous plants look like their edible relatives or like other edible plants. For example, poison hemlock appears very similar to wild carrot. Certain plants are safe to eat in certain seasons or stages of growth but poisonous in other stages. For example, the leaves of the pokeweed are edible when it first starts to grow, but they soon become poisonous. You can eat some plants and their fruits only when they are ripe. For example, the ripe fruit of May apple is edible, but all other parts and the green fruit are poisonous. Some plants contain both edible and poisonous parts; potatoes and tomatoes are common plant foods, but their green parts are poisonous.
-
-Some plants become toxic after wilting. For example, when the black cherry starts to wilt, hydrocyanic acid develops. Specific preparation methods make some plants edible that are poisonous raw. You can eat the thinly sliced and thoroughly dried (drying may take a year) corms of the jack-in-the-pulpit, but they are poisonous if not thoroughly dried.
-
-Learn to identify and use plants before a survival situation. Some sources of information about plants are pamphlets, books, films, nature trails, botanical gardens, local markets, and local natives. Gather and cross-reference information from as many sources as possible, because many sources will not contain all the information needed.
 
 ### RULES FOR AVOIDING POISONOUS PLANTS
 

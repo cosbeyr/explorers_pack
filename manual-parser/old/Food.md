@@ -5,16 +5,19 @@
 Unless you have the chance to take large game, concentrate your efforts on the smaller animals. They are more abundant and easier to prepare. You need not know all the animal species that are suitable as food; relatively few are poisonous, and they make a smaller list to remember. However, it is important to learn the habits and behavioral patterns of classes of animals. For example, animals that are excellent choices for trapping, those that inhabit a particular range and occupy a den or nest, those that have somewhat fixed feeding areas, and those that have trails leading from one area to another. Larger, herding animals, such as elk or caribou, roam vast areas and are somewhat more difficult to trap. Also, you must understand the food choices of a particular species to select the proper bait.
 
 You can, with relatively few exceptions, eat anything that crawls, swims, walks, or flies. You must first overcome your natural aversion to a particular food source. Historically, people in starvation situations have resorted to eating everything imaginable for nourishment. A person who ignores an otherwise healthy food source due to a personal bias, or because he feels it is unappetizing, is risking his own survival. Although it may prove difficult at first, you must eat what is available to maintain your health. Some classes of animals and insects may be eaten raw if necessary, but you should, if possible, thoroughly cook all food sources whenever possible to avoid illness.
+** *
 
 **INSECTS**
 
 The most abundant and easily caught life-form on earth are insects. Many insects provide 65 to 80 percent protein compared to 20 percent for beef. This fact makes insects an important, if not overly appetizing, food source. Insects to avoid include all adults that sting or bite, hairy or brightly colored insects, and caterpillars and insects that have a pungent odor. Also avoid spiders and common disease carriers such as ticks, flies, and mosquitoes.
 
 Rotting logs lying on the ground are excellent places to look for a variety of insects including ants, termites, beetles, and grubs, which are beetle larvae. Do not overlook insect nests on or in the ground. Grassy areas, such as fields, are good areas to search because the insects are easily seen. Stones, boards, or other materials lying on the ground provide the insects with good nesting sites. Check these sites. Insect larvae are also edible. Insects that have a hard outer shell such as beetles and grasshoppers will have parasites. Cook them before eating. Remove any wings and barbed legs also. You can eat most soft-shelled insects raw. The taste varies from one species to another. Wood grubs are bland, but some species of ants store honey in their bodies, giving them a sweet taste. You can grind a collection of insects into a paste. You can mix them with edible vegetation. You can cook them to improve their taste.
+** *
 
 **WORMS**
 
 Worms (_Annelidea_) are an excellent protein source. Dig for them in damp humus soil and in the rootball of grass clumps, or watch for them on the ground after a rain. After capturing them, drop them into clean, potable water for about 15 minutes. The worms will naturally purge or wash themselves out, after which you can eat them raw.
+** *
 
 **CRUSTACEANS**
 
@@ -25,6 +28,7 @@ Crayfish are akin to marine lobsters and crabs. You can distinguish them by thei
 You can find saltwater lobsters, crabs, and shrimp from the surf's edge out to water 10 meters (33 feet) deep. Shrimp may come to a light at night where you can scoop them up with a net. You can catch lobsters and crabs with a baited trap or a baited hook. Crabs will come to bait placed at the edge of the surf, where you can trap or net them. Lobsters and crabs are nocturnal and caught best at night.
 
 **NOTE:** You must cook all freshwater crustaceans, mollusks, and fish. Fresh water tends to harbor many dangerous organisms , animal and human contaminants, and possibly agricultural and industrial pollutants.
+** *
 
 **MOLLUSKS**
 
@@ -38,15 +42,14 @@ Near the sea, look in the tidal pools and the wet sand. Rocks along beaches or e
 
 Mussels usually form dense colonies in rock pools, on logs, or at the base of boulders.
 
-> **CAUTION**
-> 
+> **CAUTION**  
 > Mussels may be poisonous in tropical zones during the summer! If a noticeable red tide has occurred within 72 hours, do not eat any fish or shellfish from that water source.
 
 Steam, boil, or bake mollusks in the shell. They make excellent stews in combination with greens and tubers.
 
-> **CAUTION**
-> 
+> **CAUTION**  
 > Do not eat shellfish that are not covered by water at high tide!
+** *
 
 **FISH**
 
@@ -57,26 +60,28 @@ There are no poisonous freshwater fish. However, the common barbel (_Barbus barb
 Cook all freshwater fish to kill parasites. As a precaution, also cook saltwater fish caught within a reef or within the influence of a freshwater source. Any marine life obtained farther out in the sea will not contain parasites because of the saltwater environment. You can eat these raw.
 
 Most fish encountered are edible. The organs of some species are always poisonous to man; other fish can become toxic because of elements in their diets. Ciguatera is a form of human poisoning caused by the consumption of subtropical and tropical marine fish which have accumulated naturally occurring toxins through their diet. These toxins build up in the fish's tissues. The toxins are known to originate from several algae species that are common to ciguatera endemic regions in the lower latitudes. Cooking does not eliminate the toxins; neither does drying, smoking, or marinating. Marine fish most commonly implicated in ciguatera poisoning include the barracudas, jacks, mackerel, triggerfish, snappers, and groupers. Many other species of warm water fishes harbor ciguatera toxins. The occurrence of toxic fish is sporadic, and not all fish of a given species or from a given locality will be toxic. This explains why red snapper and grouper are a coveted fish off the shores of Florida and the East Coast. While they are a restaurant and fisherman's favorite, and a common fish market choice, they can also be associated with 100 cases of food poisonings in May 1988, Palm Beach County, Florida. The poisonings resulted in a statewide warning against eating hogfish, grouper, red snapper, amberjack, and barracuda caught at the Dry Tortuga Bank. A major outbreak of ciguatera occurred in Puerto Rico between April and June 1981 prompting a ban on the sale of barracuda, amberjack, and blackjack. Other examples of poisonous saltwater fish are the porcupine fish, cowfish, thorn fish, oilfish, and puffer.
-
+** *
 
 **AMPHIBIANS**
 
 Frogs are easily found around bodies of fresh water. Frogs seldom move from the safety of the water's edge. At the first sign of danger, they plunge into the water and bury themselves in the mud and debris. Frogs are characterized by smooth, moist skin. There are few poisonous species of frogs. Avoid any brightly colored frog or one that has a distinct "X" mark on its back as well as all tree frogs. Do not confuse toads with frogs. Toads may be recognized by their dry, "warty" or bumpy skin. They are usually found on land in drier environments. Several species of toads secrete a poisonous substance through their skin as a defense against attack. Therefore, to avoid poisoning, do not handle or eat toads.
 
 Do not eat salamanders; only about 25 percent of all salamanders are edible, so it is not worth the risk of selecting a poisonous variety. Salamanders are found around the water. They are characterized by smooth, moist skin and have only four toes on each foot.
+** *
 
 **REPTILES**
 
 Reptiles are a good protein source and relatively easy to catch. Thorough cooking and hand washing is imperative with reptiles. All reptiles are considered to be carriers of salmonella, which exists naturally on their skin. Turtles and snakes are especially known to infect man. If you are in an undernourished state and your immune system is weak, salmonella can be deadly. Cook food thoroughly and be especially fastidious washing your hands after handling any reptile. Lizards are plentiful in most parts of the world. They may be recognized by their dry, scaly skin. They have five toes on each foot. The only poisonous ones are the Gila monster and the Mexican beaded lizard. Care must be taken when handling and preparing the iguana and the monitor lizard, as they commonly harbor the salmonellal virus in their mouth and teeth. The tail meat is the best tasting and easiest to prepare.
 
 Turtles are a very good source of meat. There are actually seven different flavors of meat in each snapping turtle. Most of the meat will come from the front and rear shoulder area, although a large turtle may have some on its neck. The box turtle ([Figure 8-3](#fig8-3)) is a commonly encountered turtle that you should not eat. It feeds on poisonous mushrooms and may build up a highly toxic poison in its flesh. Cooking does not destroy this toxin. Also avoid the hawksbill turtle ([Figure 8-3](#fig8-3)), found in the Atlantic Ocean, because of its poisonous thorax gland. Poisonous snakes, alligators, crocodiles, and large sea turtles present obvious hazards to the survivor.
-
+** *
 
 **BIRDS**
 
 All species of birds are edible, although the flavor will vary considerably. The only poisonous bird is the Pitohui, native only to New Guinea. You may skin fish-eating birds to improve their taste. As with any wild animal, you must understand birds' common habits to have a realistic chance of capturing them. You can take pigeons, as well as some other species, from their roost at night by hand. During the nesting season, some species will not leave the nest even when approached. Knowing where and when the birds nest makes catching them easier. Birds tend to have regular flyways going from the roost to a feeding area, to water, and so forth. Careful observation should reveal where these flyways are and indicate good areas for catching birds in nets stretched across the flyways. Roosting sites and waterholes are some of the most promising areas for trapping or snaring.
 
 Nesting birds present another food source - eggs. Remove all but two or three eggs from the clutch, marking the ones that you leave. The bird will continue to lay more eggs to fill the clutch. Continue removing the fresh eggs, leaving the ones you marked.
+** *
 
 **MAMMALS**
 
@@ -107,6 +112,7 @@ You must remove or mask the human scent on and around the trap you set. Although
 
 Traps or snares placed on a trail or run should use funneling or channelization. To build a channel, construct a funnel-shaped barrier extending from the sides of the trail toward the trap, with the narrowest part nearest the trap. Channelization should be inconspicuous to avoid alerting the prey. As the animal gets to the trap, it cannot turn left or right and continues into the trap. Few wild animals will back up, preferring to face the direction of travel. Channelization does not have to be an impassable barrier. You only have to make it inconvenient for the animal to go over or through the barrier. For best effect, the channelization should reduce the trail's width to just slightly wider than the targeted animal's body. Maintain this constriction at least as far back from the trap as the animal's body length, then begin the widening toward the mouth of the funnel.
 
+** *
 **USE OF BAIT**
 
 Baiting a trap or snare increases your chances of catching an animal. When catching fish, you must bait nearly all the devices. Success with an unbaited trap depends on its placement in a good location. A baited trap can actually draw animals to it. The bait should be something the animal knows. However, this bait should not be so readily available in the immediate area that the animal can get it close by. For example, baiting a trap with corn in the middle of a cornfield would not be likely to work. Likewise, if corn is not grown in the region, a corn-baited trap may arouse an animal's curiosity and keep it alerted while it ponders the strange food. Under such circumstances it may not go for the bait. One bait that works well on small mammals is the peanut butter from a meal, ready-to-eat (MRE) ration. Salt is also a good bait. When using such baits, scatter bits of it around the trap to give the prey a chance to sample it and develop a craving for it. The animal will then overcome some of its caution before it gets to the trap.
@@ -114,6 +120,7 @@ Baiting a trap or snare increases your chances of catching an animal. When catch
 If you set and bait a trap for one species but another species takes the bait without being caught, try to determine what the animal was. Then set a proper trap for that animal, using the same bait.
 
 **NOTE:** Once you have successfully trapped an animal, you will not only gain confidence in your ability, you will also have resupplied yourself with bait for several more traps.
+** *
 
 **CONSTRUCTION**
 
@@ -121,77 +128,50 @@ Traps and snares _crush, choke, hang,_ or _entangle_ the prey. A single trap or 
 
 The heart of any trap or snare is the trigger. When planning a trap or snare, ask yourself how it should affect the prey, what is the source of power, and what will be the most efficient trigger. Your answers will help you devise a specific trap for a specific species. Traps are designed to catch and hold or to catch and kill. Snares are traps that incorporate a noose to accomplish either function.
 
-**Simple Snare**
 
-A simple snare consists of a noose placed over a trail or den hole and attached to a firmly planted stake. If the noose is some type of cordage placed upright on a game trail, use small twigs or blades of grass to hold it up. Filaments from spider webs are excellent for holding nooses open. Make sure the noose is large enough to pass freely over the animal's head. As the animal continues to move, the noose tightens around its neck. The more the animal struggles, the tighter the noose gets. This type of snare usually does not kill the animal. If you use cordage, it may loosen enough to slip off the animal's neck. Wire is therefore the best choice for a simple snare.
-
-
-**Drag Noose**
-
-Use a drag noose on an animal run. Place forked sticks on either side of the run and lay a sturdy crossmember across them. Tie the noose to the crossmember and hang it at a height above the animal's head. (Nooses designed to catch by the head should never be low enough for the prey to step into with a foot.) As the noose tightens around the animal's neck, the animal pulls the crossmember from the forked sticks and drags it along. The surrounding vegetation quickly catches the crossmember and the animal becomes entangled.
+**Simple Snare** A simple snare consists of a noose placed over a trail or den hole and attached to a firmly planted stake. If the noose is some type of cordage placed upright on a game trail, use small twigs or blades of grass to hold it up. Filaments from spider webs are excellent for holding nooses open. Make sure the noose is large enough to pass freely over the animal's head. As the animal continues to move, the noose tightens around its neck. The more the animal struggles, the tighter the noose gets. This type of snare usually does not kill the animal. If you use cordage, it may loosen enough to slip off the animal's neck. Wire is therefore the best choice for a simple snare.
 
 
-**Twitch-Up**
+**Drag Noose** Use a drag noose on an animal run. Place forked sticks on either side of the run and lay a sturdy crossmember across them. Tie the noose to the crossmember and hang it at a height above the animal's head. (Nooses designed to catch by the head should never be low enough for the prey to step into with a foot.) As the noose tightens around the animal's neck, the animal pulls the crossmember from the forked sticks and drags it along. The surrounding vegetation quickly catches the crossmember and the animal becomes entangled.
 
-A twitch-up is a supple sapling that, when bent over and secured with a triggering device, will provide power to a variety of snares. Select a hickory or other hardwood sapling along the trail. A twitch-up will work much faster and with more force if you remove all the branches and foliage.
 
-**Twitch-Up Snare**
+**Twitch-Up** A twitch-up is a supple sapling that, when bent over and secured with a triggering device, will provide power to a variety of snares. Select a hickory or other hardwood sapling along the trail. A twitch-up will work much faster and with more force if you remove all the branches and foliage.
 
-A simple twitch-up snare uses two forked sticks, each with a long and short leg. Bend the twitch-up and mark the trail below it. Drive the long leg of one forked stick firmly into the ground at that point. Ensure the cut on the short leg of this stick is parallel to the ground. Tie the long leg of the remaining forked stick to a piece of cordage secured to the twitch-up. Cut the short leg so that it catches on the short leg of the other forked stick. Extend a noose over the trail. Set the trap by bending the twitch-up and engaging the short legs of the forked sticks. When an animal catches its head in the noose, it pulls the forked sticks apart, allowing the twitch-up to spring up and hang the prey.
+
+**Twitch-Up Snare** A simple twitch-up snare uses two forked sticks, each with a long and short leg. Bend the twitch-up and mark the trail below it. Drive the long leg of one forked stick firmly into the ground at that point. Ensure the cut on the short leg of this stick is parallel to the ground. Tie the long leg of the remaining forked stick to a piece of cordage secured to the twitch-up. Cut the short leg so that it catches on the short leg of the other forked stick. Extend a noose over the trail. Set the trap by bending the twitch-up and engaging the short legs of the forked sticks. When an animal catches its head in the noose, it pulls the forked sticks apart, allowing the twitch-up to spring up and hang the prey.
 
 **NOTE:** Do not use green sticks for the trigger. The sap that oozes out could glue them together.
 
-**Squirrel Pole**
-
-8-41\. A squirrel pole is a long pole placed against a tree in an area showing a lot of squirrel activity. Place several wire nooses along the top and sides of the pole so that a squirrel trying to go up or down the pole will have to pass through one or more of them. Position the nooses (5 to 6 centimeters [2 to 2 1/4-inches] in diameter) about 2.5 centimeters (1 inch) off the pole. Place the top and bottom wire nooses 45 centimeters (18 inches) from the top and bottom of the pole to prevent the squirrel from getting its feet on a solid surface. If this happens, the squirrel will chew through the wire. Squirrels are naturally curious. After an initial period of caution, they will try to go up or down the pole and will be caught in the noose. The struggling animal will soon fall from the pole and strangle. Other squirrels will soon be drawn to the commotion. In this way, you can catch several squirrels. You can emplace multiple poles to increase the catch.
+**Squirrel Pole** A squirrel pole is a long pole placed against a tree in an area showing a lot of squirrel activity. Place several wire nooses along the top and sides of the pole so that a squirrel trying to go up or down the pole will have to pass through one or more of them. Position the nooses (5 to 6 centimeters [2 to 2 1/4-inches] in diameter) about 2.5 centimeters (1 inch) off the pole. Place the top and bottom wire nooses 45 centimeters (18 inches) from the top and bottom of the pole to prevent the squirrel from getting its feet on a solid surface. If this happens, the squirrel will chew through the wire. Squirrels are naturally curious. After an initial period of caution, they will try to go up or down the pole and will be caught in the noose. The struggling animal will soon fall from the pole and strangle. Other squirrels will soon be drawn to the commotion. In this way, you can catch several squirrels. You can emplace multiple poles to increase the catch.
 
 
-**Ojibwa Bird Pole**
-
-An Ojibwa bird pole is a snare that has been used by Native Americans for centuries. To be effective, it should be placed in a relatively open area away from tall trees. For best results, pick a spot near feeding areas, dusting areas, or watering holes. Cut a pole 1.8 to 2.1 meters (6 to 7 feet) long and trim away all limbs and foliage. Do not use resinous wood such as pine. Sharpen the upper end to a point, then drill a small-diameter hole 5 to 7.5 centimeters (2 to 3 inches) down from the top. Cut a small stick 10 to 15 centimeters (4 to 6 inches) long and shape one end so that it will almost fit into the hole. This is the perch. Plant the long pole in the ground with the pointed end up. Tie a small weight, about equal to the weight of the targeted species, to a length of cordage. Pass the free end of the cordage through the hole, and tie a slip noose that covers the perch. Tie a single overhand knot in the cordage and place the perch against the hole. Allow the cordage to slip through the hole until the overhand knot rests against the pole and the top of the perch. The tension of the overhand knot against the pole and perch will hold the perch in position. Spread the noose over the perch, ensuring it covers the perch and drapes over on both sides. Most birds prefer to rest on something above ground and will land on the perch. As soon as the bird lands, the perch will fall, releasing the overhand knot and allowing the weight to drop. The noose will tighten around the bird's feet, capturing it. If the weight is too heavy, it will cut off the bird's feet, allowing it to escape. Another variation would be to use spring tension such as a tree branch in place of the weight.
+**Ojibwa Bird Pole** An Ojibwa bird pole is a snare that has been used by Native Americans for centuries. To be effective, it should be placed in a relatively open area away from tall trees. For best results, pick a spot near feeding areas, dusting areas, or watering holes. Cut a pole 1.8 to 2.1 meters (6 to 7 feet) long and trim away all limbs and foliage. Do not use resinous wood such as pine. Sharpen the upper end to a point, then drill a small-diameter hole 5 to 7.5 centimeters (2 to 3 inches) down from the top. Cut a small stick 10 to 15 centimeters (4 to 6 inches) long and shape one end so that it will almost fit into the hole. This is the perch. Plant the long pole in the ground with the pointed end up. Tie a small weight, about equal to the weight of the targeted species, to a length of cordage. Pass the free end of the cordage through the hole, and tie a slip noose that covers the perch. Tie a single overhand knot in the cordage and place the perch against the hole. Allow the cordage to slip through the hole until the overhand knot rests against the pole and the top of the perch. The tension of the overhand knot against the pole and perch will hold the perch in position. Spread the noose over the perch, ensuring it covers the perch and drapes over on both sides. Most birds prefer to rest on something above ground and will land on the perch. As soon as the bird lands, the perch will fall, releasing the overhand knot and allowing the weight to drop. The noose will tighten around the bird's feet, capturing it. If the weight is too heavy, it will cut off the bird's feet, allowing it to escape. Another variation would be to use spring tension such as a tree branch in place of the weight.
 
 
-**Noosing Wand**
-
-A noose stick or "noosing wand" is useful for capturing roosting birds or small mammals. It requires a patient operator. This wand is more a weapon than a trap. It consists of a pole (as long as you can effectively handle) with a slip noose of wire or stiff cordage at the small end. To catch an animal, you slip the noose over the neck of a roosting bird and pull it tight. You can also place it over a den hole and hide in a nearby blind. When the animal emerges from the den, you jerk the pole to tighten the noose and thus capture the animal. Carry a stout club to kill the prey.
+**Noosing Wand** A noose stick or "noosing wand" is useful for capturing roosting birds or small mammals. It requires a patient operator. This wand is more a weapon than a trap. It consists of a pole (as long as you can effectively handle) with a slip noose of wire or stiff cordage at the small end. To catch an animal, you slip the noose over the neck of a roosting bird and pull it tight. You can also place it over a den hole and hide in a nearby blind. When the animal emerges from the den, you jerk the pole to tighten the noose and thus capture the animal. Carry a stout club to kill the prey.
 
 
-**Treadle Spring Snare**
+**Treadle Spring Snare** Use a treadle snare against small game on a trail. Dig a shallow hole in the trail. Then drive a forked stick (fork down) into the ground on each side of the hole on the same side of the trail. Select two fairly straight sticks that span the two forks. Position these two sticks so that their ends engage the forks. Place several sticks over the hole in the trail by positioning one end over the lower horizontal stick and the other on the ground on the other side of the hole. Cover the hole with enough sticks so that the prey must step on at least one of them to set off the snare. Tie one end of a piece of cordage to a twitch-up or to a weight suspended over a tree limb. Bend the twitch-up or raise the suspended weight to determine where you will tie the trigger. The trigger should be about 5 centimeters (2 inches) long. Form a noose with the other end of the cordage. Route and spread the noose over the top of the sticks over the hole. Place the trigger stick against the horizontal sticks and route the cordage behind the sticks so that the tension of the power source will hold it in place. Adjust the bottom horizontal stick so that it will barely hold against the trigger. As the animal places its foot on a stick across the hole, the bottom horizontal stick moves down, releasing the trigger and allowing the noose to catch the animal by the foot. Because of the disturbance on the trail, an animal will be wary. You must therefore use channelization. To increase the effectiveness of this trap, a small bait well may be dug into the bottom of the hole. Place some bait in the bottom of the hole to lure the animal to the snare.
 
-Use a treadle snare against small game on a trail. Dig a shallow hole in the trail. Then drive a forked stick (fork down) into the ground on each side of the hole on the same side of the trail. Select two fairly straight sticks that span the two forks. Position these two sticks so that their ends engage the forks. Place several sticks over the hole in the trail by positioning one end over the lower horizontal stick and the other on the ground on the other side of the hole. Cover the hole with enough sticks so that the prey must step on at least one of them to set off the snare. Tie one end of a piece of cordage to a twitch-up or to a weight suspended over a tree limb. Bend the twitch-up or raise the suspended weight to determine where you will tie the trigger. The trigger should be about 5 centimeters (2 inches) long. Form a noose with the other end of the cordage. Route and spread the noose over the top of the sticks over the hole. Place the trigger stick against the horizontal sticks and route the cordage behind the sticks so that the tension of the power source will hold it in place. Adjust the bottom horizontal stick so that it will barely hold against the trigger. As the animal places its foot on a stick across the hole, the bottom horizontal stick moves down, releasing the trigger and allowing the noose to catch the animal by the foot. Because of the disturbance on the trail, an animal will be wary. You must therefore use channelization. To increase the effectiveness of this trap, a small bait well may be dug into the bottom of the hole. Place some bait in the bottom of the hole to lure the animal to the snare.
-
-**Figure 4 Deadfall**
-
-The figure 4 deadfall is a trigger used to drop a weight onto a prey and crush it. The type of weight used may vary, but it should be heavy enough to kill or incapacitate the prey immediately. Construct the figure 4 using three notched sticks. These notches hold the sticks together in a figure 4 pattern when under tension. Practice making this trigger beforehand; it requires close tolerances and precise angles in its construction.
+**Figure 4 Deadfall** The figure 4 deadfall is a trigger used to drop a weight onto a prey and crush it. The type of weight used may vary, but it should be heavy enough to kill or incapacitate the prey immediately. Construct the figure 4 using three notched sticks. These notches hold the sticks together in a figure 4 pattern when under tension. Practice making this trigger beforehand; it requires close tolerances and precise angles in its construction.
 
 
-**Paiute Deadfall**
-
-The Paiute deadfall is similar to the figure 4 but uses a piece of cordage and a catch stick. It has the advantage of being easier to set than the figure 4\. Tie one end of a piece of cordage to the lower end of the diagonal stick. Tie the other end of the cordage to another stick about 5 centimeters (2 inches) long. This stick is the catch stick. Bring the cord halfway around the vertical stick with the catch stick at a 90-degree angle. Place the bait stick with one end against the drop weight, or a peg driven into the ground, and the other against the catch stick. When a prey disturbs the bait stick, it falls free, releasing the catch stick. As the diagonal stick flies up, the weight falls, crushing the prey. To increase the effectiveness of this trap, a small bait well may be dug into the bottom of the hole. Place some bait in the bottom of the hole to lure the animals to the snare.
+**Paiute Deadfall** The Paiute deadfall is similar to the figure 4 but uses a piece of cordage and a catch stick. It has the advantage of being easier to set than the figure 4\. Tie one end of a piece of cordage to the lower end of the diagonal stick. Tie the other end of the cordage to another stick about 5 centimeters (2 inches) long. This stick is the catch stick. Bring the cord halfway around the vertical stick with the catch stick at a 90-degree angle. Place the bait stick with one end against the drop weight, or a peg driven into the ground, and the other against the catch stick. When a prey disturbs the bait stick, it falls free, releasing the catch stick. As the diagonal stick flies up, the weight falls, crushing the prey. To increase the effectiveness of this trap, a small bait well may be dug into the bottom of the hole. Place some bait in the bottom of the hole to lure the animals to the snare.
 
 
-**Bow Trap**
-
-A bow trap is one of the deadliest traps. It is dangerous to man as well as animals. To construct this trap, build a bow and anchor it to the ground with pegs. Adjust the aiming point as you anchor the bow. Lash a toggle stick to the trigger stick. Two upright sticks driven into the ground hold the trigger stick in place at a point where the toggle stick will engage the pulled bowstring. Place a catch stick between the toggle stick and a stake driven into the ground. Tie a trip wire or cordage to the catch stick and route it around stakes and across the game trail where you tie it off. When the prey trips the trip wire, the bow looses an arrow into it. A notch in the bow serves to help aim the arrow.
-
+**Bow Trap** A bow trap is one of the deadliest traps. It is dangerous to man as well as animals. To construct this trap, build a bow and anchor it to the ground with pegs. Adjust the aiming point as you anchor the bow. Lash a toggle stick to the trigger stick. Two upright sticks driven into the ground hold the trigger stick in place at a point where the toggle stick will engage the pulled bowstring. Place a catch stick between the toggle stick and a stake driven into the ground. Tie a trip wire or cordage to the catch stick and route it around stakes and across the game trail where you tie it off. When the prey trips the trip wire, the bow looses an arrow into it. A notch in the bow serves to help aim the arrow.
 
 
 > **WARNING**
-> 
 > This is a lethal trap. Approach it with caution and from the rear only!
 
 
-**Pig Spear Shaft**
-
-To construct the pig spear shaft, select a stout pole about 2.5 meters (8 feet) long. At the smaller end, firmly lash several small stakes. Lash the large end tightly to a tree along the game trail. Tie a length of cordage to another tree across the trail. Tie a sturdy, smooth stick to the other end of the cord. From the first tree, tie a trip wire or cord low to the ground, stretch it across the trail, and tie it to a catch stick. Make a slip ring from vines or other suitable material. Encircle the trip wire and the smooth stick with the slip ring. Emplace one end of another smooth stick within the slip ring and its other end against the second tree. Pull the smaller end of the spear shaft across the trail and position it between the short cord and the smooth stick. As the animal trips the trip wire, the catch stick pulls the slip ring off the smooth sticks, releasing the spear shaft that springs across the trail and impales the prey against the tree.
+**Pig Spear Shaft** To construct the pig spear shaft, select a stout pole about 2.5 meters (8 feet) long. At the smaller end, firmly lash several small stakes. Lash the large end tightly to a tree along the game trail. Tie a length of cordage to another tree across the trail. Tie a sturdy, smooth stick to the other end of the cord. From the first tree, tie a trip wire or cord low to the ground, stretch it across the trail, and tie it to a catch stick. Make a slip ring from vines or other suitable material. Encircle the trip wire and the smooth stick with the slip ring. Emplace one end of another smooth stick within the slip ring and its other end against the second tree. Pull the smaller end of the spear shaft across the trail and position it between the short cord and the smooth stick. As the animal trips the trip wire, the catch stick pulls the slip ring off the smooth sticks, releasing the spear shaft that springs across the trail and impales the prey against the tree.
 
 > **WARNING**
-> 
 > This is a lethal trap. Approach it with caution and from the rear only!
 
-**Bottle Trap**
-
-A bottle trap is a simple trap for mice and voles. Dig a hole 30 to 45 centimeters (12 to 18 inches) deep that is wider at the bottom than at the top. Make the top of the hole as small as possible. Place a piece of bark or wood over the hole with small stones under it to hold it up 2.5 to 5 centimeters (1 to 2 inches) off the ground. Mice or voles will hide under the cover to escape danger and fall into the hole. They cannot climb out because of the wall's backward slope. Use caution when checking this trap; it is an excellent hiding place for snakes.
+**Bottle Trap** A bottle trap is a simple trap for mice and voles. Dig a hole 30 to 45 centimeters (12 to 18 inches) deep that is wider at the bottom than at the top. Make the top of the hole as small as possible. Place a piece of bark or wood over the hole with small stones under it to hold it up 2.5 to 5 centimeters (1 to 2 inches) off the ground. Mice or voles will hide under the cover to escape danger and fall into the hole. They cannot climb out because of the wall's backward slope. Use caution when checking this trap; it is an excellent hiding place for snakes.
 
 ### KILLING DEVICES
 
@@ -200,10 +180,12 @@ There are several killing devices that you can construct to help you obtain smal
 **RABBIT STICK**
 
 One of the simplest and most effective killing devices is a stout stick as long as your arm, from fingertip to shoulder, called a "rabbit stick." You can throw it either overhand or sidearm and with considerable force. It is best thrown so that it flies sideways, increasing the chance of hitting the target. It is very effective against small game that stops and freezes as a defense.
+** *
 
 **SPEAR**
 
 You can make a spear to kill small game and to fish. Jab with the spear - do not throw it.
+** *
 
 **BOW AND ARROW**
 
@@ -214,6 +196,7 @@ Select arrows from the straightest dry sticks available. The arrows should be ab
 You can make arrowheads from bone, glass, metal, or pieces of rock. You can also sharpen and fire-harden the end of the shaft. Fire hardening is actually a misnomer. To fire-harden wood, hold it over hot coals or plunge it deep under the coals in the ashes, being careful not to burn or scorch the wood. The purpose of fire hardening is to harden the wood by drying the moisture out of it.
 
 You must notch the ends of the arrows for the bowstring. Cut or file the notch; do not split it. Fletching (adding feathers to the notched end of an arrow) improves the arrow's flight characteristics. Fletching is recommended but not necessary on a field-expedient arrow.
+** *
 
 **SLING**
 
@@ -227,39 +210,39 @@ You can make your own fishhooks, nets, and traps. The paragraphs below discuss s
 
 You can make field-expedient fishhooks from pins, needles, wire, small nails, or any piece of metal. You can also use wood, bone, coconut shell, thorns, flint, seashell, or tortoise shell. You can also make fishhooks from any combination of these items.
 
-
 To make a wooden hook, cut a piece of hardwood about 2.5 centimeters (1 inch) long and about 6 millimeters (1/4 inch) in diameter to form the shank. Cut a notch in one end in which to place the point. Place the point (piece of bone, wire, nail) in the notch. Hold the point in the notch and tie securely so that it does not move out of position. This is a fairly large hook. To make smaller hooks, use smaller material.
 
 A gorge or skewer is a small shaft of wood, bone, metal, or other material. It is sharp on both ends and notched in the middle where you tie cordage. Bait the gorge by placing a piece of bait on it lengthwise. When the fish swallows the bait, it also swallows the gorge. If you are tending the fishing line when the fish bites, do not attempt to pull on the line to set the hook as you would with a conventional hook. Allow the fish to swallow the bait to get the gorge as far down its throat before the gorge sets itself.
+** *
 
 **STAKEOUT**
 
 A stakeout is a fishing device you can use in a hostile environment ([Figure 8-19](#fig8-19)). To construct a stakeout, drive two supple saplings into the bottom of the lake, pond, or stream with their tops just below the water surface. Tie a cord between them just slightly below the surface. Tie two short cords with hooks or gorges to this cord, ensuring that they cannot wrap around the poles or each other. They should also not slip along the long cord. Bait the hooks or gorges.
-
+** *
 
 **GILL NET**
 
 If a gill net is not available, you can make one using parachute suspension line or similar material. Remove the core lines from the suspension line and tie the casing between two trees. Attach several core lines to the casing by doubling them over and tying them with prusik knots or girth hitches. These lines should be six times the desired depth of the net (for example, a 6-foot [180-centimeter] piece of string girth-hitched over the casing will give you two 3-foot [90-centimeter] pieces, which after completing the net, will provide a 1-foot [30-centimeter] deep net). The length of the desired net and the size of the mesh determine the number of core lines used and the space between them. The recommended size of the spaces in the net mesh is about 1 inch (2.5 centimeters) square. Starting at one end of the casing, tie the second and the third core lines together using an overhand knot. Then tie the fourth and fifth, sixth and seventh, and so on, until you reach the last core line. You should now have all core lines tied in pairs with a single core line hanging at each end. Start the second row with the first core line, tie it to the second, the third to the fourth, and so on.
 
-
 To keep the rows even and to regulate the size of the mesh, tie a guideline to the trees. Position the guideline on the opposite side of the net you are working on. Move the guideline down after completing each row. The lines will always hang in pairs and you always tie a cord from one pair to a cord from an adjoining pair. Continue tying rows until the net is the desired width. Thread a suspension line casing along the bottom of the net to strengthen it. Use the gill net as shown in. Angling the gill net will help to reduce the amount of debris that may accumulate in the net. Be sure to check it frequently.
-
+** *
 
 **FISH TRAPS**
 
 You may trap fish using several methods. Fish baskets are one method. You construct them by lashing several sticks together with vines into a funnel shape. You close the top, leaving a hole large enough for the fish to swim through.
 
-
 You can also use traps to catch saltwater fish, as schools regularly approach the shore with the incoming tide and often move parallel to the shore. Pick a location at high tide and build the trap at low tide. On rocky shores, use natural rock pools. On coral islands, use natural pools on the surface of reefs by blocking the openings as the tide recedes. On sandy shores, use sandbars and the ditches they enclose. Build the trap as a low stone wall extending outward into the water and forming an angle with the shore.
+** *
 
 **SPEARFISHING**
 
 If you are near shallow water (about waist deep) where the fish are large and plentiful, you can spear them. To make a spear, cut a long, straight sapling. Sharpen the end to a point or attach a knife, jagged piece of bone, or sharpened metal. You can also make a spear by splitting the shaft a few inches down from the end and inserting a piece of wood to act as a spreader. You then sharpen the two separated halves to points. To spear fish, find an area where fish either gather or where there is a fish run. Place the spear point into the water and slowly move it toward the fish. Then, with a sudden push, impale the fish on the stream bottom. Do not try to lift the fish with the spear, as it with probably slip off and you will lose it; hold the spear with one hand and grab and hold the fish with the other. Do not throw the spear, especially if the point is a knife. You cannot afford to lose a knife in a survival situation. Be alert to the problems caused by light refraction when looking at objects in the water. You must aim lower than the object, usually at the bottom of the fish, to hit your mark.
-
+** *
 
 **CHOP FISHING**
 
 At night, in an area with high fish density, you can use a light to attract fish. Then, armed with a machete or similar weapon, you can gather fish using the back side of the blade to strike them. Do not use the sharp side as you will cut them in two pieces and end up losing some of the fish.
+** *
 
 **FISH POISON**
 
@@ -292,22 +275,23 @@ Eating spoiled or rotten fish may cause diarrhea, nausea, cramps, vomiting, itch
 Fish spoils quickly after death, especially on a hot day. Prepare fish for eating as soon as possible after catching it. Cut out the gills and the large blood vessels that lie near the spine. Gut fish that are more than 10 centimeters (4 inches) long. Scale or skin the fish.
 
 You can impale a whole fish on a stick and cook it over an open fire. However, boiling the fish with the skin on is the best way to get the most food value. The fats and oil are under the skin and, by boiling, you can save the juices for broth. You can use any of the methods used to cook plant food to cook fish. Pack fish into a ball of clay and bury it in the coals of a fire until the clay hardens. Break open the clay ball to get to the cooked fish. Fish is done when the meat flakes off. If you plan to keep the fish for later, smoke or fry it. To prepare fish for smoking, cut off the head and remove the backbone.
+** *
 
 **SNAKES**
 
 To skin a snake, first cut off its head, to include 10 to 15 centimeters (4 to 6 inches) behind the head. This will ensure you remove the venom sac, which is located at the base of the head. Bury the sac to prevent further contact. Then cut the skin down the body 2 to 4 centimeters (1 to 1 1/2 inches). Peel the skin back, then grasp the skin in one hand and the body in the other and pull apart. On large, bulky snakes it may be necessary to slit the belly skin. Cook snakes in the same manner as small game. Remove the entrails and discard. Cut the snake into small sections and boil or roast it.
-
+** *
 
 **BIRDS**
 
 After killing the bird, remove its feathers by either plucking or skinning. Remember, skinning removes some of the food value. Open up the body cavity and remove the entrails, saving the craw (in seed-eating birds), heart, and liver. Cut off the feet. Cook by boiling or roasting over a spit. Before cooking scavenger birds, boil them at least 20 minutes to kill parasites.
+** *
 
 **SKINNING AND BUTCHERING GAME**
 
 Bleed the animal by cutting its throat. If possible, clean the carcass near a stream. Place the carcass belly up and split the hide from throat to tail, cutting around all sexual organs ([Figure 8-26](#fig8-26)). Remove the musk glands at points A and B to avoid tainting the meat. For smaller mammals, cut the hide around the body and insert two fingers under the hide on both sides of the cut and pull both pieces off.
 
 **NOTE:** When cutting the hide, insert the knife blade under the skin and turn the blade up so that only the hide gets cut. This will also prevent cutting hair and getting it on the meat.
-
 
 Remove the entrails from smaller game by splitting the body open and pulling them out with the fingers. Do not forget the chest cavity. For larger game, cut the gullet away from the diaphragm. Roll the entrails out of the body. Cut around the anus, then reach into the lower abdominal cavity, grasp the lower intestine, and pull to remove. Remove the urine bladder by pinching it off and cutting it below the fingers. If you spill urine on the meat, wash it to avoid tainting the meat. Save the heart and liver. Cut these open and inspect for signs of worms or other parasites. Also inspect the liver's color; it could indicate a diseased animal. The liver's surface should be smooth and wet and its color deep red or purple. If the liver appears diseased, discard it. However, a diseased liver does not indicate you cannot eat the muscle tissue.
 
@@ -316,15 +300,17 @@ Cut along each leg from above the foot to the previously made body cut. Remove t
 Cut larger game into manageable pieces. First, slice the muscle tissue connecting the front legs to the body. There are no bones or joints connecting the front legs to the body on four-legged animals. Cut the hindquarters off where they join the body. You must cut around a large bone at the top of the leg and cut to the ball-and-socket hip joint. Cut the ligaments around the joint and bend it back to separate it. Remove the large muscles (the tenderloin or "backstrap") that lie on either side of the spine. Separate the ribs from the backbone. There is less work and less wear on your knife if you break the ribs first, then cut through the breaks.
 
 Boil large meat pieces or cook them over a spit. You can stew or boil smaller pieces, particularly those that remain attached to bone after the initial butchering, as soup or broth. You can cook body organs such as the heart, liver, pancreas, spleen, and kidneys using the same methods as for muscle meat. You can also cook and eat the brain. Cut the tongue out, skin it, boil it until tender, and eat it.
+** *
 
 **SMOKING MEAT**
 
 To smoke meat, prepare an enclosure around a fire. Two ponchos snapped together will work. The fire does not need to be big or hot. The intent is to produce smoke and heat, not flame. Do not use resinous wood because its smoke will ruin the meat. Use hardwoods to produce good smoke. The wood should be somewhat green. If it is too dry, soak it. Cut the meat into thin slices, no more than 6 millimeters (about 1/4 inch) thick, and drape them over a framework. Make sure none of the meat touches another piece. Keep the poncho enclosure around the meat to hold the smoke and keep a close watch on the fire. Do not let the fire get too hot. Meat smoked overnight in this manner will last about 1 week. Two days of continuous smoking will preserve the meat for 2 to 4 weeks. Properly smoked meat will look like a dark, curled, brittle stick and you can eat it without further cooking. You can also use a pit to smoke meat.
-
+** *
 
 **DRYING MEAT**
 
 To preserve meat by drying, cut it into 6-millimeter (1/4-inch) strips with the grain. Hang the meat strips on a rack in a sunny location with good airflow. Keep the strips out of the reach of animals. Cover the strips to keep off blowflies. Allow the meat to dry thoroughly before eating. Properly dried meat will have a dry, crisp texture and will not feel cool to the touch.
+** *
 
 **OTHER PRESERVATION METHODS**
 

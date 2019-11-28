@@ -58,7 +58,8 @@ You can also use the pulse and breathing rate to estimate fluid loss. Use the fo
 * With a 0.75- to 1.5-liter loss the pulse rate will be 100 to 120 beats per minute and 20 to 30 breaths per minute.
 * With a 1.5- to 2-liter loss the pulse rate will be 120 to 140 beats per minute and 30 to 40 breaths per minute. Vital signs above these rates require advanced care.
 
-Make sure the water you drink does not contain harmful contaminants. Ideally carry [a LifeStraw](LifeStraw) as part of [your kit](Kits) to filter the water. Read more about it in the [water chapter](Water)
+Make sure the water you drink does not contain harmful contaminants. Ideally carry a LifeStraw to filter the water. Read more about it in the **Water**.
+** *
 
 **FOOD**
 
@@ -68,20 +69,17 @@ The three basic sources of food are plants, animals (including fish) and fungus.
 
 Calories are a measure of heat and potential energy. The average person needs 2,000 calories per day to function at a minimum level. An adequate amount of carbohydrates, fats, and proteins without an adequate caloric intake will lead to starvation and cannibalism of the body's own tissue for energy. It may be useful to estimate your TDEE (Total Daily Energy Expenditure) since each individual requires different caloric minimums.
 
-**Plants**
-
-Plant foods provide carbohydrates - the main source of energy. Many plants provide enough protein to keep the body at normal efficiency. Although plants may not provide a balanced diet, they will sustain you even in the arctic, where meat's heat-producing qualities are normally essential. Many plant foods such as nuts and seeds will give you enough protein and oils for normal efficiency. Roots, green vegetables, and plant foods containing natural sugar will provide calories and carbohydrates that give the body natural energy.
+**Plants** Plant foods provide carbohydrates - the main source of energy. Many plants provide enough protein to keep the body at normal efficiency. Although plants may not provide a balanced diet, they will sustain you even in the arctic, where meat's heat-producing qualities are normally essential. Many plant foods such as nuts and seeds will give you enough protein and oils for normal efficiency. Roots, green vegetables, and plant foods containing natural sugar will provide calories and carbohydrates that give the body natural energy.
 
 The food value of plants becomes more and more important if you are eluding enemies or if you are in an area where wildlife is scarce. For instance:
 
 * You can dry plants by wind, air, sun, or fire. This retards spoilage so that you can store or carry the plant food with you to use when needed.
 * You can often obtain plants more easily than meat.
 
-**Animals**
-
-Meat is more nourishing than plant food. It may even be more readily available in some places. However, to get meat, you need to know the habits of (and how to capture) the various wildlife.
+**Animals** Meat is more nourishing than plant food. It may even be more readily available in some places. However, to get meat, you need to know the habits of (and how to capture) the various wildlife.
 
 To satisfy immediate food needs, first seek the more abundant and easily obtained wildlife. This includes insects, crustaceans, mollusks, fish, and reptiles. These can satisfy hunger while you are preparing traps and snares for larger game.
+** *
 
 **PERSONAL HYGIENE**
 
@@ -105,27 +103,17 @@ Another way to get the lye is to pour the slurry (the mixture of ashes and water
 
 After the mixture (the soap) cools, you can use it in the semiliquid state directly from the pot. You can also pour it into a pan, allow it to harden, and cut it into bars for later use.
 
-**Keep Your Hands Clean**
+**Keep Your Hands Clean.** Germs on your hands can infect food and wounds. Wash your hands after handling any material that is likely to carry germs, after urinating or defecating, after caring for the sick, and before handling any food, food utensils, or drinking water. Keep your fingernails closely trimmed and clean, and keep your fingers out of your mouth.
 
-Germs on your hands can infect food and wounds. Wash your hands after handling any material that is likely to carry germs, after urinating or defecating, after caring for the sick, and before handling any food, food utensils, or drinking water. Keep your fingernails closely trimmed and clean, and keep your fingers out of your mouth.
+**Keep Your Hair Clean.** Hair can become a haven for bacteria, fleas, lice, and other parasites. Keeping your hair clean, combed, and trimmed helps you avoid this danger.
 
-**Keep Your Hair Clean**
+**Keep Your Clothing Clean.** Keep your clothing and bedding as clean as possible to reduce the chances of skin infection or parasitic infestation. Clean your outer clothing whenever it becomes soiled. Wear clean underclothing and socks each day. If water is scarce, "air" clean your clothing by shaking, airing, and sunning it for 2 hours. If you are using a sleeping bag, turn it inside out after each use, fluff it, and air it.
 
-Hair can become a haven for bacteria, fleas, lice, and other parasites. Keeping your hair clean, combed, and trimmed helps you avoid this danger.
-
-**Keep Your Clothing Clean**
-
-Keep your clothing and bedding as clean as possible to reduce the chances of skin infection or parasitic infestation. Clean your outer clothing whenever it becomes soiled. Wear clean underclothing and socks each day. If water is scarce, "air" clean your clothing by shaking, airing, and sunning it for 2 hours. If you are using a sleeping bag, turn it inside out after each use, fluff it, and air it.
-
-**Keep Your Teeth Clean**
-
-Thoroughly clean your mouth and teeth with a toothbrush at least once each day. If you don't have a toothbrush, make a chewing stick. Find a twig about 20 centimeters (cm) (8 inches) long and 1 centimeter (1/3 inch) wide. Chew one end of the stick to separate the fibers. Then brush your teeth thoroughly. Another way is to wrap a clean strip of cloth around your fingers and rub your teeth with it to wipe away food particles. You can also brush your teeth with small amounts of sand, baking soda, salt, or soap. Rinse your mouth with water, salt water, or willow bark tea. Flossing your teeth with string or fiber also helps oral hygiene.
+**Keep Your Teeth Clean.** Thoroughly clean your mouth and teeth with a toothbrush at least once each day. If you don't have a toothbrush, make a chewing stick. Find a twig about 20 centimeters (cm) (8 inches) long and 1 centimeter (1/3 inch) wide. Chew one end of the stick to separate the fibers. Then brush your teeth thoroughly. Another way is to wrap a clean strip of cloth around your fingers and rub your teeth with it to wipe away food particles. You can also brush your teeth with small amounts of sand, baking soda, salt, or soap. Rinse your mouth with water, salt water, or willow bark tea. Flossing your teeth with string or fiber also helps oral hygiene.
 
 If you have cavities, you can make temporary fillings by placing candle wax, tobacco, hot pepper, toothpaste or powder, or portions of a gingerroot into the cavity. Make sure you clean the cavity by rinsing or picking the particles out of the cavity before placing a filling in the cavity.
 
-**Take Care of Your Feet**
-
-To prevent serious foot problems, break in your shoes before wearing them on any mission. Wash and massage your feet daily. Trim your toenails straight across. Wear an insole and the proper size of dry socks. Powder and check your feet daily for blisters.
+**Take Care of Your Feet.** To prevent serious foot problems, break in your shoes before wearing them on any mission. Wash and massage your feet daily. Trim your toenails straight across. Wear an insole and the proper size of dry socks. Powder and check your feet daily for blisters.
 
 If you get a small blister, do not open it. An intact blister is safe from infection. Apply a padding material around the blister to relieve pressure and reduce friction. If the blister bursts, treat it as an open wound. Clean and dress it daily and pad around it. Leave large blisters intact. To avoid having the blister burst or tear under pressure and cause a painful and open sore, do the following:
 
@@ -134,13 +122,9 @@ If you get a small blister, do not open it. An intact blister is safe from infec
 * Detach the needle and leave both ends of the thread hanging out of the blister. The thread will absorb the liquid inside. This reduces the size of the hole and ensures that the hole does not close up.
 * Pad around the blister.
 
-**Get Sufficient Rest**
+**Get Sufficient Rest.** You need a certain amount of rest to keep going. Plan for regular rest periods of at least 10 minutes per hour during your daily activities. Learn to make yourself comfortable under less-than-ideal conditions. A change from mental to physical activity or vice versa can be refreshing when time or situation does not permit total relaxation.
 
-You need a certain amount of rest to keep going. Plan for regular rest periods of at least 10 minutes per hour during your daily activities. Learn to make yourself comfortable under less-than-ideal conditions. A change from mental to physical activity or vice versa can be refreshing when time or situation does not permit total relaxation.
-
-**Keep Campsite Clean**
-
-Do not soil the ground in the campsite area with urine or feces. Use latrines, if available. When latrines are not available, dig "cat holes" and cover the waste. Collect drinking water upstream from the campsite. Purify all water.
+**Keep Campsite Clean.** Do not soil the ground in the campsite area with urine or feces. Use latrines, if available. When latrines are not available, dig "cat holes" and cover the waste. Collect drinking water upstream from the campsite. Purify all water.
 
 ### MEDICAL EMERGENCIES
 
@@ -155,10 +139,12 @@ Any one of the following can cause airway obstruction, resulting in stopped brea
 * Inflammation and swelling of mouth and throat caused by inhaling smoke, flames, irritating vapors, or by an allergic reaction.
 * "Kink" in the throat (caused by the neck bent forward so that the chin rests upon the chest).
 * Tongue blocks passage of air to the lungs upon unconsciousness. When an individual is unconscious, the muscles of the lower jaw and tongue relax as the neck drops forward. This causes the lower jaw to sag and the tongue to drop back and block the passage of air.
+** *
 
 **SEVERE BLEEDING**
 
 Severe bleeding from any major blood vessel in the body is extremely dangerous. The loss of 1 liter of blood will produce moderate symptoms of shock. The loss of 2 liters will produce a severe state of shock that places the body in extreme danger. The loss of 3 liters is usually fatal.
+** *
 
 **SHOCK**
 
@@ -168,23 +154,23 @@ Shock (acute stress reaction) is not a disease in itself. It is a clinical condi
 
 Control panic, both your own and the victim's. Reassure him and try to keep him quiet. Perform a rapid physical exam. Look for the cause of the injury and follow the ABCs of first aid. Start with the airway and breathing, but be discerning. In some cases, a person may die from arterial bleeding more quickly than from an airway obstruction. The following paragraphs describe how to treat airway, bleeding, and shock emergencies.
 
+** *
 **OPEN AIRWAY AND MAINTAIN**
 
 You can open an airway and maintain it by using the following steps:
 
-* _Step 1._ You should check to see if the victim has a partial or complete airway obstruction. If he can cough or speak, allow him to clear the obstruction naturally. Stand by, reassure the victim, and be ready to clear his airway and perform mouth-to-mouth resuscitation should he become unconscious. If his airway is completely obstructed, administer abdominal thrusts until the obstruction is cleared.
-* _Step 2._ Using a finger, quickly sweep the victim's mouth clear of any foreign objects, broken teeth, dentures, and sand.
-* _Step 3._ Using the jaw thrust method, grasp the angles of the victim's lower jaw and lift with both hands, one on each side, moving the jaw forward. For stability, rest your elbows on the surface on which the victim is lying. If his lips are closed, gently open the lower lip with your thumb. 
-* _Step 4._ With the victim's airway open, pinch his nose closed with your thumb and forefinger and blow two complete breaths into his lungs. Allow the lungs to deflate after the second inflation and perform the following:
-
->**Look** for his chest to rise and fall.
-> **Listen** for escaping air during exhalation.
->**Feel** for flow of air on your cheek.
-
-* _Step 5._ If the forced breaths do not stimulate spontaneous breathing, maintain the victim's breathing by performing mouth-to-mouth resuscitation.
-* _Step 6._ There is danger of the victim vomiting during mouth-to-mouth resuscitation. Check the victim's mouth periodically for vomit and clear as needed.
+>_Step 1._ You should check to see if the victim has a partial or complete airway obstruction. If he can cough or speak, allow him to clear the obstruction naturally. Stand by, reassure the victim, and be ready to clear his airway and perform mouth-to-mouth resuscitation should he become unconscious. If his airway is completely obstructed, administer abdominal thrusts until the obstruction is cleared.
+>_Step 2._ Using a finger, quickly sweep the victim's mouth clear of any foreign objects, broken teeth, dentures, and sand.
+>_Step 3._ Using the jaw thrust method, grasp the angles of the victim's lower jaw and lift with both hands, one on each side, moving the jaw forward. For stability, rest your elbows on the surface on which the victim is lying. If his lips are closed, gently open the lower lip with your thumb. 
+> _Step 4._ With the victim's airway open, pinch his nose closed with your thumb and forefinger and blow two complete breaths into his lungs. Allow the lungs to deflate after the second inflation and perform the following:  
+>* **Look** for his chest to rise and fall.  
+> **Listen** for escaping air during exhalation.  
+>**Feel** for flow of air on your cheek.  
+> _Step 5._ If the forced breaths do not stimulate spontaneous breathing, maintain the victim's breathing by performing mouth-to-mouth resuscitation.
+>_Step 6._ There is danger of the victim vomiting during mouth-to-mouth resuscitation. Check the victim's mouth periodically for vomit and clear as needed.
 
 **NOTE:** Cardiopulmonary resuscitation (CPR) may be necessary after cleaning the airway, but only after major bleeding is under control. See FM 21-20, _Physical Fitness Training_, the American Heart Association manual, the Red Cross manual, or most other first aid books for detailed instructions on CPR.
+** *
 
 **CONTROL BLEEDING**
 
@@ -231,22 +217,34 @@ You can stop major bleeding immediately or slow it down by applying pressure wit
 Use a tourniquet only when direct pressure over the bleeding point and all other methods did not control the bleeding. If you leave a tourniquet in place too long, the damage to the tissues can progress to gangrene, with a loss of the limb later. An improperly applied tourniquet can also cause permanent damage to nerves and other tissues at the site of the constriction. If you must use a tourniquet, place it around the extremity, between the wound and the heart, 5 to 10 centimeters (2 to 4 inches) above the wound site. Never place it directly over the wound or a fracture. 
 
 After you secure the tourniquet, clean and bandage the wound. A lone survivor **does not** remove or release an applied tourniquet. However, in a buddy system, the buddy can release the tourniquet pressure every 10 to 15 minutes for 1 or 2 minutes to let blood flow to the rest of the extremity to prevent limb loss.
+** *
 
 **PREVENT AND TREAT SHOCK**
 
 Anticipate shock in all injured personnel. Treat all injured persons as follows, regardless of what symptoms appear:
 
 * If the victim is conscious, place him on a level surface with the lower extremities elevated 15 to 20 centimeters (6 to 8 inches).
+
 * If the victim is unconscious, place him on his side or abdomen with his head turned to one side to prevent choking on vomit, blood, or other fluids.
+
 * If you are unsure of the best position, place the victim perfectly flat. Once the victim is in a shock position, do not move him.
+
 * Maintain body heat by insulating the victim from the surroundings and, in some instances, applying external heat.
+
 * If wet, remove all the victim's wet clothing as soon as possible and replace with dry clothing.
+
 * Improvise a shelter to insulate the victim from the weather.
+
 * External warmth can be provided with warm liquids or foods, a prewarmed sleeping bag, another person, warmed water in canteens, hot rocks wrapped in clothing, or fires on either side of the victim.
+
 * If the victim is conscious, slowly administer small doses of a warm salt or sugar solution, if available.
+
 * If the victim is unconscious or has abdominal wounds, do not give fluids by mouth.
+
 * Have the victim rest for at least 24 hours.
+
 * If you are a lone survivor, lie in a depression in the ground, behind a tree, or any other place out of the weather, with your head lower than your feet.
+
 * If you are with a buddy, reassess your patient constantly.
 
 
@@ -278,6 +276,7 @@ Strong muscles hold a broken thighbone (femur) in place making it difficult to m
 * Lash the stick to maintain traction.
 
 **NOTE:** Over time, you may lose traction because the material weakened. Check the traction periodically. If you must change or repair the splint, maintain the traction manually for a short time.
+** *
 
 **DISLOCATIONS**
 
@@ -294,6 +293,7 @@ Immobilization is nothing more than splinting the dislocation after reduction. Y
 * Check circulation below the fracture after making each tie on the splint.
 
 To rehabilitate the dislocation, remove the splints after 7 to 14 days. Gradually use the injured joint until fully healed.
+** *
 
 **SPRAINS**
 
@@ -322,6 +322,7 @@ The best way to avoid the complications of insect bites and stings is to keep im
 
 If you are bitten or stung, do not scratch the bite or sting; it might become infected. Inspect your body at least once a day to ensure there are no insects attached to you. If you find ticks attached to your body, cover them with a substance (such as petroleum jelly, heavy oil, or tree sap) that will cut off their air supply. Without air, the tick releases its hold, and you can remove it. Take care to remove the whole tick. Use tweezers if you have them. Grasp the tick where its mouthparts are attached to the skin. Do not squeeze the tick's body. Wash your hands after touching the tick. Clean the tick wound daily until healed.
 
+** *
 **TREATMENT**
 
 It is impossible to list the treatment of all the different types of bites and stings. However, you can generally treat bites and stings as follows:
@@ -331,6 +332,7 @@ It is impossible to list the treatment of all the different types of bites and s
 * The common fly-borne diseases are usually treatable with penicillins or erythromycin.
 * Most tick-, flea-, louse-, and mite-borne diseases are treatable with tetracycline.
 * Most antibiotics come in 250 milligram (mg) or 500 mg tablets. If you cannot remember the exact dose rate to treat a disease, 2 tablets, 4 times a day, for 10 to 14 days will usually kill any bacteria. (80 to 112 tablets total.)
+** *
 
 **BEE AND WASP STINGS**
 
@@ -346,6 +348,7 @@ Relieve the itching and discomfort caused by insect bites by applying:
 * Coconut meat.
 * Crushed cloves of garlic.
 * Onion.
+** *
 
 **SPIDER BITES AND SCORPION STINGS**
 
@@ -362,6 +365,7 @@ Scorpions are all poisonous. There are two different reactions, depending on the
 * Severe systemic reaction, with little or no visible local reaction. Local pain may be present. Systemic reaction includes respiratory difficulties, thick-feeling tongue, body spasms, drooling, gastric distention, double vision, blindness, involuntary rapid movement of the eyeballs, involuntary urination and defecation, and heart failure. Death is rare, occurring mainly in children and adults with high blood pressure or illnesses.
 
 Treat scorpion stings as you would a black widow bite.
+** *
 
 **SNAKEBITES**
 
@@ -448,22 +452,17 @@ If you do not have antibiotics and the wound has become severely infected, does 
 * Flush the wound repeatedly with sterile water or fresh urine to remove the maggots.
 * Check the wound every 4 hours for several days to ensure all maggots have been removed.
 * Bandage the wound and treat it as any other wound. It should heal normally.
+** *
 
 **SKIN DISEASES AND AILMENTS**
 
 Boils, fungal infections, and rashes rarely develop into a serious health problem. They cause discomfort and you should treat them as follows:
 
-**Boils**
+**Boils** Apply warm compresses to bring the boil to a head. Another method that can be used to bring a boil to a head is the bottle suction method. Use an empty bottle that has been boiled in water. Place the opening of the bottle over the boil and seal the skin forming an airtight environment that will create a vacuum. This method will draw the pus to the skin surface when applied correctly. Then open the boil using a sterile knife, wire, needle, or similar item. Thoroughly clean out the pus using soap and water. Cover the boil site, checking it periodically to ensure no further infection develops.
 
-Apply warm compresses to bring the boil to a head. Another method that can be used to bring a boil to a head is the bottle suction method. Use an empty bottle that has been boiled in water. Place the opening of the bottle over the boil and seal the skin forming an airtight environment that will create a vacuum. This method will draw the pus to the skin surface when applied correctly. Then open the boil using a sterile knife, wire, needle, or similar item. Thoroughly clean out the pus using soap and water. Cover the boil site, checking it periodically to ensure no further infection develops.
+**Fungal Infections** Keep the skin clean and dry, and expose the infected area to as much sunlight as possible. **Do not scratch** the affected area. During the Southeast Asian conflict, soldiers used antifungal powders, lye soap, chlorine bleach, alcohol, vinegar, concentrated salt water, and iodine to treat fungal infections with varying degrees of success. As with any **"unorthodox"** method of treatment, use these with **caution**.
 
-**Fungal Infections**
-
-Keep the skin clean and dry, and expose the infected area to as much sunlight as possible. **Do not scratch** the affected area. During the Southeast Asian conflict, soldiers used antifungal powders, lye soap, chlorine bleach, alcohol, vinegar, concentrated salt water, and iodine to treat fungal infections with varying degrees of success. As with any **"unorthodox"** method of treatment, use these with **caution**.
-
-**Rashes**
-
-To treat a skin rash effectively, first determine what is causing it. This determination may be difficult even in the best of situations. Observe the following rules to treat rashes:
+**Rashes** To treat a skin rash effectively, first determine what is causing it. This determination may be difficult even in the best of situations. Observe the following rules to treat rashes:
 
 * If it is moist, keep it dry.
 * If it is dry, keep it moist.
@@ -482,6 +481,7 @@ Remember, treat rashes as open wounds; clean and dress them daily. There are man
 * _Syrup._ In extreme circumstances, some of the same benefits of honey and sugar can be realized with any high-sugar-content item.
 
 **NOTE:** Again, use noncommercially prepared materials with caution.
+** *
 
 **BURNS**
 
@@ -523,14 +523,17 @@ You can expect the following symptoms during cooling:
 * Cardiac arrest; be ready to perform CPR.
 
 **NOTE:** Treat for dehydration with lightly salted water.
+** *
 
 **CHILBLAINS**
 
 Frostnip begins as firm, cold, white or gray areas on the face, ears, and extremities. They can blister or peel just like sunburn as late as 2 to 3 days after the injury. Frostnip, or chilblains as it is sometimes called, is the result of tissue exposure to freezing temperatures and is the beginning of frostbite. The water in and around the cells freezes, rupturing cell walls and thus damaging the tissue. Warming the affected area with hands or a warm object treats this injury. Wind chill plays a factor in this injury; preventative measures include layers of dry clothing and protection against wetness and wind.
+** *
 
 **TRENCH FOOT**
 
 Immersion or trench foot results from many hours or days of exposure to wet or damp conditions at a temperature just above freezing. The nerves and muscles sustain the main damage, but gangrene can occur. In extreme cases the flesh dies and it may become necessary to have the foot or leg amputated. The best prevention is to keep your feet dry. Carry extra socks with you in a waterproof packet. Dry wet socks against your body. Wash your feet daily and put on dry socks.
+** *
 
 **FROSTBITE**
 
@@ -539,12 +542,14 @@ This injury results from frozen tissues. Frostbite extends to a depth below the 
 When with others, prevent frostbite by using the buddy system. Check your buddy's face often and make sure that he checks yours. If you are alone, periodically cover your nose and lower part of your face with your mittens.
 
 Do not try to thaw the affected areas by placing them close to an open flame. Frostbitten tissue may be immersed in 37 to 42 degrees C (99 to 109 degrees F) water until thawed. (Water temperature can be determined with the inside wrist or baby formula method.) Dry the part and place it next to your skin to warm it at body temperature.
+** *
 
 **HYPOTHERMIA**
 
 It is defined as the body's failure to maintain an inner core temperature of 36 degrees C (97 degrees F). Exposure to cool or cold temperature over a short or long time can cause hypothermia. Dehydration and lack of food and rest predispose the survivor to hypothermia.
 
 Immediate treatment is the key. Move the victim to the best shelter possible away from wind, rain, and cold. Remove all wet clothes and get the victim into dry clothing. Replace lost fluids with warm fluids, and warm him in a sleeping bag using two people (if possible) providing skin-to-skin contact. If the victim is unable to drink warm fluids, rectal rehydration may be used.
+** *
 
 **DIARRHEA**
 
@@ -553,6 +558,7 @@ A common, debilitating ailment caused by changing water and food, drinking conta
 * Limit your intake of fluids for 24 hours.
 * Drink one cup of a strong tea solution every 2 hours until the diarrhea slows or stops. The tannic acid in the tea helps to control the diarrhea. Boil the inner bark of a hardwood tree for 2 hours or more to release the tannic acid.
 * Make a solution of one handful of ground chalk, charcoal, or dried bones and treated water. If you have apple pomace (pulp) or the rinds of citrus fruit, add an equal portion to the mixture to make it more effective. Take 2 tablespoons of the solution every 2 hours until the diarrhea slows or stops.
+** *
 
 **INTESTINAL PARASITES**
 
@@ -571,6 +577,5 @@ You can usually avoid worm infestations and other intestinal parasites if you ta
 
 Our modern wonder drugs, laboratories, and equipment have obscured more primitive types of medicine involving determination, common sense, and a few simple treatments. However, in many areas of the world the people still depend on local "witch doctors" or healers to cure their ailments. Many of the herbs (plants) and treatments they use are as effective as the most modern medications available. In fact, many modern medications come from refined herbs.
 
-> **WARNING**
-> 
+> **WARNING**  
 > Use herbal medicines with extreme care, and only when you lack or have limited medical supplies. Some herbal medicines are dangerous and may cause further damage or even death.

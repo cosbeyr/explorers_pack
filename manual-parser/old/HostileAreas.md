@@ -1,5 +1,6 @@
 > You might have to cross hostile areas to get into safety and survive.
 
+### MOVEMENT
 
 The movement portion of returning to safety is the most dangerous as you are now most vulnerable. 
 It is usually better to move at night because of the concealment darkness offers. Exceptions to such movement would be when moving through hazardous terrain or dense vegetation (for example, jungle or mountainous terrain). When moving, avoid the following even if it takes more time and energy to bypass:
@@ -16,17 +17,17 @@ Movement in hostile areas is a very slow and deliberate process.
 The slower you move and the more careful you are, the better.
 Your best security will be using your senses. Use your eyes and ears to detect people before they detect you. Make frequent listening halts. In daylight, observe a section of your route before you move along it. The distance you travel before you hide will depend on the enemy situation, your health, the terrain, the availability of cover and concealment for hiding, and the amount of darkness left.
 
-Once you have moved into the area in which you want to hide (hide area), select a hide site. Keep the word BLISS in mind when selecting a hide site:
+Once you have moved into the area in which you want to hide (hide area), select a hide site. Keep the word **BLISS** in mind when selecting a hide site:
 
-* **B**lends in with the surroundings.
-* **L**ow in silhouette.
-* **I**rregular in shape.
-* **S**mall in size.
-* **S**ecluded.
+**B**lends in with the surroundings  
+**L**ow in silhouette  
+**I**rregular in shape  
+**S**mall in size  
+**S**ecluded  
 
 Avoid the use of existing buildings or shelters. Usually, your best option will be to crawl into the thickest vegetation you can find. Construct any type of shelter within the hide area only in cold weather and desert environments. If you build a shelter, follow the BLISS formula.
 
-**HIDE SITE ACTIVITIES**
+### HIDE SITE ACTIVITIES
 
 After you have located your hide site, do not move straight into it. Use a buttonhook or other deceptive technique to move to a position outside of the hide site. Conduct a listening halt before moving individually into the hide site. Be careful not to disturb or cut any vegetation. Once you have occupied the hide site, limit your activities to maintaining security, resting, camouflaging, and planning your next moves.
 
@@ -48,7 +49,7 @@ Once planning is complete, ensure everyone knows and memorizes the entire plan. 
 
 Do not occupy a hide site for more than 24 hours. In most situations, hide during the day and move at night. Limit your actions in the hide site to those discussed above. Once in the hide site, restrict all movement to less than 45 centimeters (18 inches) above the ground. Do not build fires or prepare food. Smoke and food odors will reveal your location. Before leaving the hide site, sterilize it to prevent tracking.
 
-**HOLE-UP AREAS**
+### HOLE-UP AREAS
 
 After moving and hiding for several days, usually three or four, you or the movement team will have to move into a hole-up area. This is an area where you can rest, recuperate, and get and prepare food. Choose an area near a water source. You then have a place to get water, to place fishing devices, and to trap game. Since waterways are a line of communication, locate your hide site well away from the water.
 
@@ -66,6 +67,7 @@ While in the hole-up area, security is still your primary concern. Designate tea
 ### RETURN TO SAFETY
 
 Establishing contact with friendly lines or patrols is the most crucial part of movement and return to friendly control. All your patience, planning, and hardships will be in vain if you do not exercise caution when contacting friendly frontline forces. Friendly patrols have killed personnel operating behind enemy lines because they did not make contact properly. Most of the casualties could have been avoided if caution had been exercised and a few simple procedures followed. The normal tendency is to throw caution to the wind when in sight of friendly forces. You must overcome this tendency and understand that linkup is a very sensitive situation.
+** *
 
 **BORDER CROSSINGS**
 
@@ -84,12 +86,14 @@ If you have made your way to a friendly or neutral country, use the following pr
 Language problems or difficulties confirming identities may arise. The movement team should maintain security, be patient, and have a contingency plan.
 
 **NOTE:** If you are moving to a neutral country, you are surrendering to that power and become a detained person.
+** *
 
 **LINKUP AT THE FORWARD EDGE OF THE BATTLE AREA OR FORWARD LINE OF OWN TROOPS**
 
 If caught between friendly and enemy forces and there is heavy fighting in the area, you may choose to hide and let the friendly lines pass over you. If overrun by friendly forces, you may try to link up from their rear during daylight hours. If overrun by enemy forces, you may move further to the enemy rear, try to move to the forward edge of the battle area or forward line of own troops during a lull in the fighting, or move to another area along the front.
 
 The actual linkup will be done as for linkup during a border crossing. The only difference is that you must be more careful on the initial contact. Frontline personnel are more likely to shoot first and ask questions later, especially in areas of heavy fighting. You should be near or behind cover before trying to make contact.
+** *
 
 **LINKUP WITH FRIENDLY PATROLS**
 

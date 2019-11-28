@@ -25,7 +25,7 @@ Your survival kit should be broken down into the following categories:
 
 Each category should contain items that allow you to sustain your basic needs. For example, water: you should have items that allow you to scoop up, draw up, soak up, or suck up water; something to gather rainwater, condensation, or perspiration; something to transport water; and something to purify or filter water. Some examples of each category are as follows:
 
-## Fire
+**Fire**
 
 * lighter
 * metal match
@@ -33,8 +33,9 @@ Each category should contain items that allow you to sustain your basic needs. F
 * magnesium bar
 * candle, 
 * magnifying lens
+** *
 
-## Water
+**Water**
 
 * water filter like the LifeStraw
 * non-lubricated condoms for carrying water
@@ -44,8 +45,9 @@ Each category should contain items that allow you to sustain your basic needs. F
 * sponges
 * small plastic or rubber tubing
 * collapsible canteens or water bags
+** *
 
-## Shelter
+**Shelter**
 
 * emergency shelter tube tent with paracord 550 
 * parachute cord
@@ -56,8 +58,9 @@ Each category should contain items that allow you to sustain your basic needs. F
 * hammock
 * mosquito net
 * wire saw
+** *
 
-## Food
+**Food**
 
 * knife (can be the one on your MultiTool)
 * snare wire
@@ -69,8 +72,9 @@ Each category should contain items that allow you to sustain your basic needs. F
 * gill or yeti net
 * aluminum foil
 * freezer bags
+** *
 
-## Medical
+**Medical**
 
 * oxytetracycline tablets (to treat diarrhea or infection)
 * surgical blades or surgical preparation knife
@@ -84,11 +88,11 @@ Each category should contain items that allow you to sustain your basic needs. F
 * petrolatum gauze
 * soap
 
-> Note
->
+> Note  
 > Medical items may make up approximately 50 percent of your survival kit.
+** *
 
-## Signal
+**Signal**
 
 * signaling mirror
 * strobe
@@ -97,8 +101,9 @@ Each category should contain items that allow you to sustain your basic needs. F
 * white flag
 * pilot scarf or other bright orange silk scarf
 * glint tape, flashlight, laser pointer, solar blanket
+** *
 
-## Miscellaneous
+**Miscellaneous**  
 
 * duct-tape
 * wrist compass
@@ -107,5 +112,6 @@ Each category should contain items that allow you to sustain your basic needs. F
 * extra eyeglasses
 * knife sharpener
 * cork
+** *
 
 Read and practice the survival techniques in this manual and apply these basic concepts to those you read about in other publications. Then prepare your survival kit with items that are durable, multipurpose, and lightweight. Imagination may be the largest part of your kit. It can replace many of the items in a kit. Combined with the will to live, it can mean the difference between life and death.
