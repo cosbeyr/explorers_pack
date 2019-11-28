@@ -298,6 +298,13 @@ public class CameraFragment extends DialogFragment {
         String storage = StorageUtilities.read(getActivity(), StorageUtilities.jsonStorageName);
         ((MainActivity) getActivity()).setActionBarTitle("Camera");
         setHasOptionsMenu(true);
+        // must check permission at run time
+        if (ActivityCompat.checkSelfPermission(getContext(), Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
+            requestPermissions( //Method of Fragment
+                    new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE},
+                    REQUEST_EXTERNAL_STORAGE
+            );
+        }
 
         try {
             JSONObject hikes = new JSONObject(storage);
