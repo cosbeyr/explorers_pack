@@ -18,6 +18,7 @@ import java.io.InputStreamReader;
 public class StorageUtilities {
     public static final  String apiCache = "apiCache.json";
     public static final String jsonStorageName = "hikeLogs.json";
+    public static final String apiImagesCache = "imageCache.json";
     public static boolean create(Context context, String fileName, String jsonString){
         try {
             FileOutputStream fos = context.openFileOutput(fileName,Context.MODE_PRIVATE);
@@ -103,4 +104,6 @@ public class StorageUtilities {
         return json;
 
     }
+
+
 }

@@ -100,12 +100,11 @@ public class MymapListItemRecyclerViewAdapter extends RecyclerView.Adapter<Mymap
     public void search(String keywords){
         returnItem();
         for (MapListContent.MapListItem map: mValues) {
-            if(!map.hikeName.toLowerCase().startsWith(keywords)){
+            if(!map.hikeName.toLowerCase().contains(keywords)){
                 // add to remove hike list to show again later
                 removedItems.add(map);
                 // keep track of order of item
                 keyMap.put(map.id, mValues.indexOf(map));
-
             }
         }
         for (MapListContent.MapListItem map: removedItems){

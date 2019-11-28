@@ -10,6 +10,7 @@ import android.location.Geocoder;
 import android.location.Location;
 import android.net.IpSecManager;
 import android.os.AsyncTask;
+import android.os.Environment;
 import android.provider.Telephony;
 import android.util.Log;
 import android.widget.Toast;
@@ -37,11 +38,17 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.OutputStream;
 import java.net.URL;
 import java.net.URLConnection;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 import java.util.concurrent.ExecutionException;
@@ -56,6 +63,7 @@ public class APIUtilities extends AsyncTask<String, Integer, ArrayList<MapListCo
     private String city = "default";
     private boolean isCached = false;
     private InputStream urlInputStream;
+    private JSONObject imageCache = null;
 
     public APIUtilities (Context context){
         mContext = context;
@@ -117,8 +125,10 @@ public class APIUtilities extends AsyncTask<String, Integer, ArrayList<MapListCo
             throw new RuntimeException();
         }
 
+
         if (isCached){
             try{
+
                 String fileJSON = StorageUtilities.read(mContext,StorageUtilities.apiCache);
                 JSONObject queryList = new JSONObject(fileJSON);
                 JSONArray trails = queryList.getJSONArray(city);
@@ -129,17 +139,21 @@ public class APIUtilities extends AsyncTask<String, Integer, ArrayList<MapListCo
                     lon = ((JSONObject) trails.get(i)).getString("longitude");
                     imageurl = ((JSONObject) trails.get(i)).getString("imgSqSmall");
                     try {
-                        URLConnection con = new URL(imageurl).openConnection();
-                        con.setUseCaches(true);
-                        urlInputStream = con.getInputStream();
-                        imagemap = BitmapFactory.decodeStream(urlInputStream);
-                        if (this.urlInputStream != null) {
-                            try {
-                                this.urlInputStream.close();
-                            } catch (IOException e) {
-                                ; // swallow
-                            } finally {
-                                this.urlInputStream = null;
+                        imagemap = getCacheImage(getImageName(imageurl));
+                        if(imagemap == null){
+                            URLConnection con = new URL(imageurl).openConnection();
+                            con.setUseCaches(true);
+                            urlInputStream = con.getInputStream();
+                            imagemap = BitmapFactory.decodeStream(urlInputStream);
+
+                            if (this.urlInputStream != null) {
+                                try {
+                                    this.urlInputStream.close();
+                                } catch (IOException e) {
+                                    ; // swallow
+                                } finally {
+                                    this.urlInputStream = null;
+                                }
                             }
                         }
 
@@ -152,6 +166,7 @@ public class APIUtilities extends AsyncTask<String, Integer, ArrayList<MapListCo
                     hikeLocation = ((JSONObject) trails.get(i)).getString("location");
                     tempItem = new MapListContent.MapListItem(Integer.toString(i), hikeName, lat, lon, imageurl, stars, length,hikeLocation, imagemap);
                     resultList.add(tempItem);
+                    cacheTrailImage(mContext, getImageName(imageurl), imagemap);
                     Log.i("BUILDING", resultList.get(i).hikeName);
 
                 }
@@ -166,7 +181,7 @@ public class APIUtilities extends AsyncTask<String, Integer, ArrayList<MapListCo
             if (android.os.Debug.isDebuggerConnected())
                 android.os.Debug.waitForDebugger();
 
-            // Request a string response from the provided URL.
+            // Request a string response frcacheTrailImage()om the provided URL.
             RequestFuture<String> blockingrequest = RequestFuture.newFuture();
             StringRequest stringRequest = new StringRequest(Request.Method.GET, queryString[0], blockingrequest, blockingrequest);
             queue.add(stringRequest);
@@ -244,6 +259,63 @@ public class APIUtilities extends AsyncTask<String, Integer, ArrayList<MapListCo
         return resultList;
     }
 
+    private void cacheTrailImage(Context context,String filename, Bitmap bmp) {
+        try{
+            // save the image to disk
+            String path = context.getExternalFilesDir(Environment.DIRECTORY_PICTURES).toString();
+            OutputStream fOut = null;
+            File file = new File(path, filename);
+            fOut = new FileOutputStream(file);
+            bmp.compress(Bitmap.CompressFormat.JPEG, 100, fOut);
+            fOut.flush();
+            fOut.close();
+            if(StorageUtilities.isFilePresent(context, StorageUtilities.apiImagesCache)) {
+                if (imageCache == null){
+                    String imageCacheRaw = StorageUtilities.read(context, StorageUtilities.apiImagesCache);
+                    imageCache = new JSONObject(imageCacheRaw);
+                }
+            } else {
+                imageCache = new JSONObject();
+            }
+            JSONObject photo = new JSONObject();
+            photo.put("path", file.getAbsolutePath());
+            photo.put("exp", new Date());
+            imageCache.put(filename,photo);
+            StorageUtilities.create(mContext, StorageUtilities.apiImagesCache, imageCache.toString());
+
+        } catch (Exception e){
+         e.printStackTrace();
+        }
+
+    }
+
+    // return cached image if exist
+    private Bitmap getCacheImage(String filename){
+        Bitmap result = null;
+        try{
+            if(StorageUtilities.isFilePresent(mContext, StorageUtilities.apiImagesCache)) {
+                if (imageCache == null){
+                    String imageCacheRaw = StorageUtilities.read(mContext, StorageUtilities.apiImagesCache);
+                    imageCache = new JSONObject(imageCacheRaw);
+                }
+                JSONObject photo = imageCache.getJSONObject(filename);
+                result = BitmapFactory.decodeFile(photo.getString("path"));
+                return result;
+            } else {
+                return result;
+
+            }
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+        return result;
+    }
+
+    private String getImageName(String imageURL){
+        String[] imageUrlSplit = imageURL.split("/");
+        return imageUrlSplit[imageUrlSplit.length-1];
+    }
+
     @Override
     protected void onPreExecute() {
         super.onPreExecute();
@@ -267,8 +339,6 @@ public class APIUtilities extends AsyncTask<String, Integer, ArrayList<MapListCo
         delegate.processFinish(queryResultList);
         mContext = null;
     }
-
-
 
     public ArrayList<MapListContent.MapListItem> getResultList(){
         return resultList;
