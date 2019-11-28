@@ -107,11 +107,13 @@ The polar regions are free of snakes due to their inhospitable environments. Oth
 
 ### DANGEROUS LIZARDS
 
-The Gila monster (_Heloderma suspectrum_) of the American Southwest and Mexico is a dangerous and poisonous lizard with dark, highly textured skin marked by pinkish mottling. It is typically 35 to 45 centimeters (14 to 18 inches) in length and has a thick, stumpy tail. The Gila monster is unlikely to bite unless molested but has a poisonous bite.
+**Gila Monster** The Gila monster (_Heloderma suspectrum_) of the American Southwest and Mexico is a dangerous and poisonous lizard with dark, highly textured skin marked by pinkish mottling. It is typically 35 to 45 centimeters (14 to 18 inches) in length and has a thick, stumpy tail. The Gila monster is unlikely to bite unless molested but has a poisonous bite.
+** *
 
-The Mexican beaded lizard (_Heloderma horridum_) resembles its relative, the Gila monster. However, it has more uniform spots rather than bands of color. It also is poisonous and has a docile nature. You may find it from Mexico to Central America.
+**Mexican Bearded Lizard** The Mexican beaded lizard (_Heloderma horridum_) resembles its relative, the Gila monster. However, it has more uniform spots rather than bands of color. It also is poisonous and has a docile nature. You may find it from Mexico to Central America.
+** *
 
-The komodo dragon is a giant lizard (_Varanus komodoensis_) that grows to more than 3 meters (10 feet) in length. It can be dangerous if you try to capture it. This Indonesian lizard can weigh more than 135 kilograms (300 pounds).
+**Komodo Dragon** The komodo dragon is a giant lizard (_Varanus komodoensis_) that grows to more than 3 meters (10 feet) in length. It can be dangerous if you try to capture it. This Indonesian lizard can weigh more than 135 kilograms (300 pounds).
 
 
 ### FISH AND MOLLUSKS
@@ -200,11 +202,11 @@ There are no simple rules to tell edible fish from those with poisonous flesh. A
 
 In addition to the above fish and their characteristics, barracuda and red snapper fish may carry ciguatera, a toxin that accumulates in the systems of fish that feed on tropical marine reefs.
 
-Without specific local information, take the following precautions:
-*  Be very careful with fish taken from normally shallow lagoons with sandy or broken coral bottoms. Reef-feeding species predominate and some may be poisonous.
-*  Avoid poisonous fish on the leeward side of an island. This area of shallow water consists of patches of living corals mixed with open spaces and may extend seaward for some distance. Many different types of fish, some poisonous, inhabit these shallow waters.
-*  Do not eat fish caught in any area where the water is unnaturally discolored. The discoloration may be indicative of plankton that cause various types of toxicity in plankton-feeding fish.
-*  Try fishing on the windward side or in deep passages leading from the open sea to the lagoon, but be careful of currents and waves. Live coral reefs drop off sharply into deep water and form a dividing line between the _suspected fish of the shallows_ and the _desirable deep-water species_. Deepwater fish are usually not poisonous. You can catch the various toxic fish even in deep water. _Discard all suspected reef fish,_ whether caught on the ocean or the reef side.
+**Without specific local information, take the following precautions:**
+*  _Be very careful with fish taken from normally shallow lagoons with sandy or broken coral bottoms._ Reef-feeding species predominate and some may be poisonous.
+*  _Avoid poisonous fish on the leeward side of an island._ This area of shallow water consists of patches of living corals mixed with open spaces and may extend seaward for some distance. Many different types of fish, some poisonous, inhabit these shallow waters.
+*  _Do not eat fish caught in any area where the water is unnaturally discolored._ The discoloration may be indicative of plankton that cause various types of toxicity in plankton-feeding fish.
+*  _Try fishing on the windward side or in deep passages leading from the open sea to the lagoon, but be careful of currents and waves._ Live coral reefs drop off sharply into deep water and form a dividing line between the suspected fish of the shallows and the desirable deep-water species. Deepwater fish are usually not poisonous. You can catch the various toxic fish even in deep water. Discard all suspected reef fish, whether caught on the ocean or the reef side.
 
 
 ### DANGERS IN BODIES OF WATER
@@ -296,5 +298,4 @@ The triggerfish (_Balistidae_ species) occur in great variety, mostly in tropica
 
 **Barracuda**
 Although most people avoid them because of their ferocity, they occasionally eat barracuda (_Sphyraena barracuda_). These predators of mostly tropical seas can reach almost 1.5 meters (5 feet) in length and have attacked humans without provocation. They occasionally carry the poison ciguatera in their flesh, making them deadly if consumed.
-** *
 

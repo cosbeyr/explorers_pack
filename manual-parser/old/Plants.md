@@ -4,12 +4,33 @@
 > 
 > Nature can provide you with food that will let you survive almost any ordeal, if you don't eat the wrong plant. You must therefore learn as much as possible beforehand about the flora of the region where you will be operating. Plants can provide you with medicines in a survival situation. Plants can supply you with weapons and raw materials to construct shelters and build fires. Plants can even provide you with chemicals for poisoning fish, preserving animal hides, and for camouflaging yourself and your equipment.
 
+### PLANT IDENTIFICATION
+
+You identify plants, other than by memorizing particular varieties through familiarity, by using such factors as leaf shape and margin, leaf arrangements, and root structure.
+
+The basic leaf margins are toothed, lobed, and toothless or smooth. These leaves may be lance-shaped, elliptical, egg-shaped, oblong, wedge-shaped, triangular, long-pointed, or top-shaped. The basic types of leaf arrangements are opposite, alternate, compound, simple, and basal rosette.The basic types of root structures are the bulb, clove, taproot, tuber, rhizome, corm, and crown. 
+
+**Bulb** Bulbs are familiar to us as onions and, when sliced in half, will show concentric rings. 
+
+**Clove** Cloves are those bulblike structures that remind us of garlic and will separate into small pieces when broken apart. This characteristic separates wild onions from wild garlic. 
+
+**Taproot** Taproots resemble carrots and may be single-rooted or branched, but usually only one plant stalk arises from each root. 
+
+**Tuber** Tubers are like potatoes and daylilies. You will find these structures either on strings or in clusters underneath the parent plants. 
+
+**Rhizome** Rhizomes are large creeping rootstock or underground stems. Many plants arise from the "eyes" of these roots. 
+
+**Corm** Corms are similar to bulbs but are solid when cut rather than possessing rings. 
+
+**Crown** A crown is the type of root structure found on plants such as asparagus. Crowns look much like a mophead under the soil's surface.
+
+Learn as much as possible about the unique characteristics of plants you intend to use for food. Some plants have both edible and poisonous parts. Many are edible only at certain times of the year. Others may have poisonous relatives that look very similar to the varieties you can eat or use for medicine.
+
 ### EDIBILITY OF PLANTS
 
 Plants are valuable sources of food because they are widely available, easily procured, and, in the proper combinations, can meet all your nutritional needs.
 
-> **WARNING**
-> 
+> **WARNING**  
 > The critical factor in using plants for food is to avoid accidental poisoning. Eat only those plants you can positively identify and you know are safe to eat.
 
 Absolutely identify plants before using them as food. Poison hemlock has killed people who mistook it for its relatives, wild carrots and wild parsnips.
@@ -18,37 +39,18 @@ You may find yourself in a situation where you not have had the chance to learn 
 
 It is important to be able to recognize both cultivated and wild edible plants in a survival situation. Most of the information in this chapter is directed toward identifying wild plants because information relating to cultivated plants is more readily available.
 
-Consider the following when collecting wild plants for food:
+**Consider the following when collecting wild plants for food:**
 
 *  Plants growing near homes and occupied buildings or along roadsides may have been sprayed with pesticides. Wash these plants thoroughly. In more highly developed countries with many automobiles, avoid roadside plants, if possible, due to contamination from exhaust emissions.
 *  Plants growing in contaminated water or in water containing _Giardia lamblia_ and other parasites are contaminated themselves. Boil or disinfect them.
 *  Some plants develop extremely dangerous fungal toxins. To lessen the chance of accidental poisoning, do not eat any fruit that is starting to spoil or is showing signs of mildew or fungus.
-*  Plants of the same species may differ in their toxic or subtoxic compounds content because of genetic or environmental factors. One example of this is the foliage of the common chokecherry. Some chokecherry plants have high concentrations of deadly cyanide compounds but others have low concentrations or none. Horses have died from eating wilted wild cherry leaves. Avoid any weed, leaves, or seeds with an almondlike scent, a characteristic of the cyanide compounds.
+*  _Plants of the same species may differ in their toxic or subtoxic compounds content because of genetic or environmental factors. One example of this is the foliage of the common chokecherry. Some chokecherry plants have high concentrations of deadly cyanide compounds but others have low concentrations or none. Horses have died from eating wilted wild cherry leaves. Avoid any weed, leaves, or seeds with an almondlike scent, a characteristic of the cyanide compounds.
 *  Some people are more susceptible to gastric distress (from plants) than others. If you are sensitive in this way, avoid unknown wild plants. If you are extremely sensitive to poison ivy, avoid products from this family, including any parts from sumacs, mangoes, and cashews.
 *  Some edible wild plants, such as acorns and water lily rhizomes, are bitter. These bitter substances, usually tannin compounds, make them unpalatable. Boiling them in several changes of water will usually remove these bitter properties.
 *  Many valuable wild plants have high concentrations of oxalate compounds, also known as oxalic acid. Oxalates produce a sharp burning sensation in your mouth and throat and damage the kidneys. Baking, roasting, or drying usually destroys these oxalate crystals. The corm (bulb) of the jack-in-the-pulpit is known as the "Indian turnip," but you can eat it only after removing these crystals by slow baking or by drying.
 
-> **WARNING**
->
+> **WARNING**  
 > Do not eat mushrooms in a survival situation! The only way to tell if a mushroom is edible is by positive identification. There is no room for experimentation. Symptoms caused by the most dangerous mushrooms affecting the central nervous system may not show up until several days after ingestion. By that time, it is too late to reverse their effects.
-** *
-
-**PLANT IDENTIFICATION**
-
-You identify plants, other than by memorizing particular varieties through familiarity, by using such factors as leaf shape and margin, leaf arrangements, and root structure.
-
-The basic leaf margins are toothed, lobed, and toothless or smooth.
-
-
-These leaves may be lance-shaped, elliptical, egg-shaped, oblong, wedge-shaped, triangular, long-pointed, or top-shaped.
-
-The basic types of leaf arrangements are opposite, alternate, compound, simple, and basal rosette.
-
-
-The basic types of root structures are the taproot, tuber, bulb, rhizome, clove, corm, and crown. Bulbs are familiar to us as onions and, when sliced in half, will show concentric rings. Cloves are those bulblike structures that remind us of garlic and will separate into small pieces when broken apart. This characteristic separates wild onions from wild garlic. Taproots resemble carrots and may be single-rooted or branched, but usually only one plant stalk arises from each root. Tubers are like potatoes and daylilies. You will find these structures either on strings or in clusters underneath the parent plants. Rhizomes are large creeping rootstock or underground stems. Many plants arise from the "eyes" of these roots. Corms are similar to bulbs but are solid when cut rather than possessing rings. A crown is the type of root structure found on plants such as asparagus. Crowns look much like a mophead under the soil's surface.
-
-
-Learn as much as possible about the unique characteristics of plants you intend to use for food. Some plants have both edible and poisonous parts. Many are edible only at certain times of the year. Others may have poisonous relatives that look very similar to the varieties you can eat or use for medicine.
 ** *
 
 **UNIVERSAL EDIBILITY TEST**
@@ -82,8 +84,7 @@ There are many plants throughout the world. Tasting or swallowing even a small p
 13. If no ill effects occur, eat 0.25 cup of the same plant part prepared the same way. Wait another 8 hours. If no ill effects occur, the plant part as prepared is safe for eating.
 
 
-> **CAUTION**
->
+> **CAUTION**  
 > Test all parts of the plant for edibility, as some plants have both edible and inedible parts. Do not assume that a part that proved edible when cooked is also edible when raw. Test the part raw to ensure edibility before eating raw. The same part or plant may produce varying reactions in different individuals.
 
 Before testing a plant for edibility, make sure there are enough plants to make the testing worth your time and effort. Each part of a plant (roots, leaves, flowers, and so on) requires more than 24 hours to test. Do not waste time testing a plant that is not relatively abundant in the area.
@@ -237,7 +238,9 @@ The following remedies are for use only in a survival situation. Do not use them
 
 ### MISCELLANEOUS USES OF PLANTS
 
-Plants can be your ally as long as you use them cautiously. Be sure that you know the plant and how to use it. Some additional uses of plants are as follows:
+Plants can be your ally as long as you use them cautiously. Be sure that you know the plant and how to use it. 
+
+**Some additional uses of plants are as follows:**
 
 * Make dyes from various plants to color clothing or to camouflage your skin. Usually, you will have to boil the plants to get the best results. Onionskins produce yellow, walnut hulls produce brown, and pokeberries provide purple dye.
 * Make fibers and cordage from plant fibers. Most commonly used are the stems from nettles and milkweeds, yucca plants, and the inner bark of trees like the linden.

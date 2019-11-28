@@ -44,7 +44,7 @@ Symptoms may take from a few hours to several days to appear. Symptoms can inclu
 
 When you first contact the poisonous plants or when the first symptoms appear, try to remove the oil by washing with soap and cold water. If water is not available, wipe your skin repeatedly with dirt or sand. Do not use dirt if you have blisters. The dirt may break open the blisters and leave the body open to infection. After you have removed the oil, dry the area. You can wash with a tannic acid solution and crush and rub jewelweed on the affected area to treat plant-caused rashes. You can make tannic acid from oak bark.
 
-Poisonous plants that cause contact dermatitis are:
+**Poisonous plants that cause contact dermatitis are:**
 *  Cowhage.
 *  Poison ivy.
 *  Poison oak.
@@ -60,7 +60,7 @@ Symptoms of ingestion poisoning can include nausea, vomiting, diarrhea, abdomina
 
 If you suspect plant poisoning, try to remove the poisonous material from the victim's mouth and stomach as soon as possible. If the victim is conscious, induce vomiting by tickling the back of his throat or by giving him warm saltwater. If the victim is conscious, dilute the poison by administering large quantities of water or milk.
 
-The following plants can cause ingestion poisoning if eaten:
+**The following plants can cause ingestion poisoning if eaten:**
 *  Castor bean.
 *  Chinaberry.
 *  Death camas.

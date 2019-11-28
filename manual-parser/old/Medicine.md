@@ -6,22 +6,24 @@
 > 
 > One man with a fair amount of basic medical knowledge can make a difference in the lives of many. Without qualified medical personnel available, it is you who must know what to do to stay alive.
 
-### REQUIREMENTS FOR MAINTENANCE OF HEALTH
+### SURVIVAL
 
 To survive, you need water and food. You must also have and apply high personal hygiene standards.
 
-**WATER**
+### WATER
 
 Your body loses water through normal body processes (sweating, urinating, and defecating). During average daily exertion when the atmospheric temperature is 20 degrees Celsius (C) (68 degrees Fahrenheit [F]), the average adult loses 2 to 3 liters of water. Other factors can cause your body to lose more water, such as heat exposure, cold exposure, intense activity, high altitude, burns, or illness. You must replace this water.
 
-Dehydration results from inadequate replacement of lost body fluids. It decreases your efficiency and, if you are injured, it increases susceptibility to severe shock. Consider the following results of body fluid loss:
+Dehydration results from inadequate replacement of lost body fluids. It decreases your efficiency and, if you are injured, it increases susceptibility to severe shock. 
+
+**Consider the following results of body fluid loss:**
 
 * A 5-percent loss results in thirst, irritability, nausea, and weakness.
 * A 10-percent loss results in dizziness, headache, inability to walk, and a tingling sensation in the limbs.
 * A 15-percent loss results in dim vision, painful urination, swollen tongue, deafness, and a numb feeling in the skin.
 * A loss greater than 15 percent may result in death.
 
-The most common signs and symptoms of dehydration are:
+**The most common signs and symptoms of dehydration are:**
 
 * Dark urine with a very strong odor. (Generally, the darker the urine, the more dehydrated you are.)
 * Low urine output.
@@ -33,17 +35,19 @@ The most common signs and symptoms of dehydration are:
 * Trench line down center of tongue.
 * Thirst. (Last on the list because you are already 2-percent dehydrated by the time you crave fluids.)
 
-You should replace water as you lose it. Trying to make up a deficit is difficult in a survival situation, and thirst is not a sign of how much water you need.
+**You should replace water as you lose it.** Trying to make up a deficit is difficult in a survival situation, and thirst is not a sign of how much water you need.
 
-Most people cannot comfortably drink more than 1 liter of water at a time. So, even when not thirsty, drink small amounts of water at regular intervals each hour to prevent dehydration.
+Most people cannot comfortably drink more than 1 liter of water at a time. **Even when not thirsty, drink small amounts of water at regular intervals each hour to prevent dehydration.**
 
-If you are under physical and mental stress, or subject to severe conditions, increase your water intake. Drink enough liquids to maintain a urine output of at least 0.5 liters every 24 hours. Urine color is one indicator of hydration levels.
+**If you are under physical and mental stress, or subject to severe conditions, increase your water intake.** Drink enough liquids to maintain a urine output of at least 0.5 liters every 24 hours. Urine color is one indicator of hydration levels.
 
-In any situation where food intake is low, drink 6 to 8 liters of water per day. In an extreme climate, especially an arid one, the average person can lose 2.5 to 3.5 liters of water **per hour**. In this type of climate, you should drink 8 to 12 ounces of water every 30 minutes. It is better to regulate water loss through work or rest cycles because overhydration can occur if water intake exceeds 1.5 quarts per hour. Overhydration can cause low serum sodium levels resulting in cerebral and pulmonary edema, which can lead to death.
+**In any situation where food intake is low, drink 6 to 8 liters of water per day**. In an extreme climate, especially an arid one, the average person can lose 2.5 to 3.5 liters of water **per hour**. In this type of climate, you should drink 8 to 12 ounces of water every 30 minutes. It is better to regulate water loss through work or rest cycles because overhydration can occur if water intake exceeds 1.5 quarts per hour. Overhydration can cause low serum sodium levels resulting in cerebral and pulmonary edema, which can lead to death.
 
-With the loss of water there is also a loss of electrolytes (body salts). The average diet can usually keep up with these losses, but in an extreme situation or illness, additional sources are necessary. You should maintain an intake of carbohydrates and other necessary electrolytes.
+With the loss of water there is also a loss of electrolytes (body salts). The average diet can usually keep up with these losses, but in an extreme situation or illness, additional sources are necessary. **You should maintain an intake of carbohydrates and other necessary electrolytes.**
 
-Of all the physical problems encountered in a survival situation, the loss of water is the most preventable. The following are basic guidelines for the prevention of dehydration:
+Of all the physical problems encountered in a survival situation, the loss of water is the most preventable. 
+
+**The following are basic guidelines for the prevention of dehydration:**
 
 * _Always drink water when eating._ Water is used as a part of the digestion process and can lead to dehydration.
 * _Acclimatize._ The body performs more efficiently in extreme conditions when acclimatized.
@@ -59,35 +63,37 @@ You can also use the pulse and breathing rate to estimate fluid loss. Use the fo
 * With a 1.5- to 2-liter loss the pulse rate will be 120 to 140 beats per minute and 30 to 40 breaths per minute. Vital signs above these rates require advanced care.
 
 Make sure the water you drink does not contain harmful contaminants. Ideally carry a LifeStraw to filter the water. Read more about it in the **Water**.
-** *
 
-**FOOD**
+###FOOD
 
 Although you can live several weeks without food, you need an adequate amount to stay healthy. Without food your mental and physical capabilities will deteriorate rapidly and you will become weak. Food provides energy and replenishes the substances that your body burns. Food provides vitamins, minerals, salts, and other elements essential to good health. And, possibly more important, it helps morale.
 
-The three basic sources of food are plants, animals (including fish) and fungus. In varying degrees, these provide the calories, carbohydrates, fats, and proteins needed for normal daily body functions. You should use rations to augment plant and animal foods, which will extend and help maintain a balanced diet.
+**The three basic sources of food are plants, animals (including fish) and fungus.** In varying degrees, these provide the calories, carbohydrates, fats, and proteins needed for normal daily body functions. You should use rations to augment plant and animal foods, which will extend and help maintain a balanced diet.
 
 Calories are a measure of heat and potential energy. The average person needs 2,000 calories per day to function at a minimum level. An adequate amount of carbohydrates, fats, and proteins without an adequate caloric intake will lead to starvation and cannibalism of the body's own tissue for energy. It may be useful to estimate your TDEE (Total Daily Energy Expenditure) since each individual requires different caloric minimums.
 
+** *
 **Plants** Plant foods provide carbohydrates - the main source of energy. Many plants provide enough protein to keep the body at normal efficiency. Although plants may not provide a balanced diet, they will sustain you even in the arctic, where meat's heat-producing qualities are normally essential. Many plant foods such as nuts and seeds will give you enough protein and oils for normal efficiency. Roots, green vegetables, and plant foods containing natural sugar will provide calories and carbohydrates that give the body natural energy.
 
 The food value of plants becomes more and more important if you are eluding enemies or if you are in an area where wildlife is scarce. For instance:
 
 * You can dry plants by wind, air, sun, or fire. This retards spoilage so that you can store or carry the plant food with you to use when needed.
 * You can often obtain plants more easily than meat.
+** *
 
 **Animals** Meat is more nourishing than plant food. It may even be more readily available in some places. However, to get meat, you need to know the habits of (and how to capture) the various wildlife.
 
 To satisfy immediate food needs, first seek the more abundant and easily obtained wildlife. This includes insects, crustaceans, mollusks, fish, and reptiles. These can satisfy hunger while you are preparing traps and snares for larger game.
-** *
 
-**PERSONAL HYGIENE**
+### PERSONAL HYGIENE
 
 Cleanliness is always an important factor in preventing infection and disease. This becomes even more important in a survival situation since poor hygiene can reduce chances of survival.
 
 A daily shower with hot water and soap is ideal, but you can stay clean without this luxury. Use a cloth and soapy water to wash yourself. Pay special attention to the feet, armpits, crotch, hands, and hair as these are prime areas for infestation and infection. If water is scarce, take an "air" bath. Remove as much of your clothing as practical and expose your body to the sun and air for at least 1 hour. Be careful not to sunburn.
 
-If you don't have soap, use ashes or sand, or make soap from animal fat and wood ashes if your situation allows. To make soap:
+If you don't have soap, use ashes or sand, or make soap from animal fat and wood ashes if your situation allows. 
+
+**To make soap:**
 
 * Extract grease from animal fat by cutting the fat into small pieces and cooking it in a pot.
 * Add enough water to the pot to keep the fat from sticking as it cooks.
@@ -103,33 +109,42 @@ Another way to get the lye is to pour the slurry (the mixture of ashes and water
 
 After the mixture (the soap) cools, you can use it in the semiliquid state directly from the pot. You can also pour it into a pan, allow it to harden, and cut it into bars for later use.
 
+** *
 **Keep Your Hands Clean.** Germs on your hands can infect food and wounds. Wash your hands after handling any material that is likely to carry germs, after urinating or defecating, after caring for the sick, and before handling any food, food utensils, or drinking water. Keep your fingernails closely trimmed and clean, and keep your fingers out of your mouth.
+** *
 
 **Keep Your Hair Clean.** Hair can become a haven for bacteria, fleas, lice, and other parasites. Keeping your hair clean, combed, and trimmed helps you avoid this danger.
+** *
 
 **Keep Your Clothing Clean.** Keep your clothing and bedding as clean as possible to reduce the chances of skin infection or parasitic infestation. Clean your outer clothing whenever it becomes soiled. Wear clean underclothing and socks each day. If water is scarce, "air" clean your clothing by shaking, airing, and sunning it for 2 hours. If you are using a sleeping bag, turn it inside out after each use, fluff it, and air it.
+** *
 
 **Keep Your Teeth Clean.** Thoroughly clean your mouth and teeth with a toothbrush at least once each day. If you don't have a toothbrush, make a chewing stick. Find a twig about 20 centimeters (cm) (8 inches) long and 1 centimeter (1/3 inch) wide. Chew one end of the stick to separate the fibers. Then brush your teeth thoroughly. Another way is to wrap a clean strip of cloth around your fingers and rub your teeth with it to wipe away food particles. You can also brush your teeth with small amounts of sand, baking soda, salt, or soap. Rinse your mouth with water, salt water, or willow bark tea. Flossing your teeth with string or fiber also helps oral hygiene.
 
 If you have cavities, you can make temporary fillings by placing candle wax, tobacco, hot pepper, toothpaste or powder, or portions of a gingerroot into the cavity. Make sure you clean the cavity by rinsing or picking the particles out of the cavity before placing a filling in the cavity.
+** *
 
 **Take Care of Your Feet.** To prevent serious foot problems, break in your shoes before wearing them on any mission. Wash and massage your feet daily. Trim your toenails straight across. Wear an insole and the proper size of dry socks. Powder and check your feet daily for blisters.
 
-If you get a small blister, do not open it. An intact blister is safe from infection. Apply a padding material around the blister to relieve pressure and reduce friction. If the blister bursts, treat it as an open wound. Clean and dress it daily and pad around it. Leave large blisters intact. To avoid having the blister burst or tear under pressure and cause a painful and open sore, do the following:
+If you get a small blister, do not open it. An intact blister is safe from infection. Apply a padding material around the blister to relieve pressure and reduce friction. If the blister bursts, treat it as an open wound. Clean and dress it daily and pad around it. Leave large blisters intact. 
+
+**To avoid having the blister burst or tear under pressure and cause a painful and open sore, do the following:**
 
 * Obtain a sewing-type needle and a clean or sterilized thread.
 * Run the needle and thread through the blister after cleaning the blister.
 * Detach the needle and leave both ends of the thread hanging out of the blister. The thread will absorb the liquid inside. This reduces the size of the hole and ensures that the hole does not close up.
 * Pad around the blister.
+** *
 
 **Get Sufficient Rest.** You need a certain amount of rest to keep going. Plan for regular rest periods of at least 10 minutes per hour during your daily activities. Learn to make yourself comfortable under less-than-ideal conditions. A change from mental to physical activity or vice versa can be refreshing when time or situation does not permit total relaxation.
+** *
 
 **Keep Campsite Clean.** Do not soil the ground in the campsite area with urine or feces. Use latrines, if available. When latrines are not available, dig "cat holes" and cover the waste. Collect drinking water upstream from the campsite. Purify all water.
 
 ### MEDICAL EMERGENCIES
 
 Medical problems and emergencies you may face include breathing problems, severe bleeding, and shock. The following paragraphs explain each of these problems and what you can expect if they occur.
-
+** *
 **BREATHING PROBLEMS**
 
 Any one of the following can cause airway obstruction, resulting in stopped breathing:
@@ -159,15 +174,20 @@ Control panic, both your own and the victim's. Reassure him and try to keep him 
 
 You can open an airway and maintain it by using the following steps:
 
->_Step 1._ You should check to see if the victim has a partial or complete airway obstruction. If he can cough or speak, allow him to clear the obstruction naturally. Stand by, reassure the victim, and be ready to clear his airway and perform mouth-to-mouth resuscitation should he become unconscious. If his airway is completely obstructed, administer abdominal thrusts until the obstruction is cleared.
->_Step 2._ Using a finger, quickly sweep the victim's mouth clear of any foreign objects, broken teeth, dentures, and sand.
->_Step 3._ Using the jaw thrust method, grasp the angles of the victim's lower jaw and lift with both hands, one on each side, moving the jaw forward. For stability, rest your elbows on the surface on which the victim is lying. If his lips are closed, gently open the lower lip with your thumb. 
-> _Step 4._ With the victim's airway open, pinch his nose closed with your thumb and forefinger and blow two complete breaths into his lungs. Allow the lungs to deflate after the second inflation and perform the following:  
->* **Look** for his chest to rise and fall.  
-> **Listen** for escaping air during exhalation.  
->**Feel** for flow of air on your cheek.  
-> _Step 5._ If the forced breaths do not stimulate spontaneous breathing, maintain the victim's breathing by performing mouth-to-mouth resuscitation.
->_Step 6._ There is danger of the victim vomiting during mouth-to-mouth resuscitation. Check the victim's mouth periodically for vomit and clear as needed.
+_Step 1._ You should check to see if the victim has a partial or complete airway obstruction. If he can cough or speak, allow him to clear the obstruction naturally. Stand by, reassure the victim, and be ready to clear his airway and perform mouth-to-mouth resuscitation should he become unconscious. If his airway is completely obstructed, administer abdominal thrusts until the obstruction is cleared.
+
+_Step 2._ Using a finger, quickly sweep the victim's mouth clear of any foreign objects, broken teeth, dentures, and sand.
+
+_Step 3._ Using the jaw thrust method, grasp the angles of the victim's lower jaw and lift with both hands, one on each side, moving the jaw forward. For stability, rest your elbows on the surface on which the victim is lying. If his lips are closed, gently open the lower lip with your thumb. 
+
+_Step 4._ With the victim's airway open, pinch his nose closed with your thumb and forefinger and blow two complete breaths into his lungs. Allow the lungs to deflate after the second inflation and perform the following:  
+* **Look** for his chest to rise and fall.  
+* **Listen** for escaping air during exhalation.  
+* **Feel** for flow of air on your cheek.  
+
+_Step 5._ If the forced breaths do not stimulate spontaneous breathing, maintain the victim's breathing by performing mouth-to-mouth resuscitation.
+
+_Step 6._ There is danger of the victim vomiting during mouth-to-mouth resuscitation. Check the victim's mouth periodically for vomit and clear as needed.
 
 **NOTE:** Cardiopulmonary resuscitation (CPR) may be necessary after cleaning the airway, but only after major bleeding is under control. See FM 21-20, _Physical Fitness Training_, the American Heart Association manual, the Red Cross manual, or most other first aid books for detailed instructions on CPR.
 ** *
@@ -182,39 +202,26 @@ In a survival situation, you must control serious bleeding immediately because r
 
 You can control external bleeding by direct pressure, indirect (pressure points) pressure, elevation, digital ligation, or tourniquet. Each method is explained below.
 
-**Direct Pressure**
-
-The most effective way to control external bleeding is by applying pressure directly over the wound. This pressure must not only be firm enough to stop the bleeding, but it must also be maintained long enough to "seal off" the damaged surface.
+**Direct Pressure** The most effective way to control external bleeding is by applying pressure directly over the wound. This pressure must not only be firm enough to stop the bleeding, but it must also be maintained long enough to "seal off" the damaged surface.
 
 If bleeding continues after having applied direct pressure for 30 minutes, apply a pressure dressing. This dressing consists of a thick dressing of gauze or other suitable material applied directly over the wound and held in place with a tightly wrapped bandage. It should be tighter than an ordinary compression bandage but not so tight that it impairs circulation to the rest of the limb. Once you apply the dressing, **do not remove it,** even when the dressing becomes blood soaked.
 
-
 Leave the pressure dressing in place for 1 or 2 days, after which you can remove and replace it with a smaller dressing. In the long-term survival environment, make fresh, daily dressing changes and inspect for signs of infection.
 
-**Elevation**
+**Elevation** Raising an injured extremity as high as possible above the heart's level slows blood loss by aiding the return of blood to the heart and lowering the blood pressure at the wound. However, elevation alone will not control bleeding entirely; you must also apply direct pressure over the wound. When treating a snakebite, be sure to keep the extremity **lower** than the heart.
 
-Raising an injured extremity as high as possible above the heart's level slows blood loss by aiding the return of blood to the heart and lowering the blood pressure at the wound. However, elevation alone will not control bleeding entirely; you must also apply direct pressure over the wound. When treating a snakebite, be sure to keep the extremity **lower** than the heart.
-
-**Pressure Points**
-
-A pressure point is a location where the main artery to the wound lies near the surface of the skin or where the artery passes directly over a bony prominence. You can use digital pressure on a pressure point to slow arterial bleeding until the application of a pressure dressing. Pressure point control is not as effective for controlling bleeding as direct pressure exerted on the wound. It is rare when a single major compressible artery supplies a damaged vessel.
-
+**Pressure Points** A pressure point is a location where the main artery to the wound lies near the surface of the skin or where the artery passes directly over a bony prominence. You can use digital pressure on a pressure point to slow arterial bleeding until the application of a pressure dressing. Pressure point control is not as effective for controlling bleeding as direct pressure exerted on the wound. It is rare when a single major compressible artery supplies a damaged vessel.
 
 If you cannot remember the exact location of the pressure points, follow this rule: Apply pressure at the end of the joint just above the injured area. On hands, feet, and head, this will be the wrist, ankle, and neck, respectively.
 
-> **WARNING**
->
+> **WARNING**  
 > Use caution when applying pressure to the neck. Too much pressure for too long may cause unconsciousness or death. Never place a tourniquet around the neck.
 
 Maintain pressure points by placing a round stick in the joint, bending the joint over the stick, and then keeping it tightly bent by lashing. By using this method to maintain pressure, it frees your hands to work in other areas.
 
-**Digital Ligation**
+**Digital Ligation** You can stop major bleeding immediately or slow it down by applying pressure with a finger or two on the bleeding end of the vein or artery. Maintain the pressure until the bleeding stops or slows down enough to apply a pressure bandage, elevation, and so forth.
 
-You can stop major bleeding immediately or slow it down by applying pressure with a finger or two on the bleeding end of the vein or artery. Maintain the pressure until the bleeding stops or slows down enough to apply a pressure bandage, elevation, and so forth.
-
-**Tourniquet**
-
-Use a tourniquet only when direct pressure over the bleeding point and all other methods did not control the bleeding. If you leave a tourniquet in place too long, the damage to the tissues can progress to gangrene, with a loss of the limb later. An improperly applied tourniquet can also cause permanent damage to nerves and other tissues at the site of the constriction. If you must use a tourniquet, place it around the extremity, between the wound and the heart, 5 to 10 centimeters (2 to 4 inches) above the wound site. Never place it directly over the wound or a fracture. 
+**Tourniquet** Use a tourniquet only when direct pressure over the bleeding point and all other methods did not control the bleeding. If you leave a tourniquet in place too long, the damage to the tissues can progress to gangrene, with a loss of the limb later. An improperly applied tourniquet can also cause permanent damage to nerves and other tissues at the site of the constriction. If you must use a tourniquet, place it around the extremity, between the wound and the heart, 5 to 10 centimeters (2 to 4 inches) above the wound site. Never place it directly over the wound or a fracture. 
 
 After you secure the tourniquet, clean and bandage the wound. A lone survivor **does not** remove or release an applied tourniquet. However, in a buddy system, the buddy can release the tourniquet pressure every 10 to 15 minutes for 1 or 2 minutes to let blood flow to the rest of the extremity to prevent limb loss.
 ** *
@@ -251,6 +258,7 @@ Anticipate shock in all injured personnel. Treat all injured persons as follows,
 ### BONE AND JOINT INJURY
 
 You could face bone and joint injuries that include fractures, dislocations, and sprains. Follow the steps explained below for each injury.
+** *
 
 **FRACTURES**
 
@@ -264,8 +272,9 @@ The dangers with a fracture are the severing or the compression of a nerve or bl
 
 Often you must maintain traction during the splinting and healing process. You can effectively pull smaller bones such as the arm or lower leg by hand. You can create traction by wedging a hand or foot in the V-notch of a tree and pushing against the tree with the other extremity. You can then splint the break.
 
-Strong muscles hold a broken thighbone (femur) in place making it difficult to maintain traction during healing. You can make an improvised traction splint using natural material as explained below.
+Strong muscles hold a broken thighbone (femur) in place making it difficult to maintain traction during healing. 
 
+**You can make an improvised traction splint using natural material as explained below:**
 
 * Get two forked branches or saplings at least 5 centimeters (2 inches) in diameter. Measure one from the patient's armpit to 20 to 30 centimeters (8 to 12 inches) past his unbroken leg. Measure the other from the groin to 20 to 30 centimeters (8 to 12 inches) past the unbroken leg. Ensure that both extend an equal distance beyond the end of the leg.
 * Pad the two splints. Notch the ends without forks and lash a 20- to 30-centimeter (8- to 12-inch) cross member made from a 5-centimeter (2-inch) diameter branch between them.
@@ -286,7 +295,9 @@ Signs and symptoms of dislocations are joint pain, tenderness, swelling, discolo
 
 Reduction or "setting" is placing the bones back into their proper alignment. You can use several methods, but manual traction or the use of weights to pull the bones are the safest and easiest. Once performed, reduction decreases the victim's pain and allows for normal function and circulation. Without an X ray, you can judge proper alignment by the look and feel of the joint and by comparing it to the joint on the opposite side.
 
-Immobilization is nothing more than splinting the dislocation after reduction. You can use any field-expedient material for a splint or you can splint an extremity to the body. The basic guidelines for splinting are as follows:
+Immobilization is nothing more than splinting the dislocation after reduction. You can use any field-expedient material for a splint or you can splint an extremity to the body. 
+
+**The basic guidelines for splinting are as follows:**
 
 * Splint above and below the fracture site.
 * Pad splints to reduce discomfort.
@@ -299,7 +310,7 @@ To rehabilitate the dislocation, remove the splints after 7 to 14 days. Graduall
 
 The accidental overstretching of a tendon or ligament causes sprains. The signs and symptoms are pain, swelling, tenderness, and discoloration (black and blue).
 
-When treating sprains, you should follow the letters in RICE as defined below:
+**When treating sprains, you should follow the letters in RICE as defined below:**
 
 * R-Rest injured area.
 * I-Ice for 24 to 48 hours.
@@ -325,7 +336,9 @@ If you are bitten or stung, do not scratch the bite or sting; it might become in
 ** *
 **TREATMENT**
 
-It is impossible to list the treatment of all the different types of bites and stings. However, you can generally treat bites and stings as follows:
+It is impossible to list the treatment of all the different types of bites and stings. 
+
+**You can generally treat bites and stings as follows:**
 
 * If antibiotics are available for your use, become familiar with them before deployment and use them.
 * Predeployment immunizations can prevent most of the common diseases carried by mosquitoes and some carried by flies.
@@ -340,7 +353,7 @@ If stung by a bee, immediately remove the stinger and venom sac, if attached, by
 
 If you know or suspect that you are allergic to insect stings, always carry an insect sting kit with you.
 
-Relieve the itching and discomfort caused by insect bites by applying:
+**Relieve the itching and discomfort caused by insect bites by applying:**
 
 * Cold compresses.
 * A cooling paste of mud and ashes.
@@ -404,7 +417,7 @@ You should also remember four very important guidelines during the treatment of 
 * Don't put your hands on your face or rub your eyes, as venom may be on your hands. Venom may cause blindness.
 * Break open the large blisters that form around the bite site.
 
-After caring for the victim as described above, take the following actions to minimize local effects:
+**After caring for the victim as described above, take the following actions to minimize local effects:**
 
 * If infection appears, keep the wound open and clean.
 * Use heat after 24 to 48 hours to help prevent the spread of local infection. Heat also helps to draw out an infection.
@@ -414,6 +427,7 @@ After caring for the victim as described above, take the following actions to mi
 ### WOUNDS
 
 An interruption of the skin's integrity characterizes wounds. These wounds could be open wounds, skin diseases, frostbite, trench foot, or burns.
+** *
 
 **OPEN WOUNDS**
 
@@ -499,10 +513,13 @@ The following field treatment for burns relieves the pain somewhat, seems to hel
 ### ENVIRONMENTAL INJURIES
 
 Heatstroke, hypothermia, diarrhea, and intestinal parasites are environmental concerns you could face in a survival situation.
+** *
 
 **HEATSTROKE**
 
-The breakdown of the body's heat regulatory system (body temperature more than 40.5 degrees C [105 degrees F]) causes a heatstroke. Other heat injuries, such as cramps or dehydration, do not always precede a heatstroke. Signs and symptoms of heatstroke are:
+The breakdown of the body's heat regulatory system (body temperature more than 40.5 degrees C [105 degrees F]) causes a heatstroke. Other heat injuries, such as cramps or dehydration, do not always precede a heatstroke. 
+
+**Signs and symptoms of heatstroke are:**
 
 * Swollen, beet-red face.
 * Reddened whites of eyes.
@@ -511,7 +528,7 @@ The breakdown of the body's heat regulatory system (body temperature more than 4
 
 **NOTE:** By this time, the victim is in severe shock. Cool the victim as rapidly as possible. Cool him by dipping him in a cool stream. If one is not available, douse the victim with urine, water, or at the very least, apply cool wet compresses to all the joints, especially the neck, armpits, and crotch. Be sure to wet the victim's head. Heat loss through the scalp is great. Administer IVs and provide drinking fluids. You may fan the individual.
 
-You can expect the following symptoms during cooling:
+**You can expect the following symptoms during cooling:**
 
 * Vomiting.
 * Diarrhea.
@@ -553,7 +570,9 @@ Immediate treatment is the key. Move the victim to the best shelter possible awa
 
 **DIARRHEA**
 
-A common, debilitating ailment caused by changing water and food, drinking contaminated water, eating spoiled food, becoming fatigued, and using dirty dishes. You can avoid most of these causes by practicing preventive medicine. However, if you get diarrhea and do not have antidiarrheal medicine, one of the following treatments may be effective:
+A common, debilitating ailment caused by changing water and food, drinking contaminated water, eating spoiled food, becoming fatigued, and using dirty dishes. You can avoid most of these causes by practicing preventive medicine. 
+
+**If you get diarrhea and do not have antidiarrheal medicine, one of the following treatments may be effective:**
 
 * Limit your intake of fluids for 24 hours.
 * Drink one cup of a strong tea solution every 2 hours until the diarrhea slows or stops. The tannic acid in the tea helps to control the diarrhea. Boil the inner bark of a hardwood tree for 2 hours or more to release the tannic acid.
@@ -562,7 +581,9 @@ A common, debilitating ailment caused by changing water and food, drinking conta
 
 **INTESTINAL PARASITES**
 
-You can usually avoid worm infestations and other intestinal parasites if you take preventive measures. For example, never go barefoot. The most effective way to prevent intestinal parasites is to avoid uncooked meat, never eat raw vegetables contaminated by raw sewage, and try not to use human waste as a fertilizer. However, should you become infested and lack proper medicine, you can use home remedies. Keep in mind that these home remedies work on the principle of changing the environment of the gastrointestinal tract. The following are home remedies you could use:
+You can usually avoid worm infestations and other intestinal parasites if you take preventive measures. For example, never go barefoot. The most effective way to prevent intestinal parasites is to avoid uncooked meat, never eat raw vegetables contaminated by raw sewage, and try not to use human waste as a fertilizer. However, should you become infested and lack proper medicine, you can use home remedies. Keep in mind that these home remedies work on the principle of changing the environment of the gastrointestinal tract. 
+
+**The following are home remedies you could use:**
 
 * _Salt water._ Dissolve 4 tablespoons of salt in 1 liter of water and drink. Do not repeat this treatment.
 * _Tobacco._ Eat 1 to 1 1/2 cigarettes or approximately 1 teaspoon (pinch) of smokeless tobacco. The nicotine in the tobacco will kill or stun the worms long enough for your system to pass them. If the infestation is severe, repeat the treatment in 24 to 48 hours, **but no sooner**.
