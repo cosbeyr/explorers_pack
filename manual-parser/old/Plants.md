@@ -3,15 +3,34 @@
 > You must not count on being able to go for days without food as some sources would suggest. Even in the most static survival situation, maintaining health through a complete and nutritious diet is essential to maintaining strength and peace of mind.
 > 
 > Nature can provide you with food that will let you survive almost any ordeal, if you don't eat the wrong plant. You must therefore learn as much as possible beforehand about the flora of the region where you will be operating. Plants can provide you with medicines in a survival situation. Plants can supply you with weapons and raw materials to construct shelters and build fires. Plants can even provide you with chemicals for poisoning fish, preserving animal hides, and for camouflaging yourself and your equipment.
-> 
-> **NOTE:** You will find illustrations of the plants described in this chapter in the Appendix.
+
+### PLANT IDENTIFICATION
+
+You identify plants, other than by memorizing particular varieties through familiarity, by using such factors as leaf shape and margin, leaf arrangements, and root structure.
+
+The basic leaf margins are toothed, lobed, and toothless or smooth. These leaves may be lance-shaped, elliptical, egg-shaped, oblong, wedge-shaped, triangular, long-pointed, or top-shaped. The basic types of leaf arrangements are opposite, alternate, compound, simple, and basal rosette.The basic types of root structures are the bulb, clove, taproot, tuber, rhizome, corm, and crown. 
+
+**Bulb** Bulbs are familiar to us as onions and, when sliced in half, will show concentric rings. 
+
+**Clove** Cloves are those bulblike structures that remind us of garlic and will separate into small pieces when broken apart. This characteristic separates wild onions from wild garlic. 
+
+**Taproot** Taproots resemble carrots and may be single-rooted or branched, but usually only one plant stalk arises from each root. 
+
+**Tuber** Tubers are like potatoes and daylilies. You will find these structures either on strings or in clusters underneath the parent plants. 
+
+**Rhizome** Rhizomes are large creeping rootstock or underground stems. Many plants arise from the "eyes" of these roots. 
+
+**Corm** Corms are similar to bulbs but are solid when cut rather than possessing rings. 
+
+**Crown** A crown is the type of root structure found on plants such as asparagus. Crowns look much like a mophead under the soil's surface.
+
+Learn as much as possible about the unique characteristics of plants you intend to use for food. Some plants have both edible and poisonous parts. Many are edible only at certain times of the year. Others may have poisonous relatives that look very similar to the varieties you can eat or use for medicine.
 
 ### EDIBILITY OF PLANTS
 
 Plants are valuable sources of food because they are widely available, easily procured, and, in the proper combinations, can meet all your nutritional needs.
 
-> **WARNING**
-> 
+> **WARNING**  
 > The critical factor in using plants for food is to avoid accidental poisoning. Eat only those plants you can positively identify and you know are safe to eat.
 
 Absolutely identify plants before using them as food. Poison hemlock has killed people who mistook it for its relatives, wild carrots and wild parsnips.
@@ -20,36 +39,19 @@ You may find yourself in a situation where you not have had the chance to learn 
 
 It is important to be able to recognize both cultivated and wild edible plants in a survival situation. Most of the information in this chapter is directed toward identifying wild plants because information relating to cultivated plants is more readily available.
 
-Consider the following when collecting wild plants for food:
+**Consider the following when collecting wild plants for food:**
 
 *  Plants growing near homes and occupied buildings or along roadsides may have been sprayed with pesticides. Wash these plants thoroughly. In more highly developed countries with many automobiles, avoid roadside plants, if possible, due to contamination from exhaust emissions.
 *  Plants growing in contaminated water or in water containing _Giardia lamblia_ and other parasites are contaminated themselves. Boil or disinfect them.
 *  Some plants develop extremely dangerous fungal toxins. To lessen the chance of accidental poisoning, do not eat any fruit that is starting to spoil or is showing signs of mildew or fungus.
-*  Plants of the same species may differ in their toxic or subtoxic compounds content because of genetic or environmental factors. One example of this is the foliage of the common chokecherry. Some chokecherry plants have high concentrations of deadly cyanide compounds but others have low concentrations or none. Horses have died from eating wilted wild cherry leaves. Avoid any weed, leaves, or seeds with an almondlike scent, a characteristic of the cyanide compounds.
+*  _Plants of the same species may differ in their toxic or subtoxic compounds content because of genetic or environmental factors. One example of this is the foliage of the common chokecherry. Some chokecherry plants have high concentrations of deadly cyanide compounds but others have low concentrations or none. Horses have died from eating wilted wild cherry leaves. Avoid any weed, leaves, or seeds with an almondlike scent, a characteristic of the cyanide compounds.
 *  Some people are more susceptible to gastric distress (from plants) than others. If you are sensitive in this way, avoid unknown wild plants. If you are extremely sensitive to poison ivy, avoid products from this family, including any parts from sumacs, mangoes, and cashews.
 *  Some edible wild plants, such as acorns and water lily rhizomes, are bitter. These bitter substances, usually tannin compounds, make them unpalatable. Boiling them in several changes of water will usually remove these bitter properties.
 *  Many valuable wild plants have high concentrations of oxalate compounds, also known as oxalic acid. Oxalates produce a sharp burning sensation in your mouth and throat and damage the kidneys. Baking, roasting, or drying usually destroys these oxalate crystals. The corm (bulb) of the jack-in-the-pulpit is known as the "Indian turnip," but you can eat it only after removing these crystals by slow baking or by drying.
 
-> **WARNING**
->
+> **WARNING**  
 > Do not eat mushrooms in a survival situation! The only way to tell if a mushroom is edible is by positive identification. There is no room for experimentation. Symptoms caused by the most dangerous mushrooms affecting the central nervous system may not show up until several days after ingestion. By that time, it is too late to reverse their effects.
-
-**PLANT IDENTIFICATION**
-
-You identify plants, other than by memorizing particular varieties through familiarity, by using such factors as leaf shape and margin, leaf arrangements, and root structure.
-
-The basic leaf margins are toothed, lobed, and toothless or smooth.
-
-
-These leaves may be lance-shaped, elliptical, egg-shaped, oblong, wedge-shaped, triangular, long-pointed, or top-shaped.
-
-The basic types of leaf arrangements are opposite, alternate, compound, simple, and basal rosette.
-
-
-The basic types of root structures are the taproot, tuber, bulb, rhizome, clove, corm, and crown. Bulbs are familiar to us as onions and, when sliced in half, will show concentric rings. Cloves are those bulblike structures that remind us of garlic and will separate into small pieces when broken apart. This characteristic separates wild onions from wild garlic. Taproots resemble carrots and may be single-rooted or branched, but usually only one plant stalk arises from each root. Tubers are like potatoes and daylilies. You will find these structures either on strings or in clusters underneath the parent plants. Rhizomes are large creeping rootstock or underground stems. Many plants arise from the "eyes" of these roots. Corms are similar to bulbs but are solid when cut rather than possessing rings. A crown is the type of root structure found on plants such as asparagus. Crowns look much like a mophead under the soil's surface.
-
-
-Learn as much as possible about the unique characteristics of plants you intend to use for food. Some plants have both edible and poisonous parts. Many are edible only at certain times of the year. Others may have poisonous relatives that look very similar to the varieties you can eat or use for medicine.
+** *
 
 **UNIVERSAL EDIBILITY TEST**
 
@@ -82,8 +84,7 @@ There are many plants throughout the world. Tasting or swallowing even a small p
 13. If no ill effects occur, eat 0.25 cup of the same plant part prepared the same way. Wait another 8 hours. If no ill effects occur, the plant part as prepared is safe for eating.
 
 
-> **CAUTION**
->
+> **CAUTION**  
 > Test all parts of the plant for edibility, as some plants have both edible and inedible parts. Do not assume that a part that proved edible when cooked is also edible when raw. Test the part raw to ensure edibility before eating raw. The same part or plant may produce varying reactions in different individuals.
 
 Before testing a plant for edibility, make sure there are enough plants to make the testing worth your time and effort. Each part of a plant (roots, leaves, flowers, and so on) requires more than 24 hours to test. Do not waste time testing a plant that is not relatively abundant in the area.
@@ -104,11 +105,13 @@ To avoid potentially poisonous plants, stay away from any wild or unknown plants
 * A three-leafed growth pattern.
 
 Using the above criteria as eliminators when choosing plants for the Universal Edibility Test will cause you to avoid some edible plants. More important, these criteria will often help you avoid plants that are potentially toxic to eat or touch.
+** *
+
+**PLANTS BY AREA**
 
 An entire encyclopedia of edible wild plants could be written, but space limits the number of plants presented here. Learn as much as possible about the plant life of the areas where you train regularly and where you expect to be traveling or working. 
 
-## Temperate Zone
-
+**Temperate Zone**
 * Amaranth (_Amaranths retroflex_ and other species)
 * Arrowroot (_Sagittarius_ species)
 * Asparagus (_Asparagus officials_)
@@ -138,8 +141,7 @@ An entire encyclopedia of edible wild plants could be written, but space limits 
 * Wild rose (_Rosa_ species)
 * Wood sorrel (_Oxalis_ species)
 
-## Tropical Zone
-
+**Tropical Zone**
 * Bamboo (_Bambusa_ and other species)
 * Bananas (_Musa_ species)
 * Breadfruit (_Artocarpus incisa_)
@@ -151,13 +153,13 @@ An entire encyclopedia of edible wild plants could be written, but space limits 
 * Sugarcane (_Saccharum officinarum_)
 * Taro (_Colocasia_ species)
 
-## Desert Zone
-
+**Desert Zone**
 * Acacia (_Acacia farnesiana_)
 * Agave (_Agave_ species)
 * Cactus (various species)
 * Date palm (_Phoenix dactylifera_)
 * Desert amaranth (_Amaranths palmer_)
+** *
 
 **SEAWEEDS**
 
@@ -174,6 +176,7 @@ One plant you should never overlook is seaweed. It is a form of marine algae fou
 When gathering seaweed for food, find living plants attached to rocks or floating free. Seaweed washed onshore any length of time may be spoiled or decayed. You can dry freshly harvested seaweed for later use.
 
 Different types of seaweed should be prepared in different ways. You can dry thin and tender varieties in the sun or over a fire until crisp. Crush and add these to soups or broths. Boil thick, leathery seaweeds for a short time to soften them. Eat them as a vegetable or with other foods. You can eat some varieties raw after testing for edibility.
+** *
 
 **PREPARATION OF PLANT FOOD**
 
@@ -200,11 +203,15 @@ In using plants for medical treatment, positive identification of the plants inv
 The following terms and their definitions are associated with medicinal plant use:
 
 * _Poultice._ This is crushed leaves or other plant parts, possibly heated, that are applied to a wound or sore either directly or wrapped in cloth or paper. Poultices, when hot, increase the circulation in the affected area and help healing through the chemicals present in the plants. As the poultice dries out, it draws the toxins out of a wound. A poultice should be prepared to a "mashed potatoes-like" consistency and applied as warm as the patient can stand.
+
 * _Infusion or tisane or tea._ This blend is the preparation of medicinal herbs for internal or external application. You place a small quantity of a herb in a container, pour hot water over it, and let it steep (covered or uncovered) before use. Care must always be taken to not drink too much of a tea in the beginning of treatment as it may have adverse reactions on an empty stomach.
+
 * _Decoction._ This is the extract of a boiled-down or simmered herb leaf or root. You add herb leaf or root to water. You bring them to a sustained boil or simmer them to draw their chemicals into the water. The average ratio is about 28 to 56 grams (1 to 2 ounces) of herb to 0.5 liter of water.
+
 * _Expressed juice._ These are liquids or saps squeezed from plant material and either applied to the wound or made into another medicine.
 
-Many natural remedies work slower than the medicines you know. Therefore, start with smaller doses and allow more time for them to take effect. Naturally, some will act more rapidly than others. Many of these treatments are addressed in more detail in [Medicine](Medicine).
+Many natural remedies work slower than the medicines you know. Therefore, start with smaller doses and allow more time for them to take effect. Naturally, some will act more rapidly than others. Many of these treatments are addressed in more detail in **Medicine**.
+** *
 
 **SPECIFIC REMEDIES**
 
@@ -212,7 +219,7 @@ The following remedies are for use only in a survival situation. Do not use them
 
 * _Antidiarrheals for diarrhea._ This can be one of the most debilitating illnesses for a survivor or prisoner of war. Drink tea made from the roots of blackberries and their relatives to stop diarrhea. White oak bark and other barks containing tannin are also effective when made into a strong tea. However, because of possible negative effects on the kidneys, use them with caution and only when nothing else is available. Clay, ashes, charcoal, powdered chalk, powdered bones, and pectin can be consumed or mixed in a tannic acid tea with good results. These powdered mixtures should be taken in a dose of two tablespoons every 2 hours. Clay and pectin can be mixed together to give a crude form of Kaopectate. Pectin is obtainable from the inner part of citrus fruit rinds or from apple pomace. Tea made from cowberry, cranberry, or hazel leaves works, too. Because of its inherent danger to an already under-nourished survivor, several of these methods may need to be tried simultaneously to stop debilitating diarrhea, which can quickly dehydrate even a healthy individual.
 * _Antihemorrhagics for bleeding._ Make medications to stop bleeding from plantain leaves, or, most effectively, from the leaves of the common yarrow or woundwort _(Achillea millefolium)._ These mostly give a physical barrier to the bleeding. Prickly pear (the raw, peeled part) or witch hazel can be applied to wounds. Both are good for their astringent properties (they shrink blood vessels). For bleeding gums or mouth sores, sweet gum can be chewed or used as a toothpick. This provides some chemical and antiseptic properties as well.
-* _Antiseptics to clean infections._ Use antiseptics to cleanse wounds, snake bites, sores, or rashes. You can make antiseptics from the expressed juice of wild onion or garlic, the expressed juice from chickweed leaves, or the crushed leaves of dock. You can also make antiseptics from a decoction of burdock root, mallow leaves or roots, or white oak bark (tannic acid). Prickly pear, slippery elm, yarrow, and sweet gum are all good antiseptics as well. All these medications are for external use only. Two of the best antiseptics are sugar and honey. Sugar should be applied to the wound until it becomes syrupy, then washed off and reapplied. Honey should be applied three times daily (see [Medicine](Medicine)). Honey is by far the best of the antiseptics for open wounds and burns, with sugar being second.
+* _Antiseptics to clean infections._ Use antiseptics to cleanse wounds, snake bites, sores, or rashes. You can make antiseptics from the expressed juice of wild onion or garlic, the expressed juice from chickweed leaves, or the crushed leaves of dock. You can also make antiseptics from a decoction of burdock root, mallow leaves or roots, or white oak bark (tannic acid). Prickly pear, slippery elm, yarrow, and sweet gum are all good antiseptics as well. All these medications are for external use only. Two of the best antiseptics are sugar and honey. Sugar should be applied to the wound until it becomes syrupy, then washed off and reapplied. Honey should be applied three times daily. Honey is by far the best of the antiseptics for open wounds and burns, with sugar being second.
 * _Antipyretics for fevers._ Treat a fever with a tea made from willow bark, an infusion of elder flowers or fruit, linden flower tea, and aspen or slippery elm bark decoction. Yarrow tea is also good. Peppermint tea is reportedly good for fevers.
 * _Colds and sore throats._ Treat these illnesses with a decoction made from either plantain leaves or willow bark. You can also use a tea made from burdock roots, mallow or mullein flowers or roots, and yarrow or mint leaves.
 * _Analgesics for aches, pains, and sprains._ Treat these conditions with externally applied poultices of dock, plantain, chickweed, willow bark, garlic, or sorrel. Sweet gum has some analgesic (pain relief) properties. Chewing the willow bark or making a tea from it is the best for pain relief as it contains the raw component of aspirin. You can also use salves made by mixing the expressed juices of these plants in animal fat or vegetable oils.
@@ -231,7 +238,9 @@ The following remedies are for use only in a survival situation. Do not use them
 
 ### MISCELLANEOUS USES OF PLANTS
 
-Plants can be your ally as long as you use them cautiously. Be sure that you know the plant and how to use it. Some additional uses of plants are as follows:
+Plants can be your ally as long as you use them cautiously. Be sure that you know the plant and how to use it. 
+
+**Some additional uses of plants are as follows:**
 
 * Make dyes from various plants to color clothing or to camouflage your skin. Usually, you will have to boil the plants to get the best results. Onionskins produce yellow, walnut hulls produce brown, and pokeberries provide purple dye.
 * Make fibers and cordage from plant fibers. Most commonly used are the stems from nettles and milkweeds, yucca plants, and the inner bark of trees like the linden.
@@ -240,3 +249,4 @@ Plants can be your ally as long as you use them cautiously. Be sure that you kno
 * Make insect repellents by placing sassafras leaves in your shelter or by burning or smudging cattail seed hair fibers.
 
 Whether you use plants for food, medicine, or the construction of shelters or equipment, the **key** to their safe use is **positive identification**.
+
