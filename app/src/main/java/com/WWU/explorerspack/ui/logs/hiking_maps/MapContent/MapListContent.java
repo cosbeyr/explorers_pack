@@ -18,14 +18,17 @@ public class MapListContent {
     /**
      * An array of sample (dummy) items.
      */
-    public static final List<MapListItem> ITEMS = new ArrayList<MapListItem>();
+    public static final ArrayList<MapListItem> ITEMS = new ArrayList<MapListItem>();
 
     /**
      * A map of sample (dummy) items, by ID.
      */
     public static final Map<String, MapListItem> ITEM_MAP = new HashMap<String, MapListItem>();
 
-    private static final int COUNT = 25;
+
+
+
+    private static final int COUNT = 5;
 
     static {
         // Add some sample items.

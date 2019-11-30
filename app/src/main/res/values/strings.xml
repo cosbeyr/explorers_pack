@@ -15,5 +15,6 @@
     <string name="home_page_tips">home_page_tips</string>
     <string name="find_a_map">Find a Map</string>
     <string name="hikename">hikeName</string>
+    <string name="api_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCAv7vKjTX3HHoM97Der9J2n2V6OvrmOHY</string>
 
 </resources>

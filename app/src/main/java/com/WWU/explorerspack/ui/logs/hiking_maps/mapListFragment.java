@@ -147,6 +147,7 @@ public class mapListFragment extends Fragment implements APIUtilities.AsyncRespo
         //TODO: save query to file then implement caching method here?
     }
 
+
     /**
      * This interface must be implemented by activities that contain this
      * fragment to allow an interaction in this fragment to be communicated

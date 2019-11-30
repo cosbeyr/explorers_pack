@@ -110,6 +110,10 @@
         android:id="@+id/mapListFragment"
         android:name="com.WWU.explorerspack.ui.logs.hiking_maps.mapListFragment"
         android:label="fragment_map_list"
-        tools:layout="@layout/fragment_map_list" />
+        tools:layout="@layout/fragment_map_list" >
+        <action
+            android:id="@+id/action_mapListFragment_to_hike_creation"
+            app:destination="@id/hike_creation" />
+    </fragment>
 
 </navigation>

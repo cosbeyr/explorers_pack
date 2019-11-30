@@ -98,10 +98,11 @@ public class APIUtilities extends AsyncTask<String, Integer, ArrayList<MapListCo
 
             if (addresses.size() > 0) {
                 city = addresses.get(0).getLocality();
+
                 if (StorageUtilities.isFilePresent(mContext, StorageUtilities.apiCache)) {
                     String fileJSON = StorageUtilities.read(mContext, StorageUtilities.apiCache);
                     JSONObject queryList = new JSONObject(fileJSON);
-                    if (queryList.get(city) != null) {
+                    if (queryList.has(city)) {
                         isCached = true;
                     }
                     //System.out.println(addresses.get(0).getLocality());
