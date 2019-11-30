@@ -2,6 +2,7 @@ package com.WWU.explorerspack.ui.logs;
 
 import androidx.lifecycle.ViewModelProviders;
 
+import android.app.Dialog;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
@@ -24,9 +25,11 @@ import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.WWU.explorerspack.MainActivity;
 import com.WWU.explorerspack.R;
@@ -53,6 +56,7 @@ public class SubHikeFragment extends Fragment implements OnMapReadyCallback{
     private String hikeTitle;
     private JSONObject hikeJSON;
     private JSONObject storage;
+    private ImageView imagePreview;
     MapView mapView;
     GoogleMap map;
 
@@ -187,11 +191,11 @@ public class SubHikeFragment extends Fragment implements OnMapReadyCallback{
 
                 JSONArray photoArray = photoObj.names();
                 if(photoArray != null) {
-                    String photoPath = photoArray.getString(0);
+                    final String photoPath = photoArray.getString(0);
 
                     int px = (int) convertDpToPixel(100);
-
-                    Bitmap bitmap = BitmapFactory.decodeFile(photoObj.getString(photoPath));
+                    final String photoPathString = photoObj.getString(photoPath);
+                    Bitmap bitmap = BitmapFactory.decodeFile(photoPathString);
                     bitmap = bitmap.createScaledBitmap(bitmap, px, px, false);
                     int rotation = getPhotoRotation(photoPath);
                     Matrix matrix = new Matrix();
@@ -199,6 +203,14 @@ public class SubHikeFragment extends Fragment implements OnMapReadyCallback{
                     bitmap = Bitmap.createBitmap(bitmap, 0, 0, bitmap.getWidth(), bitmap.getHeight(), matrix, true);
 
                     nextImage.setImageBitmap(bitmap);
+                    nextImage.setOnClickListener(new View.OnClickListener() {
+
+                        @Override
+                        public void onClick(View view) {
+                            showImagePreview(photoPathString);
+                        }
+
+                    });
                     photosLayout.addView(nextImage);
                 }
 
@@ -215,6 +227,36 @@ public class SubHikeFragment extends Fragment implements OnMapReadyCallback{
 
 
     }
+
+
+
+    private void showImagePreview(String photoPath){
+
+        final Dialog dialog = new Dialog(getActivity());
+        dialog.setCancelable(true);
+
+        View view  = getActivity().getLayoutInflater().inflate(R.layout.image_preview_dialog, null);
+        dialog.setContentView(view);
+
+        imagePreview = (ImageView) dialog.findViewById(R.id.imagePreview);
+        Bitmap bitmap = BitmapFactory.decodeFile(photoPath);
+        //int rotation = getPhotoRotation(photoPath);
+       // Matrix matrix = new Matrix();
+       // matrix.postRotate(rotation);
+       // bitmap = Bitmap.createBitmap(bitmap, 0, 0, bitmap.getWidth(), bitmap.getHeight(), matrix, true);
+
+        imagePreview.setImageBitmap(bitmap);
+
+        imagePreview.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                dialog.dismiss();
+            }
+        });
+
+        dialog.show();
+    }
+
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
