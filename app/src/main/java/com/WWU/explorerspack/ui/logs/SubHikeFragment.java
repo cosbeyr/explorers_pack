@@ -199,7 +199,7 @@ public class SubHikeFragment extends Fragment implements OnMapReadyCallback{
                     bitmap = bitmap.createScaledBitmap(bitmap, px, px, false);
                     int rotation = getPhotoRotation(photoPath);
                     Matrix matrix = new Matrix();
-                    matrix.postRotate(rotation);
+                    matrix.postRotate(90);
                     bitmap = Bitmap.createBitmap(bitmap, 0, 0, bitmap.getWidth(), bitmap.getHeight(), matrix, true);
 
                     nextImage.setImageBitmap(bitmap);
