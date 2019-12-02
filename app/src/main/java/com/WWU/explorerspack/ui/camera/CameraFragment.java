@@ -180,6 +180,9 @@ public class CameraFragment extends DialogFragment {
         bmOptions.inPurgeable = true;
 
         Bitmap bitmap = BitmapFactory.decodeFile(currentPhotoPath, bmOptions);
+        Matrix matrix = new Matrix();
+        matrix.postRotate(90);
+        bitmap = Bitmap.createBitmap(bitmap, 0, 0, bitmap.getWidth(), bitmap.getHeight(), matrix, true);
         imageView.setImageBitmap(bitmap);
     }
 
